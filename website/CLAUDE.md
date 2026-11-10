@@ -7,7 +7,7 @@ De site komt op **decisiveoutcomes.nl**. Ze ziet eruit als de corporate site van
 ## Techniek
 
 - Handgeschreven HTML, CSS en PHP. Geen frameworks, geen CMS, geen build-stap, geen packagemanagers en geen afhankelijkheden van derden.
-- De site draait op eigen hosting met PHP. Ga uit van PHP 8 en Apache met `.htaccess`, tenzij Hayo iets anders zegt.
+- De site draait op eigen hosting met PHP 8 en Apache, met `.htaccess` voor headers en serverregels.
 - Header, navigatie, footer en terugkerende onderdelen zijn PHP-includes.
 - Mappenstructuur:
 
@@ -62,7 +62,7 @@ Op donkere vlakken, zoals een hero met beeld, mag goud `#D4A94F` wel als tekstkl
 
 ## Lettertypes
 
-- Koppen in **Oswald**. Lopende tekst in een tweede webfont; voorstel: **Source Sans 3**. Beide hebben een open licentie (OFL).
+- Koppen in **Oswald**, lopende tekst in **Source Sans 3**. Beide hebben een open licentie (OFL).
 - Self-hosted als WOFF2, beperkt tot de Latijnse tekenset, met `font-display: swap`. Preload alleen het lettertype voor de koppen.
 - Nooit fonts laden van Google Fonts of een andere externe dienst.
 
