@@ -4,6 +4,8 @@ require SITE_ROOT . '/includes/inzichten.php';
 $paden = ['/', '/contact/'];
 foreach (array_merge(NAVIGATIE, FOOTER_LINKS) as [$href]) $paden[] = $href;
 foreach (array_keys(DIVISIES) as $slug) $paden[] = "/diensten/$slug/";
+foreach (array_keys(SECTOREN) as $id) $paden[] = "/sectoren/$id/";
+foreach (array_keys(INZICHT_OVERZICHTEN) as $pad) $paden[] = $pad;
 $urls = [];
 foreach (array_unique($paden) as $pad) {
     $bestand = SITE_PUBLIC . $pad . 'index.php';

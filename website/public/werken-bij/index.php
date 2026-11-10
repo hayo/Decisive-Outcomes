@@ -27,7 +27,13 @@ component('hero', [
 <p class="label">Meedoen</p>
 <h2>Meedoen met het airsoftteam</h2>
 <p class="inleiding">Decisive Outcomes is in werkelijkheid een airsoftteam uit Nederland. Dit deel van de site is echt.</p>
-<p>Wij spelen op airsoftvelden in Nederland. Lijkt het je leuk om een keer mee te spelen, of wil je meer weten over het team? Stuur ons een bericht via het contactformulier. Je krijgt een echt antwoord, en sneller dan zes tot acht jaar.</p>
+<p>Wij spelen meestal op Combat City in Leiderdorp, op wisselende dagen. Nieuwe spelers zijn welkom. Dit heb je nodig:</p>
+<ul>
+<li>Je bent 18 jaar of ouder.</li>
+<li>Eigen uitrusting is handig, maar niet nodig: op het veld kun je uitrusting huren.</li>
+<li>Je speelt eerst een keer mee. Zo leren we elkaar kennen, en weet je of het bij je past.</li>
+</ul>
+<p>Lijkt het je leuk? Stuur ons een bericht via het contactformulier en kies het onderwerp <em>Meespelen of een vraag over het team</em>. Je krijgt een echt antwoord, en sneller dan zes tot acht jaar.</p>
 <p><a class="knop knop-rood" href="/contact/">Stuur een bericht</a></p>
 </section>
 <?php pagina_einde();

@@ -5,6 +5,7 @@ return [
     'datum' => '2026-10-23',
     'plaats' => 'Kralendijk',
     'samenvatting' => 'De inflatie op Bonaire is gestegen naar 5,9 procent. Voor de resultaten van de groep heeft dat geen gevolgen, omdat de boekhouding in Rhodesische dollars loopt.',
+    'divisies' => ['decisive-capital'],
     'beeld' => '',
     'alt' => '',
     'html' => <<<'HTML'

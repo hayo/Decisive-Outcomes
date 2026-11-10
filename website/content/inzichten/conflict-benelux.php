@@ -6,6 +6,7 @@ return [
     'datum' => '2026-09-14',
     'plaats' => 'Klein Klein Bonaire',
     'samenvatting' => 'Majoor Hayo analyseert het conflict van lage intensiteit waarin de divisie Benelux sinds 2019 actief is.',
+    'divisies' => ['decisive-security'],
     'beeld' => '',
     'alt' => '',
     'html' => <<<'HTML'

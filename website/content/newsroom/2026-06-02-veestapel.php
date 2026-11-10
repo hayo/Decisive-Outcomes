@@ -5,6 +5,7 @@ return [
     'datum' => '2026-06-02',
     'plaats' => 'Kralendijk',
     'samenvatting' => 'De veestapel van de groep telt opnieuw 412 geiten. Een externe commissie onderzoekt welke geiten op Bonaire van de groep zijn.',
+    'divisies' => ['decisive-agri'],
     'beeld' => '',
     'alt' => '',
     'html' => <<<'HTML'

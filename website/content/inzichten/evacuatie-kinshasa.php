@@ -6,6 +6,7 @@ return [
     'datum' => '2025-09-23',
     'plaats' => 'Kinshasa',
     'samenvatting' => 'Hoe Decisive Security in 1991 binnen één dag een complete frituur in veiligheid bracht, inclusief installatie en receptuur.',
+    'divisies' => ['decisive-security', 'decisive-hospitality'],
     'beeld' => '',
     'alt' => '',
     'html' => <<<'HTML'

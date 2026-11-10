@@ -5,6 +5,7 @@ return [
     'datum' => '2026-07-09',
     'plaats' => 'Kralendijk',
     'samenvatting' => 'Na de NAVO-top in Ankara verwelkomt de groep de afspraken over hogere defensie-uitgaven. De groep zelf besteedt al sinds 1984 vrijwel al haar middelen aan veiligheid.',
+    'divisies' => ['decisive-security'],
     'beeld' => '',
     'alt' => '',
     'html' => <<<'HTML'

@@ -200,6 +200,9 @@ object-src 'none'; upgrade-insecure-requests
 ## Inzichten en feed
 
 - Persberichten staan in `content/newsroom/`, de andere inzichten in `content/inzichten/`. Het overzicht op `/inzichten/` en de feed worden uit beide opgebouwd.
+- Per soort is er een overzicht: `/newsroom/`, `/inzichten/analyse/`, `/inzichten/casestudy/` en `/inzichten/rapport/` (`INZICHT_OVERZICHTEN` in `includes/inzichten.php`).
+- Het veld `divisies` koppelt een inzicht aan divisies; de divisiepagina toont de drie nieuwste.
+- Een inzicht kan een PDF hebben (veld `download`, pad onder `public/assets/`). Maak die opnieuw uit de printweergave als de tekst verandert, bijvoorbeeld met Playwright: `page.emulateMedia({ media: 'print' })` en `page.pdf({ format: 'A4' })`.
 - De Atom-feed bevat alle inzichten, met de soort als `category`. Hij staat op `/inzichten/feed.php` en wordt via `link rel="alternate"` in de `head` aangekondigd.
 
 ## Toegankelijkheid
@@ -282,6 +285,9 @@ Noem in het commitbericht wat er is gecontroleerd.
 ## Tekst
 
 - Nederlands, in de toon uit de sitemap: zakelijk, zelfverzekerd en zonder knipogen. De grap staat in een bijzin, een voetnoot of een getal.
+- Aanspreekvorm: *u* voor opdrachtgevers en alle corporate tekst, *je* voor sollicitanten, spelers en alles wat echt is (contact, formulier, privacy, meedoen).
+- Persberichten kunnen een *Noot voor de redactie* hebben (veld `noot`). Daarin sijpelt de frustratie van Annelies Brouwer (Corporate Communications) over de raad van bestuur door. Droog, nooit als openlijke klacht.
+- Komt er een teamlid in een citaat of noot, werk dan [docs/inzage.md](../docs/inzage.md) bij.
 - Volg de canon en de stijlregels uit de root-`CLAUDE.md`.
 - De disclaimer staat altijd in de footer, in het colofon en bij het formulier (zie de sitemap). Haal die nooit weg en maak hem nooit grappig.
 - Echte personen: alleen voornamen van teamleden, en alleen wat in `docs/toestemming.md` is goedgekeurd.

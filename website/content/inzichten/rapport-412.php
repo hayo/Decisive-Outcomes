@@ -6,6 +6,7 @@ return [
     'datum' => '2026-10-19',
     'plaats' => 'Den Haag',
     'samenvatting' => 'Het meest recente rapport van de groep aan het hoofdkwartier. Status: ongelezen.',
+    'divisies' => ['decisive-security'],
     'beeld' => '',
     'alt' => '',
     'html' => <<<'HTML'

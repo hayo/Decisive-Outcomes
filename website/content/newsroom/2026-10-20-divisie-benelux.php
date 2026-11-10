@@ -5,6 +5,7 @@ return [
     'datum' => '2026-10-20',
     'plaats' => 'Den Haag',
     'samenvatting' => 'De divisie Benelux heeft haar najaarsinzet afgerond. Alle teamleden zijn teruggekeerd, de veldfee is voldaan en er is om een factuur gevraagd.',
+    'divisies' => ['decisive-security'],
     'beeld' => '',
     'alt' => '',
     'html' => <<<'HTML'

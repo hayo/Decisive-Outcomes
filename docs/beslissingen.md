@@ -17,6 +17,11 @@ Wat is besloten, wanneer en waarom. Nieuwe beslissingen komen bovenaan in de tab
 
 | Datum | Besluit | Reden |
 |---|---|---|
+| 2026-11-10 | Aanspreekvorm: *u* voor opdrachtgevers en de corporate delen (ook de 404), *je* voor sollicitanten, spelers en alles wat echt is (contact, formulier, privacy, meedoen). | Echte PMC-sites spreken klanten met u aan; het echte deel van de site is persoonlijk. |
+| 2026-11-10 | Inzichten krijgen overzichtspagina's per soort (`/newsroom/`, `/inzichten/analyse/`, `/casestudy/`, `/rapport/`) met een filterrij van gewone links. | Filteren zonder JavaScript, en elke soort heeft een eigen adres. |
+| 2026-11-10 | Elke sector krijgt een eigen pagina onder `/sectoren/<sector>/`. Divisiepagina's linken naar hun sectoren, de casestudy en de inzichten met dezelfde divisie (veld `divisies`). | Zo is de site opgebouwd als die van echte PMC's, en de pagina's verwijzen naar elkaar. |
+| 2026-11-10 | De *Stand-By Outlook* is ook als PDF te downloaden. De PDF wordt met Playwright uit de printweergave gemaakt en staat in `public/assets/docs/`. | Echte jaarrapporten zijn een PDF. Geen build-stap: de PDF wordt opnieuw gemaakt als de tekst verandert. |
+| 2026-11-10 | Meedoen: het team speelt meestal op Combat City in Leiderdorp, op wisselende dagen. Vanaf 18 jaar, eerst een keer meespelen, huren op het veld kan. Aanmelden via het contactformulier. | Echte informatie van Hayo. |
 | 2026-11-10 | Persberichten krijgen een optionele *Noot voor de redactie* en een perscontact: Annelies Brouwer, Corporate Communications (verzonnen). Daarin sijpelt haar frustratie over de raad van bestuur door. Een deel van de persberichten haakt in op het nieuws (NAVO-top, CBS-inflatie, wintertijd, reservisten), alleen op onderwerpen waar de grap bij het team ligt. | Echte persberichten hebben die opbouw, en de grap blijft in de bijzin. Actualiteit maakt de newsroom geloofwaardig. |
 | 2026-11-10 | Header met het witte beeldmerk en de woordnaam; volledig logo in de footer. Mobiel menu als `details`/`summary`, op desktop een rij via `::details-content`. | Strakker en meer corporate dan het ronde logo klein in de header. Het menu werkt zonder JavaScript. |
 | 2026-11-10 | Het logo mag ook als beeldmerk worden gebruikt: alleen het embleem, in wit, goud, zwart, metallic of de originele kleuren. | Afspraak van Hayo; past beter bij de PMC-stijl. |

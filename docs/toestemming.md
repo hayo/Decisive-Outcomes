@@ -15,7 +15,7 @@ De achtergronden van Jochem (monteur uit Umtali) en Robert (hotel bij de Victori
 
 ### Werkwijze
 
-1. Laat het teamlid het verhaal lezen (`verhaal/backstory.md`), plus de tekst over hem op de website.
+1. Laat het teamlid het verhaal lezen (`verhaal/backstory.md`), plus zijn deel uit [inzage.md](inzage.md): wat er over hem op de website staat.
 2. Vul hierboven de datum in en het commit waarop het akkoord slaat.
 3. Komt er iets nieuws bij voor een personage, zoals een eigenschap, een gebeurtenis of een bio-tekst? Dan is opnieuw akkoord nodig voordat het live gaat.
 4. Trekt iemand zijn akkoord in, dan wordt het personage binnen een week aangepast of van de site gehaald.

@@ -4,8 +4,8 @@ Wat nog moet gebeuren voordat en nadat de site live gaat. Vink af wat klaar is e
 
 ## Team en inhoud
 
-- [ ] Frederik, Jochem en Robert lezen hun personage en geven akkoord (zie [toestemming.md](toestemming.md)).
-- [ ] Echte praktische informatie verzamelen: waar en wanneer het team speelt, hoe je kunt meedoen en het echte contactadres.
+- [ ] Frederik, Jochem en Robert lezen hun personage en geven akkoord. Stuur ieder zijn deel uit [inzage.md](inzage.md); vul het akkoord in bij [toestemming.md](toestemming.md).
+- [ ] Het echte contactadres voor het formulier kiezen. (Waar het team speelt en hoe je meedoet, staat op de site.)
 - [ ] De licentie bevestigen (zie [LICENSE.md](../LICENSE.md)) of een andere kiezen.
 - [ ] Besluiten of de naam Decisive Outcomes goed genoeg te onderscheiden is van bestaande bedrijven met een vergelijkbare naam.
 - [ ] Een besloten plek kiezen voor toestemmingen bij foto's, buiten de repo.
@@ -24,7 +24,7 @@ Wat nog moet gebeuren voordat en nadat de site live gaat. Vink af wat klaar is e
 - [x] Eerste versie van de website gebouwd (10 november 2026): alle pagina's uit de sitemap, contactformulier, feed, sitemap.xml, `.htaccess` en deploy-workflow.
 - [ ] Concept-teksten op de website nalezen. Alle teksten zijn door Claude geschreven op basis van de canon; vooral de bestuursbio's moeten langs de teamleden (zie [toestemming.md](toestemming.md)).
 - [ ] De elf inzichten in de newsroom nalezen (concepten van Claude). Actuele berichten verouderen: kijk eens per kwartaal of ze nog kloppen.
-- [ ] Echte informatie voor *Meedoen met het airsoftteam* op Werken bij aanvullen: waar en wanneer het team speelt, wat iemand nodig heeft.
+- [x] Echte informatie voor *Meedoen met het airsoftteam* op Werken bij.
 - [ ] Privacyverklaring laten controleren, vooral de bewaartermijn (nu: uiterlijk een jaar) en de grondslag.
 - [ ] Besluiten of het volledige verhaal als pagina *Ons verhaal* op de site komt. Het is te groot voor het paginabudget en bevat nog niet-goedgekeurde personages.
 - [ ] Beelden maken en plaatsen: de site werkt zonder, maar hero's en kaarten zijn nu nog leeg. Zonder beelden is er ook geen `og:image`.

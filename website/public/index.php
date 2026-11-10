@@ -4,7 +4,7 @@ require __DIR__ . '/../includes/inzichten.php';
 pagina_begin(['pad' => '/']);
 component('hero', [
     'groot' => true,
-    'label' => 'Decisive Outcomes Group',
+    'label' => 'Risico- en veiligheidsdiensten wereldwijd',
     'kop' => 'Beslissende uitkomsten. Sinds 1979.',
     'intro' => 'Wij leveren beveiliging, logistiek en continuïteit in omgevingen waar anderen al vertrokken zijn. Wij blijven tot de opdracht is afgerond.',
     'knoppen' => [['/diensten/', 'Onze diensten', 'goud'], ['/contact/', 'Neem contact op', 'rand']],

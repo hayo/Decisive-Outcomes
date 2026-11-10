@@ -98,6 +98,10 @@ small { font-size: .875rem; }
 .kruimels li + li::before { content: "/"; margin-right: .5rem; color: var(--licht-2); }
 .kruimels a { color: var(--licht-2); }
 .kruimels a[aria-current] { color: var(--licht); text-decoration: none; }
+.filter ul { display: flex; flex-wrap: wrap; gap: .5rem; margin: 0 0 2rem; padding: 0; list-style: none; }
+.filter a { display: inline-flex; align-items: center; min-height: 2.75rem; padding: 0 1rem; border: 1px solid var(--tekst-2); border-radius: 2px; color: var(--inkt); font-weight: 600; text-decoration: none; }
+.filter a:hover { background: var(--vlak); }
+.filter a[aria-current] { background: var(--inkt); border-color: var(--inkt); color: var(--papier); text-decoration: underline; }
 
 /* Secties */
 main > section, .voet, .band { padding: var(--ruimte) var(--rand); }
@@ -204,7 +208,8 @@ button { cursor: pointer; font: inherit; }
 
 /* Print */
 @media print {
-  .kop nav, .skiplink, .voet nav, .knoppen { display: none; }
+  .kop nav, .kop img, .skiplink, .voet nav, .knoppen, .kruimels, .download, .terug { display: none; }
+  .voet, .voet * { color: #000; }
   .hero, .band, .voet, .kop { background: none; color: #000; min-height: 0; padding-block: 1rem; }
   .hero::after { display: none; }
   .hero h1, .band h2, .hero .intro, .band p { color: #000; }

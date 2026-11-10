@@ -5,6 +5,7 @@ return [
     'datum' => '2026-03-09',
     'plaats' => 'Klein Klein Bonaire',
     'samenvatting' => 'De aanvraag van de groep voor certificering volgens ISO 18788 is nog altijd in behandeling. De groep blijft volledig beschikbaar voor vragen van de certificeerder.',
+    'divisies' => ['decisive-security'],
     'beeld' => '',
     'alt' => '',
     'html' => <<<'HTML'
@@ -13,6 +14,6 @@ return [
 <p>"Wij hebben begrip voor de zorgvuldigheid van de procedure," aldus Kapitein Robert, Chief Commercial Officer. "Onze eigen reactietermijn is zes tot acht jaar. Wij beoordelen anderen niet strenger dan onszelf."</p>
 HTML,
     'noot' => <<<'HTML'
-<p>Dit persbericht is in maart 2025 in concept voorgelegd aan de raad van bestuur. Op verzoek van Kapitein Robert wijzen wij er graag op dat Decisive Logistics ook voor certificeerders vracht vervoert.</p>
+<p>Dit persbericht is in maart 2025 in concept voorgelegd aan de raad van bestuur. Op verzoek van Kapitein Robert wijzen wij er graag op dat Decisive Hospitality ook de catering verzorgt bij auditbezoeken.</p>
 HTML,
 ];

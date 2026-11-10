@@ -37,7 +37,7 @@ const DIVISIES = [
             ['Evacuatie', 'Verplaatsing van mensen en waardevolle goederen uit instabiele gebieden, met voorrang voor wat de klant het belangrijkst vindt.'],
             ['Risicobeoordeling', 'Analyse van routes, ophaalpunten en dreigingen, onderbouwd met eigen kaartmateriaal.'],
         ],
-        'inzet' => ['Kinshasa, 1991', 'Volledige evacuatie van een Belgische frituur, inclusief installatie en receptuur, binnen één dag.'],
+        'inzet' => ['Kinshasa, 1991', 'Volledige evacuatie van een Belgische frituur, inclusief installatie en receptuur, binnen één dag.', '/inzichten/casestudy/evacuatie-kinshasa/'],
         'icoon' => 'schild',
         'beeld' => 'DIEN-01',
     ],
@@ -128,12 +128,78 @@ const DIVISIES = [
 ];
 
 const SECTOREN = [
-    'overheden' => ['Overheden', 'Ondersteuning van staten in overgang, ook als die staat niet meer bestaat.', ['decisive-security', 'decisive-people'], 'Freetown, 1995: een volledige offerte voor de beveiliging van diamantvelden, opgesteld in Rhodesische dollars.'],
-    'mijnbouw' => ['Mijnbouw en grondstoffen', 'Bescherming van waardevolle bodemschatten, of iets wat erop lijkt.', ['decisive-mining', 'decisive-security'], 'Angola, 1989: bewaking van een mijn die anders bleek dan verwacht.'],
-    'horeca' => ['Horeca en voedselindustrie', 'Continuïteit van de keten, van biltong tot frietketel.', ['decisive-hospitality', 'decisive-security'], 'Kinshasa, 1991: evacuatie van een complete frituur, receptuur inbegrepen.'],
-    'vastgoed' => ['Vastgoed en infrastructuur', 'Beheer van locaties die niet op de kaart staan.', ['decisive-real-estate'], 'Bonaire, 1999: verwerving en ontwikkeling van het wereldwijde hoofdkantoor.'],
-    'landbouw' => ['Landbouw en veehouderij', 'Veilige doorgang voor levende have.', ['decisive-agri'], 'Malawi, 1986: een kudde koeien begeleid en opgeleverd met acht procent meer dieren.'],
-    'maatschappelijk' => ['Maatschappelijke organisaties', 'Partner bij bevrijding, ook preventief.', ['decisive-security'], 'Swaziland, 1992: bevrijding van een dorp dat niet bezet was. Het dorp viert sindsdien elk jaar Bevrijdingsdag.'],
+    'overheden' => [
+        'naam' => 'Overheden',
+        'kort' => 'Ondersteuning van staten in overgang, ook als die staat niet meer bestaat.',
+        'intro' => 'Overheden in overgang hebben behoefte aan stabiliteit, continuïteit en partners die blijven. Decisive Outcomes Group ondersteunt staten bij beveiliging, personeel en planning. Onze ervaring met staten in overgang gaat terug tot 1979, toen onze eerste opdrachtgever zelf in overgang raakte.',
+        'uitdagingen' => [
+            ['Continuïteit', 'Wij blijven, ook als de opdrachtgever verandert. Onze rapportage aan de oorspronkelijke opdrachtgever loopt nog.'],
+            ['Aanbestedingen', 'Wij schrijven volledig in op internationale aanbestedingen, in de valuta van onze keuze.'],
+            ['Flexibele inzet', 'Personeel per dag via Decisive People, ook op korte termijn.'],
+        ],
+        'divisies' => ['decisive-security', 'decisive-people'],
+        'wapenfeit' => 'Freetown, 1995: een volledige offerte voor de beveiliging van diamantvelden, opgesteld in Rhodesische dollars.',
+    ],
+    'mijnbouw' => [
+        'naam' => 'Mijnbouw en grondstoffen',
+        'kort' => 'Bescherming van waardevolle bodemschatten, of iets wat erop lijkt.',
+        'intro' => 'Mijnbouw vraagt om bescherming van locaties, opslag en transportroutes, vaak ver van de bewoonde wereld. Decisive Mining en Decisive Security combineren bewaking met een onafhankelijke waardebepaling van wat er uit de grond komt.',
+        'uitdagingen' => [
+            ['Afgelegen locaties', 'Wij zijn gewend aan plekken die niet op de kaart staan, of op een andere plek dan verwacht.'],
+            ['Waardebepaling', 'Wij stellen vast wat er werkelijk wordt gewonnen, ook als dat tegenvalt.'],
+            ['Betaling', 'Wij accepteren betaling in de grondstof die de klant voorhanden heeft.'],
+        ],
+        'divisies' => ['decisive-mining', 'decisive-security'],
+        'wapenfeit' => 'Angola, 1989: bewaking van een mijn die anders bleek dan verwacht.',
+    ],
+    'horeca' => [
+        'naam' => 'Horeca en voedselindustrie',
+        'kort' => 'Continuïteit van de keten, van biltong tot frietketel.',
+        'intro' => 'In de horeca en de voedselindustrie draait alles om continuïteit. Decisive Hospitality zorgt dat de keten blijft draaien, van productie tot bediening, ook als de omstandigheden veranderen.',
+        'uitdagingen' => [
+            ['Bevoorrading', 'Voeding voor teams en gasten, ook als de aanvoer onzeker is.'],
+            ['Receptuur', 'Veilige opslag en, zo nodig, evacuatie van recepten van strategisch belang.'],
+            ['Rendement', 'Ruim veertig jaar ervaring met een onderneming die blijft draaien zonder winst te maken.'],
+        ],
+        'divisies' => ['decisive-hospitality', 'decisive-security'],
+        'wapenfeit' => 'Kinshasa, 1991: evacuatie van een complete frituur, receptuur inbegrepen.',
+    ],
+    'vastgoed' => [
+        'naam' => 'Vastgoed en infrastructuur',
+        'kort' => 'Beheer van locaties die niet op de kaart staan.',
+        'intro' => 'Vastgoed op bijzondere locaties vraagt om beheer dat rekening houdt met wisselende omstandigheden. Decisive Real Estate ontwikkelt en beheert vestigingen voor de groep en haar opdrachtgevers, waaronder het wereldwijde hoofdkantoor.',
+        'uitdagingen' => [
+            ['Wisselende oppervlakte', 'Ervaring met locaties die bij hoog water 40 m² meten.'],
+            ['Bereikbaarheid', 'Vestigingen die moeilijk te vinden zijn, met een postbus die altijd werkt.'],
+            ['Herbestemming', 'Nieuwe functies voor bestaande objecten, zoals een vliegtuig als golfbreker.'],
+        ],
+        'divisies' => ['decisive-real-estate'],
+        'wapenfeit' => 'Bonaire, 1999: verwerving en ontwikkeling van het wereldwijde hoofdkantoor.',
+    ],
+    'landbouw' => [
+        'naam' => 'Landbouw en veehouderij',
+        'kort' => 'Veilige doorgang voor levende have.',
+        'intro' => 'Veehouderij en landbouw vragen om geduld en zorg voor levende have. Decisive Agri beheert de veestapel van de groep en begeleidt vee over lange afstanden.',
+        'uitdagingen' => [
+            ['Telling', 'Een betrouwbare telling, ook waar wilde dieren rondlopen.'],
+            ['Transport', 'Veilige doorgang van levende have, met een opleverpercentage dat zelden onder de honderd ligt.'],
+            ['Groenbeheer', 'Natuurlijk onderhoud van terreinen, zonder machines.'],
+        ],
+        'divisies' => ['decisive-agri'],
+        'wapenfeit' => 'Malawi, 1986: een kudde koeien begeleid en opgeleverd met acht procent meer dieren.',
+    ],
+    'maatschappelijk' => [
+        'naam' => 'Maatschappelijke organisaties',
+        'kort' => 'Partner bij bevrijding, ook preventief.',
+        'intro' => 'Maatschappelijke organisaties werken vaak in gebieden waar veiligheid niet vanzelfsprekend is. Decisive Security ondersteunt hen met beveiliging, risicobeoordeling en, waar nodig, evacuatie.',
+        'uitdagingen' => [
+            ['Risicobeoordeling', 'Analyse van routes, ophaalpunten en dreigingen, vooraf.'],
+            ['Preventie', 'Wij treden op voordat er iets gebeurt, en soms ook als er niets gebeurt.'],
+            ['Lokale samenwerking', 'Wij werken met lokale partners, die meestal beter onderhandelen dan wij.'],
+        ],
+        'divisies' => ['decisive-security'],
+        'wapenfeit' => 'Swaziland, 1992: bevrijding van een dorp dat niet bezet was. Het dorp viert sindsdien elk jaar Bevrijdingsdag.',
+    ],
 ];
 
 const BESTUUR = [

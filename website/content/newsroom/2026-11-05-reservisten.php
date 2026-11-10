@@ -5,6 +5,7 @@ return [
     'datum' => '2026-11-05',
     'plaats' => 'Den Haag',
     'samenvatting' => 'Nu Defensie groeit met reservisten, deelt de groep haar ervaring: het personeel van Decisive Outcomes staat sinds 1979 onafgebroken paraat.',
+    'divisies' => ['decisive-people'],
     'beeld' => '',
     'alt' => '',
     'html' => <<<'HTML'

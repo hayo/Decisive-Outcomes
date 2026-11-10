@@ -6,6 +6,7 @@ return [
     'datum' => '2026-01-05',
     'plaats' => 'Klein Klein Bonaire',
     'samenvatting' => 'Het jaarlijkse risicorapport van de groep. Voor het zesenveertigste jaar op rij: geen nieuws uit Salisbury.',
+    'download' => 'docs/stand-by-outlook-2026.pdf',
     'beeld' => '',
     'alt' => '',
     'html' => <<<'HTML'

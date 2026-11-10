@@ -13,16 +13,9 @@ component('hero', [
 ?>
 <section>
 <ul class="kaarten">
-<?php foreach (SECTOREN as $id => [$naam, $kop, $divisies, $wapenfeit]): ?>
-<li class="kaart" id="<?= e($id) ?>">
-<h2><?= e($naam) ?></h2>
-<p><?= e($kop) ?></p>
-<p class="label">Wapenfeit</p>
-<p><?= e($wapenfeit) ?></p>
-<p class="label">Divisies</p>
-<p><?php foreach ($divisies as $n => $slug): ?><?= $n ? ', ' : '' ?><a href="/diensten/<?= e($slug) ?>/"><?= e(DIVISIES[$slug]['naam']) ?></a><?php endforeach ?></p>
-</li>
-<?php endforeach ?>
+<?php foreach (SECTOREN as $id => $s) {
+    component('kaart', ['titel' => $s['naam'], 'href' => "/sectoren/$id/", 'tekst' => $s['kort'], 'kop' => 'h2']);
+} ?>
 </ul>
 </section>
 <?php pagina_einde();

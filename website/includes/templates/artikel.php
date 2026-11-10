@@ -3,13 +3,14 @@
 require __DIR__ . '/../inzichten.php';
 $i = inzicht_laden($bestand);
 $pers = $i['soort'] === 'Persbericht';
+$overzicht = $pers ? '/newsroom/' : '/inzichten/' . SOORT_URL[$i['soort']] . '/';
 pagina_begin([
     'titel' => $i['titel'],
     'beschrijving' => $i['samenvatting'],
     'pad' => $i['url'],
     'type' => 'article',
     'beeld' => $i['beeld'] ?? null,
-    'kruimels' => [['/inzichten/', 'Inzichten'], [$i['url'], $i['titel']]],
+    'kruimels' => [['/inzichten/', 'Inzichten'], [$overzicht, INZICHT_OVERZICHTEN[$overzicht][0]], [$i['url'], $i['titel']]],
     'jsonld' => [array_filter([
         '@type' => $pers ? 'NewsArticle' : 'Article',
         'headline' => $i['titel'],
@@ -29,6 +30,9 @@ component('hero', ['label' => $i['soort'], 'kop' => $i['titel'], 'intro' => $i['
 <div class="e-content">
 <?= $i['html'] ?>
 </div>
+<?php if (!empty($i['download']) && is_file(SITE_PUBLIC . '/assets/' . $i['download'])): ?>
+<p class="download"><a class="knop knop-rood" href="<?= e(asset($i['download'])) ?>" download>Download als PDF</a> <small>PDF, <?= round(filesize(SITE_PUBLIC . '/assets/' . $i['download']) / 1024) ?> kB</small></p>
+<?php endif ?>
 <?php if (!empty($i['noot'])): ?>
 <aside class="over">
 <h2 class="label">Noot voor de redactie</h2>
@@ -42,7 +46,7 @@ component('hero', ['label' => $i['soort'], 'kop' => $i['titel'], 'intro' => $i['
 <p>Voor persvragen: <?= e(PERSCONTACT) ?>, Postbus 1, Kralendijk.</p>
 </aside>
 <?php endif ?>
-<p><a href="/inzichten/">Alle inzichten</a></p>
+<p class="terug"><a href="/inzichten/">Alle inzichten</a></p>
 </article>
 </section>
 <?php pagina_einde();

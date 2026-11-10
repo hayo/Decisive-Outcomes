@@ -55,7 +55,7 @@ Header always unset X-Powered-By
 Header unset X-Powered-By
 
 # Cache: statische bestanden een jaar (versie via ?v=), HTML kort.
-<FilesMatch "\.(css|js|woff2|png|jpg|jpeg|svg|ico)$">
+<FilesMatch "\.(css|js|woff2|png|jpg|jpeg|svg|ico|pdf)$">
 Header set Cache-Control "public, max-age=31536000, immutable"
 </FilesMatch>
 <FilesMatch "\.(php|html|xml|txt)$">
