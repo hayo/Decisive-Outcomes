@@ -16,7 +16,7 @@ website/
   public/              documentroot
     index.php
     over-ons/index.php    (één map per pagina, voor nette URL's)
-    newsroom/feed.php     Atom-feed
+    inzichten/feed.php    Atom-feed
     assets/css/site.css
     assets/js/            alleen kleine verbeteringen
     assets/fonts/
@@ -28,6 +28,7 @@ website/
     components/        herbruikbare onderdelen
     config.example.php
   content/newsroom/    één PHP-bestand per persbericht (metadata + HTML)
+  content/inzichten/   analyses, casestudy's, rapporten en de Stand-By Outlook
   beelden/
     originelen/        originele beelden, in de repo
     beelden.json       manifest: alt-tekst, uitsnedes, type en bron
@@ -40,7 +41,7 @@ website/
 
 - **Eén adres:** alles draait op `https://decisiveoutcomes.nl/`. HTTP en `www.` worden met een 301 doorgestuurd naar dat adres.
 - **Nette URL's:** kleine letters, Nederlandse woorden met koppeltekens, en een slash aan het eind (`/over-ons/`, `/diensten/decisive-security/`). Nooit `.php` in een URL.
-- **Persberichten:** `/newsroom/jjjj-mm-dd-korte-titel/`.
+- **Persberichten:** `/newsroom/jjjj-mm-dd-korte-titel/`. Andere inzichten: `/inzichten/<soort>/<korte-titel>/`. Het overzicht staat op `/inzichten/`.
 - **Foutpagina's:**
     - Een eigen 404-pagina in de huisstijl, met een droge zin en links naar de hoofdpagina's. Bijvoorbeeld: *Deze pagina staat stand-by.*
     - Verwijderde inhoud krijgt een 410.
@@ -50,7 +51,7 @@ website/
 ## Zoekmachines en structured data
 
 - **sitemap.xml:**
-    - Een PHP-script maakt `/sitemap.xml` aan uit de lijst met pagina's en de newsroom, met `lastmod` op basis van de wijzigingsdatum.
+    - Een PHP-script maakt `/sitemap.xml` aan uit de lijst met pagina's en de inzichten, met `lastmod` op basis van de wijzigingsdatum.
     - Een rewrite-regel maakt het bestand bereikbaar onder dat adres.
     - `robots.txt` verwijst ernaar.
 - **Structured data als JSON-LD** in `<script type="application/ld+json">`. Dit is een datablok en geen uitvoerbaar script, dus het past binnen de CSP.
@@ -63,7 +64,7 @@ website/
 ## Contentwerkwijze
 
 - Teksten voor pagina's en persberichten worden aangeleverd, als gewone tekst of Markdown. Claude zet ze om naar het juiste bestand.
-- Elk persbericht is één bestand in `content/newsroom/`, met een vaste opbouw:
+- Elk persbericht is één bestand in `content/newsroom/`; andere inzichten staan in `content/inzichten/`, met dezelfde opbouw plus het veld `soort`. De vaste opbouw:
     - metadata: `slug`, `titel`, `datum`, `plaats`, `samenvatting`, `beeld` (een beeld-ID) en `alt`;
     - de tekst als HTML: drie tot vijf alinea's, gevolgd door het standaardblok *Over Decisive Outcomes Group*.
 - Een nieuwe pagina krijgt een eigen map in `public/` en gebruikt de bestaande componenten. Als er een nieuw component nodig is, overleg je dat eerst.
@@ -168,7 +169,7 @@ object-src 'none'; upgrade-insecure-requests
     - `og:title`, `og:description`, `og:url`, `og:type` en `og:locale` (`nl_NL`);
     - `og:image` met afmetingen van 1200 × 630 px;
     - `twitter:card` met `summary_large_image`.
-- Een favicon-set uit het embleem.
+- Een favicon-set uit het embleem, gemaakt uit de PNG van het logo.
 
 ## IndieWeb
 
@@ -177,10 +178,10 @@ object-src 'none'; upgrade-insecure-requests
 - `rel="me"`-links waar ze van toepassing zijn.
 - Webmentions komen later, als ze geen externe afhankelijkheid of request in de browser toevoegen.
 
-## Newsroom en feed
+## Inzichten en feed
 
-- Elk persbericht is één bestand in `content/newsroom/`. Het overzicht en de feed worden daaruit opgebouwd.
-- De Atom-feed staat op `/newsroom/feed.php` en wordt via `link rel="alternate"` in de `head` aangekondigd.
+- Persberichten staan in `content/newsroom/`, de andere inzichten in `content/inzichten/`. Het overzicht op `/inzichten/` en de feed worden uit beide opgebouwd.
+- De Atom-feed bevat alle inzichten, met de soort als `category`. Hij staat op `/inzichten/feed.php` en wordt via `link rel="alternate"` in de `head` aangekondigd.
 
 ## Toegankelijkheid
 
@@ -225,9 +226,10 @@ Gemeten op een gemiddelde mobiele telefoon met een 4G-verbinding:
     - Versiebeheer van die bestanden gaat met een PHP-helper die `?v=` plus de wijzigingstijd van het bestand toevoegt, dus zonder build-stap.
     - HTML krijgt een korte cache.
 - **Compressie:** Brotli of gzip voor HTML, CSS, JS, SVG en de feed, via `.htaccess`.
-- **PHP:** geen database en zo weinig werk per verzoek als mogelijk. Lees de newsroom alleen in op de pagina's die hem nodig hebben.
+- **PHP:** geen database en zo weinig werk per verzoek als mogelijk. Lees de inzichten alleen in op de pagina's die ze nodig hebben.
 - **Geen externe verzoeken en geen derde partijen.** Dat is niet alleen privacy, maar ook snelheid.
-- **SVG:** iconen en het logo als compacte SVG. Kleine iconen inline, of als één sprite die met `use` wordt hergebruikt.
+- **SVG:** iconen als compacte SVG. Kleine iconen inline, of als één sprite die met `use` wordt hergebruikt.
+- **Logo:** voorlopig de PNG uit `logo/`, verkleind tot de weergavemaat in twee resoluties (1x en 2x), met `width` en `height`. Er is nu geen goede SVG; komt die er, dan vervangt hij de PNG.
 
 ## Responsive
 

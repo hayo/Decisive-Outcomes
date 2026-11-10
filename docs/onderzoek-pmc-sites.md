@@ -48,6 +48,10 @@ Het kleurgebruik (licht of donker) en de precieze beeldstijl konden niet visueel
 6. **Tegels in 16:9** in plaats van 4:3, zodat alle kaarten en hero's dezelfde verhouding hebben.
 7. **Een eigen set lijniconen** per divisie, in SVG. Bijvoorbeeld een geit voor Agri.
 
+## Verwerkt
+
+Alle zeven aanbevelingen zijn op 10 november 2026 verwerkt in [sitemap.md](../website/sitemap.md), [beeldtaal.md](../website/beeldtaal.md) en [website/CLAUDE.md](../website/CLAUDE.md).
+
 ## Bronnen
 
 - [Constellis](https://www.constellis.com/)

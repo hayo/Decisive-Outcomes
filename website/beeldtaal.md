@@ -10,7 +10,7 @@ De prompts staan in het Engels. Gemini levert daarmee consistentere resultaten, 
 - **Licht:** laag, warm zijlicht (gouden uur) of donker binnenlicht met één lichtbron. Diepe schaduwen.
 - **Kleur:** licht ontkleurd. Warm goud in de lichten (`#D4A94F`), diep zwart in de schaduwen (`#0F0D0B`), en spaarzaam een rood accent (`#9B1C15`).
 - **Textuur:** subtiele filmkorrel, alsof het op 35 mm is geschoten.
-- **Mensen:** altijd als silhouet, in tegenlicht, van achteren of met het gezicht in de schaduw. Er zijn geen herkenbare gezichten nodig, en dat voorkomt dat Gemini echte personen benadert.
+- **Mensen:** altijd als silhouet, in tegenlicht, van achteren of met het gezicht in de schaduw. Er zijn geen herkenbare gezichten nodig, en dat voorkomt dat Gemini echte personen benadert. Echte beveiligingsbedrijven tonen hun personeel wel herkenbaar; wij compenseren dat met veel mensen in actie, uitrusting en omgeving, zodat de beelden niet leeg aanvoelen.
 - **Compositie:** veel lege ruimte, zodat er tekst overheen kan. Het onderwerp staat meestal links of rechts, niet in het midden.
 
 ## Stijlblok
@@ -32,9 +32,9 @@ Begin elke prompt met dit blok, zodat de stijl overal hetzelfde is:
 | Gebruik | Verhouding | Minimaal formaat |
 |---|---|---|
 | Hero op een pagina | 16:9 | 2400 × 1350 px |
-| Tegels en kaarten | 4:3 | 1200 × 900 px |
+| Tegels en kaarten | 16:9 | 1600 × 900 px |
 | Portretten bestuur | 4:5 | 1200 × 1500 px |
-| Persbericht | 3:2 | 1500 × 1000 px |
+| Inzichten (kaart en artikel) | 16:9 | 1600 × 900 px |
 | Deelafbeelding (Open Graph) | 1,91:1 | 1200 × 630 px, uitgesneden uit een bestaand beeld |
 
 Zet de verhouding ook in de prompt, bijvoorbeeld: *Aspect ratio 16:9.*
@@ -114,13 +114,13 @@ Zet steeds eerst het stijlblok voor de prompt.
 **HOME-01 — Hero.** *Aspect ratio 16:9.*
 Two weathered 1970s Land Rovers parked on a red dirt road in African savanna at golden hour, a large baobab tree on the horizon, dust hanging in the warm light. Four men in plain olive field clothing stand beside the vehicles seen from behind, looking toward the horizon. The scene is calm and patient, as if they have been waiting a long time.
 
-**HOME-02 — Security.** *Aspect ratio 4:3.*
+**HOME-02 — Security.** *Aspect ratio 16:9.*
 A lone figure in dark field clothing seen from behind on a rooftop at dusk, looking out over a quiet city with a pair of binoculars. Warm lights coming on in the distance, the figure in silhouette.
 
-**HOME-03 — Hospitality.** *Aspect ratio 4:3.*
+**HOME-03 — Hospitality.** *Aspect ratio 16:9.*
 A simple, elegant bar on a wooden deck by the sea at sunset, a single glass of beer on the counter, an empty chair, warm golden light, a calm ocean in the background.
 
-**HOME-04 — Real Estate.** *Aspect ratio 4:3.*
+**HOME-04 — Real Estate.** *Aspect ratio 16:9.*
 Aerial photograph of a tiny sandbank island in turquoise Caribbean water with a single small modern building and a short wooden jetty, low tide revealing pale sand, late afternoon light.
 
 ### Over ons
@@ -128,7 +128,7 @@ Aerial photograph of a tiny sandbank island in turquoise Caribbean water with a 
 **OVER-01 — Geschiedenis.** *Aspect ratio 16:9.*
 An old wooden table in an abandoned colonial farmhouse kitchen, a yellowed newspaper and an empty coffee cup on it, a notebook with handwritten notes, warm light falling through shutters. Quiet, nostalgic, documentary.
 
-**OVER-02 — Pamwe chete.** *Aspect ratio 4:3.*
+**OVER-02 — Pamwe chete.** *Aspect ratio 16:9.*
 Four pairs of worn military boots standing side by side on red earth, shot low to the ground, golden backlight, long shadows.
 
 ### Raad van bestuur
@@ -166,6 +166,10 @@ A small, tidy recruitment office in a Caribbean town, a single wooden desk with 
 **DIEN-07 — Agri.** *Aspect ratio 16:9.*
 A herd of goats walking through dry Caribbean scrubland with cacti at sunrise, seen from a low angle, warm golden light, dust in the air. Shot like a nature documentary.
 
+### Iconen
+
+Geen Gemini, maar een eigen set lijniconen in SVG, één per divisie. Gebruik een stroke van 1,5 px op een raster van 24 px, ronde uiteinden en de kleur `currentColor`, zodat het icoon de tekstkleur overneemt. Houd ze eenvoudig en herkenbaar op 24 px.
+
 ### Wereldwijd
 
 **WERELD-01 — Kaart.** *Aspect ratio 16:9.*
@@ -176,10 +180,10 @@ A modern glass meeting room on a tiny island at dawn, a long table with four cha
 
 ### Werken bij
 
-**WERK-01 — Werken bij.** *Aspect ratio 16:9.*
+**WERK-01 — Werken bij.** *Aspect ratio 16:9.* Wordt ook gebruikt in het wervingsblok op de homepage.
 A group of people in practical outdoor gear seen from behind, walking into a forest at early morning, mist between the trees, soft golden light. Purposeful, a team.
 
-### Newsroom
+### Inzichten
 
-**NEWS-basis** (pas het onderwerp per persbericht aan):
-*Aspect ratio 3:2.* Documentary-style photograph related to [onderwerp], same color grading as the rest of the series, people only as silhouettes or from behind.
+**NEWS-basis** (pas het onderwerp per artikel aan):
+*Aspect ratio 16:9.* Documentary-style photograph related to [onderwerp], same color grading as the rest of the series, people only as silhouettes or from behind.

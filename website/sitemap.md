@@ -6,7 +6,11 @@ Beeld-ID's (zoals `HOME-01`) verwijzen naar [beeldtaal.md](beeldtaal.md).
 
 ## Navigatie
 
-**Hoofdmenu:** Over ons · Diensten · Wereldwijd · Newsroom · Werken bij · Contact
+**Hoofdmenu:** Over ons · Diensten · Sectoren · Wereldwijd · Inzichten · Werken bij
+
+**Rechts in de header:** een knop *Neem contact op*.
+
+**Footer:** naast de links hieronder komen er lijniconen per divisie.
 
 **Footer:** Ethiek & compliance · Investor relations · Algemene voorwaarden · Privacyverklaring · Colofon
 
@@ -16,9 +20,11 @@ Beeld-ID's (zoals `HOME-01`) verwijzen naar [beeldtaal.md](beeldtaal.md).
 
 - **Hero** (`HOME-01`): een korte, krachtige kop. Bijvoorbeeld: *Beslissende uitkomsten. Sinds 1979.* Daaronder de missie in één zin en twee knoppen: *Onze diensten* en *Neem contact op*.
 - **Kerncijfers in een balk:** 40 landen · 7 divisies · 45+ jaar operationeel · 100% afgeronde opdrachten*. De asterisk verwijst onderaan naar *Exclusief de opdracht uit 1979.*
-- **Drie diensten uitgelicht** (`HOME-02` t/m `HOME-04`): Security, Hospitality, Real Estate. Elk met een korte pitch en een link.
-- **Laatste nieuws:** drie persberichten uit de Newsroom.
-- **Afsluitende band:** *Wij staan stand-by. Altijd.*
+- **Werving** (`WERK-01`), direct onder de cijferbalk: *Wij zoeken mensen die kunnen wachten.* Met een knop naar Werken bij.
+- **Drie diensten uitgelicht** (`HOME-02` t/m `HOME-04`): Security, Hospitality, Real Estate. Elk met een lijnicoon, een korte pitch en een link.
+- **Stand-By Outlook:** een band die het jaarrapport aankondigt, het vlaggenschip van Inzichten.
+- **Laatste inzichten:** drie kaarten in 16:9 met een label voor het type (persbericht, analyse of casestudy).
+- **Afsluiting:** een citaat van Kolonel Frederik met zijn portret (`LEAD-01`), daarna de band *Wij staan stand-by. Altijd.*
 
 ### 2. Over ons
 
@@ -48,16 +54,38 @@ Elke divisiepagina heeft dezelfde opbouw:
 - een blok *Recente inzet* met één wapenfeit uit de backstory;
 - de knop *Vraag een offerte aan*.
 
+Elke divisie krijgt een eigen lijnicoon in SVG, in dezelfde stijl. Bijvoorbeeld een schild voor Security, een kom voor Hospitality, een kristal voor Mining, een grafiek voor Capital, een eiland voor Real Estate, een badge voor People en een geit voor Agri.
+
+### 3b. Sectoren
+
+Een ingang per klantgroep, zoals bij echte beveiligingsbedrijven. Elke sector krijgt een korte pagina met de passende divisies en een wapenfeit.
+
+| Sector | Kop | Wapenfeit |
+|---|---|---|
+| Overheden | Ondersteuning van staten in overgang, ook als die staat niet meer bestaat | Freetown, 1995 (offerte) |
+| Mijnbouw en grondstoffen | Bescherming van waardevolle bodemschatten, of iets wat erop lijkt | Angola, 1989 |
+| Horeca en voedselindustrie | Continuïteit van de keten, van biltong tot frietketel | Kinshasa, 1991 |
+| Vastgoed en infrastructuur | Beheer van locaties die niet op de kaart staan | Klein Klein Bonaire, 1999 |
+| Landbouw en veehouderij | Veilige doorgang voor levende have | Malawi, 1986 |
+| Maatschappelijke organisaties | Partner bij bevrijding, ook preventief | Swaziland, 1992 |
+
 ### 4. Wereldwijd
 
 - **Kaart met veertig locaties** (`WERELD-01` als achtergrond). Bij hover per locatie: *Postbus*. Bij Kralendijk: *Postbus met bankje*.
 - **Hoofdkantoor Klein Klein Bonaire** (`WERELD-02`): oppervlakte *40 m² tot 1 ha, afhankelijk van het getij*.
 
-### 5. Newsroom
+### 5. Inzichten
 
-- **Persberichten**, in vaste vorm: plaats en datum, kop, drie alinea's en een standaardblok *Over Decisive Outcomes Group*. Elke speeldag levert een persbericht op.
-- **Rapporten aan Salisbury:** een archief van de verslagen van Hayo. Ongelezen, volgens de status.
+Zoals bij echte risicoadviseurs: één overzicht met verschillende soorten inhoud. Elke kaart is 16:9, met een label voor het type.
+
+- **Stand-By Outlook** (vlaggenschip): het jaarlijkse risicorapport van de groep, als pagina en als download. Elk jaar dezelfde conclusie: geen nieuws uit Salisbury, de groep blijft stand-by.
+- **Persberichten** (label *Persbericht*), in vaste vorm: plaats en datum, kop, drie alinea's en het standaardblok *Over Decisive Outcomes Group*. Elke speeldag levert een persbericht op.
+- **Analyses** (label *Analyse*): korte stukken van Majoor Hayo over strategie en "het conflict in de Benelux".
+- **Casestudy's** (label *Casestudy*): wapenfeiten uit de backstory, uitgeschreven als klantverhaal. De klanten blijven herkenbaar fictief.
+- **Rapporten aan Salisbury** (label *Rapport*): een archief van de verslagen van Hayo. Ongelezen, volgens de status.
 - **Mediacontact:** *Voor persvragen: Postbus 1, Kralendijk.*
+
+De URL blijft `/newsroom/` voor persberichten; het overzicht staat op `/inzichten/`.
 
 ### 6. Werken bij
 
@@ -68,6 +96,9 @@ Elke divisiepagina heeft dezelfde opbouw:
 ### 7. Ethiek & compliance
 
 - Gedragscode, sanctiebeleid ("wij houden ons ook aan sancties tegen onszelf"), duurzaamheid en klokkenluidersregeling (behandeltermijn zes tot acht jaar).
+- **Klachtenprocedure** (zoals de *Grievance Process* van echte bedrijven): klachten worden zorgvuldig gelezen en in een map gelegd.
+- **Verklaring over moderne slavernij:** de groep verklaart dat het Geitenplan vrijwillig is.
+- **Certificeringen:** *Een aanvraag voor ISO 18788 is in behandeling sinds 2009.* Er staan geen logo's of keurmerken van echte organisaties op de pagina, en er wordt niet gesuggereerd dat de groep die keurmerken echt heeft.
 - Rustig en formeel opgemaakt, zoals bij echte bedrijven. Weinig beeld.
 
 ### 8. Investor relations

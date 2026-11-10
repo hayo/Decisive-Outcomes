@@ -17,6 +17,8 @@ Wat is besloten, wanneer en waarom. Nieuwe beslissingen komen bovenaan in de tab
 
 | Datum | Besluit | Reden |
 |---|---|---|
+| 2026-11-10 | Sitemap aangepast naar het onderzoek: een pagina Sectoren, Newsroom wordt Inzichten met de *Stand-By Outlook* als vlaggenschip, werving hoog op de homepage, een contactknop in de header, kaarten in 16:9, lijniconen per divisie en een uitgebreide compliancepagina zonder echte keurmerken. | Zo lijkt de site meer op echte sites van PMC's en beveiligingsbedrijven (zie [onderzoek-pmc-sites.md](onderzoek-pmc-sites.md)). |
+| 2026-11-10 | Het logo voorlopig als PNG; de SVG is verwijderd. | De SVG was niet goed genoeg. |
 | 2026-11-10 | Beelden als gewone JPEG in twee breedtes; de originelen staan in de repo. | Een build-stap voor AVIF en WebP werd te groot voor het project. |
 | 2026-11-10 | Het logo komt nooit in een beeld. AI-gebruik wordt alleen in het colofon vermeld. | Rustiger beeld, en één duidelijke plek voor de verantwoording. |
 | 2026-11-10 | Echte foto's van speeldagen mogen, met vastgelegde toestemming. | Echte foto's maken de site levendig, maar zonder toestemming kan het niet. |
