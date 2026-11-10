@@ -1,4 +1,4 @@
-# Sitemap — decisiveoutcomes
+# Sitemap — decisiveoutcomes.nl
 
 De site ziet eruit als die van een echte internationale private military company: strak, zakelijk, zelfverzekerd. De humor zit alleen in de details en de site knipoogt nooit. Wie snel kijkt, ziet een serieus bedrijf; wie leest, ziet Decisive Outcomes.
 

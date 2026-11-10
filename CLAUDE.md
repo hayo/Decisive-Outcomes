@@ -6,7 +6,7 @@ Deze repository bevat alles rond het airsoftteam Decisive Outcomes: het verhaal,
 
 - `verhaal/` — de backstory. `backstory.md` is het leidende bestand.
 - `logo/` — het logo als SVG (bron) en PNG (2000 px).
-- `website/` — de teamwebsite (nog niet aangemaakt).
+- `website/` — de teamwebsite voor decisiveoutcomes.nl. Volg daar ook `website/CLAUDE.md`.
 - `events/` — materiaal voor events, patches en dergelijke (nog niet aangemaakt).
 
 Maak een map pas aan als er iets in komt.
