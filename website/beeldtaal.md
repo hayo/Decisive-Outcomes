@@ -203,3 +203,19 @@ A group of people in practical outdoor gear seen from behind, walking into a for
 
 **NEWS-basis** (pas het onderwerp per artikel aan):
 *Aspect ratio 16:9.* Documentary-style photograph related to [onderwerp], same color grading as the rest of the series, people only as silhouettes or from behind.
+
+Onderwerpen per inzicht (de volledige prompts staan in het manifest):
+
+- **NEWS-01 — ISO 18788.** A tall stack of thick ring binders and an application folder in a wire inbox tray on a desk in an empty office, a thin layer of dust on top, late afternoon light through blinds.
+- **NEWS-02 — Veestapel.** A small herd of goats resting in the shade of a cactus fence in dry Caribbean scrubland, one goat looking calmly at the camera, warm low sun.
+- **NEWS-03 — NAVO-norm.** A long conference table in a grand empty hall with rows of empty chairs and small blank name stands, evening light through tall windows.
+- **NEWS-04 — Opdracht 1979.** A closed dark wooden chest with iron bands standing alone on a concrete floor in a dim storeroom, a single beam of warm light falling on it. The chest is shut.
+- **NEWS-05 — Divisie Benelux.** A small team in green tactical gear with slung rifles moving through a damp Northern European pine forest in autumn, fallen leaves, mist between the trees, seen from behind.
+- **NEWS-06 — Inflatie Bonaire.** An old mechanical adding machine with a long paper roll on a wooden desk, sunlight through shutters, a Caribbean harbor blurred outside the window.
+- **NEWS-07 — Wintertijd.** A simple wall clock with plain tick marks and no numerals, hands at six o'clock, above a table with a field radio and a cup of coffee in a dark room before dawn, a single lamp.
+- **NEWS-08 — Reservisten.** A neat row of packed rucksacks and helmets lined up against a wall in a quiet barracks corridor at dawn, boots placed in front of each one.
+- **NEWS-09 — Vernieuwde website.** A laptop open on a folding field table inside a canvas tent, the screen glowing softly and blurred, a field radio and a folded paper map beside it, morning light at the tent opening.
+- **NEWS-10 — Conflict Benelux (analyse).** A paper map of a forested area spread on a table with colored pins and red string, a magnifying glass and a pencil, lit by a desk lamp.
+- **NEWS-11 — Evacuatie Kinshasa (casestudy).** A large stainless steel commercial fryer strapped onto the bed of an old flatbed truck at dawn on a wide, quiet avenue, two men in work clothes tightening the straps, seen from behind. Calm and orderly.
+- **NEWS-12 — Rapport 412.** An old typewriter with a sheet of paper, carbon copies, a rubber stamp and a sealed envelope on a desk in a dim office, a radio set in the background. The paper is blank or blurred.
+- **NEWS-13 — Stand-By Outlook 2026.** An old military field radio on a wooden table in a dark room at dawn, the handset resting on top, a small red indicator light glowing, a cup of coffee beside it. A sense of waiting.

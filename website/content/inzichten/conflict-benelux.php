@@ -7,8 +7,8 @@ return [
     'plaats' => 'Klein Klein Bonaire',
     'samenvatting' => 'Majoor Hayo analyseert het conflict van lage intensiteit waarin de divisie Benelux sinds 2019 actief is.',
     'divisies' => ['decisive-security'],
-    'beeld' => '',
-    'alt' => '',
+    'beeld' => 'NEWS-10',
+    'alt' => 'Een kaart van een bosgebied op tafel, met gekleurde spelden, rood touw en een vergrootglas onder een bureaulamp.',
     'html' => <<<'HTML'
 <p>Sinds 2019 is Decisive Outcomes Group actief in de Benelux. Deze analyse beschrijft de belangrijkste kenmerken van het conflict en de positie van de groep, zoals die blijken uit de rapporten van de afgelopen zeven jaar.</p>
 <h2>Kenmerken van het conflict</h2>

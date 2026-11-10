@@ -6,8 +6,8 @@ return [
     'plaats' => 'Den Haag',
     'samenvatting' => 'De divisie Benelux heeft haar najaarsinzet afgerond. Alle teamleden zijn teruggekeerd, de veldfee is voldaan en er is om een factuur gevraagd.',
     'divisies' => ['decisive-security'],
-    'beeld' => '',
-    'alt' => '',
+    'beeld' => 'NEWS-05',
+    'alt' => 'Een klein team in groene tactische uitrusting loopt in de herfst door een mistig dennenbos.',
     'html' => <<<'HTML'
 <p>De divisie Benelux van Decisive Outcomes Group heeft afgelopen weekend haar najaarsinzet afgerond. De inzet vond plaats op een terrein in Nederland, in het kader van wat de groep omschrijft als een langdurig conflict van lage intensiteit.</p>
 <p>Alle teamleden zijn aan het einde van de dag teruggekeerd naar het verzamelpunt. Het verzamelpunt was vooraf door de organisatie van het terrein aangewezen en bleek op de afgesproken plek te liggen. De groep noemt dit een positieve ontwikkeling.</p>

@@ -6,8 +6,8 @@ return [
     'plaats' => 'Kralendijk',
     'samenvatting' => 'De inflatie op Bonaire is gestegen naar 5,9 procent. Voor de resultaten van de groep heeft dat geen gevolgen, omdat de boekhouding in Rhodesische dollars loopt.',
     'divisies' => ['decisive-capital'],
-    'beeld' => '',
-    'alt' => '',
+    'beeld' => 'NEWS-06',
+    'alt' => 'Een oude mechanische rekenmachine met een lange papierrol op een bureau, met een haven achter het raam.',
     'html' => <<<'HTML'
 <p>Decisive Outcomes Group heeft kennisgenomen van de nieuwe inflatiecijfers van het CBS. Volgens het CBS waren de prijzen op Bonaire in het derde kwartaal van 2026 gemiddeld 5,9 procent hoger dan een jaar eerder, vooral door duurdere benzine, vliegtickets en elektriciteit.</p>
 <p>Voor de financiële resultaten van de groep heeft de stijging geen gevolgen. De boekhouding van de groep loopt sinds 1984 in Rhodesische dollars. Van die munt is sinds 1980 geen nieuwe koers meer bekendgemaakt, zodat de prijzen in de boeken al zesenveertig jaar stabiel zijn.</p>

@@ -7,8 +7,8 @@ return [
     'plaats' => 'Klein Klein Bonaire',
     'samenvatting' => 'Het jaarlijkse risicorapport van de groep. Voor het zesenveertigste jaar op rij: geen nieuws uit Salisbury.',
     'download' => 'docs/stand-by-outlook-2026.pdf',
-    'beeld' => '',
-    'alt' => '',
+    'beeld' => 'NEWS-13',
+    'alt' => 'Een oude veldradio met de hoorn erop en een rood lampje, naast een kop koffie in een donkere kamer bij dageraad.',
     'html' => <<<'HTML'
 <p>De Stand-By Outlook is het jaarlijkse risicorapport van Decisive Outcomes Group. Het rapport wordt opgesteld door de afdeling Strategie en besproken in het eerste Stand-By-overleg van het jaar, op maandag om 06.00 uur.</p>
 <h2>Belangrijkste bevindingen</h2>

@@ -7,8 +7,8 @@ return [
     'plaats' => 'Kinshasa',
     'samenvatting' => 'Hoe Decisive Security in 1991 binnen één dag een complete frituur in veiligheid bracht, inclusief installatie en receptuur.',
     'divisies' => ['decisive-security', 'decisive-hospitality'],
-    'beeld' => '',
-    'alt' => '',
+    'beeld' => 'NEWS-11',
+    'alt' => 'Twee mannen zetten bij dageraad een grote roestvrijstalen frituurinstallatie vast op de laadbak van een oude vrachtwagen.',
     'html' => <<<'HTML'
 <h2>De uitdaging</h2>
 <p>In september 1991 werd de situatie in Kinshasa in korte tijd onveilig. Buitenlanders werden geëvacueerd, maar hun bezittingen bleven achter. Een opdrachtgever vroeg de groep om een complete frituur in veiligheid te brengen, met een handgemaakte frietketel en een receptuur die sinds 1962 binnen de familie was gebleven.</p>

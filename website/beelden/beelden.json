@@ -304,6 +304,188 @@
         "methode": "code: hoogtelijnen uit gladgestreken ruis (numpy, scipy, matplotlib), seed 1984",
         "datum": "2026-11-10"
       }
+    },
+    {
+      "id": "NEWS-01",
+      "type": "ai",
+      "alt": "Een stapel ordners en een aanvraagmap in een postbakje op een bureau, met een laagje stof erop.",
+      "gebruik": "newsroom/2026-03-09-iso-18788.php",
+      "uitsnede": "mobiel: 4:5 rond het focuspunt (x 0,6)",
+      "bron": {
+        "model": "gemini-3-pro-image",
+        "datum": "2026-11-10",
+        "prompt": "Cinematic corporate photography for a private security company annual report. Shot on 35mm film, subtle grain, slightly desaturated colors with warm golden highlights and deep near-black shadows, occasional muted crimson accent. Low, warm side light or single-source interior light, strong contrast, calm and serious mood. Generous negative space for text overlay. No text, no logos, no watermarks, no flags. Documentary-style photograph, same color grading as the rest of the series, people only as silhouettes or from behind. A tall stack of thick ring binders and an application folder in a wire inbox tray on a desk in an empty office, a thin layer of dust on top, late afternoon light through blinds. Everything is unbadged: no lettering, no readable text, no numbers, no brand names, no insignia, no flags. Main subject in the right half of the frame, the left half calmer and darker for text overlay. Aspect ratio 16:9. Match the color grading, light and grain of the reference image.",
+        "referentie": "HOME-01",
+        "instellingen": "aspectRatio 16:9, imageSize 4K"
+      }
+    },
+    {
+      "id": "NEWS-02",
+      "type": "ai",
+      "alt": "Geiten rusten in de schaduw van een cactushaag in de droge struiken van Bonaire.",
+      "gebruik": "newsroom/2026-06-02-veestapel.php",
+      "uitsnede": "mobiel: 4:5 rond het focuspunt (x 0,6)",
+      "bron": {
+        "model": "gemini-3-pro-image",
+        "datum": "2026-11-10",
+        "prompt": "Cinematic corporate photography for a private security company annual report. Shot on 35mm film, subtle grain, slightly desaturated colors with warm golden highlights and deep near-black shadows, occasional muted crimson accent. Low, warm side light or single-source interior light, strong contrast, calm and serious mood. Generous negative space for text overlay. No text, no logos, no watermarks, no flags. Documentary-style photograph, same color grading as the rest of the series, people only as silhouettes or from behind. A small herd of goats resting in the shade of a cactus fence in dry Caribbean scrubland, one goat looking calmly at the camera, warm low sun. Everything is unbadged: no lettering, no readable text, no numbers, no brand names, no insignia, no flags. Main subject in the right half of the frame, the left half calmer and darker for text overlay. Aspect ratio 16:9. Match the color grading, light and grain of the reference image.",
+        "referentie": "HOME-01",
+        "instellingen": "aspectRatio 16:9, imageSize 4K"
+      }
+    },
+    {
+      "id": "NEWS-03",
+      "type": "ai",
+      "alt": "Een lange vergadertafel met lege stoelen en blanco naambordjes in een grote, lege zaal.",
+      "gebruik": "newsroom/2026-07-09-navo-norm.php",
+      "uitsnede": "mobiel: 4:5 rond het focuspunt (x 0,8)",
+      "bron": {
+        "model": "gemini-3-pro-image",
+        "datum": "2026-11-10",
+        "prompt": "Cinematic corporate photography for a private security company annual report. Shot on 35mm film, subtle grain, slightly desaturated colors with warm golden highlights and deep near-black shadows, occasional muted crimson accent. Low, warm side light or single-source interior light, strong contrast, calm and serious mood. Generous negative space for text overlay. No text, no logos, no watermarks, no flags. Documentary-style photograph, same color grading as the rest of the series, people only as silhouettes or from behind. A long conference table in a grand empty hall with rows of empty chairs and small blank name stands, evening light through tall windows. Everything is unbadged: no lettering, no readable text, no numbers, no brand names, no insignia, no flags. Main subject in the right half of the frame, the left half calmer and darker for text overlay. Aspect ratio 16:9. Match the color grading, light and grain of the reference image.",
+        "referentie": "HOME-01",
+        "instellingen": "aspectRatio 16:9, imageSize 4K"
+      }
+    },
+    {
+      "id": "NEWS-04",
+      "type": "ai",
+      "alt": "Een gesloten donkere houten kist met ijzeren banden in een schemerige opslagruimte, in een smalle lichtbundel.",
+      "gebruik": "newsroom/2026-08-24-opdracht-1979.php",
+      "uitsnede": "mobiel: 4:5 rond het focuspunt (x 0,75)",
+      "bron": {
+        "model": "gemini-3-pro-image",
+        "datum": "2026-11-10",
+        "prompt": "Cinematic corporate photography for a private security company annual report. Shot on 35mm film, subtle grain, slightly desaturated colors with warm golden highlights and deep near-black shadows, occasional muted crimson accent. Low, warm side light or single-source interior light, strong contrast, calm and serious mood. Generous negative space for text overlay. No text, no logos, no watermarks, no flags. Documentary-style photograph, same color grading as the rest of the series, people only as silhouettes or from behind. A closed dark wooden chest with iron bands standing alone on a concrete floor in a dim storeroom, a single beam of warm light falling on it. The chest is shut. Everything is unbadged: no lettering, no readable text, no numbers, no brand names, no insignia, no flags. Main subject in the right half of the frame, the left half calmer and darker for text overlay. Aspect ratio 16:9. Match the color grading, light and grain of the reference image.",
+        "referentie": "HOME-01",
+        "instellingen": "aspectRatio 16:9, imageSize 4K"
+      }
+    },
+    {
+      "id": "NEWS-05",
+      "type": "ai",
+      "alt": "Een klein team in groene tactische uitrusting loopt in de herfst door een mistig dennenbos.",
+      "gebruik": "newsroom/2026-10-20-divisie-benelux.php",
+      "uitsnede": "mobiel: 4:5 rond het focuspunt (x 0,65)",
+      "bron": {
+        "model": "gemini-3-pro-image",
+        "datum": "2026-11-10",
+        "prompt": "Cinematic corporate photography for a private security company annual report. Shot on 35mm film, subtle grain, slightly desaturated colors with warm golden highlights and deep near-black shadows, occasional muted crimson accent. Low, warm side light or single-source interior light, strong contrast, calm and serious mood. Generous negative space for text overlay. No text, no logos, no watermarks, no flags. Documentary-style photograph, same color grading as the rest of the series, people only as silhouettes or from behind. A small team in green tactical gear with slung rifles moving through a damp Northern European pine forest in autumn, fallen leaves, mist between the trees, seen from behind. Everything is unbadged: no lettering, no readable text, no numbers, no brand names, no insignia, no flags. Main subject in the right half of the frame, the left half calmer and darker for text overlay. Aspect ratio 16:9. Match the color grading, light and grain of the reference image.",
+        "referentie": "HOME-01",
+        "instellingen": "aspectRatio 16:9, imageSize 4K"
+      }
+    },
+    {
+      "id": "NEWS-06",
+      "type": "ai",
+      "alt": "Een oude mechanische rekenmachine met een lange papierrol op een bureau, met een haven achter het raam.",
+      "gebruik": "newsroom/2026-10-23-inflatie-bonaire.php",
+      "uitsnede": "mobiel: 4:5 rond het focuspunt (x 0,8)",
+      "bron": {
+        "model": "gemini-3-pro-image",
+        "datum": "2026-11-10",
+        "prompt": "Cinematic corporate photography for a private security company annual report. Shot on 35mm film, subtle grain, slightly desaturated colors with warm golden highlights and deep near-black shadows, occasional muted crimson accent. Low, warm side light or single-source interior light, strong contrast, calm and serious mood. Generous negative space for text overlay. No text, no logos, no watermarks, no flags. Documentary-style photograph, same color grading as the rest of the series, people only as silhouettes or from behind. An old mechanical adding machine with a long paper roll on a wooden desk, sunlight through shutters, a Caribbean harbor blurred outside the window. Everything is unbadged: no lettering, no readable text, no numbers, no brand names, no insignia, no flags. Main subject in the right half of the frame, the left half calmer and darker for text overlay. Aspect ratio 16:9. Match the color grading, light and grain of the reference image.",
+        "referentie": "HOME-01",
+        "instellingen": "aspectRatio 16:9, imageSize 4K"
+      }
+    },
+    {
+      "id": "NEWS-07",
+      "type": "ai",
+      "alt": "Een wandklok die zes uur aanwijst, boven een tafel met een radio en een kop koffie in een donkere kamer.",
+      "gebruik": "newsroom/2026-10-26-wintertijd.php",
+      "uitsnede": "mobiel: 4:5 rond het focuspunt (x 0,7)",
+      "bron": {
+        "model": "gemini-3-pro-image",
+        "datum": "2026-11-10",
+        "prompt": "Cinematic corporate photography for a private security company annual report. Shot on 35mm film, subtle grain, slightly desaturated colors with warm golden highlights and deep near-black shadows, occasional muted crimson accent. Low, warm side light or single-source interior light, strong contrast, calm and serious mood. Generous negative space for text overlay. No text, no logos, no watermarks, no flags. Documentary-style photograph, same color grading as the rest of the series, people only as silhouettes or from behind. A simple wall clock with plain tick marks and no numerals, hands at six o'clock, above a table with a field radio and a cup of coffee in a dark room before dawn, a single lamp. Everything is unbadged: no lettering, no readable text, no numbers, no brand names, no insignia, no flags. Main subject in the right half of the frame, the left half calmer and darker for text overlay. Aspect ratio 16:9. Match the color grading, light and grain of the reference image.",
+        "referentie": "HOME-01",
+        "instellingen": "aspectRatio 16:9, imageSize 4K"
+      }
+    },
+    {
+      "id": "NEWS-08",
+      "type": "ai",
+      "alt": "Een rij bepakte rugzakken, helmen en kistjes tegen de muur van een stille kazernegang bij dageraad.",
+      "gebruik": "newsroom/2026-11-05-reservisten.php",
+      "uitsnede": "mobiel: 4:5 rond het focuspunt (x 0,75)",
+      "bron": {
+        "model": "gemini-3-pro-image",
+        "datum": "2026-11-10",
+        "prompt": "Cinematic corporate photography for a private security company annual report. Shot on 35mm film, subtle grain, slightly desaturated colors with warm golden highlights and deep near-black shadows, occasional muted crimson accent. Low, warm side light or single-source interior light, strong contrast, calm and serious mood. Generous negative space for text overlay. No text, no logos, no watermarks, no flags. Documentary-style photograph, same color grading as the rest of the series, people only as silhouettes or from behind. A neat row of packed rucksacks and helmets lined up against a wall in a quiet barracks corridor at dawn, boots placed in front of each one. Everything is unbadged: no lettering, no readable text, no numbers, no brand names, no insignia, no flags. Main subject in the right half of the frame, the left half calmer and darker for text overlay. Aspect ratio 16:9. Match the color grading, light and grain of the reference image.",
+        "referentie": "HOME-01",
+        "instellingen": "aspectRatio 16:9, imageSize 4K"
+      }
+    },
+    {
+      "id": "NEWS-09",
+      "type": "ai",
+      "alt": "Een laptop op een veldtafel in een tent, naast een veldradio en een kaart.",
+      "gebruik": "newsroom/2026-11-10-vernieuwde-website.php",
+      "uitsnede": "mobiel: 4:5 rond het focuspunt (x 0,8)",
+      "bron": {
+        "model": "gemini-3-pro-image",
+        "datum": "2026-11-10",
+        "prompt": "Cinematic corporate photography for a private security company annual report. Shot on 35mm film, subtle grain, slightly desaturated colors with warm golden highlights and deep near-black shadows, occasional muted crimson accent. Low, warm side light or single-source interior light, strong contrast, calm and serious mood. Generous negative space for text overlay. No text, no logos, no watermarks, no flags. Documentary-style photograph, same color grading as the rest of the series, people only as silhouettes or from behind. A laptop open on a folding field table inside a canvas tent, the screen glowing softly and blurred, a field radio and a folded paper map beside it, morning light at the tent opening. Everything is unbadged: no lettering, no readable text, no numbers, no brand names, no insignia, no flags. Main subject in the right half of the frame, the left half calmer and darker for text overlay. Aspect ratio 16:9. Match the color grading, light and grain of the reference image.",
+        "referentie": "HOME-01",
+        "instellingen": "aspectRatio 16:9, imageSize 4K"
+      }
+    },
+    {
+      "id": "NEWS-10",
+      "type": "ai",
+      "alt": "Een kaart van een bosgebied op tafel, met gekleurde spelden, rood touw en een vergrootglas onder een bureaulamp.",
+      "gebruik": "inzichten/conflict-benelux.php",
+      "uitsnede": "mobiel: 4:5 rond het focuspunt (x 0,55)",
+      "bron": {
+        "model": "gemini-3-pro-image",
+        "datum": "2026-11-10",
+        "prompt": "Cinematic corporate photography for a private security company annual report. Shot on 35mm film, subtle grain, slightly desaturated colors with warm golden highlights and deep near-black shadows, occasional muted crimson accent. Low, warm side light or single-source interior light, strong contrast, calm and serious mood. Generous negative space for text overlay. No text, no logos, no watermarks, no flags. Documentary-style photograph, same color grading as the rest of the series, people only as silhouettes or from behind. A paper map of a forested area spread on a table with colored pins and red string, a magnifying glass and a pencil, lit by a desk lamp. Everything is unbadged: no lettering, no readable text, no numbers, no brand names, no insignia, no flags. Main subject in the right half of the frame, the left half calmer and darker for text overlay. Aspect ratio 16:9. Match the color grading, light and grain of the reference image.",
+        "referentie": "HOME-01",
+        "instellingen": "aspectRatio 16:9, imageSize 4K"
+      }
+    },
+    {
+      "id": "NEWS-11",
+      "type": "ai",
+      "alt": "Twee mannen zetten bij dageraad een grote roestvrijstalen frituurinstallatie vast op de laadbak van een oude vrachtwagen.",
+      "gebruik": "inzichten/evacuatie-kinshasa.php",
+      "uitsnede": "mobiel: 4:5 rond het focuspunt (x 0,7)",
+      "bron": {
+        "model": "gemini-3-pro-image",
+        "datum": "2026-11-10",
+        "prompt": "Cinematic corporate photography for a private security company annual report. Shot on 35mm film, subtle grain, slightly desaturated colors with warm golden highlights and deep near-black shadows, occasional muted crimson accent. Low, warm side light or single-source interior light, strong contrast, calm and serious mood. Generous negative space for text overlay. No text, no logos, no watermarks, no flags. Documentary-style photograph, same color grading as the rest of the series, people only as silhouettes or from behind. A large stainless steel commercial fryer strapped onto the bed of an old flatbed truck at dawn on a wide, quiet avenue, two men in work clothes tightening the straps, seen from behind. Calm and orderly. Everything is unbadged: no lettering, no readable text, no numbers, no brand names, no insignia, no flags. Main subject in the right half of the frame, the left half calmer and darker for text overlay. Aspect ratio 16:9. Match the color grading, light and grain of the reference image.",
+        "referentie": "HOME-01",
+        "instellingen": "aspectRatio 16:9, imageSize 4K"
+      }
+    },
+    {
+      "id": "NEWS-12",
+      "type": "ai",
+      "alt": "Een oude typemachine met een vel papier, carbonpapier, een stempel en een verzegelde envelop op een bureau.",
+      "gebruik": "inzichten/rapport-412.php",
+      "uitsnede": "mobiel: 4:5 rond het focuspunt (x 0,8)",
+      "bron": {
+        "model": "gemini-3-pro-image",
+        "datum": "2026-11-10",
+        "prompt": "Cinematic corporate photography for a private security company annual report. Shot on 35mm film, subtle grain, slightly desaturated colors with warm golden highlights and deep near-black shadows, occasional muted crimson accent. Low, warm side light or single-source interior light, strong contrast, calm and serious mood. Generous negative space for text overlay. No text, no logos, no watermarks, no flags. Documentary-style photograph, same color grading as the rest of the series, people only as silhouettes or from behind. An old typewriter with a sheet of paper, carbon copies, a rubber stamp and a sealed envelope on a desk in a dim office, a radio set in the background. The paper is blank or blurred. Everything is unbadged: no lettering, no readable text, no numbers, no brand names, no insignia, no flags. Main subject in the right half of the frame, the left half calmer and darker for text overlay. Aspect ratio 16:9. Match the color grading, light and grain of the reference image.",
+        "referentie": "HOME-01",
+        "instellingen": "aspectRatio 16:9, imageSize 4K"
+      }
+    },
+    {
+      "id": "NEWS-13",
+      "type": "ai",
+      "alt": "Een oude veldradio met de hoorn erop en een rood lampje, naast een kop koffie in een donkere kamer bij dageraad.",
+      "gebruik": "inzichten/stand-by-outlook-2026.php",
+      "uitsnede": "mobiel: 4:5 rond het focuspunt (x 0,6)",
+      "bron": {
+        "model": "gemini-3-pro-image",
+        "datum": "2026-11-10",
+        "prompt": "Cinematic corporate photography for a private security company annual report. Shot on 35mm film, subtle grain, slightly desaturated colors with warm golden highlights and deep near-black shadows, occasional muted crimson accent. Low, warm side light or single-source interior light, strong contrast, calm and serious mood. Generous negative space for text overlay. No text, no logos, no watermarks, no flags. Documentary-style photograph, same color grading as the rest of the series, people only as silhouettes or from behind. An old military field radio on a wooden table in a dark room at dawn, the handset resting on top, a small red indicator light glowing, a cup of coffee beside it. A sense of waiting. Everything is unbadged: no lettering, no readable text, no numbers, no brand names, no insignia, no flags. Main subject in the right half of the frame, the left half calmer and darker for text overlay. Aspect ratio 16:9. Match the color grading, light and grain of the reference image.",
+        "referentie": "HOME-01",
+        "instellingen": "aspectRatio 16:9, imageSize 4K"
+      }
     }
   ]
 }

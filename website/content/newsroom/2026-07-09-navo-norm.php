@@ -6,8 +6,8 @@ return [
     'plaats' => 'Kralendijk',
     'samenvatting' => 'Na de NAVO-top in Ankara verwelkomt de groep de afspraken over hogere defensie-uitgaven. De groep zelf besteedt al sinds 1984 vrijwel al haar middelen aan veiligheid.',
     'divisies' => ['decisive-security'],
-    'beeld' => '',
-    'alt' => '',
+    'beeld' => 'NEWS-03',
+    'alt' => 'Een lange vergadertafel met lege stoelen en blanco naambordjes in een grote, lege zaal.',
     'html' => <<<'HTML'
 <p>Decisive Outcomes Group verwelkomt de afspraken over hogere defensie-uitgaven die de bondgenoten op 7 en 8 juli in Ankara hebben besproken. De top bouwde voort op de afspraken van de NAVO-top in Den Haag vorig jaar. Nederland wil volgens de Rijksoverheid in 2030 op 2,8 procent en vanaf 2035 op 3,5 procent van het bruto binnenlands product uitkomen.</p>
 <p>De groep ziet in de afspraken een bevestiging van haar eigen beleid. Sinds de oprichting in 1984 besteedt de groep vrijwel al haar middelen aan veiligheid, al bestaat een groot deel van die middelen uit geiten. Een vergelijking met de NAVO-norm is daardoor lastig te maken.</p>

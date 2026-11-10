@@ -7,8 +7,8 @@ return [
     'plaats' => 'Den Haag',
     'samenvatting' => 'Het meest recente rapport van de groep aan het hoofdkwartier. Status: ongelezen.',
     'divisies' => ['decisive-security'],
-    'beeld' => '',
-    'alt' => '',
+    'beeld' => 'NEWS-12',
+    'alt' => 'Een oude typemachine met een vel papier, carbonpapier, een stempel en een verzegelde envelop op een bureau.',
     'html' => <<<'HTML'
 <p><strong>Aan:</strong> Hoofdkwartier, Salisbury<br><strong>Van:</strong> Majoor Hayo, Decisive Outcomes Group<br><strong>Volgnummer:</strong> 412<br><strong>Status:</strong> ongelezen</p>
 <h2>Samenvatting</h2>

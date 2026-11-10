@@ -6,8 +6,8 @@ return [
     'plaats' => 'Kralendijk',
     'samenvatting' => 'Ook na zevenenveertig jaar blijft de opdracht uit 1979 van kracht. De groep heeft geen aanleiding gevonden om de status te wijzigen.',
     'divisies' => ['decisive-security'],
-    'beeld' => '',
-    'alt' => '',
+    'beeld' => 'NEWS-04',
+    'alt' => 'Een gesloten donkere houten kist met ijzeren banden in een schemerige opslagruimte, in een smalle lichtbundel.',
     'html' => <<<'HTML'
 <p>Decisive Outcomes Group heeft bevestigd dat de opdracht uit augustus 1979 onverminderd wordt voortgezet. Het besluit werd genomen tijdens het jaarlijkse evaluatiemoment van de raad van bestuur, op maandag om 06.00 uur.</p>
 <p>De opdracht betreft de aflevering van een kist aan een contactpersoon in de provincie Manica. De contactpersoon is tot op heden niet verschenen. De opdracht is ook niet ingetrokken. Volgens de afdeling Strategie is de situatie daarmee ongewijzigd.</p>

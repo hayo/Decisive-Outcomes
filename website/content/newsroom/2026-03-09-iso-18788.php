@@ -6,8 +6,8 @@ return [
     'plaats' => 'Klein Klein Bonaire',
     'samenvatting' => 'De aanvraag van de groep voor certificering volgens ISO 18788 is nog altijd in behandeling. De groep blijft volledig beschikbaar voor vragen van de certificeerder.',
     'divisies' => ['decisive-security'],
-    'beeld' => '',
-    'alt' => '',
+    'beeld' => 'NEWS-01',
+    'alt' => 'Een stapel ordners en een aanvraagmap in een postbakje op een bureau, met een laagje stof erop.',
     'html' => <<<'HTML'
 <p>Decisive Outcomes Group heeft vandaag een update gegeven over haar aanvraag voor certificering volgens ISO 18788, de internationale norm voor particuliere beveiligingsorganisaties. De aanvraag werd ingediend in 2009 en is nog altijd in behandeling.</p>
 <p>De groep heeft in de afgelopen zeventien jaar alle gevraagde documenten aangeleverd, voor zover die werden gevraagd. Een eerdere aanvraag voor een kwaliteitskeurmerk werd afgewezen, omdat het kwaliteitsbeleid van de groep uit twee woorden bestond. Het bezwaar tegen die afwijzing loopt nog.</p>

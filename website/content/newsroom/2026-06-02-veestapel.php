@@ -6,8 +6,8 @@ return [
     'plaats' => 'Kralendijk',
     'samenvatting' => 'De veestapel van de groep telt opnieuw 412 geiten. Een externe commissie onderzoekt welke geiten op Bonaire van de groep zijn.',
     'divisies' => ['decisive-agri'],
-    'beeld' => '',
-    'alt' => '',
+    'beeld' => 'NEWS-02',
+    'alt' => 'Geiten rusten in de schaduw van een cactushaag in de droge struiken van Bonaire.',
     'html' => <<<'HTML'
 <p>Decisive Agri, de veehouderijdivisie van Decisive Outcomes Group, meldt voor het twintigste jaar op rij een stabiele veestapel van 412 geiten. Het aantal is gelijk gebleven aan dat van vorig jaar en het jaar daarvoor.</p>
 <p>De telling wordt bemoeilijkt doordat op Bonaire ook veel wilde geiten leven. Sinds de verhuizing van de veestapel naar het eiland onderzoekt een externe commissie welke geiten van de groep zijn. De commissie verwacht haar eindrapport binnen zes tot acht jaar.</p>

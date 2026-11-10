@@ -6,8 +6,8 @@ return [
     'plaats' => 'Den Haag',
     'samenvatting' => 'Nu Defensie groeit met reservisten, deelt de groep haar ervaring: het personeel van Decisive Outcomes staat sinds 1979 onafgebroken paraat.',
     'divisies' => ['decisive-people'],
-    'beeld' => '',
-    'alt' => '',
+    'beeld' => 'NEWS-08',
+    'alt' => 'Een rij bepakte rugzakken, helmen en kistjes tegen de muur van een stille kazernegang bij dageraad.',
     'html' => <<<'HTML'
 <p>Defensie groeit de laatste jaren sterk, voor een belangrijk deel dankzij reservisten. Het kabinet heeft deze zomer aangekondigd dat het de positie van reservisten bij hun gewone werkgever wil verduidelijken. Decisive Outcomes Group volgt deze ontwikkeling met belangstelling.</p>
 <p>De groep heeft ruime ervaring met langdurige paraatheid. De vier oprichters staan sinds augustus 1979 onafgebroken stand-by, in afwachting van nadere instructies. In die periode is het team nooit opgeroepen, maar ook nooit afgemeld.</p>

@@ -5,8 +5,8 @@ return [
     'datum' => '2026-10-26',
     'plaats' => 'Kralendijk',
     'samenvatting' => 'Met de overgang naar de wintertijd verandert er niets aan het tijdstip van het Stand-By-overleg. Wel schuift de divisie Benelux een uur eerder aan.',
-    'beeld' => '',
-    'alt' => '',
+    'beeld' => 'NEWS-07',
+    'alt' => 'Een wandklok die zes uur aanwijst, boven een tafel met een radio en een kop koffie in een donkere kamer.',
     'html' => <<<'HTML'
 <p>Decisive Outcomes Group bevestigt dat het wekelijkse Stand-By-overleg ook na de overgang naar de wintertijd op zondag 25 oktober om 06.00 uur begint. Het overleg vindt sinds 1979 plaats op maandag, volgens de tijd in Salisbury.</p>
 <p>Omdat in Salisbury geen zomer- of wintertijd geldt, verandert daar niets. Voor de divisie Benelux betekent de wintertijd wel dat het overleg voortaan om 05.00 uur Nederlandse tijd begint. De divisie heeft laten weten dat dit geen bezwaar is, omdat zij in het weekend toch al vroeg op het terrein staat.</p>
