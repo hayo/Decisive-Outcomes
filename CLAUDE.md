@@ -47,6 +47,7 @@ Gebruik deze feiten consequent en wijzig ze niet zonder overleg.
     - Arkadi Morozov: luchtvrachthandelaar in Sharjah, voormalig Sovjet-militair vertaler. Verzonnen figuur, geïnspireerd op Viktor Bout. Verkocht de Antonov en vliegt vracht voor de groep. Het team weigert zijn "andere vracht". In 2008 opgepakt in Bangkok, in 2022 vrij bij een gevangenenruil.
     - Gavin Laurie: de piloot van de Alouette in 1979, later gunshippiloot in Sierra Leone. Verzonnen figuur, geïnspireerd op Neall Ellis. Over 1979 zegt hij alleen dat hij landde bij de boom die op zijn kaart stond. Wie die kaart tekende, blijft open.
     - Ibrahim Kamara: vliegtuigtechnicus uit Sierra Leone, kent de helikopter beter dan iedereen. Werkt in 1998–1999 samen met Jochem.
+    - Annelies Brouwer: manager Corporate Communications in Kralendijk, verzonnen figuur. Zij zet de persberichten op de website. Haar frustratie over de raad van bestuur sijpelt droog door, vooral in de *Noot voor de redactie*: concepten die niet gelezen worden, verzoeken die naar het volgende overleg schuiven. Ze klaagt nooit openlijk.
     - Gebruik voor figuren die op echte mensen zijn gebaseerd altijd verzonnen namen.
 - **Tijdlijn:**
     - 1979: de kist moet naar een kruispunt in Manica. Het team wacht bij de verkeerde baobab.

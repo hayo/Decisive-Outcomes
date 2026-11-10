@@ -160,4 +160,6 @@ const KERNWAARDEN = [
     ['Betrouwbaarheid', 'De kist is nog dicht.'],
 ];
 
+const PERSCONTACT = 'Annelies Brouwer, Corporate Communications';
+
 const OVER_DE_GROEP = 'Decisive Outcomes Group levert sinds 1984 beveiliging, logistiek, horeca, vastgoed en veehouderij in complexe omgevingen, met kantoren in veertig landen en een hoofdkantoor op Klein Klein Bonaire. De groep staat sinds 1979 onafgebroken stand-by.';

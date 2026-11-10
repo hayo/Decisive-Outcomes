@@ -29,11 +29,17 @@ component('hero', ['label' => $i['soort'], 'kop' => $i['titel'], 'intro' => $i['
 <div class="e-content">
 <?= $i['html'] ?>
 </div>
+<?php if (!empty($i['noot'])): ?>
+<aside class="over">
+<h2 class="label">Noot voor de redactie</h2>
+<?= $i['noot'] ?>
+</aside>
+<?php endif ?>
 <?php if ($pers): ?>
 <aside class="over">
 <h2 class="label">Over <?= e(SITE_NAAM) ?></h2>
 <p><?= e(OVER_DE_GROEP) ?></p>
-<p>Voor persvragen: Postbus 1, Kralendijk.</p>
+<p>Voor persvragen: <?= e(PERSCONTACT) ?>, Postbus 1, Kralendijk.</p>
 </aside>
 <?php endif ?>
 <p><a href="/inzichten/">Alle inzichten</a></p>

@@ -17,6 +17,7 @@ Wat is besloten, wanneer en waarom. Nieuwe beslissingen komen bovenaan in de tab
 
 | Datum | Besluit | Reden |
 |---|---|---|
+| 2026-11-10 | Persberichten krijgen een optionele *Noot voor de redactie* en een perscontact: Annelies Brouwer, Corporate Communications (verzonnen). Daarin sijpelt haar frustratie over de raad van bestuur door. Een deel van de persberichten haakt in op het nieuws (NAVO-top, CBS-inflatie, wintertijd, reservisten), alleen op onderwerpen waar de grap bij het team ligt. | Echte persberichten hebben die opbouw, en de grap blijft in de bijzin. Actualiteit maakt de newsroom geloofwaardig. |
 | 2026-11-10 | Header met het witte beeldmerk en de woordnaam; volledig logo in de footer. Mobiel menu als `details`/`summary`, op desktop een rij via `::details-content`. | Strakker en meer corporate dan het ronde logo klein in de header. Het menu werkt zonder JavaScript. |
 | 2026-11-10 | Het logo mag ook als beeldmerk worden gebruikt: alleen het embleem, in wit, goud, zwart, metallic of de originele kleuren. | Afspraak van Hayo; past beter bij de PMC-stijl. |
 | 2026-11-10 | De website mag in kleur afwijken van het logo als dat beter past bij de PMC-stijl. Het logo blijft ongewijzigd; contrasteisen blijven gelden. | Echte PMC-sites gebruiken een neutrale basis met één accent; de logokleuren zijn daarvoor niet per se de beste keuze. |

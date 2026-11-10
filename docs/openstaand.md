@@ -23,6 +23,7 @@ Wat nog moet gebeuren voordat en nadat de site live gaat. Vink af wat klaar is e
 
 - [x] Eerste versie van de website gebouwd (10 november 2026): alle pagina's uit de sitemap, contactformulier, feed, sitemap.xml, `.htaccess` en deploy-workflow.
 - [ ] Concept-teksten op de website nalezen. Alle teksten zijn door Claude geschreven op basis van de canon; vooral de bestuursbio's moeten langs de teamleden (zie [toestemming.md](toestemming.md)).
+- [ ] De elf inzichten in de newsroom nalezen (concepten van Claude). Actuele berichten verouderen: kijk eens per kwartaal of ze nog kloppen.
 - [ ] Echte informatie voor *Meedoen met het airsoftteam* op Werken bij aanvullen: waar en wanneer het team speelt, wat iemand nodig heeft.
 - [ ] Privacyverklaring laten controleren, vooral de bewaartermijn (nu: uiterlijk een jaar) en de grondslag.
 - [ ] Besluiten of het volledige verhaal als pagina *Ons verhaal* op de site komt. Het is te groot voor het paginabudget en bevat nog niet-goedgekeurde personages.
