@@ -1,0 +1,271 @@
+# Decisive Outcomes — backstory
+
+## Intro voor de homepage
+
+In 1979 moest een team van vijf man een kist afleveren in Mozambique. De ontvanger kwam niet. De helikopter wel, maar die nam er maar één mee.
+
+Uit de vier die achterbleven groeide een wereldwijd concern. Decisive Outcomes Group is actief in veertig landen, met zeven divisies en een raad van bestuur. De opdracht uit 1979 loopt nog.
+
+Heeft u een probleem dat niemand anders kan oplossen? Neem contact op met **Decisive Outcomes**.
+
+## Deel 1 — Hoe het begon (1979–2005)
+
+Vier man, een kist en een baobab. Zo begon het.
+
+### Hoofdstuk 1 — De opdracht
+
+*Salisbury, augustus 1979*
+
+Het kantoor lag op de tweede verdieping van een gebouw zonder naambord, in een straat waar niemand toevallig langskwam. De ventilator aan het plafond draaide zijn trage rondjes en verplaatste de warmte van de ene hoek van de kamer naar de andere. Het land heette sinds juni officieel Zimbabwe-Rhodesië, maar niemand in dit gebouw had die naam ooit hardop gebruikt, en de man achter het bureau zag er niet uit als iemand die daarmee zou beginnen. Hij droeg een grijs pak dat te warm was voor het seizoen en hij stelde zich niet voor. Dat hoefde ook niet. Iedereen in de kamer wist dat hij van Special Branch was, en iedereen wist ook dat je zoiets niet zei.
+
+Voor het bureau stonden vijf mannen in een rij die niet helemaal recht was, omdat luitenant Frederik een halve meter naar achteren had moeten stappen om de anderen het zicht op de kaart niet te ontnemen. Frederik was opgegroeid op een tabaksboerderij bij Marandellas, waar hij op zijn twaalfde al boven zijn vader uitstak en op zijn zestiende de deurposten van het woonhuis begon te raken. Het leger had hem willen plaatsen bij de pantserwagens, maar hij paste er niet in, en omdat het leger een tekort had aan verkenners en een overschot aan logica die niemand gebruikte, was hij verkenner geworden: de grootste man van het regiment, ingezet voor het werk waarbij je vooral niet gezien mocht worden.
+
+Naast hem stond sergeant Hayo, de zoon van een landmeter uit Bulawayo, die als kind met zijn vader door het hele land was getrokken en kaarten kon lezen voordat hij kon fietsen. Hayo was scherpschutter en navigator, en hij was de enige in de kamer met een notitieboekje, waarin hij alles opschreef wat werd gezegd, en ook een paar dingen die niet werden gezegd maar wel bedoeld. Korporaal Jochem kwam uit Umtali, vlak bij de Mozambikaanse grens, waar hij als monteur elke motor had gerepareerd die hem werd gebracht, ook als er onderdelen ontbraken, en soms juist dan. Korporaal Robert was opgegroeid in het hotel van zijn ouders bij de Victoria-watervallen, waar hij Portugees had geleerd van de gasten en daarnaast iets wat in geen enkel leerboek stond: hoe je iets verkoopt aan iemand die niet van plan was iets te kopen.
+
+Helemaal links stond sergeant Nigel Pretorius, de radioman. Pretorius was altijd als eerste klaar met inpakken, altijd als eerste bij de deur en altijd net iets beter op de hoogte dan de rest. Niemand had daar ooit iets achter gezocht. Achteraf was het het eerste teken.
+
+Op het bureau stond een kist van donker hout, met ijzeren banden om de hoeken en een stempel op het deksel die iemand zorgvuldig had weggeschuurd. De man in het grijze pak legde zijn hand erop, zoals je een hand legt op iets wat van jou is en wat je toch moet weggeven. "Deze kist gaat naar een kruispunt in de provincie Manica," zei hij. "Daar wacht een contactpersoon. Hij zal u vragen of het ver is naar de zee. U antwoordt: niet als je de rivier volgt. Dan geeft u hem de kist, en daarna loopt u naar het ophaalpunt bij de grote baobab. Op dag acht, om vier uur 's middags, komt de helikopter."
+
+Frederik vroeg wat er in de kist zat. De man in het grijze pak keek hem lang aan, zo lang dat de ventilator nog twee keer rond kon draaien, en zei toen: "Dat staat niet in uw opdracht, luitenant." Hayo schreef het op, woord voor woord. Hij heeft dat boekje nog steeds, en hij leest die zin af en toe terug, alsof hij hoopt dat er op een dag iets anders zal staan.
+
+Twee nachten later staken ze de grens over, hoog in de bergen ten noorden van Umtali, waar het pad zo smal was dat ze achter elkaar moesten lopen. Jochem droeg de kist. Halverwege de helling gleden er koplampen over de weg in de vallei beneden, en vijf mannen en een kist lagen twintig minuten plat in het natte gras terwijl ergens in de verte een hond bleef blaffen, alsof hij precies wist wat er op de berg gebeurde. Toen de lichten verdwenen, stond Frederik op, groot en zwart tegen de sterrenhemel, en gaf het teken om verder te gaan. Niemand keek achterom. Dat was jammer, want vier van hen zouden Rhodesië nooit terugzien, en het land zelf zou nog geen jaar blijven bestaan.
+
+### Hoofdstuk 2 — Het kruispunt
+
+De tocht naar Manica duurde vier nachten. Ze liepen in het donker, over paden die Hayo uit zijn hoofd leek te kennen, en sliepen overdag onder struiken die net niet genoeg schaduw gaven om echt te slapen. Hayo navigeerde met kompas en kaart en had altijd gelijk, wat de anderen op den duur vermoeiender vonden dan wanneer hij af en toe ongelijk zou hebben gehad. Jochem droeg de kist, zonder te klagen en zonder te vragen hoe ver het nog was. Na de tweede nacht bood Robert aan om te ruilen. Jochem zei nee, op een toon die geen ruimte liet voor een vervolggesprek, en daarna bood niemand het ooit nog aan.
+
+In de derde nacht hoorden ze een vrachtwagen. Eerst was het een dof brommen, ver weg achter de heuvels, toen werd het luider en kwam het steeds dichterbij, tot het ergens beneden in de vallei ophield, precies op het punt waar ze een uur eerder overheen waren gestoken. Er werden portieren dichtgeslagen. Iemand riep iets. Toen startte de motor weer en verdween het geluid langzaam in de richting waar het vandaan was gekomen. Ze bleven nog een uur liggen zonder iets te zeggen. Pretorius had al die tijd zijn hand op de radio, niet om iemand op te roepen, maar zoals je je hand op iets legt waarvan je weet dat je het straks nodig zult hebben. Later zou Hayo in zijn boekje schrijven dat het hem toen al opviel. Hij wist alleen nog niet wat er precies was opgevallen.
+
+Het kruispunt lag precies waar de kaart zei dat het zou liggen: twee zandwegen die elkaar in een stoffige vlakte kruisten, een dichtgetimmerde winkel met een reclamebord waarop de kleuren al jaren aan het verdwijnen waren, en één boom, die eruitzag alsof hij daar alleen was blijven staan omdat niemand hem had gevraagd om weg te gaan. Verder was er niets. Ze installeerden zich aan de rand van het bos, met zicht op beide wegen, en begonnen te wachten.
+
+De eerste dag kwam er niemand. Alleen rond het middaguur liep er een vrouw langs met een kudde geiten. Ze liep rustig, alsof ze alle tijd van de wereld had, tot ze ter hoogte van de struiken kwam waarachter vijf gewapende mannen lagen. Daar bleef ze staan. Ze keek precies naar de plek waar ze lagen, niet ongeveer, maar precies, en ze keek lang genoeg om duidelijk te maken dat ze het wist. Toen liep ze door, zonder iets te zeggen, met haar geiten achter zich aan. Robert zei later dat hij op dat moment begreep wie er in deze streek werkelijk de baas was, en dat hij nooit meer iemand heeft ontmoet die het zo snel duidelijk maakte.
+
+De tweede dag stopte er tegen de avond een vrachtwagen. Een man stapte uit en keek zoekend om zich heen. Robert kwam half overeind en oefende in zijn hoofd de zin die hij al dagen klaar had liggen: *is het ver naar de zee?* De man liep naar de boom, plaste ertegen, stapte weer in en reed weg in een wolk van stof. Robert ging langzaam weer zitten. Niemand zei er iets over, die avond niet en ook niet in de veertig jaar daarna, en dat zegt meer over hun vriendschap dan alle andere verhalen bij elkaar.
+
+De derde dag begon het te regenen, niet hard, maar lang. Pretorius riep Salisbury op en kreeg na een kwartier ruis een kort antwoord: blijven wachten. Dus wachtten ze, in de regen, terwijl het licht langzaam uit de vlakte verdween. Toen het donker was, stond Frederik op. Hij was zo groot dat hij met zijn hoofd en schouders boven de struiken uitkwam, en hij wist dat, en hij deed het toch. "Morgen lopen we naar het ophaalpunt," zei hij. "De kist gaat mee. Hij is niet afgeleverd, dus hij is nog van ons." Jochem tilde de kist op zonder iets te vragen. Hij zou hem de komende veertig jaar niet meer uit het oog verliezen.
+
+### Hoofdstuk 3 — De verkeerde boom
+
+Op de ochtend van dag acht stonden ze op een heuvel boven een droge rivierbedding, en Hayo vouwde de kaart open met de rust van iemand die al weet wat hij gaat zeggen. "Daar," zei hij, en hij wees naar beneden. Onder hen stond een baobab, grijs en enorm, met een stam als een vat en takken die eruitzagen als wortels die per ongeluk in de lucht waren beland. Het probleem was dat er in de vallei nog zes van zulke bomen stonden, en dat er aan de overkant van de rivierbedding nog een stond die nog net iets groter was. Hayo keek er niet naar. Hij had in Salisbury een kruisje op de kaart gezet, en het kruisje stond bij deze boom.
+
+Pretorius keek er wel naar, en lang. Hij zei, op die vriendelijke, redelijke toon die hij altijd gebruikte als hij het ergens niet mee eens was, dat de coördinaten volgens hem bij de andere boom hoorden, aan de overkant, zo'n achthonderd meter verderop. Hayo antwoordde dat de coördinaten klopten, en dat de rest van de wereld zich daar dan maar aan moest aanpassen. Frederik luisterde naar allebei en nam toen een besluit, zoals hij dat altijd deed: snel, hardop en met het hele team erbij. Ze bleven hier, bij Hayo's boom. Pretorius mocht met de radio naar de overkant om te kijken, voor de zekerheid. Iedereen vond dat een verstandig compromis. Het was het laatste besluit dat ze met z'n vijven namen.
+
+Om tien voor vier hoorden ze de helikopter. Eerst was het een zoemen achter de heuvels, nauwelijks meer dan een gevoel, toen een harde, ritmische slag die je niet alleen hoorde maar ook in je borst voelde. Een Alouette kwam laag over de boomtoppen aanvliegen en maakte een wijde bocht boven de rivierbedding. Robert stond op en zwaaide met beide armen. Hayo pakte het spiegeltje uit zijn borstzak en ving de zon, en een flits van licht schoot over de vallei. De helikopter maakte nog een rondje, langzamer nu, kantelde iets, en zette toen de landing in. Bij de andere boom.
+
+Toen begonnen ze te rennen. Hayo en Robert voorop, over de stenen en door het droge gras, Frederik met grote passen erachter. Jochem kwam als laatste, met de kist op zijn schouder, en hij liep zo hard als iemand kan lopen met een kist op zijn schouder, wat niet heel hard is. Frederik keek om, zag hoe ver Jochem achter lag, en minderde vaart tot hij naast hem liep. Ze hadden de rivierbedding nog niet eens bereikt toen ze zagen hoe Pretorius instapte. Door zijn verrekijker zag Hayo hoe hij nog even in de deuropening bleef staan en hun kant op keek. Hij zag hen, dat wist Hayo zeker. Hij zei iets tegen de piloot. Toen ging de deur dicht, draaiden de rotoren sneller, en tilde de helikopter zich langzaam boven het stof uit.
+
+Robert had een kleine ontvanger in zijn rugzak, geen zender, alleen een ontvanger, die hij in Salisbury had meegenomen om naar het voetbal te kunnen luisteren. Hij zette hem aan en draaide aan de knop tot hij de frequentie had. Tussen het geruis door klonk de stem van Pretorius, rustig en duidelijk, alsof hij een weerbericht voorlas: *"Stand by."* Daarna niets meer. Alleen ruis, en het verdwijnende geluid van de rotoren boven de heuvels. Ze bleven nog een uur bij de andere boom staan, voor het geval dat. Toen zei Frederik: "Dan blijven we stand-by." Hayo schreef het op: *dag acht, 16.07 uur, stand by.* Onder die regel schreef hij nog iets, in kleinere letters, en dat staat er nog steeds: *boom was goed.*
+
+### Hoofdstuk 4 — Kamp Stand-By
+
+Terug naar huis lopen was geen optie. De grens werd bewaakt, aan beide kanten, door mensen die niet wisten wie ze waren en die ook niet van plan waren het eerst te vragen. Een week lang zwierven ze door de heuvels, op zoek naar water en naar een plek waar ze konden blijven zonder op te vallen, tot ze aan de rand van een vallei een cashewplantage vonden die er verlaten bij lag. Het woonhuis stond open. Op de keukentafel lag een Portugese krant uit 1975, opengeslagen bij een artikel over de onafhankelijkheid, met een kopje ernaast waarin de koffie al lang was opgedroogd. De eigenaar was blijkbaar halverwege zijn ontbijt vertrokken en had niet de moeite genomen om af te ruimen.
+
+Jochem had binnen een week de waterpomp aan de praat, en een week later ook de generator, die volgens alle regels van de techniek niet meer had mogen werken. Hayo tekende een kaart van de vallei waarop elke boom stond, en hij gaf de baobabs een nummer, zodat er nooit meer misverstanden over konden ontstaan. Frederik maakte een rooster voor de wacht en een rooster voor het koken, en hij hield zich aan allebei, wat niet van iedereen gezegd kon worden. De kist kreeg een eigen hut aan de rand van het erf, met een hangslot op de deur. Er was geen sleutel bij het slot, maar Jochem vond dat er een slot op moest, en niemand had zin om daarover in discussie te gaan.
+
+Robert ging naar het dorp verderop in de vallei, en daar zag hij haar terug: de vrouw met de geiten van het kruispunt. Ze heette Dona Esperança en ze bleek de hele streek te leiden, al had niemand haar daarvoor ooit gekozen en had ook niemand het ooit in twijfel getrokken. Ze sprak beter Portugees dan Robert, en ze onderhandelde ook beter, wat Robert pas begreep toen het al te laat was. Na drie uur praten, waarin vooral zij praatte, lag er een afspraak: de vier mochten op de plantage blijven als zij de cashewoogst binnenhaalden, en Esperança zou de noten verkopen op de markt in Chimoio. Robert vroeg wat de vier daar dan voor terugkregen. "Jullie blijven," zei ze, en ze keek hem aan alsof dat het meest vanzelfsprekende antwoord ter wereld was. Robert vond het een uitstekende deal. Pas maanden later besefte hij dat de plantage helemaal niet van haar was.
+
+Toen Jochem de waterpomp van het dorp repareerde, die al twee jaar stil had gestaan, kreeg hij als dank een geit. Het was de eerste betaling in de geschiedenis van het bedrijf, al bestond het bedrijf toen nog niet en zou het nog jaren duren voordat iemand het zo noemde. Hayo noteerde de geit in zijn boekje onder het kopje inkomsten. Frederik vond dat voorbarig, maar hij streepte het niet door. Er volgden meer reparaties, en meer geiten.
+
+In de eerste regentijd kreeg Frederik malaria. Hij paste niet in de hangmat, dus lag hij twee weken op de keukentafel, op de Portugese krant, terwijl de anderen hem om beurten water gaven en net deden alsof ze zich geen zorgen maakten. Op een nacht in 1981 kwam er een patrouille de vallei in, met zaklampen en harde stemmen. De vier lagen in het donker tussen de cashewbomen en hielden hun adem in, en Jochem lag met zijn rug tegen de hut van de kist. Esperança liep de soldaten tegemoet, in haar nachtjapon en met een stok in haar hand, en zei dat de plantage van haar was en dat ze moesten ophouden met lawaai maken. Dat was niet waar. Of eigenlijk was het inmiddels wel waar. De soldaten verontschuldigden zich en vertrokken.
+
+Elke maandag om zes uur 's ochtends was er overleg aan de keukentafel. Er stond één punt op de agenda: is er nieuws uit Salisbury? Robert luisterde de hele week naar de ontvanger, 's avonds laat en 's ochtends vroeg, tussen het voetbal en de muziek door. Er kwam nooit nieuws. Hayo schreef in de notulen: *geen nieuws, wij blijven stand-by.* Dat schreef hij vier jaar lang, elke week, in precies dezelfde woorden en in precies hetzelfde handschrift, en geen van de anderen heeft ooit voorgesteld om het anders te doen.
+
+### Hoofdstuk 5 — De kranten
+
+*Manica, maart 1983*
+
+Het nieuws kwam uiteindelijk in een kist met lege flessen. Esperança had ze opgekocht van een handelaar in Chimoio, vanwege het statiegeld, en had ze op een ezelkar naar de plantage laten brengen zodat Robert ze kon tellen. Elke fles was ingepakt in oude kranten, zorgvuldig, alsof iemand bang was dat ze zouden breken voordat ze leeg terug konden. Robert pakte ze een voor een uit, omdat hij nu eenmaal alles uitpakte, en las onder het werk de koppen hardop voor, zoals hij dat vroeger in het hotel van zijn ouders deed: een voetbaluitslag, een overstroming in Natal, een advertentie voor koelkasten met een vriesvak. Toen hield hij halverwege een zin op met lezen.
+
+Het was een Zuid-Afrikaanse krant van 19 april 1980. Op de voorpagina stond een grote foto van een vlag die langs een mast omhoog werd gehesen, in een stadion vol mensen. Eronder stond dat Rhodesië sinds die nacht Zimbabwe heette, dat de oorlog voorbij was en dat er een nieuwe regering was. Robert keek naar de datum, en toen nog eens. Drie jaar. In een andere krant, uit 1982, vond hij een klein bericht op pagina zeven, tussen de beursberichten en een recept: Salisbury heette voortaan Harare. Robert legde de kranten op de keukentafel, streek ze glad met de zijkant van zijn hand en riep de anderen. Zijn stem klonk anders dan anders, en ze kwamen meteen.
+
+Niemand zei lange tijd iets. Frederik ging buiten op het trapje voor het huis zitten, iets wat hij alleen deed als iets hem echt raakte, en keek over de vallei alsof hij daar iets verwachtte te zien. Hayo las de krant drie keer, van voor naar achter, legde hem daarna naast zijn eigen boekje om de data te controleren, en schreef toen twee regels op die hij later vaak zou citeren: *Rhodesië: opgeheven. Opdracht: niet ingetrokken.* Jochem stond op en liep zonder iets te zeggen naar de hut van de kist. Hij controleerde het slot, voelde of de deur nog goed dicht zat, en kwam pas na een kwartier terug. Robert begon hardop uit te rekenen hoeveel overuren ze sinds april 1980 hadden gemaakt, inclusief weekenden en feestdagen, en niemand vroeg hem om op te houden, wat meer zei dan alle andere reacties bij elkaar.
+
+Die maandag stond er voor het eerst in vier jaar een tweede punt op de agenda. Hayo had het er met potlood onder gezet: *wat nu?* Het overleg begon om zes uur en duurde tot ver in de middag. Teruggaan kon, in theorie, al wist niemand precies hoe. Maar teruggaan naar wat? Hun land bestond niet meer, hun leger was opgeheven of omgedoopt, en hun hoofdkwartier stond in een stad met een andere naam. En hun opdracht, zo bleef Hayo maar herhalen, was door niemand ingetrokken. "Een opdracht stopt pas als iemand zegt dat hij stopt," zei hij, met de nadruk van iemand die dit al jaren had willen zeggen. "En dat heeft niemand gezegd. Niemand heeft überhaupt iets gezegd."
+
+Frederik luisterde naar iedereen, uren lang, zonder te onderbreken. Toen stond hij op, en zoals altijd wanneer Frederik opstond, was de discussie daarmee voorbij. "We blijven stand-by," zei hij. "Maar we gaan wel werken." Hayo schreef het op. De notulen van die dag zijn de enige in veertig jaar die afwijken van de vaste tekst, en ze hangen tegenwoordig ingelijst in de vergaderzaal op Klein Klein Bonaire. Er staat: *geen nieuws uit Salisbury. Salisbury bestaat niet meer. Wij blijven stand-by.*
+
+### Hoofdstuk 6 — De eerste klant
+
+*Kamp Stand-By, april 1984*
+
+Over de naam werd drie maandagen achter elkaar vergaderd, en het waren lange maandagen. Robert had een lijst met twintig voorstellen, waarvan de helft in het Portugees en een paar in een taal die hij zelf had bedacht omdat het "internationaal" klonk. Hayo wilde per se iets met een afkorting, omdat afkortingen volgens hem officiëler overkwamen en lastiger te onthouden waren voor de vijand. Jochem had geen mening, zei dat ook, en ging verder met het repareren van de generator. Uiteindelijk was het Frederik die de knoop doorhakte. Hij schreef twee woorden op de achterkant van een sigarendoos: Decisive Outcomes. "Het klinkt alsof we weten wat we doen," zei hij. Hayo merkte op dat dat een risico was. Frederik zei dat het een kans was. De naam bleef, en de discussie over welke van de twee gelijk had, loopt eigenlijk nog steeds.
+
+Op 1 april 1984 werd het bedrijf opgericht, aan de keukentafel, met de Portugese krant van 1975 als onderlegger. Robert schreef de statuten in zijn mooiste handschrift op de achterkant van die krant, omdat er geen ander papier was dat groot genoeg was. Daarna, als eerste besluit van de nieuwe onderneming, gaf het team zichzelf promotie. Frederik werd kolonel, Hayo majoor, Jochem en Robert kapitein. Er was niemand aanwezig om bezwaar te maken, en dat werd in de notulen ook netjes zo vastgelegd. Hayo stuurde de oprichtingspapieren per aangetekende post naar het ministerie van Defensie in Salisbury, al wist hij inmiddels dat die stad niet meer zo heette. Er kwam nooit een antwoord. Hayo beschouwt dat tot op de dag van vandaag als stilzwijgende goedkeuring.
+
+Twee weken later reed er een auto de vallei in. Het was een witte Peugeot vol stof, en er stapten twee mannen uit: een advocaat uit Beira met een aktetas, en een oudere man in een gekreukt linnen pak die met grote ogen om zich heen keek. Het was Senhor Almeida, de eigenaar van de plantage. Hij kwam zijn ontbijt afmaken, zei hij, en hij kwam zijn grond terughalen. Even was het heel stil op het erf. Vier gewapende mannen in versleten uniformen stonden tegenover één man in een linnen pak en een advocaat die zijn aktetas tegen zich aan drukte alsof die hem kon beschermen. Iedereen dacht hetzelfde, en niemand zei het hardop.
+
+Robert was de eerste die bewoog. Hij liep naar voren met een kan koffie en vijf kopjes, en vroeg of Senhor Almeida misschien even wilde gaan zitten. Esperança verscheen uit het niets en ging er zonder uitnodiging bij zitten, aan het hoofd van de tafel. Het gesprek duurde de hele middag en een deel van de avond, en er werd veel gelachen, vooral door Esperança. Aan het eind lag er een contract op tafel. Het team gaf de plantage netjes terug aan Almeida. Almeida huurde het team daarna in om zijn plantage te bewaken, want de streek was nog lang niet veilig. En het team huurde vervolgens het woonhuis van Almeida, voor precies hetzelfde bedrag als de bewaking opleverde. Robert noemde het een gesloten kringloop en was er bijzonder trots op. Esperança kreeg een commissie over beide contracten. Zij was de enige die er werkelijk iets aan verdiende, en dat wist iedereen aan tafel behalve Robert.
+
+Die avond schreef Hayo bij het licht van een olielamp de eerste factuur in de geschiedenis van het bedrijf. Nummer 0001, met het bedrag in Rhodesische dollars, omdat het bedrijf nu eenmaal in Rhodesië was ingeschreven en hij principieel consequent wilde zijn. Almeida betaalde de factuur een jaar later, niet in geld, maar met een klein bedrijf dat hij nog had aan het Kariba-meer: een fabriekje voor gedroogd vlees dat al jaren verlies maakte en waar hij vanaf wilde. Het team accepteerde zonder lang na te denken. Zo kreeg Decisive Outcomes zijn eerste dochteronderneming, en zo begon een traditie die het bedrijf zou vormen: nooit geld aannemen als je ook iets anders kunt krijgen. Het fabriekje maakt nog steeds verlies.
+
+### Hoofdstuk 7 — De kerstkaart
+
+*Kamp Stand-By, december 1989*
+
+In tien jaar tijd had Kamp Stand-By nooit post gekregen. Er was geen adres, er was geen postbus, en er liep geen weg naartoe die op een officiële kaart stond, alleen op die van Hayo. Daarom keek iedereen verbaasd op toen de kleinzoon van Esperança een week voor kerst op zijn rammelende fiets het erf op kwam, met een envelop die hij voor zich uit hield alsof die elk moment kon ontploffen. Er stond geen afzender op. Op de voorkant stonden alleen vier namen, in een net en regelmatig handschrift, met de juiste rangen erbij. Niet de rangen van 1979, maar de nieuwe.
+
+In de envelop zat een kerstkaart. Op de voorkant stond een kleurenfoto van een baobab in het warme licht van de late middag, met een droge rivierbedding op de voorgrond. Binnenin stond, in hetzelfde nette handschrift: *Prettige feestdagen en een voorspoedig 1990. Hartelijke groeten uit Pretoria.* Daaronder een naam die ze in tien jaar niet hardop hadden uitgesproken, ook niet tegen elkaar: *N. Pretorius.* Uit de envelop viel ook een visitekaartje, stevig papier met een reliëfdruk. Pretorius was tegenwoordig directeur operaties bij een jong bedrijf in Zuid-Afrika dat zich bezighield met "veiligheidsadvies en training". Het heette Executive Outcomes.
+
+Frederik las de naam twee keer, de tweede keer langzamer. "Dat is onze naam," zei hij. Hij liet een stilte vallen. "Bijna." Robert schreef diezelfde avond nog een brief over het gebruik van de naam, beleefd maar onmiskenbaar duidelijk, met verwijzing naar de oprichtingsdatum en de statuten op de achterkant van de Portugese krant, en hij stuurde hem naar het adres op het visitekaartje. Er kwam geen antwoord. Hayo legde ondertussen de foto naast zijn kaart en naast zijn notitieboekje, en bestudeerde alle drie een uur lang met een vergrootglas. Toen concludeerde hij dat het de andere baobab was, de baobab van de helikopter. Daarna concludeerde hij, met dezelfde zekerheid, dat de foto vanuit een misleidende hoek was genomen.
+
+Maar het was niet de naam die hen die nacht wakker hield, en ook niet de baobab. Het was de vraag hoe Pretorius wist waar ze zaten. Niemand had het hem verteld. Niemand had het aan wie dan ook verteld, in tien jaar niet. Frederik lag op zijn rug naar het plafond te kijken. Hayo zat aan de keukentafel en schreef lijsten met namen van mensen die het misschien hadden kunnen weten, en streepte ze een voor een weer door. Om twee uur 's nachts stond Jochem op, trok zijn laarzen aan en liep naar de hut van de kist. Hij ging met zijn rug tegen de deur zitten en bleef daar tot het licht werd.
+
+Pas de volgende ochtend, bij de koffie, draaide Robert de kaart om. Hij deed het meer uit gewoonte dan uit nieuwsgierigheid, zoals hij ook altijd de achterkant van facturen las. Op de achterkant stond in kleine letters, bijna onderaan, nog één zin. Robert las hem, legde de kaart op tafel en schoof hem zonder iets te zeggen naar de anderen. Die zin is de reden dat er sinds december 1989 dag en nacht iemand bij de kist staat. Er stond: *Hoe gaat het met de kist?*
+
+### Hoofdstuk 8 — Kinshasa
+
+*Zaïre, september 1991*
+
+De telefoon in het postkantoor van Chimoio, die het team sinds een paar jaar tegen een kleine vergoeding mocht gebruiken, ging op een dinsdagmiddag. Aan de andere kant van de lijn zat een Belg, die het nummer had gekregen van iemand in Lubumbashi, die het weer had van een kennis in Harare, die niet meer precies wist van wie hij het had. In Kinshasa waren soldaten de straat op gegaan omdat ze al maanden geen loon hadden gekregen, en wat begon als een protest was binnen een dag veranderd in iets wat niemand meer in de hand had. Winkels werden leeggehaald, kantoren in brand gestoken. Belgische en Franse militairen waren ingevlogen om buitenlanders de stad uit te halen. Maar ze haalden alleen mensen op, geen spullen. En de man aan de telefoon had een frituur.
+
+"Een frituur," herhaalde Robert, langzaam, om zeker te weten dat hij het goed had verstaan. De man legde geduldig uit dat het niet zomaar een frituur was. Het was de beste frituur van Centraal-Afrika, en wie daar anders over dacht, had er nooit gegeten. Er stond een frietketel uit Roeselare, met de hand gemaakt, en er stond een vat saus waarvan het recept sinds 1962 in de familie was en dat nog nooit iemand buiten de familie had gezien. Hij wilde dat het team de frituur evacueerde. Niet hemzelf, de frituur. Robert noemde een prijs. De man zei ja voordat Robert zijn zin had afgemaakt. Dat was het eerste moment in zijn carrière waarop Robert dacht dat hij te laag had ingezet. Het zou zeker niet het laatste zijn.
+
+Ze vlogen naar Brazzaville en staken bij zonsopgang met een gehuurde boot de Kongo over, een rivier zo breed dat de overkant de eerste twintig minuten niet meer was dan een grijze streep. De stad was stil op de manier waarop een stad stil is als iedereen binnen zit en van achter de gordijnen naar buiten kijkt. Jochem reed de vrachtwagen die Robert in de haven had geregeld, op een manier waar niemand later meer naar vroeg. Hayo zat achterin met een verrekijker en zei alleen iets als het nodig was, en het was niet vaak nodig. Bij de frituur klom hij via een regenpijp op het platte dak en ging daar liggen, met zicht op de hele straat. Hij hoefde niet te schieten. Hij moest kijken, en kijken kon hij beter dan wie ook.
+
+Jochem had de frietketel binnen veertig minuten los, met gereedschap dat hij in Umtali had leren gebruiken en dat hij sindsdien nooit meer had weggelegd. Het vat saus kostte meer tijd, omdat het volgens de eigenaar onder geen beding mocht kantelen. Halverwege kwam er een groep mannen de straat in lopen. Ze hadden geweren en ze hadden haast, en ze keken naar de vrachtwagen voor de deur zoals je kijkt naar iets waar je nog niet aan had gedacht. Frederik stond in de deuropening van de frituur. Hij deed niets. Hij stond alleen op, heel langzaam, tot hij helemaal rechtop stond en de bovenkant van de deurpost raakte. De mannen bleven staan. Ze keken naar hem, en toen naar elkaar, en toen liepen ze zonder een woord de volgende straat in.
+
+De eigenaar zelf stond niet in het contract, maar Robert vroeg hem toch of hij mee wilde in de vrachtwagen. De man bedankte vriendelijk en zei dat hij met de Belgische militairen zou meegaan, omdat die rechtstreeks naar Brussel vlogen. Hij was twee dagen later thuis. Zijn frietketel kwam drie maanden later aan, via de haven van Beira en een omweg langs Kamp Stand-By. De frituur in Kinshasa is daarna nooit meer opengegaan. De eigenaar betaalde de factuur met het pand, de ketel en het recept, en schreef er een briefje bij dat hij nooit meer naar Afrika ging. Het recept ligt tegenwoordig in de kluis op Klein Klein Bonaire, naast de kist. Het is het enige document in de hele groep dat nog beter wordt bewaakt.
+
+### Hoofdstuk 9 — Freetown
+
+*Sierra Leone, april 1995*
+
+De regering van Sierra Leone zocht een bedrijf dat de diamantvelden in het oosten van het land kon beveiligen, en het moest snel gebeuren. Er waren drie inschrijvers, en voor het eerst in zijn bestaan was Decisive Outcomes er een van. Robert had drie weken aan de presentatie gewerkt, op doorzichtige vellen voor de overheadprojector, met grafieken die hij met de hand had ingekleurd. Hayo had de cijfers gemaakt, tot op de laatste cent, en elke berekening drie keer gecontroleerd. Frederik zou het verhaal vertellen, omdat hij de enige was die een zaal stil kon krijgen zonder zijn stem te verheffen. En Jochem zou de projector aan de praat houden, want ervaring had geleerd dat het daar meestal misging.
+
+De presentatie ging verrassend goed. De minister knikte op de juiste momenten en maakte aantekeningen, en zelfs de projector deed wat hij moest doen. Tot de laatste sheet. Daar stond de prijs, groot en vetgedrukt, in Rhodesische dollars. Hayo had daarop gestaan, ondanks de bezwaren van Robert. Het bedrijf was ingeschreven in Rhodesië, dus de boekhouding werd gevoerd in Rhodesische dollars, en dat was volgens Hayo geen kwestie van mening maar van consequent zijn. De minister zette zijn bril af, poetste hem langzaam op met een zakdoek, en vroeg vriendelijk naar de wisselkoers. Het werd zo stil in de zaal dat je de ventilator kon horen. Niemand wist het antwoord. Er bestond ook geen wisselkoers, om de eenvoudige reden dat er al vijftien jaar geen Rhodesische dollars meer bestonden. Robert zei dat ze op dat punt "heel flexibel" waren. Dat bleek niet genoeg.
+
+Die avond zaten ze met z'n vieren aan de bar van het hotel aan het strand, onder een ventilator die draaide maar niet hielp. Buiten ging de zon onder in de zee en binnen zei niemand veel. Toen ging de deur open en kwam er een man binnen in een lichtblauw poloshirt met een logo op de borst. Hij was ouder geworden, bruiner en iets breder, maar hij liep nog precies zoals vroeger: rechtop, zonder haast, alsof hij als eerste klaar was met inpakken en nu rustig op de anderen kon wachten. Frederik zag hem als eerste en stond op. Hij deed het langzaam, tot hij helemaal rechtop stond. Pretorius bleef niet staan, zoals de mannen in Kinshasa. Hij liep gewoon door naar de bar.
+
+"Kolonel," zei hij, en hij knikte naar Frederik. "Gefeliciteerd met de promotie." Niemand zei iets terug. Robert keek naar zijn glas, Jochem naar de deur. Toen zei Hayo, zonder op te kijken: "Het was de verkeerde boom." Pretorius keek hem aan met iets wat bijna op medelijden leek. "Het was de goede boom, Hayo," zei hij zacht. "Dat weet je." Hij bestelde een biertje en vertelde, op een toon alsof hij het weerbericht voorlas, dat Executive Outcomes de opdracht had gekregen en dat er de volgende ochtend getekend werd. Hij zei het niet om te pesten. Hij zei het zoals je iemand vertelt dat het morgen gaat regenen.
+
+Toen hij zijn biertje op had, boog hij zich naar Jochem toe, die naast hem zat en nog geen woord had gezegd. "Weet je wat ik nooit heb begrepen?" zei hij, zo zacht dat alleen Jochem het kon horen, al hoorden de anderen het ook. "Toen ik in 1979 terugkwam in Salisbury, vroeg niemand waar jullie waren. Niemand. Ze vroegen alleen naar de kist." Hij legde een stapel bankbiljetten op de bar, genoeg voor alle vijf de rekeningen, knikte nog één keer en liep naar buiten, de warme avond in. Lange tijd zei niemand iets. Toen zei Robert: "Hij heeft betaald." Frederik knikte langzaam. "Dan was het in elk geval geen verlies." Jochem zei helemaal niets. Hij stond op, liep naar de receptie en boekte de eerste vlucht terug naar de kist.
+
+### 1986–2004: Wapenfeiten
+
+In de eerste twintig jaar werkte het team in Afrika, Zuid-Amerika en op de Balkan. Een selectie uit het projectportfolio:
+
+| Jaar | Land | Opdracht | Resultaat |
+|---|---|---|---|
+| 2004 | Equatoriaal-Guinea | Uitnodiging voor een "zakenreis" | Afgewezen na risicoanalyse. Achteraf de beste beslissing van dat decennium. |
+| 1998 | Bolivia | Gestolen lama terugvinden | Binnen budget. Ruim buiten de planning. |
+| 1997 | Albanië | Geld terughalen uit een piramidespel | Geld omgezet in een nieuwe belegging. |
+| 1996 | Colombia | Beveiliging van tv-opnames in Bogotá | Afgerond. Klant gaf een 8. |
+| 1995 | Sierra Leone | Beveiliging van diamantvelden | Niet gegund. Zie de vete. |
+| 1994 | Bosnië-Herzegovina | Bewaking van een pruimenstokerij | Zonder incidenten. Voorraad bij oplevering iets lager dan bij de start. |
+| 1991 | Zaïre | Evacuatie van een Belgische frituur uit Kinshasa | Frituur geëvacueerd. De eigenaar viel buiten de scope. |
+| 1989 | Angola | Bewaking van een diamantmijn | Afgerond. De mijn bleek een kwartsmijn. Betaald in natura. |
+| 1986 | Malawi | Begeleiding van een kudde koeien | Opgeleverd met 108 procent van de koeien. Afwijking niet verklaard. |
+
+### Hoofdstuk 10 — Van kamp naar concern
+
+*Kralendijk, 2005*
+
+Na Freetown veranderde er iets, al had niemand er een woord voor. Jochem wilde de kist weg uit Mozambique, en hij zei het op de maandagochtend na hun terugkeer zo vastberaden dat er niet eens over gestemd hoefde te worden. Als Pretorius wist waar Kamp Stand-By lag, dan wisten anderen het misschien ook, en die anderen stuurden misschien geen kerstkaarten. Er moest een plek komen die niemand kon vinden. Het antwoord kwam vier jaar later, in 1999, op een warme avond in een bar op Bonaire, waar Robert een potje kaarten won van een man die beweerde dat hij een eiland bezat. Het eiland stond op geen enkele kaart. Bij hoog water was het veertig vierkante meter groot, bij laag water bijna een hectare. Robert belde Jochem dezelfde nacht nog. Jochem vond het perfect. De kist verhuisde nog datzelfde jaar, in een zeecontainer waarop als lading stond vermeld: *keukenapparatuur, Belgisch.* Dat was niet eens helemaal gelogen, want de frietketel ging mee.
+
+Intussen groeide het bezit, langzaam maar onstuitbaar, zoals schimmel of bureaucratie. Klanten betaalden zelden in geld. Ze betaalden met wat ze hadden, en wat ze hadden was meestal iets waar ze zelf vanaf wilden: een kwartsmijn in Angola die eigenlijk een diamantmijn had moeten zijn, een pakket Albanese aandelen dat bij aankomst al de helft van zijn waarde kwijt was, een uitzendbureau op Bonaire dat precies failliet ging op de dag dat Robert het overnam. En er waren de geiten. Er waren altijd geiten. Hayo hield alles bij in een schrift met de titel *Activa*, met een aparte bladzijde voor elke geit. In 2004 was het schrift vol, en het tweede schrift ook.
+
+In het voorjaar van 2005 zaten de vier in de wachtkamer van een notaris in Kralendijk, in pakken die Robert speciaal voor de gelegenheid had laten maken. Robert had een plan: alle bezittingen samenbrengen in één holding, met een raad van bestuur, een organogram en een logo. De notaris, een zorgvuldige man met een leesbril op het puntje van zijn neus, nam de papieren door, regel voor regel, en knikte af en toe. Tot hij bij het land van vestiging kwam. Hij keek op over zijn bril. "Rhodesië bestaat niet," zei hij. Hayo knikte begrijpend. "Dat zegt iedereen," zei hij. De notaris keek van Hayo naar Frederik. Frederik ging staan, langzaam, tot hij helemaal rechtop stond. De notaris tekende.
+
+Zo ontstond Decisive Outcomes Group. Het team noemt het sindsdien groei door overnames, en zo staat het ook in elk jaarverslag. De boekhouder noemt het liever een betalingsachterstand die uit de hand is gelopen, maar de boekhouder zit niet in de raad van bestuur. Het organogram paste vanaf die dag niet meer op één A4. Het team besloot niet om het organogram te vereenvoudigen, maar om voortaan A3 te kopen.
+
+Die maandag om zes uur 's ochtends was er gewoon overleg, net als elke maandag sinds 1979, alleen nu in een vergaderzaal met airconditioning en uitzicht op zee. Er stond nog steeds één vast punt op de agenda, en Hayo schreef in de notulen de vertrouwde woorden: *geen nieuws uit Salisbury. Wij blijven stand-by.* Daaronder voegde hij, na enige aarzeling en voor het eerst in zesentwintig jaar, een tweede regel toe: *Wij zijn nu een concern.* Toen ging de vergadering verder met het volgende punt, en het punt daarna, en zo werd het een gewone werkweek. De kist stond in de kamer ernaast. Er stond iemand bij.
+
+## Deel 2 — Decisive Outcomes Group vandaag
+
+Wie vandaag het hoofdkantoor van Decisive Outcomes Group bezoekt, als hij het tenminste kan vinden, treft een concern aan dat in niets meer lijkt op de cashewplantage in Manica. Er is een vergaderzaal met airconditioning, er is een organogram op A3, en er is een jaarverslag met grafieken die Robert nog altijd met de hand inkleurt. Wat er niet veranderd is, zijn de vier mannen aan het hoofd, de maandagochtend om zes uur, en de kist in de kamer ernaast. Dit deel beschrijft hoe de groep vandaag werkt, of in elk geval hoe zij zelf denkt dat ze werkt.
+
+### Kerncijfers
+
+De groep publiceert elk jaar een beperkt aantal kerncijfers. Ze worden opgesteld door Hayo, gecontroleerd door Hayo en goedgekeurd door de raad van bestuur, die ze vervolgens doorstuurt naar Salisbury.
+
+| Kerncijfer | Waarde | Toelichting |
+|---|---|---|
+| Landen met activiteiten | 40 | Inclusief landen met alleen een postbus. |
+| Divisies | 7 | Zie hieronder. |
+| Medewerkers | 4 vast, ruim 3.000 flexibel | Flexibel via Decisive People. |
+| Veestapel | 412 geiten | Waardering: nog niet bekend. |
+| Afgeronde opdrachten | 100 procent | Exclusief de opdracht uit 1979. Die loopt nog. |
+| Klanttevredenheid | Niet gemeten | Bewuste keuze sinds 1986. |
+| Omzet | Niet openbaar | Deels in geiten. |
+
+### Raad van bestuur
+
+De raad van bestuur bestaat uit dezelfde vier mannen die in 1979 bij de verkeerde boom achterbleven. Ze hebben inmiddels titels die in het Engels beter klinken dan in het Nederlands, maar in de praktijk doen ze nog ongeveer wat ze altijd deden.
+
+**Kolonel Frederik, Chief Executive Officer**, is voorzitter van de raad van bestuur en lid van alle commissies, ook van de commissie die toezicht houdt op de raad van bestuur. Hij gelooft in een platte organisatie, met zichzelf bovenaan, en hij heeft in veertig jaar ontdekt dat de meeste onderhandelingen sneller verlopen als hij gaat staan. Hij tekent elk contract persoonlijk. Volgens Robert leest hij ze ook, maar meestal pas achteraf.
+
+**Majoor Hayo, Chief Strategy Officer**, schrijft elke vijf jaar een nieuw meerjarenplan, in een dikke map met tabbladen en een inhoudsopgave. Sinds 1984 is de kern van elk plan hetzelfde gebleven: stand-by. Daarnaast leidt hij de afdeling Precisieadvies, die klanten adviseert op afstand, meestal op grote afstand, en is hij in zijn eentje de afdeling Compliance. Na elke opdracht stuurt hij een rapport naar het hoofdkwartier in Salisbury. Het zijn er inmiddels 412, hetzelfde aantal als de geiten, wat volgens Hayo toeval is. Op geen van de rapporten is ooit antwoord gekomen, maar Hayo heeft geduld; dat is tenslotte zijn vak.
+
+**Kapitein Jochem, Chief Operating Officer**, is verantwoordelijk voor het wagenpark, de luchtvloot en het vastgoed. Het wagenpark bestaat uit twee Land Rovers uit 1971, de luchtvloot uit een Antonov die niet vliegt, en het vastgoed uit een eiland dat bij hoog water grotendeels verdwijnt. Elk jaar schrijft Jochem een vervangingsplan voor het wagenpark, dat elk jaar unaniem wordt goedgekeurd en nooit wordt uitgevoerd. Volgens zijn functieomschrijving is hij ook verantwoordelijk voor de kist, en daar staat in twee woorden wat dat inhoudt: dragen en bewaken.
+
+**Kapitein Robert, Chief Commercial Officer**, doet de verkoop, de contracten en de relatie met de aandeelhouders. Dat laatste is minder werk dan het klinkt, want er zijn vier aandeelhouders en ze zitten alle vier in de raad van bestuur. Robert noemt elke afwijzing een warme lead en elke verloren aanbesteding een leermoment. Zijn pijplijn is sinds 1995 uitstekend gevuld. Dat er nog weinig uit is gekomen, ziet hij als bewijs dat de pijplijn nog niet vol genoeg is.
+
+### Divisies
+
+De groep is opgedeeld in zeven divisies. Op papier is dat een zorgvuldig doordachte structuur, met elk een eigen kerntaak en een eigen plek in het organogram. In werkelijkheid begon bijna elke divisie als een betaling van een klant die geen geld had, of die geen zin had om het uit te geven. De raad van bestuur ziet daar geen probleem in. Volgens Robert is het precies wat andere concerns een gediversifieerde portefeuille noemen; het enige verschil is dat Decisive Outcomes er nooit voor heeft hoeven betalen.
+
+| Divisie | Wat ze doet | Ontstaan uit |
+|---|---|---|
+| Decisive Security | Beveiliging, bewaking en evacuatie | Kamp Stand-By, 1979 |
+| Decisive Hospitality | Horeca en safari's | Kariba Biltong (1985) en een Belgische frituur (1991) |
+| Decisive Mining | Grondstoffen | Een kwartsmijn in Angola, 1989 |
+| Decisive Capital | Beleggingen | Albanese aandelen, 1997 |
+| Decisive Real Estate | Vastgoed | Klein Klein Bonaire, 1999 |
+| Decisive People | Uitzendwerk | Uitzendbureau Flamingo Flex, 2001 |
+| Decisive Agri | Veehouderij | 412 geiten, diverse jaren |
+
+### Medewerkers
+
+Decisive Outcomes Group heeft vier vaste medewerkers, en dat zijn er sinds 1979 altijd vier geweest. Alle anderen die ooit voor de groep hebben gewerkt, en dat zijn er inmiddels een paar duizend, komen via Decisive People, het uitzendbureau op Bonaire dat Robert in 2001 overnam op de dag dat het failliet ging. Zij krijgen een contract per dag. Het contract is in het Portugees, omdat Robert ooit zo heeft leren onderhandelen en omdat hij vindt dat een contract dat je niet helemaal begrijpt meer indruk maakt.
+
+Iedere nieuwe medewerker tekent op de eerste dag een geheimhoudingsverklaring over de kist. Omdat niemand weet wat erin zit, ook de raad van bestuur niet, wordt die verklaring vrijwel nooit geschonden. De afdeling Compliance beschouwt dit als het succesvolste beleid van de groep. Wie drie opdrachten zonder incidenten afrondt, krijgt een geit uit de eigen veestapel. Dit heet het Geitenplan, het is de enige secundaire arbeidsvoorwaarde, en het is volgens de jaarlijkse enquête onder medewerkers ook de populairste.
+
+### Bedrijfsvoering
+
+De groep wordt bestuurd door een raad van bestuur van vier leden, onder toezicht van een raad van commissarissen van vier leden. Het zijn dezelfde vier mensen. Ze vergaderen wel op een ander tijdstip en aan een andere kant van de tafel, en Hayo houdt voor beide raden aparte notulen bij, zodat niemand de groep kan verwijten dat bestuur en toezicht door elkaar lopen.
+
+Het belangrijkste overleg is nog altijd het Stand-By-overleg, elke maandag om zes uur 's ochtends. Het wordt gehouden sinds augustus 1979 en heeft nog nooit een week overgeslagen, ook niet tijdens de malaria, de regentijd of de evacuatie van Kinshasa. Er staat één vast punt op de agenda: is er nieuws uit Salisbury? Pas daarna gaat de vergadering over andere zaken.
+
+Risico's worden bijgehouden op een risicokaart die in de vergaderzaal hangt. Bovenaan staat al veertig jaar hetzelfde risico: de kist gaat open. De kans wordt ingeschat als laag, de gevolgen als onbekend, en de beheersmaatregel is dat er altijd iemand bij staat. Op het gebied van duurzaamheid is de groep stiller dan de meeste concerns, maar niet minder trots. Het wagenpark is sinds 1971 niet vervangen, wat in de sector als een record geldt. De Antonov vliegt niet en heeft daardoor de laagste CO2-uitstoot van de hele luchtvaart. En het groenonderhoud op Bonaire wordt al jaren volledig verzorgd door de geiten.
+
+Klachten kunnen schriftelijk worden ingediend bij Postbus 1 in Kralendijk. Elke klacht wordt serieus genomen, zorgvuldig gelezen en in een map gelegd. De behandeltermijn is zes tot acht jaar, wat volgens de groep geen gebrek is maar een teken van grondigheid.
+
+### Financiën
+
+De groep rapporteert in drie munteenheden: Amerikaanse dollars, Rhodesische dollars en geiten. Er bestaat geen wisselkoers tussen de drie, en volgens Hayo maakt dat het jaarverslag juist overzichtelijk, omdat niemand de bedragen kan optellen en er dus ook niemand een rekenfout kan vinden. De boekhouder, die al sinds 1986 voor de groep werkt en nog nooit een jaarrekening heeft kunnen afsluiten, is het daar niet mee eens, maar de boekhouder zit niet in de raad van bestuur.
+
+De kist uit 1979 staat op de balans als reserve. De inhoud is onbekend, en de waarde dus ook. Volgens de boekhouder is dat geen probleem, zolang niemand hem openmaakt; op het moment dat iemand dat wel doet, wordt de balans in één klap ofwel heel goed ofwel heel slecht. Decisive Hospitality, de divisie die begon met het fabriekje van Senhor Almeida, maakt sinds 1985 elk jaar verlies. De raad van bestuur noemt dat een strategische keuze en heeft het verlies in elk meerjarenplan opgenomen als doelstelling. De jaarrekening van de groep is daardoor nog nooit goedgekeurd. Hij is ook nog nooit afgekeurd.
+
+### Sancties en compliance
+
+Decisive Outcomes Group houdt zich aan alle regels, ook aan regels die al lang niet meer bestaan. Dat begon in december 1979, toen de Verenigde Naties de sancties tegen Rhodesië ophieven. Het bericht daarover heeft Kamp Stand-By nooit bereikt, en omdat niemand de groep ooit officieel heeft laten weten dat de sancties voorbij zijn, houdt zij zich er tot op vandaag nauwgezet aan, ook als dat betekent dat ze zichzelf sancties oplegt. De afdeling Compliance controleert dat elk kwartaal en rapporteert erover aan de raad van bestuur. De afdeling Compliance is Hayo, en de raad van bestuur heeft zijn rapporten nog nooit afgekeurd.
+
+Dat de moedermaatschappij nog altijd in Rhodesië staat ingeschreven, levert daarnaast een aantal praktische problemen op. Er is nooit belastingaangifte gedaan, omdat elk aangifteformulier ter wereld vraagt in welk land het bedrijf gevestigd is, en het juiste antwoord op die vraag door geen enkel systeem wordt geaccepteerd. Om dezelfde reden luidt het btw-nummer van de groep in Rhodesische dollars. Een aanvraag voor een internationaal kwaliteitskeurmerk werd in 2009 afgewezen, met als toelichting dat het kwaliteitsbeleid van de groep uit slechts twee woorden bestond: *stand by.* Hayo heeft bezwaar gemaakt. Dat bezwaar is in behandeling.
+
+In het jaarverslag staat ook een kort overzicht van afgehandelde incidenten. Het bekendste is dat van 2011, toen een VN-rapport de groep omschreef als "een organisatie zonder duidelijk doel". De raad van bestuur heeft die zin integraal overgenomen in het jaarverslag van dat jaar, onder het kopje *externe erkenning*. Een ander incident speelde in 1992 in Swaziland, waar het team een dorp bevrijdde dat achteraf niet bezet bleek te zijn. Het dorp viert sindsdien elk jaar Bevrijdingsdag, en de groep is daar niet alleen altijd welkom maar inmiddels ook hoofdsponsor.
+
+### Hoofdkantoor
+
+Het wereldwijde hoofdkantoor van de groep ligt op Klein Klein Bonaire, een eilandje voor de kust van Bonaire dat op geen enkele officiële kaart staat. Bij hoog water is het ongeveer veertig vierkante meter groot, bij laag water bijna een hectare, wat de groep in haar wervingsteksten omschrijft als een flexibele werkomgeving. Robert won het eiland in 1999 met kaarten, al houdt de andere speler tot op vandaag vol dat Robert alleen het recht won om erover te praten. Sindsdien wordt het beheerd door Decisive Real Estate, dat er een vergaderzaal, een kluis en een kleine aanlegsteiger op heeft gebouwd.
+
+Daarnaast heeft de groep kantoren in veertig landen. De meeste daarvan zijn een postbus. Het kantoor in Kralendijk is een postbus met een bankje ervoor, en geldt daarmee als de tweede vestiging van de groep.
+
+Sinds 10 oktober 2010 hoort Bonaire bij Nederland, en daarmee ook het eilandje voor de kust. Dat heeft gevolgen gehad die niemand had voorzien. De Belastingdienst stuurt sindsdien elk jaar een aanslag voor de grond, en omdat de oppervlakte afhangt van het getij, bestrijdt de groep elk jaar het bedrag. Het bezwaar loopt nog. De veestapel is in dezelfde periode naar Bonaire zelf verhuisd, waar al veel wilde geiten rondlopen; welke daarvan van de groep zijn, wordt sindsdien onderzocht door een externe commissie. De Antonov die niet vliegt staat op het eiland en is officieel herbestemd als golfbreker. En de kist staat er ook, in de kamer naast de vergaderzaal. Er staat altijd iemand bij.
+
+### Decisive Outcomes in Nederland
+
+Sinds 2019 heeft de groep een eigen divisie in de Benelux. Volgens het meerjarenplan van Hayo gaat het om een langdurig conflict van lage intensiteit, verspreid over een groot aantal terreinen in Nederland en België, waarbij verschillende partijen in wisselende samenstelling met elkaar in gevecht zijn. De andere partijen noemen het airsoft.
+
+Niemand heeft de raad van bestuur ooit durven vertellen hoe het werkelijk zit, en na een paar jaar was het daarvoor ook te laat. De groep betaalt elke keer netjes de veldfee, vraagt altijd om een factuur en houdt zich nauwkeurig aan de regels van het terrein, die Hayo beschouwt als lokale wetgeving. Na afloop van elke dag schrijft hij een volledig rapport, met kaarten, tijdlijnen en een evaluatie van de inzet. Dat rapport stuurt hij naar Salisbury.
+
+**Contact:** Postbus 1, Kralendijk. Wij reageren binnen zes tot acht jaar.
+
+### Missie, visie en kernwaarden
+
+De missie van Decisive Outcomes Group is in 1984 aan de keukentafel opgeschreven en sindsdien niet meer veranderd: *wij zorgen voor een beslissende uitkomst.* Welke uitkomst dat precies is, beslist het team ter plekke. Volgens Frederik is dat de kracht van de missie, omdat geen enkele klant ooit kan zeggen dat de beloofde uitkomst niet is geleverd. De visie is iets ambitieuzer. In 2040 wil de groep wereldwijd marktleider zijn, en in elk geval op Klein Klein Bonaire, waar die positie nu al met grote zekerheid kan worden gemeld.
+
+De groep heeft vier kernwaarden, die ingelijst in de vergaderzaal hangen naast de notulen van maart 1983. De eerste is *Pamwe chete*, het oude motto van de Selous Scouts, Shona voor "alles samen"; het team vindt dat het nog steeds klopt, al was er in Manica ook simpelweg niemand anders. De tweede is geduld, want de groep staat sinds 1979 onafgebroken stand-by. De derde is flexibiliteit, in planning, in uitvoering en vooral in betaling. En de vierde is betrouwbaarheid, waarvoor de groep in elk jaarverslag hetzelfde bewijs aanvoert: de kist is nog dicht.
+
+De wapenspreuk luidt *Percute primo, cito decerne*, wat vrij vertaald betekent: sla als eerste toe en beslis daarna snel. In de praktijk wordt er eerst vergaderd, maar de raad van bestuur ziet daar geen tegenspraak in.
+
+Ook het logo vertelt het verhaal van de groep, al weten de meeste klanten dat niet. De parachute en de vleugels staan voor de luchtlandingscapaciteit van het team, die nooit is gebruikt; de parachutes hebben twintig jaar dienst gedaan als dak van de bar in Kamp Stand-By. De dolk in het midden is de briefopener van Kolonel Frederik, waarmee alle contracten worden geopend en geen enkele kist. De twee geweren zijn de twee die het team nog over heeft; de andere twee zijn in de loop der jaren geruild voor geiten. De vlam onderaan is het kampvuur van Kamp Stand-By, dat sinds 1979 niet meer is uitgegaan en tegenwoordig met enige moeite brandt in een vuurschaal op het eiland. En de twee sterren staan voor plan A en plan B. Plan A is nooit gebruikt.

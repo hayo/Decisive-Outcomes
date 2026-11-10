@@ -4,7 +4,7 @@ Deze repository bevat alles rond het airsoftteam Decisive Outcomes: het verhaal,
 
 ## Mappen
 
-- `verhaal/` — de backstory. `decisive-outcomes-backstory.odt` is het leidende bestand.
+- `verhaal/` — de backstory. `backstory.md` is het leidende bestand.
 - `logo/` — het logo als SVG (bron) en PNG (2000 px).
 - `website/` — de teamwebsite (nog niet aangemaakt).
 - `events/` — materiaal voor events, patches en dergelijke (nog niet aangemaakt).
@@ -13,8 +13,9 @@ Maak een map pas aan als er iets in komt.
 
 ## Werken met het verhaal
 
-- De ODT is leidend. Wijzig het verhaal altijd in dat bestand, niet in een losse kopie.
-- Werkwijze: zet de ODT om naar Markdown met `pandoc`, bewerk de tekst, en zet hem terug met de oude ODT als `--reference-doc`, zodat de opmaak blijft. Controleer het resultaat daarna (bijvoorbeeld met `pandoc -t plain` of een render via LibreOffice).
+- `verhaal/backstory.md` is leidend. Wijzig het verhaal altijd in dat bestand, niet in een losse kopie.
+- Gebruik gewone GitHub-Markdown: koppen met `#`, cursief voor plaatsen, data en citaten, en tabellen met een kopregel. Zet elke alinea op één regel, zonder harde regeleinden, zodat wijzigingen goed te volgen zijn.
+- Heeft iemand een ODT, Word-bestand of PDF nodig? Maak die met `pandoc` uit het Markdown-bestand en zet hem niet in de repo.
 - Verander alleen wat gevraagd is. Laat de rest van de tekst woord voor woord staan.
 
 ## Stijl
