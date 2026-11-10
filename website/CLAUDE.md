@@ -141,10 +141,58 @@ object-src 'none'; upgrade-insecure-requests
 - Tabellen hebben een `caption` en `th` met `scope`.
 - Elk Gemini-beeld krijgt een beschrijvende alt-tekst; puur decoratieve beelden krijgen `alt=""`.
 
-## Beelden en prestaties
+## Snelheid
 
-- Beelden als AVIF of WebP met een JPEG-fallback via `picture`, altijd met `width` en `height`, en `loading="lazy"` onder de vouw.
-- Budget per pagina, exclusief beelden: HTML, CSS en JS samen onder de 100 KB.
+Snelheid weegt zwaar. Bij twijfel kies je de lichtere oplossing.
+
+### Doelen
+
+Gemeten op een gemiddelde mobiele telefoon met een 4G-verbinding:
+
+- Largest Contentful Paint onder 1,5 seconde.
+- Cumulative Layout Shift onder 0,05.
+- Interaction to Next Paint onder 100 ms.
+- Lighthouse Performance: 100 op mobiel.
+
+### Budget per pagina
+
+| Onderdeel | Maximum (gecomprimeerd) |
+|---|---|
+| HTML | 15 KB |
+| CSS | 15 KB |
+| JavaScript | 5 KB, en meestal 0 |
+| Fonts | 2 bestanden, samen 80 KB |
+| Totaal bij eerste weergave, inclusief beelden | 400 KB |
+
+### Werkwijze
+
+- **Eén CSS-bestand en geen render-blokkerend JavaScript.** Scripts krijgen altijd `defer`.
+- **Fonts:** variabele WOFF2-bestanden, beperkt tot de Latijnse tekenset. Preload alleen het lettertype voor de koppen. Gebruik `font-display: swap` en een fallback-font met `size-adjust` en aangepaste metrics, zodat er bij het laden niets verspringt.
+- **Het LCP-beeld** (meestal de hero) krijgt `fetchpriority="high"` en nooit `loading="lazy"`. Alle andere beelden onder de vouw krijgen `loading="lazy"` en `decoding="async"`.
+- **Beelden** als AVIF met WebP- en JPEG-fallback via `picture`. Gebruik `srcset` en `sizes`, zodat een telefoon nooit een desktopbeeld laadt. Altijd met `width` en `height`. Hero's maximaal 120 KB op mobiel en 250 KB op desktop.
+- **Caching:**
+    - Statische bestanden krijgen in `.htaccess` een cache van een jaar, met `immutable`.
+    - Versiebeheer van die bestanden gaat met een PHP-helper die `?v=` plus de wijzigingstijd van het bestand toevoegt, dus zonder build-stap.
+    - HTML krijgt een korte cache.
+- **Compressie:** Brotli of gzip voor HTML, CSS, JS, SVG en de feed, via `.htaccess`.
+- **PHP:** geen database en zo weinig werk per verzoek als mogelijk. Lees de newsroom alleen in op de pagina's die hem nodig hebben.
+- **Geen externe verzoeken en geen derde partijen.** Dat is niet alleen privacy, maar ook snelheid.
+- **SVG:** iconen en het logo als compacte SVG. Kleine iconen inline, of als één sprite die met `use` wordt hergebruikt.
+
+## Responsive
+
+- **Mobile-first.** De basisstijl is voor een smal scherm; bredere schermen krijgen aanvullingen via `min-width`-queries in `em`, met zo min mogelijk breakpoints.
+- **Componenten passen zich aan hun eigen ruimte aan met container queries,** zodat ze overal herbruikbaar zijn: in een smalle kolom, een brede kolom of naast elkaar.
+- **Vloeiende maten:** typografie en witruimte schalen met `clamp()`. Layouts met grid en flexbox, nooit met vaste breedtes in pixels.
+- **Geen horizontale scroll vanaf 320 px breed.** Inhoud blijft bruikbaar bij 400 procent zoom (WCAG reflow). De viewport-meta heeft geen `maximum-scale` en blokkeert nooit inzoomen.
+- **Navigatie op mobiel** werkt zonder JavaScript, bijvoorbeeld met een `details`/`summary`-patroon. JavaScript voegt hooguit `aria-expanded` en een nettere animatie toe.
+- **Tabellen:**
+    - Smalle tabellen blijven een tabel.
+    - Brede tabellen staan in een scrollcontainer met `tabindex="0"`, `role="region"` en een `aria-label`.
+    - Waar dat beter leest, worden ze op mobiel een gestapelde lijst.
+- **Beelden:** gebruik art direction via `picture` waar het beeld anders moet worden uitgesneden. Een hero is op mobiel bijvoorbeeld 4:5 in plaats van 16:9, met het onderwerp in beeld.
+- **Aanraken:** interactieve elementen zijn minimaal 44 × 44 px, met genoeg ruimte ertussen. Er zijn geen hover-afhankelijke functies; wat bij hover verschijnt, is ook met aanraken en toetsenbord bereikbaar.
+- **Testen** op breedtes van 320, 375, 768, 1024 en 1440 px, staand en liggend.
 
 ## Controleren
 
@@ -154,7 +202,9 @@ Controleer voor elke commit:
 - de beveiligingsheaders en de CSP;
 - het contrast;
 - toetsenbordbediening;
-- of de pagina zonder JavaScript werkt.
+- of de pagina zonder JavaScript werkt;
+- Lighthouse op mobiel en het budget per pagina;
+- de weergave op 320 px en bij 400 procent zoom.
 
 Noem in het commitbericht wat er is gecontroleerd.
 
