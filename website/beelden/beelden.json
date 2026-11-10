@@ -28,14 +28,15 @@
     {
       "id": "HOME-02",
       "type": "ai",
-      "alt": "Een team in tactische uitrusting loopt bij zonsondergang naar een wachtende helikopter op een stoffige landingsplaats.",
+      "alt": "Een team in tactische uitrusting loopt bij zonsondergang naar een oude transporthelikopter op een stoffige landingsplaats.",
       "uitsnede": "geen aparte mobiele uitsnede",
       "bron": {
         "model": "gemini-3-pro-image",
         "datum": "2026-11-10",
         "prompt": "Cinematic corporate photography for a private security company annual report. Shot on 35mm film, subtle grain, slightly desaturated colors with warm golden highlights and deep near-black shadows, occasional muted crimson accent. Low, warm side light or single-source interior light, strong contrast, calm and serious mood. Generous negative space for text overlay. No text, no logos, no watermarks, no flags. A small team in tactical gear with slung carbines walking toward a small, unmarked dark grey utility helicopter waiting on a dusty landing zone at golden hour, dust in the air. Seen from behind, faces not visible. Readiness, not combat: weapons slung or pointed at the ground, nobody aiming or firing. Anatomically correct hands, realistic and intact equipment. Everything is unbadged: no lettering, no number plates, no brand names, no insignia, no flags, no aircraft markings. Aspect ratio 16:9. Match the color grading, light and grain of the reference image.",
         "referentie": "HOME-01",
-        "instellingen": "aspectRatio 16:9, imageSize 4K"
+        "instellingen": "aspectRatio 16:9, imageSize 4K",
+        "nabewerking": "helikopter vervangen met een Gemini-bewerking: Edit this photograph. Keep the composition, landscape, people, light, color grading and film grain exactly the same. Replace only the helicopter with an old Soviet-era twin-engine medium transport helicopter with a five-blade main rotor, a long boxy fuselage, round windows and faded, weathered olive-drab paint. Completely unmarked: no stars, no numbers, no lettering, no flags, no insignia. No text, no logos."
       }
     },
     {
@@ -224,14 +225,15 @@
     {
       "id": "TACT-03",
       "type": "ai",
-      "alt": "Een kleine ongemarkeerde helikopter vliegt laag over de savanne bij zonsondergang.",
-      "uitsnede": "mobiel: 4:5 rond het focuspunt (x 0,68)",
+      "alt": "Een oude ongemarkeerde transporthelikopter vliegt laag over de savanne bij zonsondergang.",
+      "uitsnede": "mobiel: 4:5 rond het focuspunt (x 0,78)",
       "bron": {
         "model": "gemini-3-pro-image",
         "datum": "2026-11-10",
         "prompt": "Cinematic corporate photography for a private security company annual report. Shot on 35mm film, subtle grain, slightly desaturated colors with warm golden highlights and deep near-black shadows, occasional muted crimson accent. Low, warm side light or single-source interior light, strong contrast, calm and serious mood. Generous negative space for text overlay. No text, no logos, no watermarks, no flags. A single small, unmarked utility helicopter flying low over African savanna at golden hour, seen from behind and slightly above, its shadow on the grass, a few acacia trees, dust and haze. Everything is unbadged: no lettering, no number plates, no brand names, no insignia, no flags, no aircraft markings. The helicopter is higher above the ground, the light comes from the side; no visible shadow of the helicopter on the ground. Composition for a website header: main subject in the right half of the frame, the left half calm and darker for text overlay. Aspect ratio 16:9. Match the color grading, light and grain of the reference image.",
         "referentie": "HOME-01",
-        "instellingen": "aspectRatio 16:9, imageSize 4K"
+        "instellingen": "aspectRatio 16:9, imageSize 4K",
+        "nabewerking": "helikopter vervangen met een Gemini-bewerking: Edit this photograph. Keep the composition, landscape, people, light, color grading and film grain exactly the same. Replace only the helicopter with an old Soviet-era twin-engine medium transport helicopter with a five-blade main rotor, a long boxy fuselage, round windows and faded, weathered olive-drab paint. Completely unmarked: no stars, no numbers, no lettering, no flags, no insignia. No text, no logos."
       }
     },
     {

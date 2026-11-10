@@ -10,7 +10,7 @@ component('hero', [
     'kop' => 'Waar wij actief zijn',
     'intro' => 'Met veertig vestigingen in vier regio\'s zijn wij dicht bij onze opdrachtgevers. Of in elk geval bij hun postbus.',
     'beeld' => 'TACT-03',
-    'alt' => 'Een kleine ongemarkeerde helikopter vliegt laag over de savanne bij zonsondergang.',
+    'alt' => 'Een oude ongemarkeerde transporthelikopter vliegt laag over de savanne bij zonsondergang.',
 ]);
 $regios = [
     'Afrika' => ['Beira', 'Brazzaville', 'Chimoio', 'Freetown', 'Harare', 'Kinshasa', 'Lilongwe', 'Luanda', 'Lungi', 'Malabo', 'Manica', 'Maputo', 'Mbabane', 'Victoria Falls'],

@@ -118,7 +118,7 @@ Zet steeds eerst het stijlblok voor de prompt.
 Two weathered 1970s Land Rovers parked on a red dirt road in African savanna at golden hour, a large baobab tree on the horizon, dust hanging in the warm light. Four white Rhodesian soldiers in plain olive field clothing stand beside the vehicles seen from behind, looking toward the horizon; one of them is noticeably taller and broader than the others. The scene is calm and patient, as if they have been waiting a long time.
 
 **HOME-02 — Security.** *Aspect ratio 16:9.*
-A small team in tactical gear with slung carbines walking toward a small, unmarked dark grey utility helicopter waiting on a dusty landing zone at golden hour, dust in the air. Seen from behind, faces not visible.
+A small team in tactical gear with slung carbines walking toward an old, unmarked Soviet-era twin-engine transport helicopter with faded olive-drab paint waiting on a dusty landing zone at golden hour, dust in the air. Seen from behind, faces not visible.
 
 **HOME-03 — Hospitality.** *Aspect ratio 16:9.*
 A simple, elegant bar on a wooden deck by the sea at sunset, a single glass of beer on the counter, an empty chair, warm golden light, a calm ocean in the background.
@@ -172,7 +172,7 @@ A herd of goats walking through dry Caribbean scrubland with cacti at sunrise, s
 
 ### Tactisch
 
-De tactische beelden laten paraatheid en beveiliging zien, nooit een gevecht. Wapens hangen aan de draagriem of wijzen naar de grond. Helikopters en voertuigen zijn ongemarkeerd en geen herkenbaar echt type met markeringen. Gezichten zijn van achteren, in de schaduw of achter pet en zonnebril.
+De tactische beelden laten paraatheid en beveiliging zien, nooit een gevecht. Wapens hangen aan de draagriem of wijzen naar de grond. Helikopters zijn oude Sovjettransporthelikopters in verbleekt olijfgroen, zonder sterren, nummers of andere markeringen. Voertuigen zijn ongemarkeerd. De helikopter is alleen beeld en hoort niet bij het verhaal. Gezichten zijn van achteren, in de schaduw of achter pet en zonnebril.
 
 **TACT-01 — Mijnbouw.** *Aspect ratio 16:9.* Hero van Sectoren.
 A security guard with a slung rifle seen from behind on a raised earth berm overlooking an open-pit mine at sunrise, binoculars in hand, heavy machinery small in the distance, a chain-link fence with razor wire in the foreground.
@@ -181,7 +181,7 @@ A security guard with a slung rifle seen from behind on a raised earth berm over
 A briefing on the hood of a dusty 4x4 vehicle in early morning light: a paper map spread out, hands pointing at it, a compass, a radio and a pair of gloves on the map. Men in tactical vests around the vehicle, visible only from the chest down. The map has no readable text.
 
 **TACT-03 — Helikopter.** *Aspect ratio 16:9.* Hero van Wereldwijd.
-A single small, unmarked utility helicopter flying low over African savanna at golden hour, seen from behind and slightly above, its shadow on the grass, a few acacia trees, dust and haze.
+A single old, unmarked Soviet-era twin-engine transport helicopter with faded olive-drab paint flying low over African savanna at golden hour, seen from behind and slightly above, its shadow on the grass, a few acacia trees, dust and haze.
 
 ### Iconen
 
