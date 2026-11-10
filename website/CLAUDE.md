@@ -105,6 +105,15 @@ website/
 
 ### Kleuren en contrast
 
+Het palet hieronder is een startpunt. De website mag afwijken van de logokleuren als dat beter past bij de stijl van een echte PMC. Echte sites gebruiken meestal een neutrale basis (wit, lichtgrijs, antraciet of donker marineblauw) met één accentkleur. Het logo zelf verandert nooit van kleur.
+
+Bij een ander palet:
+
+- elke tekstkleur haalt minimaal 7:1 op zijn achtergrond, en interactieve elementen minimaal 3:1 ten opzichte van hun omgeving;
+- er blijft één accentkleur die naast het logo werkt (goud ligt voor de hand);
+- de kleuren staan als tokens in `:root`, zodat het palet op één plek te wijzigen is;
+- het nieuwe palet komt met datum en reden in `docs/beslissingen.md`.
+
 | Token | Waarde | Gebruik | Contrast op wit |
 |---|---|---|---|
 | tekst | `#0F0D0B` | lopende tekst en koppen | 19,4:1 |

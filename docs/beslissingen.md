@@ -17,6 +17,7 @@ Wat is besloten, wanneer en waarom. Nieuwe beslissingen komen bovenaan in de tab
 
 | Datum | Besluit | Reden |
 |---|---|---|
+| 2026-11-10 | De website mag in kleur afwijken van het logo als dat beter past bij de PMC-stijl. Het logo blijft ongewijzigd; contrasteisen blijven gelden. | Echte PMC-sites gebruiken een neutrale basis met één accent; de logokleuren zijn daarvoor niet per se de beste keuze. |
 | 2026-11-10 | Het logo opgeschoond: egale huisstijlkleuren zonder compressieruis, embleem 7 procent kleiner zodat de vleugels niet in de rode ring lopen, 1880 px. | Netter, en de vleugels liepen in het rood. |
 | 2026-11-10 | Het logo is het originele ontwerp, alleen rond uitgesneden met een transparante achtergrond. Geen nagetekende versies. | De nagetekende versies waren niet goed genoeg. |
 | 2026-11-10 | Portretten van het bestuur voorlopig als silhouet, zonder herkenbare gezichten. Echte foto's (zelf gefotografeerd, in dezelfde kleurbewerking) kunnen later, als alle vier akkoord zijn met hun personage. Geen AI-portretten op basis van echte gezichten. | Geen privacyrisico en geen realistische nepbeelden van echte personen. Echte PMC-sites tonen wel gezichten; dat blijft een bewuste afwijking. |
