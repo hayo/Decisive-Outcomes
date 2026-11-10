@@ -36,6 +36,8 @@ Wat is besloten, wanneer en waarom. Nieuwe beslissingen komen bovenaan in de tab
 | 2026-11-10 | Het logo komt nooit in een beeld. AI-gebruik wordt alleen in het colofon vermeld. | Rustiger beeld, en één duidelijke plek voor de verantwoording. |
 | 2026-11-10 | Echte foto's van speeldagen mogen, met vastgelegde toestemming. | Echte foto's maken de site levendig, maar zonder toestemming kan het niet. |
 | 2026-11-10 | Beelden worden gemaakt met Gemini via Google AI Studio of de API. | Meer controle over formaat en resolutie dan in de app. |
+| 2026-11-10 | Beelden maken we met `gemini-3-pro-image` via de API, in 4K. Originelen gaan als JPEG van 2400 px breed (kwaliteit 92) in de repo, niet het volle 4K-bestand. | Gemini levert JPEG van zo’n 8 MB per beeld; 2400 px is het minimum voor een hero en houdt de repo klein. |
+| 2026-11-10 | Een beeld mag horizontaal gespiegeld worden als er geen tekst of asymmetrisch herkenbaar detail in staat. Dat staat dan in het manifest. | De tekst in de hero staat links; het onderwerp hoort rechts. |
 | 2026-11-10 | Alleen een productieomgeving. Deploy via GitHub Actions met SFTP, of FTPS als dat niet kan. | Eenvoudig. Lokaal testen met `php -S` vervangt een testomgeving. |
 | 2026-11-10 | Teksten worden aangeleverd en door Claude omgezet naar pagina's en persberichten. | Het team schrijft, de opmaak blijft consequent. |
 | 2026-11-10 | Snelheid weegt zwaar, met harde budgetten per pagina. Mobile-first en responsive. | De site moet op mobiel direct laden. |

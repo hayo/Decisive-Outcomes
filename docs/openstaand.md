@@ -32,7 +32,7 @@ Wat nog moet gebeuren voordat en nadat de site live gaat. Vink af wat klaar is e
 - [ ] Eventueel een professionele vectorversie (SVG) van het logo laten maken. Tot die tijd gebruiken we de originele PNG.
 - [x] De lijniconen per divisie ontwerpen.
 - [x] De lettertypes Oswald en Source Sans 3 downloaden, beperken tot de Latijnse tekenset en de OFL-licentiebestanden meenemen.
-- [ ] `HOME-01` maken in AI Studio en goedkeuren als referentie voor de stijl.
+- [ ] `HOME-01` goedkeuren als referentie voor de stijl. Gemaakt op 10 november 2026 via de API en staat op de homepage.
 - [ ] De overige beelden uit [beeldtaal.md](../website/beeldtaal.md).
 - [x] Het colofon, de privacyverklaring en de disclaimer schrijven. Deze teksten zijn echt, geen satire.
 - [x] De GitHub Actions-workflow voor de deploy.
