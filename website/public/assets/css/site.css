@@ -109,6 +109,7 @@ main > section { container-type: inline-size; }
 .vlak { background: var(--vlak); }
 .inleiding { font-size: clamp(1.125rem, 1rem + .4vw, 1.3125rem); color: var(--tekst-2); }
 .twee { display: grid; gap: var(--gat); }
+.vlak > img { width: 100%; margin-block: var(--gat); }
 @container (min-width: 50rem) { .twee { grid-template-columns: 1fr 1fr; align-items: start; } }
 
 /* Kaartbeeld: donker vlak met de wereldkaart over de volle breedte */

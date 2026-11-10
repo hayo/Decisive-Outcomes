@@ -78,6 +78,20 @@
       }
     },
     {
+      "id": "OVER-02",
+      "type": "ai",
+      "alt": "Vier paar versleten legerkisten naast elkaar op rode aarde, in laag tegenlicht.",
+      "uitsnede": "geen aparte mobiele uitsnede",
+      "bron": {
+        "model": "gemini-3-pro-image",
+        "datum": "2026-11-10",
+        "prompt": "Cinematic corporate photography for a private security company annual report. Shot on 35mm film, subtle grain, slightly desaturated colors with warm golden highlights and deep near-black shadows, occasional muted crimson accent. Low, warm side light or single-source interior light, strong contrast, calm and serious mood. Generous negative space for text overlay. No text, no logos, no watermarks, no flags. Exactly four pairs of worn military boots, eight boots in total, standing in one straight row side by side on red earth, evenly spaced, each pair clearly separate. Shot low to the ground from the front, golden backlight, four long shadows. Old 1970s leather combat boots, scuffed and dusty, laces loose; the second pair from the left is noticeably larger than the others. Nobody in the image. Everything is unbadged: no lettering, no brand names, no insignia. The row of boots in the right two thirds of the frame, the left side calmer and darker. Aspect ratio 16:9. Match the color grading, light and grain of the reference image.",
+        "referentie": "HOME-01",
+        "instellingen": "aspectRatio 16:9, imageSize 4K",
+        "nabewerking": "Gemini maakte steeds te weinig paren; het vierde paar is er met een bewerking bij gezet: Edit this photograph. Keep everything exactly the same: light, color grading, grain, ground, shadows and the three pairs of boots. Add one more pair of the same kind of worn leather combat boots directly to the left of the row, with the same spacing, so the row has exactly four pairs (eight boots) and four long shadows. The new pair is a little larger than the others. No text, no logos."
+      }
+    },
+    {
       "id": "WERK-01",
       "type": "ai",
       "alt": "Een groep mensen in buitenkleding loopt bij ochtendgloren een mistig bos in.",

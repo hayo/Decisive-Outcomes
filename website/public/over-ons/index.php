@@ -41,6 +41,7 @@ component('hero', [
 <li><h3><?= e($waarde) ?></h3><p><?= e($tekst) ?></p></li>
 <?php endforeach ?>
 </ul>
+<?= beeld('OVER-02', 'Vier paar versleten legerkisten naast elkaar op rode aarde, in laag tegenlicht.', '(min-width: 76rem) 76rem, 100vw') ?>
 <p>Onze wapenspreuk is <i lang="la">Percute primo, cito decerne</i>: sla als eerste toe en beslis snel.</p>
 </section>
 <section>

@@ -133,6 +133,7 @@ An old wooden table in an abandoned colonial farmhouse kitchen, a yellowed newsp
 
 **OVER-02 — Pamwe chete.** *Aspect ratio 16:9.*
 Four pairs of worn military boots standing side by side on red earth, shot low to the ground, golden backlight, long shadows.
+Op Over ons, bij de kernwaarden. Gemini maakt bij deze prompt steeds twee of drie paar; het vierde paar is er met een bewerking bij gezet (zie het manifest).
 
 ### Raad van bestuur
 
