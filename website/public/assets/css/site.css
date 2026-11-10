@@ -83,11 +83,13 @@ small { font-size: .875rem; }
 }
 
 /* Hero */
-.hero { position: relative; isolation: isolate; display: grid; align-items: end; min-height: clamp(18rem, 40vh, 26rem); padding: var(--ruimte) var(--rand) clamp(2rem, 1.5rem + 2vw, 3.5rem); background: radial-gradient(ellipse at 85% 0%, rgb(212 169 79 / .16), transparent 55%), linear-gradient(var(--inkt), var(--inkt-2)); color: var(--licht); }
+.hero { position: relative; isolation: isolate; display: grid; align-items: end; min-height: clamp(18rem, 40vh, 26rem); padding: var(--ruimte) var(--rand) clamp(2rem, 1.5rem + 2vw, 3.5rem); background: var(--inkt) url("../img/hero-lijnen-mobiel.jpg") 50% 0 / cover; color: var(--licht); }
+@media (min-width: 40em) { .hero { background-image: url("../img/hero-lijnen-1600.jpg"); background-position: 100% 0; } }
 .hero-groot { min-height: clamp(28rem, 72vh, 44rem); }
 .hero > img, .hero > picture { position: absolute; inset: 0; z-index: -1; }
 .hero > img, .hero > picture img { width: 100%; height: 100%; object-fit: cover; }
 .hero::after { content: ""; position: absolute; inset: 0; z-index: -1; background: linear-gradient(to top, rgb(15 13 11 / .92), rgb(15 13 11 / .35)); }
+.hero:not(:has(> img, > picture))::after { background: linear-gradient(to top, rgb(15 13 11 / .7), transparent 70%); }
 .hero h1 { max-width: 18ch; color: #fff; }
 .hero .label { color: var(--goud); }
 .hero .intro { max-width: 40rem; font-size: clamp(1.125rem, 1rem + .5vw, 1.375rem); color: var(--licht); }
@@ -104,6 +106,12 @@ main > section { container-type: inline-size; }
 .inleiding { font-size: clamp(1.125rem, 1rem + .4vw, 1.3125rem); color: var(--tekst-2); }
 .twee { display: grid; gap: var(--gat); }
 @container (min-width: 50rem) { .twee { grid-template-columns: 1fr 1fr; align-items: start; } }
+
+/* Kaartbeeld: donker vlak met de wereldkaart over de volle breedte */
+.kaartbeeld { background: #0b0a08; color: var(--licht-2); padding-block: 0 2rem; }
+.kaartbeeld figure { margin: 0; }
+.kaartbeeld img { width: 100%; -webkit-mask-image: radial-gradient(ellipse 70% 70% at 50% 50%, #000 70%, transparent 100%); mask-image: radial-gradient(ellipse 70% 70% at 50% 50%, #000 70%, transparent 100%); }
+.kaartbeeld figcaption { margin-top: .75rem; font-size: .9375rem; }
 
 /* Kerncijfers */
 .cijfers { background: var(--vlak); }

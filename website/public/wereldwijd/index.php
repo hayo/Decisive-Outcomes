@@ -9,8 +9,6 @@ component('hero', [
     'label' => 'Wereldwijd',
     'kop' => 'Waar wij actief zijn',
     'intro' => 'Met veertig vestigingen in vier regio\'s zijn wij dicht bij onze opdrachtgevers. Of in elk geval bij hun postbus.',
-    'beeld' => 'WERELD-01',
-    'alt' => '',
 ]);
 $regios = [
     'Afrika' => ['Beira', 'Brazzaville', 'Chimoio', 'Freetown', 'Harare', 'Kinshasa', 'Lilongwe', 'Luanda', 'Lungi', 'Malabo', 'Manica', 'Maputo', 'Mbabane', 'Victoria Falls'],
@@ -28,6 +26,12 @@ $regios = [
 </div>
 <?= beeld('WERELD-02', 'Een moderne vergaderruimte van glas op een klein eiland bij zonsopgang, met zee aan alle kanten.', '(min-width: 50em) 50vw, 100vw') ?>
 </div>
+</section>
+<section class="kaartbeeld">
+<figure>
+<?= beeld('WERELD-01', 'Wereldkaart met de veertig vestigingen van de groep en verbindingen vanaf het hoofdkantoor op Bonaire.', '(min-width: 76rem) 76rem, 100vw') ?>
+<figcaption>Veertig vestigingen in vier regio's. Hoofdkantoor: Klein Klein Bonaire.</figcaption>
+</figure>
 </section>
 <section class="vlak">
 <h2>Vestigingen</h2>

@@ -5,7 +5,32 @@
     "type": "ai",
     "alt": "Twee oude terreinwagens op een zandweg in de savanne bij zonsondergang.",
     "uitsnede": "HOME-01-mobiel.png",
-    "bron": { "model": "", "datum": "", "prompt": "" }
+    "bron": {
+      "model": "",
+      "datum": "",
+      "prompt": ""
+    }
   },
-  "beelden": []
+  "beelden": [
+    {
+      "id": "WERELD-01",
+      "type": "grafisch",
+      "alt": "Wereldkaart met de vestigingen van de groep en verbindingen vanaf het hoofdkantoor op Bonaire.",
+      "uitsnede": "mobiel: 4:5 rond Afrika en de Atlantische Oceaan",
+      "bron": {
+        "methode": "code: d3-geo (Equal Earth), Natural Earth land 1:50m via world-atlas, puntenraster",
+        "datum": "2026-11-10"
+      }
+    },
+    {
+      "id": "hero-lijnen",
+      "type": "grafisch",
+      "alt": "",
+      "uitsnede": "mobiel: 4:5 rechts van het midden",
+      "bron": {
+        "methode": "code: hoogtelijnen uit gladgestreken ruis (numpy, scipy, matplotlib), seed 1984",
+        "datum": "2026-11-10"
+      }
+    }
+  ]
 }

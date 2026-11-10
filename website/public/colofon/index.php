@@ -14,7 +14,7 @@ component('hero', ['label' => 'Colofon', 'kop' => 'Over deze website']);
 <h2>Makers</h2>
 <p>Deze website is gemaakt door de leden van het airsoftteam Decisive Outcomes, met de hand geschreven in HTML, CSS en PHP.</p>
 <h2>Beelden</h2>
-<p>De beelden op deze site zijn gemaakt met Google Gemini, met uitzondering van foto's van speeldagen.</p>
+<p>De beelden op deze site zijn gemaakt met Google Gemini, met uitzondering van foto's van speeldagen. De wereldkaart en de achtergronden met hoogtelijnen zijn met code gemaakt, op basis van kaartgegevens van <a href="https://www.naturalearthdata.com/">Natural Earth</a> (publiek domein).</p>
 <h2>Lettertypes</h2>
 <p>Koppen staan in Oswald, lopende tekst in Source Sans 3. Beide lettertypes vallen onder de <a href="<?= e(asset('fonts/OFL-oswald.txt')) ?>">SIL Open Font License 1.1</a> en worden vanaf deze server geladen.</p>
 <h2>Privacy en techniek</h2>
