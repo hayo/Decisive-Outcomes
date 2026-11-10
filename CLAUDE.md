@@ -5,7 +5,7 @@ Deze repository bevat alles rond het airsoftteam Decisive Outcomes: het verhaal,
 ## Mappen
 
 - `verhaal/` — de backstory. `backstory.md` is het leidende bestand.
-- `logo/` — het logo als PNG (2000 px). Er is nu geen bruikbare SVG.
+- `logo/` — het originele logo, rond uitgesneden met een transparante achtergrond (PNG, 942 px).
 - `website/` — de teamwebsite voor decisiveoutcomes.nl. Volg daar ook `website/CLAUDE.md`.
 - `events/` — materiaal voor events, patches en dergelijke (nog niet aangemaakt).
 - `docs/` — projectdocumentatie: [beslissingen](docs/beslissingen.md), [openstaande punten](docs/openstaand.md) en [toestemming](docs/toestemming.md) van teamleden.
@@ -73,8 +73,8 @@ Gebruik deze feiten consequent en wijzig ze niet zonder overleg.
 ## Logo en huisstijl
 
 - Kleuren: goud `#D4A94F`, rood `#9B1C15`, zwart `#0F0D0B`.
-- Lettertype: Oswald Bold. In de SVG zijn de letters al omgezet naar paden.
-- Het logo is beschikbaar als PNG van 2000 px. De eerdere SVG was niet goed genoeg en is verwijderd; een nieuwe vector volgt later.
+- Lettertype in het logo: een smalle, vette schreefloze letter, vergelijkbaar met Oswald Bold.
+- Het logo is het originele ontwerp, alleen rond uitgesneden met een transparante achtergrond (PNG, 942 × 942 px). Bewerk het niet en teken het niet na; eerdere nagetekende versies waren niet goed genoeg.
 - Gebruik op de website de PNG, verkleind naar de benodigde maat. Komt er een goede SVG, dan vervangt die de PNG in de header en de footer.
 
 ## Documentatie bijhouden

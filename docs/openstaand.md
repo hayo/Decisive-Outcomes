@@ -21,7 +21,7 @@ Wat nog moet gebeuren voordat en nadat de site live gaat. Vink af wat klaar is e
 
 ## Website bouwen
 
-- [ ] Een goede vectorversie (SVG) van het logo laten maken. Tot die tijd gebruiken we de PNG.
+- [ ] Eventueel een professionele vectorversie (SVG) van het logo laten maken. Tot die tijd gebruiken we de originele PNG.
 - [ ] De lijniconen per divisie ontwerpen.
 - [ ] De lettertypes Oswald en Source Sans 3 downloaden, beperken tot de Latijnse tekenset en de OFL-licentiebestanden meenemen.
 - [ ] `HOME-01` maken in AI Studio en goedkeuren als referentie voor de stijl.

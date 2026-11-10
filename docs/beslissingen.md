@@ -17,6 +17,7 @@ Wat is besloten, wanneer en waarom. Nieuwe beslissingen komen bovenaan in de tab
 
 | Datum | Besluit | Reden |
 |---|---|---|
+| 2026-11-10 | Het logo is het originele ontwerp, alleen rond uitgesneden met een transparante achtergrond. Geen nagetekende versies. | De nagetekende versies waren niet goed genoeg. |
 | 2026-11-10 | Portretten van het bestuur voorlopig als silhouet, zonder herkenbare gezichten. Echte foto's (zelf gefotografeerd, in dezelfde kleurbewerking) kunnen later, als alle vier akkoord zijn met hun personage. Geen AI-portretten op basis van echte gezichten. | Geen privacyrisico en geen realistische nepbeelden van echte personen. Echte PMC-sites tonen wel gezichten; dat blijft een bewuste afwijking. |
 | 2026-11-10 | Donkere hero over de volle breedte, lichte secties, vierkante vormen, gouden knoppen op donker, donkere footer. Oswald alleen voor `h1`, `h2` en cijfers. | Zo zien echte PMC-sites eruit, na visuele controle in Chrome (zie [onderzoek-pmc-sites.md](onderzoek-pmc-sites.md)). |
 | 2026-11-10 | Sitemap aangepast naar het onderzoek: een pagina Sectoren, Newsroom wordt Inzichten met de *Stand-By Outlook* als vlaggenschip, werving hoog op de homepage, een contactknop in de header, kaarten in 16:9, lijniconen per divisie en een uitgebreide compliancepagina zonder echte keurmerken. | Zo lijkt de site meer op echte sites van PMC's en beveiligingsbedrijven (zie [onderzoek-pmc-sites.md](onderzoek-pmc-sites.md)). |
