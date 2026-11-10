@@ -14,8 +14,9 @@ Wat nog moet gebeuren voordat en nadat de site live gaat. Vink af wat klaar is e
 
 - [ ] Controleren of de hosting PHP 8 heeft en Apache-modules voor `mod_rewrite`, `mod_headers` en compressie (`mod_deflate` of Brotli).
 - [x] Vaststellen of er SFTP is of alleen FTPS: er is SFTP, met gebruiker en wachtwoord.
-- [x] De GitHub Secrets voor de deploy invullen en `DEPLOY_PATH` zetten (`decisiveoutcomes`).
-- [ ] Bij Strato het domein laten wijzen naar `/decisiveoutcomes/public/`.
+- [x] De GitHub Secrets voor de deploy invullen en `DEPLOY_PATH` zetten (`.`, de root).
+- [ ] Bij Strato het domein laten wijzen naar `/public/`.
+- [ ] De half geüploade map `decisiveoutcomes/` op de server weggooien.
 - [ ] Het teamadres voor het formulier kiezen en `includes/config.php` op de server zetten.
 - [ ] SPF, DKIM en DMARC instellen voor het afzenderadres van het formulier.
 - [ ] HTTPS-certificaat en de redirects naar `https://decisiveoutcomes.nl/` controleren.
@@ -29,7 +30,7 @@ Wat nog moet gebeuren voordat en nadat de site live gaat. Vink af wat klaar is e
 - [x] Echte informatie voor *Meedoen met het airsoftteam* op Werken bij.
 - [ ] Privacyverklaring laten controleren, vooral de bewaartermijn (nu: uiterlijk een jaar) en de grondslag.
 - [ ] Besluiten of het volledige verhaal als pagina *Ons verhaal* op de site komt. Het is te groot voor het paginabudget en bevat nog niet-goedgekeurde personages.
-- [ ] Op de server: `decisiveoutcomes/includes/config.php` aanmaken (zie `config.example.php`).
+- [ ] Op de server: `includes/config.php` aanmaken (zie `config.example.php`).
 - [ ] Eventueel een professionele vectorversie (SVG) van het logo laten maken. Tot die tijd gebruiken we de originele PNG.
 - [x] De lijniconen per divisie ontwerpen.
 - [x] De lettertypes Oswald en Source Sans 3 downloaden, beperken tot de Latijnse tekenset en de OFL-licentiebestanden meenemen.

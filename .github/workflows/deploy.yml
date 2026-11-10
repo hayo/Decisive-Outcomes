@@ -25,10 +25,9 @@ concurrency:
 
 env:
   DEPLOY_PORT: '22'
-  # Map op de server waarin public/, includes/ en content/ komen, vanaf de
-  # map waarin je na het inloggen staat. Bij Strato wijst het domein naar
-  # /decisiveoutcomes/public/.
-  DEPLOY_PATH: 'decisiveoutcomes'
+  # Map op de server waarin public/, includes/ en content/ komen. '.' is de
+  # root van de webruimte; bij Strato wijst het domein naar /public/.
+  DEPLOY_PATH: '.'
 
 jobs:
   deploy:
@@ -95,7 +94,6 @@ jobs:
           lftp --env-password -u "$USER" -p "$DEPLOY_PORT" "sftp://$DEPLOY_HOST" -e "
             set sftp:auto-confirm no;
             set net:max-retries 2;
-            mkdir -p -f $DEPLOY_PATH;
             mirror --reverse --only-newer --no-perms --verbose --exclude-glob config.php website/public   $DEPLOY_PATH/public;
             mirror --reverse --only-newer --no-perms --verbose --exclude-glob config.php website/includes $DEPLOY_PATH/includes;
             mirror --reverse --only-newer --no-perms --verbose website/content  $DEPLOY_PATH/content;

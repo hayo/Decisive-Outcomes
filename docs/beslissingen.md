@@ -17,7 +17,7 @@ Wat is besloten, wanneer en waarom. Nieuwe beslissingen komen bovenaan in de tab
 
 | Datum | Besluit | Reden |
 |---|---|---|
-| 2026-11-10 | De site staat bij Strato in de map `decisiveoutcomes/`; het domein wijst naar `/decisiveoutcomes/public/`. | De webruimte was leeg; zo staan `includes/` en `content/` buiten de documentroot. |
+| 2026-11-10 | De site staat bij Strato in de root van de webruimte; het domein wijst naar `/public/`. | Eenvoudig, en `includes/` en `content/` staan zo buiten de documentroot. |
 | 2026-11-10 | Alleen host, gebruiker, wachtwoord en host key zijn GitHub Secrets; poort en pad staan in `deploy.yml`. Alleen SFTP, geen FTPS meer. | De rest is niet geheim en zo makkelijker te lezen en aan te passen. De server heeft SFTP. |
 | 2026-11-10 | Uitrollen via de branch `deploy`: elke push daarnaartoe gaat live (`git push origin main:deploy`). Een push naar `main` rolt niet meer uit. | Zelf bepalen wanneer iets live gaat, zonder testomgeving. |
 | 2026-11-10 | Aanspreekvorm: *u* voor opdrachtgevers en de corporate delen (ook de 404), *je* voor sollicitanten, spelers en alles wat echt is (contact, formulier, privacy, meedoen). | Echte PMC-sites spreken klanten met u aan; het echte deel van de site is persoonlijk. |
