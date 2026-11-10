@@ -6,7 +6,7 @@ De site komt op **decisiveoutcomes.nl**. Ze ziet eruit als de corporate site van
 
 ## Techniek
 
-- Handgeschreven HTML, CSS en PHP. Geen frameworks, geen CMS, geen packagemanagers en geen afhankelijkheden van derden. De code heeft geen build-stap; alleen de beelden worden bij de deploy verwerkt.
+- Handgeschreven HTML, CSS en PHP. Geen frameworks, geen CMS, geen packagemanagers en geen afhankelijkheden van derden. Er is geen build-stap: wat in de repo staat, gaat zo naar de server.
 - De site draait op eigen hosting met PHP 8 en Apache, met `.htaccess` voor headers en serverregels.
 - Header, navigatie, footer en terugkerende onderdelen zijn PHP-includes.
 - Mappenstructuur:
@@ -31,6 +31,7 @@ website/
   beelden/
     originelen/        originele beelden, in de repo
     beelden.json       manifest: alt-tekst, uitsnedes, type en bron
+  (de JPEG's voor de site staan in public/assets/img/)
 ```
 
 - `includes/` en `content/` staan buiten de documentroot. Echte configuratie (zoals het teamadres voor het formulier) staat in `includes/config.php`. Dat bestand staat in `.gitignore` en komt nooit in de repo.
@@ -74,8 +75,7 @@ website/
 - **Vóór elke push:** test lokaal met `php -S localhost:8000 -t website/public` en loop de checklijst onder *Controleren* door.
 - **De workflow:**
     1. Draai `php -l` over alle PHP-bestanden. Bij een fout stopt de deploy.
-    2. Maak de afgeleide beelden aan (zie de beeldeisen in [beeldtaal.md](beeldtaal.md)).
-    3. Upload `public/`, `includes/` en `content/` via SFTP. Is SFTP niet beschikbaar, gebruik dan FTPS. Upload alleen gewijzigde bestanden.
+    2. Upload `public/`, `includes/` en `content/` via SFTP. Is SFTP niet beschikbaar, gebruik dan FTPS. Upload alleen gewijzigde bestanden.
 - **Inloggegevens:** host, gebruiker, wachtwoord of sleutel en het pad op de server staan als GitHub Secrets, nooit in de repo.
 - **Op de server:**
     - `includes/config.php` zet je één keer handmatig op de server, buiten de deploy om.
@@ -219,7 +219,7 @@ Gemeten op een gemiddelde mobiele telefoon met een 4G-verbinding:
 - **Eén CSS-bestand en geen render-blokkerend JavaScript.** Scripts krijgen altijd `defer`.
 - **Fonts:** variabele WOFF2-bestanden, beperkt tot de Latijnse tekenset. Preload alleen het lettertype voor de koppen. Gebruik `font-display: swap` en een fallback-font met `size-adjust` en aangepaste metrics, zodat er bij het laden niets verspringt.
 - **Het LCP-beeld** (meestal de hero) krijgt `fetchpriority="high"` en nooit `loading="lazy"`. Alle andere beelden onder de vouw krijgen `loading="lazy"` en `decoding="async"`.
-- **Beelden** als AVIF met WebP- en JPEG-fallback via `picture`. Gebruik `srcset` en `sizes`, zodat een telefoon nooit een desktopbeeld laadt. Altijd met `width` en `height`. Hero's maximaal 120 KB op mobiel en 250 KB op desktop.
+- **Beelden** als gewone progressive JPEG in twee breedtes. Gebruik `srcset` en `sizes`, zodat een telefoon nooit een desktopbeeld laadt. Gebruik `picture` alleen voor een aparte mobiele uitsnede. Altijd met `width` en `height`. Hero's maximaal 120 KB op mobiel en 250 KB op desktop.
 - **Caching:**
     - Statische bestanden krijgen in `.htaccess` een cache van een jaar, met `immutable`.
     - Versiebeheer van die bestanden gaat met een PHP-helper die `?v=` plus de wijzigingstijd van het bestand toevoegt, dus zonder build-stap.

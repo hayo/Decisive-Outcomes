@@ -68,20 +68,20 @@ Zet de verhouding ook in de prompt, bijvoorbeeld: *Aspect ratio 16:9.*
     - `alt`: de Nederlandse alt-tekst;
     - `uitsnede`: het focuspunt, of een verwijzing naar een apart mobiel origineel;
     - `bron`: model, datum en prompt bij AI-beelden; fotograaf en datum bij foto's.
-- De PHP-component voor beelden en het deployscript lezen allebei dit manifest.
+- De PHP-component voor beelden leest dit manifest.
 
-### Afgeleiden bij de deploy
+### JPEG's voor de site
 
-GitHub Actions maakt bij elke deploy de afgeleide bestanden. Ze staan niet in git.
+Er is geen build-stap. Als een beeld wordt toegevoegd, maak je éénmalig de JPEG's voor de site en commit je ze, naast het origineel.
 
 | | |
 |---|---|
-| Breedtes | 480, 800, 1200, 1600 en 2400 px. Nooit groter dan het origineel. |
-| Formaten | AVIF (kwaliteit ±50), WebP (±75), JPEG (±80, progressive) |
-| Mobiele uitsnede | 4:5, uit het mobiele origineel of rond het focuspunt |
-| Deelafbeelding | 1200 × 630 px JPEG voor Open Graph, zonder logo |
+| Breedtes | 800 en 1600 px. Nooit groter dan het origineel. |
+| Formaat | JPEG, progressive, kwaliteit ±80 |
+| Mobiele uitsnede | Alleen bij hero's: 4:5 op 800 px, uit het mobiele origineel of rond het focuspunt |
+| Deelafbeelding | 1200 × 630 px voor Open Graph, zonder logo |
 | Metadata | Alle EXIF- en locatiegegevens worden verwijderd |
-| Uitvoer | `public/assets/img/<id>-<breedte>.<ext>` |
+| Bestandsnaam | `public/assets/img/<id>-<breedte>.jpg`, `<id>-mobiel.jpg` en `<id>-og.jpg` |
 
 Houd je aan de bestandsgroottes uit het snelheidsbudget in `website/CLAUDE.md`: een hero is maximaal 120 KB op mobiel en 250 KB op desktop.
 
@@ -99,7 +99,7 @@ Op de colofonpagina staat dat de beelden op de site met Google Gemini zijn gemaa
 
 - Echte foto's van speeldagen zijn toegestaan, maar alleen met toestemming van iedereen die herkenbaar in beeld is. Leg die toestemming vast. Foto's waarop iemand herkenbaar is zonder toestemming worden niet gebruikt.
 - Geef ze dezelfde kleurbewerking als de AI-beelden: licht ontkleurd, warm in de lichten, diep in de schaduwen en met een subtiele korrel.
-- Vermeld in het manifest wie de fotograaf is en wanneer de foto is gemaakt. De deploy verwijdert de locatiegegevens.
+- Vermeld in het manifest wie de fotograaf is en wanneer de foto is gemaakt. Verwijder de locatiegegevens uit de JPEG's voor de site.
 
 ### Logo
 
