@@ -126,7 +126,23 @@ Jochem had de frietketel binnen veertig minuten los, met gereedschap dat hij in 
 
 De eigenaar zelf stond niet in het contract, maar Robert vroeg hem toch of hij mee wilde in de vrachtwagen. De man bedankte vriendelijk en zei dat hij met de Belgische militairen zou meegaan, omdat die rechtstreeks naar Brussel vlogen. Hij was twee dagen later thuis. Zijn frietketel kwam drie maanden later aan, via de haven van Beira en een omweg langs Kamp Stand-By. De frituur in Kinshasa is daarna nooit meer opengegaan. De eigenaar betaalde de factuur met het pand, de ketel en het recept, en schreef er een briefje bij dat hij nooit meer naar Afrika ging. Het recept ligt tegenwoordig in de kluis op Klein Klein Bonaire, naast de kist. Het is het enige document in de hele groep dat nog beter wordt bewaakt.
 
-### Hoofdstuk 9 — Freetown
+### Hoofdstuk 9 — Sharjah
+
+*Verenigde Arabische Emiraten, maart 1993*
+
+Het bedrijf had een transportprobleem. De geiten moesten naar klanten, de cashewnoten naar de markt en de onderdelen van Jochem naar plekken waar geen weg naartoe liep, en de twee Land Rovers waren daar niet voor gebouwd. Robert had via via gehoord dat je in de vrije zone van Sharjah alles kon kopen wat vloog, en een paar dingen die niet vlogen maar daar wel op leken. Dus vloog hij in maart 1993 met drie vliegtuigen en twee overstappen naar de Golf, met een aktetas vol Rhodesische dollars en een brief van Hayo waarin stond dat het bedrijf "op zoek was naar luchttransportcapaciteit binnen een bescheiden budget".
+
+Het kantoor lag in een hangar aan de rand van het vliegveld. Binnen was het koud van de airconditioning, en op een lange tafel stonden modelvliegtuigjes van Antonovs en Iljoesjins, allemaal in andere kleuren. Er stonden vier telefoons, en er gingen er steeds twee tegelijk. Achter het bureau zat een man met een snor en een rustige, bijna vriendelijke blik. Hij heette Arkadi Morozov. Vroeger was hij vertaler geweest in het Sovjetleger, vertelde hij, en dat merkte je: hij sprak met Robert eerst Engels, toen Frans, toen Portugees, en tussendoor nam hij de telefoon op in een taal die Robert niet kon thuisbrengen. Robert, die zijn hele leven had gedacht dat hij de beste verkoper was die hij kende, voelde zich voor het eerst een amateur.
+
+Morozov had een vloot van oude vrachtvliegtuigen die door heel Afrika vlogen, voor klanten over wie hij niets vertelde en die hem ook nooit iets vertelden. Hij had iets dat bij de prijs van Robert paste: een Antonov An-2, een tweedekker uit de jaren zestig, met een nieuwe laklaag en een stapel papieren zo dik als een telefoonboek. Robert bladerde erdoorheen en zag dat het toestel geregistreerd stond in Liberia, Swaziland, de Centraal-Afrikaanse Republiek en twee andere landen. Tegelijk. Morozov legde uit dat dit gebruikelijk was in de branche en dat het de flexibiliteit vergrootte. Bij de overdracht schudde hij Robert de hand en zei: "Hij is van u. In alle vijf de landen."
+
+Het toestel heeft nooit gevlogen. Elke luchtvaartautoriteit waar Hayo een vliegvergunning aanvroeg, verwees hem door naar een van de vier andere. Na drie jaar correspondentie besloot Jochem dat het vliegtuig per schip naar Beira ging, en vandaar met een vrachtwagen naar Kamp Stand-By. De aanvraag voor een vliegvergunning is formeel nog in behandeling. Hayo verstuurt elk jaar een herinnering.
+
+Wat wel vloog, waren de vliegtuigen van Morozov zelf. Jarenlang brachten ze geiten, cashewnoten en onderdelen voor het bedrijf naar plekken in Afrika waar niemand anders wilde landen, tegen tarieven die Robert nooit helemaal begreep maar altijd betaalde. Eén keer bood Morozov aan om de kist te vervoeren. Hij stond er die dag naast, in de hangar, en tikte er met zijn knokkel op. "Ik vraag nooit wat erin zit," zei hij. "Dat is mijn kracht." Jochem zei nee, en hij ging er de rest van de dag naast zitten.
+
+Een paar maanden later vroeg Morozov iets anders. Of Decisive Outcomes misschien een paar kisten zonder etiket naar een klant in het binnenland wilde brengen, met de Land Rovers, en dan niet te veel vragen. Robert legde het voor op het maandagoverleg. Het werd stil aan tafel. Toen stond Frederik op, langzaam, tot hij helemaal rechtop stond, en daarmee was het besluit genomen. Robert belde Morozov dezelfde middag om het netjes af te zeggen. Morozov was er niet beledigd over. Hij zei dat hij het begreep, en dat ieder bedrijf zijn eigen grenzen had. Hayo schreef in de notulen: *aanbod afgewezen. Geen nieuws uit Salisbury. Wij blijven stand-by.* Het was de enige keer dat de notulen een besluit bevatten.
+
+### Hoofdstuk 10 — Freetown
 
 *Sierra Leone, april 1995*
 
@@ -138,7 +154,31 @@ Die avond zaten ze met z'n vieren aan de bar van het hotel aan het strand, onder
 
 "Kolonel," zei hij, en hij knikte naar Frederik. "Gefeliciteerd met de promotie." Niemand zei iets terug. Robert keek naar zijn glas, Jochem naar de deur. Toen zei Hayo, zonder op te kijken: "Het was de verkeerde boom." Pretorius keek hem aan met iets wat bijna op medelijden leek. "Het was de goede boom, Hayo," zei hij zacht. "Dat weet je." Hij bestelde een biertje en vertelde, op een toon alsof hij het weerbericht voorlas, dat Executive Outcomes de opdracht had gekregen en dat er de volgende ochtend getekend werd. Hij zei het niet om te pesten. Hij zei het zoals je iemand vertelt dat het morgen gaat regenen.
 
-Toen hij zijn biertje op had, boog hij zich naar Jochem toe, die naast hem zat en nog geen woord had gezegd. "Weet je wat ik nooit heb begrepen?" zei hij, zo zacht dat alleen Jochem het kon horen, al hoorden de anderen het ook. "Toen ik in 1979 terugkwam in Salisbury, vroeg niemand waar jullie waren. Niemand. Ze vroegen alleen naar de kist." Hij legde een stapel bankbiljetten op de bar, genoeg voor alle vijf de rekeningen, knikte nog één keer en liep naar buiten, de warme avond in. Lange tijd zei niemand iets. Toen zei Robert: "Hij heeft betaald." Frederik knikte langzaam. "Dan was het in elk geval geen verlies." Jochem zei helemaal niets. Hij stond op, liep naar de receptie en boekte de eerste vlucht terug naar de kist.
+Toen hij zijn biertje op had, boog hij zich naar Jochem toe, die naast hem zat en nog geen woord had gezegd. "Weet je wat ik nooit heb begrepen?" zei hij, zo zacht dat alleen Jochem het kon horen, al hoorden de anderen het ook. "Toen ik in 1979 terugkwam in Salisbury, vroeg niemand waar jullie waren. Niemand. Ze vroegen alleen naar de kist." Hij legde een stapel bankbiljetten op de bar, genoeg voor alle vijf de rekeningen, knikte nog één keer en liep naar buiten, de warme avond in. Lange tijd zei niemand iets. Toen zei Robert: "Hij heeft betaald." Frederik knikte langzaam. "Dan was het in elk geval geen verlies."
+
+Ze bleven nog een tijd zitten, zonder veel te zeggen. Pas toen merkten ze dat er de hele avond iemand aan het andere eind van de bar had gezeten. Een magere man met een zongebruinde nek en een vliegeniersbril in het borstzakje van zijn overhemd, die zijn bier langzaam had leeggedronken en alles had gehoord. Hij stond op, liep naar hen toe en ging zonder te vragen op de kruk van Pretorius zitten. "Gavin Laurie," zei hij. "Rhodesische luchtmacht, tot het geen Rhodesische luchtmacht meer was. Tegenwoordig vlieg ik helikopters voor die lui met de poloshirts." Hij keek de kring rond, en zijn blik bleef op Hayo rusten. "Augustus 1979. Een rivierbedding in Manica. Een Alouette."
+
+Even was het zo stil dat je de zee kon horen. Hayo was de eerste die iets zei. "U bent bij de verkeerde boom geland." Laurie dacht daar zichtbaar over na, alsof hij de vraag serieus wilde nemen. "Ik ben geland bij de boom die op mijn kaart stond," zei hij toen. Hayo vroeg wie die kaart had getekend. Laurie haalde zijn schouders op. "Dat heb ik me toen ook al afgevraagd," zei hij. "Ik heb het nooit gevraagd. In die tijd vroeg je zulke dingen niet." Hij schreef een telefoonnummer op een bierviltje en schoof het naar Robert. "Als jullie ooit een helikopter nodig hebben die wél vliegt," zei hij, "of als ik ooit iemand nodig heb die er een kan repareren." Toen knikte hij naar Jochem, alsof hij al wist wie van de vier dat zou zijn, en liep naar buiten.
+
+Jochem zei helemaal niets. Hij stond op, liep naar de receptie en boekte de eerste vlucht terug naar de kist.
+
+### Hoofdstuk 11 — Gunship
+
+*Sierra Leone, 1998–1999*
+
+Het bierviltje lag drie jaar in de bureaula van Robert. In het voorjaar van 1998 ging de telefoon. Executive Outcomes was inmiddels vertrokken uit Sierra Leone, de oorlog was dat niet. Gavin Laurie vloog nog steeds, maar nu voor de regering, en bijna alleen. Hij had één oude gevechtshelikopter van Russische makelij, en de Russische monteurs die hem in de lucht hielden, waren met het laatste vliegtuig naar huis gegaan. "Ik heb een monteur nodig," zei hij door de krakende lijn. "En onderdelen. En iemand die kan rekenen." Robert keek naar Jochem, die al opgestaan was.
+
+Op het vliegveld van Lungi, aan de overkant van de baai tegenover Freetown, stond de helikopter in een hangar zonder deuren. Er was al iemand aan het werk. Ibrahim Kamara was vliegtuigtechnicus geweest bij de luchtmacht van Sierra Leone, had jarenlang naast de Russen gewerkt en kende het toestel beter dan wie ook, inclusief de Russen. Jochem liep een keer om de helikopter heen, keek naar de olievlekken op de grond, en toen naar Ibrahim. "Jij weet wat er mis is," zei hij. Ibrahim knikte. "Alles," zei hij. "Maar in een bepaalde volgorde." Vanaf die dag werkten ze samen. Jochem bracht zijn gereedschap uit Umtali mee en zijn gewoonte om nooit iets weg te gooien. Ibrahim bracht de kennis, de handboeken in het Russisch en het geduld. Jochem zei later dat hij in die maanden meer had geleerd dan in de twintig jaar daarvoor.
+
+De anderen deden wat ze konden. Hayo vloog mee als navigator, met zijn kaarten op schoot, en voor het eerst sinds 1979 kwam iedere helikopter waarin hij zat ook echt aan waar hij moest zijn. Robert regelde onderdelen via Morozov in Sharjah, en Jochem opende elke kist die binnenkwam om te controleren of er niets anders in zat dan wat er op de vrachtbrief stond. Frederik onderhandelde met de luchthaven over brandstof. Hij hoefde daarvoor meestal alleen maar op te staan.
+
+Het was geen avontuur, en zo voelde het ook niet. De oorlog in Sierra Leone was een van de wreedste van die jaren, en wie er was, zag dingen die hij niet meer kwijtraakte. In het notitieboekje van Hayo staan over die maanden geen grappen. Er staan vluchten in, brandstofhoeveelheden, uren en namen van plaatsen. En steeds vaker de aantekening die Jochem hem elke avond dicteerde: *hoofdrotor, tandwielkast. Onderdeel besteld. Niet geleverd.*
+
+In december 1998 zei Jochem tegen Laurie dat de helikopter niet meer veilig was. Ibrahim zei hetzelfde, met meer technische woorden. Het onderdeel dat ze nodig hadden, stond volgens Morozov "klaar in Sharjah", maar het vliegtuig dat het moest brengen, was geregistreerd in vijf landen en had van geen van de vijf toestemming gekregen om op te stijgen. Laurie luisterde, bedankte hen, en vloog door. Er was niemand anders.
+
+Begin januari 1999 trokken de rebellen Freetown binnen. Laurie steeg op zoals elke dag. Na een kwartier kwam hij terug, langzaam en met een geluid uit de tandwielkast dat Jochem nooit meer is vergeten. Het toestel ging niet meer de lucht in. Wat er de weken daarna in Freetown gebeurde, hoort in dit verhaal niet thuis als iets anders dan wat het was. Het team deed wat het die maanden het beste had geleerd: zorgen dat dingen en mensen van de ene plek naar de andere kwamen. Robert huurde boten, zoals hij ooit in Brazzaville had gedaan, en samen met Ibrahim brachten ze ziekenhuispersoneel en families over de baai naar Lungi, keer op keer, tot er niemand meer was die wilde gaan.
+
+Laurie bleef in Sierra Leone. Ibrahim ook; het was zijn land, en hij zei dat iemand de helikopter moest repareren als het onderdeel ooit kwam. Het team vloog in februari terug naar Kamp Stand-By. Op het eerste maandagoverleg daarna schreef Hayo de vaste woorden in de notulen, en daaronder één zin die er niet om lachte: *opdracht Sierra Leone afgesloten.* Het is de enige opdracht in de geschiedenis van het bedrijf waarvoor nooit een factuur is verstuurd.
 
 ### 1986–2004: Wapenfeiten
 
@@ -147,16 +187,18 @@ In de eerste twintig jaar werkte het team in Afrika, Zuid-Amerika en op de Balka
 | Jaar | Land | Opdracht | Resultaat |
 |---|---|---|---|
 | 2004 | Equatoriaal-Guinea | Uitnodiging voor een "zakenreis" | Afgewezen na risicoanalyse. Achteraf de beste beslissing van dat decennium. |
+| 1998–1999 | Sierra Leone | Onderhoud en logistiek voor een helikoptereenheid | Uitgevoerd tot januari 1999. Geen factuur verstuurd. |
 | 1998 | Bolivia | Gestolen lama terugvinden | Binnen budget. Ruim buiten de planning. |
 | 1997 | Albanië | Geld terughalen uit een piramidespel | Geld omgezet in een nieuwe belegging. |
 | 1996 | Colombia | Beveiliging van tv-opnames in Bogotá | Afgerond. Klant gaf een 8. |
-| 1995 | Sierra Leone | Beveiliging van diamantvelden | Niet gegund. Zie de vete. |
+| 1995 | Sierra Leone | Beveiliging van diamantvelden | Niet gegund. Zie hoofdstuk 10. |
 | 1994 | Bosnië-Herzegovina | Bewaking van een pruimenstokerij | Zonder incidenten. Voorraad bij oplevering iets lager dan bij de start. |
+| 1993 | Verenigde Arabische Emiraten | Aankoop van luchttransportcapaciteit | Antonov verworven. Vliegvergunning in behandeling sinds 1993. |
 | 1991 | Zaïre | Evacuatie van een Belgische frituur uit Kinshasa | Frituur geëvacueerd. De eigenaar viel buiten de scope. |
 | 1989 | Angola | Bewaking van een diamantmijn | Afgerond. De mijn bleek een kwartsmijn. Betaald in natura. |
 | 1986 | Malawi | Begeleiding van een kudde koeien | Opgeleverd met 108 procent van de koeien. Afwijking niet verklaard. |
 
-### Hoofdstuk 10 — Van kamp naar concern
+### Hoofdstuk 12 — Van kamp naar concern
 
 *Kralendijk, 2005*
 
@@ -242,7 +284,7 @@ Decisive Outcomes Group houdt zich aan alle regels, ook aan regels die al lang n
 
 Dat de moedermaatschappij nog altijd in Rhodesië staat ingeschreven, levert daarnaast een aantal praktische problemen op. Er is nooit belastingaangifte gedaan, omdat elk aangifteformulier ter wereld vraagt in welk land het bedrijf gevestigd is, en het juiste antwoord op die vraag door geen enkel systeem wordt geaccepteerd. Om dezelfde reden luidt het btw-nummer van de groep in Rhodesische dollars. Een aanvraag voor een internationaal kwaliteitskeurmerk werd in 2009 afgewezen, met als toelichting dat het kwaliteitsbeleid van de groep uit slechts twee woorden bestond: *stand by.* Hayo heeft bezwaar gemaakt. Dat bezwaar is in behandeling.
 
-In het jaarverslag staat ook een kort overzicht van afgehandelde incidenten. Het bekendste is dat van 2011, toen een VN-rapport de groep omschreef als "een organisatie zonder duidelijk doel". De raad van bestuur heeft die zin integraal overgenomen in het jaarverslag van dat jaar, onder het kopje *externe erkenning*. Een ander incident speelde in 1992 in Swaziland, waar het team een dorp bevrijdde dat achteraf niet bezet bleek te zijn. Het dorp viert sindsdien elk jaar Bevrijdingsdag, en de groep is daar niet alleen altijd welkom maar inmiddels ook hoofdsponsor.
+In het jaarverslag staat ook een kort overzicht van afgehandelde incidenten. Het bekendste is dat van 2011, toen een VN-rapport de groep omschreef als "een organisatie zonder duidelijk doel". De raad van bestuur heeft die zin integraal overgenomen in het jaarverslag van dat jaar, onder het kopje *externe erkenning*. Een ander incident speelde in 1992 in Swaziland, waar het team een dorp bevrijdde dat achteraf niet bezet bleek te zijn. Het dorp viert sindsdien elk jaar Bevrijdingsdag, en de groep is daar niet alleen altijd welkom maar inmiddels ook hoofdsponsor. Minder bekend is het incident van 2008. Arkadi Morozov, de luchtvrachthandelaar die de groep ooit de Antonov verkocht, nodigde Robert dat voorjaar uit voor "een grote order" in Bangkok. Robert ging niet, omdat Bangkok niet in het meerjarenplan stond. Morozov werd daar opgepakt bij een undercoveractie van de Amerikaanse drugsbestrijding en kreeg later in New York een lange gevangenisstraf. De afdeling Compliance registreerde het als een gemiste lead met een positieve uitkomst. In 2022 kwam Morozov vrij bij een gevangenenruil, en een jaar later ontving Robert een nieuw visitekaartje uit Rusland, met een nieuwe titel: regionaal parlementslid. Het kaartje zit in het archief, in een aparte map met het opschrift *niet terugbellen*.
 
 ### Hoofdkantoor
 

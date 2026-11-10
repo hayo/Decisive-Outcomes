@@ -43,6 +43,10 @@ Gebruik deze feiten consequent en wijzig ze niet zonder overleg.
 - **Overige personages:**
     - Sergeant Nigel Pretorius: de radioman. Hij stapte in 1979 in de helikopter ("Stand by"), werkt sinds 1989 bij Executive Outcomes en stuurt elk jaar een kerstkaart: *Hoe gaat het met de kist?*
     - Dona Esperança: leidt de vallei in Manica en onderhandelt beter dan iedereen.
+    - Arkadi Morozov: luchtvrachthandelaar in Sharjah, voormalig Sovjet-militair vertaler. Verzonnen figuur, geïnspireerd op Viktor Bout. Verkocht de Antonov en vliegt vracht voor de groep. Het team weigert zijn "andere vracht". In 2008 opgepakt in Bangkok, in 2022 vrij bij een gevangenenruil.
+    - Gavin Laurie: de piloot van de Alouette in 1979, later gunshippiloot in Sierra Leone. Verzonnen figuur, geïnspireerd op Neall Ellis. Over 1979 zegt hij alleen dat hij landde bij de boom die op zijn kaart stond. Wie die kaart tekende, blijft open.
+    - Ibrahim Kamara: vliegtuigtechnicus uit Sierra Leone, kent de helikopter beter dan iedereen. Werkt in 1998–1999 samen met Jochem.
+    - Gebruik voor figuren die op echte mensen zijn gebaseerd altijd verzonnen namen.
 - **Tijdlijn:**
     - 1979: de kist moet naar een kruispunt in Manica. Het team wacht bij de verkeerde baobab.
     - 1979–1983: Kamp Stand-By in een cashewplantage.
@@ -50,9 +54,12 @@ Gebruik deze feiten consequent en wijzig ze niet zonder overleg.
     - 1 april 1984: oprichting. Eerste klant is Senhor Almeida, eerste factuur 0001.
     - 1989: de eerste kerstkaart.
     - 1991: Kinshasa (de frituur).
-    - 1995: Freetown, verloren aan Executive Outcomes.
+    - 1993: Sharjah. Robert koopt de Antonov van Morozov; het team weigert zijn "andere vracht".
+    - 1995: Freetown, verloren aan Executive Outcomes. Eerste ontmoeting met Laurie.
+    - 1998–1999: Sierra Leone. Onderhoud en logistiek voor Lauries helikopter, met Ibrahim Kamara. Eindigt in januari 1999 met de evacuatie over de baai naar Lungi. Er is nooit een factuur gestuurd; deze episode is serieus en nooit een grap.
     - 1999: Klein Klein Bonaire gewonnen met kaarten. De kist verhuist mee.
     - 2005: Decisive Outcomes Group bij de notaris in Kralendijk.
+    - 2008: Morozov opgepakt in Bangkok; Robert ging niet.
     - Sinds 2019: de "divisie Benelux". Het team denkt dat airsoft een echt conflict is.
 - **Vaste elementen:**
     - Het Stand-By-overleg, elke maandag om 06.00 uur: "geen nieuws uit Salisbury, wij blijven stand-by".
