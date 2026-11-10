@@ -43,6 +43,9 @@ Zet de verhouding ook in de prompt, bijvoorbeeld: *Aspect ratio 16:9.*
 
 - Maak eerst `HOME-01`. Gebruik het goedgekeurde beeld daarna als referentiebeeld bij de andere prompts, met de toevoeging: *Match the color grading, light and grain of the reference image.*
 - Doe hetzelfde bij de portretten: keur er één goed en gebruik die als referentie voor de andere drie.
+- De vier oprichters zijn wit. Gemini maakt silhouetten in tegenlicht vaak donker; noem het daarom altijd in de prompt (*white Rhodesian soldiers*, of *The man is white* bij de portretten). Werkt het niet, bewerk dan een goedgekeurd beeld in plaats van een nieuw te maken.
+- Zet achter elke prompt: *Everything is unbadged: no lettering, no number plates, no brand names, no insignia.* Zonder die zin zet Gemini merknamen en kentekens op voertuigen.
+- Bij hero's de tekst links, het onderwerp rechts: *Composition for a website header: main subject in the right half of the frame, the left half calm and darker for text overlay.*
 - Leg goedgekeurde beelden vast in `website/beelden/originelen/`, met het ID als bestandsnaam (zie *Beeldeisen*).
 
 ## Beeldeisen
@@ -112,7 +115,7 @@ Zet steeds eerst het stijlblok voor de prompt.
 ### Home
 
 **HOME-01 — Hero.** *Aspect ratio 16:9.*
-Two weathered 1970s Land Rovers parked on a red dirt road in African savanna at golden hour, a large baobab tree on the horizon, dust hanging in the warm light. Four men in plain olive field clothing stand beside the vehicles seen from behind, looking toward the horizon. The scene is calm and patient, as if they have been waiting a long time.
+Two weathered 1970s Land Rovers parked on a red dirt road in African savanna at golden hour, a large baobab tree on the horizon, dust hanging in the warm light. Four white Rhodesian soldiers in plain olive field clothing stand beside the vehicles seen from behind, looking toward the horizon; one of them is noticeably taller and broader than the others. The scene is calm and patient, as if they have been waiting a long time.
 
 **HOME-02 — Security.** *Aspect ratio 16:9.*
 A lone figure in dark field clothing seen from behind on a rooftop at dusk, looking out over a quiet city with a pair of binoculars. Warm lights coming on in the distance, the figure in silhouette.
@@ -136,7 +139,7 @@ Four pairs of worn military boots standing side by side on red earth, shot low t
 Gebruik voor alle vier hetzelfde decor en licht, en alleen de details uit de canon. Dit zijn voorlopig silhouetten; echte gezichten pas na een nieuw besluit (zie `docs/beslissingen.md`). Maak geen AI-portretten op basis van foto's van echte teamleden.
 
 **LEAD-basis** (zet dit voor elk portret):
-Formal executive portrait in a dark boardroom with a large window behind, the man silhouetted against warm evening light, face in deep shadow and not recognizable, wearing a dark suit. *Aspect ratio 4:5.*
+Formal executive portrait in a dark boardroom with a large window behind, the man silhouetted against warm evening light, face in deep shadow and not recognizable, wearing a dark suit. The man is white. Exactly one person in the image, nobody else in the room. *Aspect ratio 4:5.*
 
 - **LEAD-01 — Frederik:** A very tall, broad man standing upright, almost filling the frame, completely still.
 - **LEAD-02 — Hayo:** A man seated at the boardroom table, a folded map and an open notebook in front of him, a pen in his hand.

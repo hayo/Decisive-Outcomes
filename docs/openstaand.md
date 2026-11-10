@@ -27,13 +27,16 @@ Wat nog moet gebeuren voordat en nadat de site live gaat. Vink af wat klaar is e
 - [x] Echte informatie voor *Meedoen met het airsoftteam* op Werken bij.
 - [ ] Privacyverklaring laten controleren, vooral de bewaartermijn (nu: uiterlijk een jaar) en de grondslag.
 - [ ] Besluiten of het volledige verhaal als pagina *Ons verhaal* op de site komt. Het is te groot voor het paginabudget en bevat nog niet-goedgekeurde personages.
-- [ ] Beelden maken en plaatsen: de site werkt zonder, maar hero's en kaarten zijn nu nog leeg. Zonder beelden is er ook geen `og:image`.
 - [ ] Op de server: documentroot naar `public/` zetten, `includes/config.php` aanmaken (zie `config.example.php`) en de GitHub Secrets voor de deploy invullen. Tot die tijd mislukt de deploy-workflow.
 - [ ] Eventueel een professionele vectorversie (SVG) van het logo laten maken. Tot die tijd gebruiken we de originele PNG.
 - [x] De lijniconen per divisie ontwerpen.
 - [x] De lettertypes Oswald en Source Sans 3 downloaden, beperken tot de Latijnse tekenset en de OFL-licentiebestanden meenemen.
-- [ ] `HOME-01` goedkeuren als referentie voor de stijl. Gemaakt op 10 november 2026 via de API en staat op de homepage.
-- [ ] De overige beelden uit [beeldtaal.md](../website/beeldtaal.md).
+- [x] `HOME-01` en twaalf andere beelden uit [beeldtaal.md](../website/beeldtaal.md) gemaakt en geplaatst (10 november 2026).
+- [ ] Gemini-tegoed aanvullen in AI Studio; het prepaid-tegoed was op.
+- [ ] `DIEN-01` opnieuw maken: in de eerste versie waren gezichten zichtbaar.
+- [ ] `LEAD-02` en `LEAD-03` opnieuw maken, met `LEAD-01` als referentie. Bij `LEAD-02` was het gezicht te goed zichtbaar, `LEAD-03` had een ander decor. De portretten gaan pas op de site als alle vier klaar zijn.
+- [ ] Beelden voor de dertien inzichten (NEWS-basis), zodat ook persberichten een `og:image` hebben.
+- [ ] `OVER-02` wordt nergens gebruikt: een plek geven of uit de beeldtaal halen.
 - [x] Het colofon, de privacyverklaring en de disclaimer schrijven. Deze teksten zijn echt, geen satire.
 - [x] De GitHub Actions-workflow voor de deploy.
 

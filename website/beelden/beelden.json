@@ -16,14 +16,198 @@
       "id": "HOME-01",
       "type": "ai",
       "alt": "Vier mannen in veldkleding staan met de rug naar de camera bij twee oude terreinwagens op een rode zandweg en kijken naar een baobab aan de horizon.",
-      "uitsnede": "mobiel: 4:5 rond de vier mannen (focuspunt x 0,4)",
+      "uitsnede": "mobiel: 4:5 rond de vier mannen (focuspunt x 0,45)",
       "bron": {
         "model": "gemini-3-pro-image",
         "datum": "2026-11-10",
         "prompt": "Cinematic corporate photography for a private security company annual report. Shot on 35mm film, subtle grain, slightly desaturated colors with warm golden highlights and deep near-black shadows, occasional muted crimson accent. Low, warm side light or single-source interior light, strong contrast, calm and serious mood. Generous negative space for text overlay. No text, no logos, no watermarks, no flags. Two weathered 1970s Land Rovers parked on a red dirt road in African savanna at golden hour, a large baobab tree on the horizon, dust hanging in the warm light. Four men in plain olive field clothing stand beside the vehicles seen from behind, looking toward the horizon. The scene is calm and patient, as if they have been waiting a long time. The vehicles are early short-wheelbase utility vehicles with a canvas top, faded sand paint, completely unbadged: no badges, no lettering, no number plates. Composition: the vehicles and the four men grouped in the left third of the frame, the baobab small on the horizon to the right, a wide open sky and empty savanna on the right half. The men are silhouettes against the low sun, faces never visible. Aspect ratio 16:9.",
-        "instellingen": "aspectRatio 16:9, imageSize 4K (5504 × 3072)",
-        "nabewerking": "horizontaal gespiegeld, zodat het onderwerp rechts staat en de tekst links vrij blijft"
+        "instellingen": "aspectRatio 16:9, imageSize 4K",
+        "nabewerking": "horizontaal gespiegeld, daarna met Gemini bewerkt: Edit this photograph. Keep the composition, vehicles, landscape, light, color grading and film grain exactly the same. Change only the four men: they are white European men with fair, sun-tanned skin, short hair, visible on the backs of their necks, ears and hands. Keep them seen from behind, faces not visible. No text, no logos."
       }
+    },
+    {
+      "id": "HOME-02",
+      "type": "ai",
+      "alt": "Een man in donkere kleding kijkt bij schemering met een verrekijker vanaf een dak uit over een stad.",
+      "uitsnede": "geen aparte mobiele uitsnede",
+      "bron": {
+        "model": "gemini-3-pro-image",
+        "datum": "2026-11-10",
+        "prompt": "Cinematic corporate photography for a private security company annual report. Shot on 35mm film, subtle grain, slightly desaturated colors with warm golden highlights and deep near-black shadows, occasional muted crimson accent. Low, warm side light or single-source interior light, strong contrast, calm and serious mood. Generous negative space for text overlay. No text, no logos, no watermarks, no flags. A lone figure in dark field clothing seen from behind on a rooftop at dusk, looking out over a quiet city with a pair of binoculars. Warm lights coming on in the distance, the figure in silhouette. Everything is unbadged: no lettering, no number plates, no brand names, no insignia. Aspect ratio 16:9. Match the color grading, light and grain of the reference image.",
+        "referentie": "HOME-01",
+        "instellingen": "aspectRatio 16:9, imageSize 4K"
+      }
+    },
+    {
+      "id": "HOME-03",
+      "type": "ai",
+      "alt": "Een houten bar op een terras aan zee bij zonsondergang, met één glas bier op de toog.",
+      "uitsnede": "geen aparte mobiele uitsnede",
+      "bron": {
+        "model": "gemini-3-pro-image",
+        "datum": "2026-11-10",
+        "prompt": "Cinematic corporate photography for a private security company annual report. Shot on 35mm film, subtle grain, slightly desaturated colors with warm golden highlights and deep near-black shadows, occasional muted crimson accent. Low, warm side light or single-source interior light, strong contrast, calm and serious mood. Generous negative space for text overlay. No text, no logos, no watermarks, no flags. A simple, elegant bar on a wooden deck by the sea at sunset, a single glass of beer on the counter, an empty chair, warm golden light, a calm ocean in the background. Everything is unbadged: no lettering, no number plates, no brand names, no insignia. Aspect ratio 16:9. Match the color grading, light and grain of the reference image.",
+        "referentie": "HOME-01",
+        "instellingen": "aspectRatio 16:9, imageSize 4K"
+      }
+    },
+    {
+      "id": "HOME-04",
+      "type": "ai",
+      "alt": "Luchtfoto van een klein zandeiland in turquoise water, met één gebouwtje en een korte steiger.",
+      "uitsnede": "geen aparte mobiele uitsnede",
+      "bron": {
+        "model": "gemini-3-pro-image",
+        "datum": "2026-11-10",
+        "prompt": "Cinematic corporate photography for a private security company annual report. Shot on 35mm film, subtle grain, slightly desaturated colors with warm golden highlights and deep near-black shadows, occasional muted crimson accent. Low, warm side light or single-source interior light, strong contrast, calm and serious mood. Generous negative space for text overlay. No text, no logos, no watermarks, no flags. Aerial photograph of a tiny sandbank island in turquoise Caribbean water with a single small modern building and a short wooden jetty, low tide revealing pale sand, late afternoon light. Everything is unbadged: no lettering, no number plates, no brand names, no insignia. Aspect ratio 16:9. Match the color grading, light and grain of the reference image.",
+        "referentie": "HOME-01",
+        "instellingen": "aspectRatio 16:9, imageSize 4K"
+      }
+    },
+    {
+      "id": "OVER-01",
+      "type": "ai",
+      "alt": "Een oude houten keukentafel met een vergeelde krant, een lege koffiekop en een opengeslagen notitieboek in het licht door de luiken.",
+      "uitsnede": "mobiel: 4:5 rond het focuspunt (x 0,75)",
+      "bron": {
+        "model": "gemini-3-pro-image",
+        "datum": "2026-11-10",
+        "prompt": "Cinematic corporate photography for a private security company annual report. Shot on 35mm film, subtle grain, slightly desaturated colors with warm golden highlights and deep near-black shadows, occasional muted crimson accent. Low, warm side light or single-source interior light, strong contrast, calm and serious mood. Generous negative space for text overlay. No text, no logos, no watermarks, no flags. An old wooden table in an abandoned colonial farmhouse kitchen, a yellowed newspaper and an empty coffee cup on it, a notebook with handwritten notes, warm light falling through shutters. Quiet, nostalgic, documentary. The newspaper and notes are blurred, nothing readable. Everything is unbadged: no lettering, no number plates, no brand names, no insignia. Composition for a website header: main subject in the right half of the frame, the left half calm and darker for text overlay. Aspect ratio 16:9. Match the color grading, light and grain of the reference image.",
+        "referentie": "HOME-01",
+        "instellingen": "aspectRatio 16:9, imageSize 4K"
+      }
+    },
+    {
+      "id": "WERK-01",
+      "type": "ai",
+      "alt": "Een groep mensen in buitenkleding loopt bij ochtendgloren een mistig bos in.",
+      "uitsnede": "mobiel: 4:5 rond het focuspunt (x 0,72)",
+      "bron": {
+        "model": "gemini-3-pro-image",
+        "datum": "2026-11-10",
+        "prompt": "Cinematic corporate photography for a private security company annual report. Shot on 35mm film, subtle grain, slightly desaturated colors with warm golden highlights and deep near-black shadows, occasional muted crimson accent. Low, warm side light or single-source interior light, strong contrast, calm and serious mood. Generous negative space for text overlay. No text, no logos, no watermarks, no flags. A group of people in practical outdoor gear seen from behind, walking into a forest at early morning, mist between the trees, soft golden light. Purposeful, a team. Everything is unbadged: no lettering, no number plates, no brand names, no insignia. Composition for a website header: main subject in the right half of the frame, the left half calm and darker for text overlay. Aspect ratio 16:9. Match the color grading, light and grain of the reference image.",
+        "referentie": "HOME-01",
+        "instellingen": "aspectRatio 16:9, imageSize 4K"
+      }
+    },
+    {
+      "id": "DIEN-02",
+      "type": "ai",
+      "alt": "Een kleine, ouderwetse frituur na sluitingstijd, met de stoelen op de tafels.",
+      "uitsnede": "mobiel: 4:5 rond het focuspunt (x 0,65)",
+      "bron": {
+        "model": "gemini-3-pro-image",
+        "datum": "2026-11-10",
+        "prompt": "Cinematic corporate photography for a private security company annual report. Shot on 35mm film, subtle grain, slightly desaturated colors with warm golden highlights and deep near-black shadows, occasional muted crimson accent. Low, warm side light or single-source interior light, strong contrast, calm and serious mood. Generous negative space for text overlay. No text, no logos, no watermarks, no flags. The interior of a small, old-fashioned fry shop at closing time, a large stainless steel fryer gleaming under warm light, chairs on the tables, a sense of a story behind it. Everything is unbadged: no lettering, no number plates, no brand names, no insignia. Composition for a website header: main subject in the right half of the frame, the left half calm and darker for text overlay. Aspect ratio 16:9. Match the color grading, light and grain of the reference image.",
+        "referentie": "HOME-01",
+        "instellingen": "aspectRatio 16:9, imageSize 4K"
+      }
+    },
+    {
+      "id": "DIEN-03",
+      "type": "ai",
+      "alt": "Ruwe heldere kwartskristallen en een juweliersloep op een donkere stenen tafel.",
+      "uitsnede": "mobiel: 4:5 rond het focuspunt (x 0,7)",
+      "bron": {
+        "model": "gemini-3-pro-image",
+        "datum": "2026-11-10",
+        "prompt": "Cinematic corporate photography for a private security company annual report. Shot on 35mm film, subtle grain, slightly desaturated colors with warm golden highlights and deep near-black shadows, occasional muted crimson accent. Low, warm side light or single-source interior light, strong contrast, calm and serious mood. Generous negative space for text overlay. No text, no logos, no watermarks, no flags. Close-up of rough clear quartz crystals on a dark stone table under a single warm light, with a jeweler's loupe beside them. Serious, as if they were diamonds. Everything is unbadged: no lettering, no number plates, no brand names, no insignia. Composition for a website header: main subject in the right half of the frame, the left half calm and darker for text overlay. Aspect ratio 16:9. Match the color grading, light and grain of the reference image.",
+        "referentie": "HOME-01",
+        "instellingen": "aspectRatio 16:9, imageSize 4K"
+      }
+    },
+    {
+      "id": "DIEN-04",
+      "type": "ai",
+      "alt": "Een stapel blanco aandeelbewijzen, met touw samengebonden, op een mahoniehouten bureau naast een vulpen.",
+      "uitsnede": "mobiel: 4:5 rond het focuspunt (x 0,75)",
+      "bron": {
+        "model": "gemini-3-pro-image",
+        "datum": "2026-11-10",
+        "prompt": "Cinematic corporate photography for a private security company annual report. Shot on 35mm film, subtle grain, slightly desaturated colors with warm golden highlights and deep near-black shadows, occasional muted crimson accent. Low, warm side light or single-source interior light, strong contrast, calm and serious mood. Generous negative space for text overlay. No text, no logos, no watermarks, no flags. A neat stack of old share certificates with ornate borders tied with string on a mahogany desk, a reading lamp, a fountain pen, deep shadows. The certificates are blank, no readable text. Everything is unbadged: no lettering, no number plates, no brand names, no insignia. Composition for a website header: main subject in the right half of the frame, the left half calm and darker for text overlay. Aspect ratio 16:9. Match the color grading, light and grain of the reference image.",
+        "referentie": "HOME-01",
+        "instellingen": "aspectRatio 16:9, imageSize 4K"
+      }
+    },
+    {
+      "id": "DIEN-05",
+      "type": "ai",
+      "alt": "Een verroeste dubbeldekker in de branding van een klein eiland bij avondlicht.",
+      "uitsnede": "mobiel: 4:5 rond het focuspunt (x 0,65)",
+      "bron": {
+        "model": "gemini-3-pro-image",
+        "datum": "2026-11-10",
+        "prompt": "Cinematic corporate photography for a private security company annual report. Shot on 35mm film, subtle grain, slightly desaturated colors with warm golden highlights and deep near-black shadows, occasional muted crimson accent. Low, warm side light or single-source interior light, strong contrast, calm and serious mood. Generous negative space for text overlay. No text, no logos, no watermarks, no flags. A rusted Antonov biplane half buried in the sand at the edge of a small Caribbean island, waves breaking against it, golden evening light. Calm and strangely dignified. Everything is unbadged: no lettering, no number plates, no brand names, no insignia. Composition for a website header: main subject in the right half of the frame, the left half calm and darker for text overlay. Aspect ratio 16:9. Match the color grading, light and grain of the reference image.",
+        "referentie": "HOME-01",
+        "instellingen": "aspectRatio 16:9, imageSize 4K"
+      }
+    },
+    {
+      "id": "DIEN-06",
+      "type": "ai",
+      "alt": "Een klein, opgeruimd wervingskantoor met een houten bureau en een stapel contracten in het zonlicht door de lamellen.",
+      "uitsnede": "mobiel: 4:5 rond het focuspunt (x 0,8)",
+      "bron": {
+        "model": "gemini-3-pro-image",
+        "datum": "2026-11-10",
+        "prompt": "Cinematic corporate photography for a private security company annual report. Shot on 35mm film, subtle grain, slightly desaturated colors with warm golden highlights and deep near-black shadows, occasional muted crimson accent. Low, warm side light or single-source interior light, strong contrast, calm and serious mood. Generous negative space for text overlay. No text, no logos, no watermarks, no flags. A small, tidy recruitment office in a Caribbean town, a single wooden desk with a stack of contracts and a pen, sunlight through the blinds, a fan on the ceiling. The contracts have no readable text. Everything is unbadged: no lettering, no number plates, no brand names, no insignia. Composition for a website header: main subject in the right half of the frame, the left half calm and darker for text overlay. Aspect ratio 16:9. Match the color grading, light and grain of the reference image.",
+        "referentie": "HOME-01",
+        "instellingen": "aspectRatio 16:9, imageSize 4K"
+      }
+    },
+    {
+      "id": "DIEN-07",
+      "type": "ai",
+      "alt": "Een kudde geiten loopt bij zonsopgang door droge struiken met cactussen, met hun hoeders erachter.",
+      "uitsnede": "mobiel: 4:5 rond het focuspunt (x 0,65)",
+      "bron": {
+        "model": "gemini-3-pro-image",
+        "datum": "2026-11-10",
+        "prompt": "Cinematic corporate photography for a private security company annual report. Shot on 35mm film, subtle grain, slightly desaturated colors with warm golden highlights and deep near-black shadows, occasional muted crimson accent. Low, warm side light or single-source interior light, strong contrast, calm and serious mood. Generous negative space for text overlay. No text, no logos, no watermarks, no flags. A herd of goats walking through dry Caribbean scrubland with cacti at sunrise, seen from a low angle, warm golden light, dust in the air. Shot like a nature documentary. Everything is unbadged: no lettering, no number plates, no brand names, no insignia. Composition for a website header: main subject in the right half of the frame, the left half calm and darker for text overlay. Aspect ratio 16:9. Match the color grading, light and grain of the reference image.",
+        "referentie": "HOME-01",
+        "instellingen": "aspectRatio 16:9, imageSize 4K"
+      }
+    },
+    {
+      "id": "WERELD-02",
+      "type": "ai",
+      "alt": "Een moderne vergaderruimte van glas op een klein eiland bij zonsopgang, met zee aan alle kanten.",
+      "uitsnede": "geen aparte mobiele uitsnede",
+      "bron": {
+        "model": "gemini-3-pro-image",
+        "datum": "2026-11-10",
+        "prompt": "Cinematic corporate photography for a private security company annual report. Shot on 35mm film, subtle grain, slightly desaturated colors with warm golden highlights and deep near-black shadows, occasional muted crimson accent. Low, warm side light or single-source interior light, strong contrast, calm and serious mood. Generous negative space for text overlay. No text, no logos, no watermarks, no flags. A modern glass meeting room on a tiny island at dawn, a long table with four chairs, the ocean visible on all sides, the sea calm and almost touching the floor. Everything is unbadged: no lettering, no number plates, no brand names, no insignia. Aspect ratio 16:9. Match the color grading, light and grain of the reference image.",
+        "referentie": "HOME-01",
+        "instellingen": "aspectRatio 16:9, imageSize 4K"
+      }
+    },
+    {
+      "id": "LEAD-01",
+      "type": "ai",
+      "alt": "",
+      "uitsnede": "portret 4:5",
+      "bron": {
+        "model": "gemini-3-pro-image",
+        "datum": "2026-11-10",
+        "prompt": "Cinematic corporate photography for a private security company annual report. Shot on 35mm film, subtle grain, slightly desaturated colors with warm golden highlights and deep near-black shadows, occasional muted crimson accent. Low, warm side light or single-source interior light, strong contrast, calm and serious mood. Generous negative space for text overlay. No text, no logos, no watermarks, no flags. Formal executive portrait in a dark boardroom with a large window behind, the man silhouetted against warm evening light, face in deep shadow and not recognizable, wearing a dark suit. The man is white. A very tall, broad man standing upright, almost filling the frame, completely still. Aspect ratio 4:5. Match the color grading, light and grain of the reference image.",
+        "referentie": "HOME-01",
+        "instellingen": "aspectRatio 4:5, imageSize 4K"
+      },
+      "status": "alleen origineel; komt op de site als alle vier de portretten klaar zijn"
+    },
+    {
+      "id": "LEAD-04",
+      "type": "ai",
+      "alt": "",
+      "uitsnede": "portret 4:5",
+      "bron": {
+        "model": "gemini-3-pro-image",
+        "datum": "2026-11-10",
+        "prompt": "Cinematic corporate photography for a private security company annual report. Shot on 35mm film, subtle grain, slightly desaturated colors with warm golden highlights and deep near-black shadows, occasional muted crimson accent. Low, warm side light or single-source interior light, strong contrast, calm and serious mood. Generous negative space for text overlay. No text, no logos, no watermarks, no flags. Formal executive portrait in a dark boardroom with a large window behind, the man silhouetted against warm evening light, face in deep shadow and not recognizable, wearing a dark suit. The man is white. Exactly one person in the image, nobody else in the room. The same boardroom, window, furniture and light as the reference image. A man standing by the window with a coffee cup, half turned away, relaxed but alert. Aspect ratio 4:5. Match the color grading, light and grain of the reference image.",
+        "referentie": "LEAD-01",
+        "instellingen": "aspectRatio 4:5, imageSize 4K"
+      },
+      "status": "alleen origineel; komt op de site als alle vier de portretten klaar zijn"
     },
     {
       "id": "WERELD-01",
