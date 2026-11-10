@@ -1,13 +1,12 @@
 # Rolt de website uit bij elke push naar de branch deploy.
 # Uitrollen: git push origin main:deploy
 # Zie website/CLAUDE.md, onder Deployment. Benodigde GitHub Secrets:
-#   DEPLOY_PROTOCOL     sftp of ftps
 #   DEPLOY_HOST         hostnaam van de server
-#   DEPLOY_PORT         optioneel; standaard 22 (sftp) of 21 (ftps)
 #   DEPLOY_USER         gebruikersnaam
 #   DEPLOY_PASSWORD     wachtwoord
-#   DEPLOY_PATH         map op de server waarin public/, includes/ en content/ komen
-#   DEPLOY_KNOWN_HOSTS  alleen bij sftp: de regel(s) uit known_hosts voor de server
+#   DEPLOY_KNOWN_HOSTS  uitvoer van: ssh-keyscan -p <poort> <host>
+#                       (geheim omdat de hostnaam erin staat)
+# De rest staat hieronder bij env.
 name: Deploy website
 
 on:
@@ -18,6 +17,11 @@ on:
 concurrency:
   group: deploy
   cancel-in-progress: false
+
+env:
+  DEPLOY_PORT: '22'
+  # Map op de server waarin public/, includes/ en content/ komen.
+  DEPLOY_PATH: ''
 
 jobs:
   deploy:
@@ -38,6 +42,12 @@ jobs:
         if: env.DEPLOY_HOST == ''
         run: echo "::notice::Geen DEPLOY_HOST ingesteld; alleen gecontroleerd, niet geüpload."
 
+      - name: Pad op de server controleren
+        if: env.DEPLOY_HOST != '' && env.DEPLOY_PATH == ''
+        run: |
+          echo "::error::DEPLOY_PATH is leeg; vul het pad in bovenaan deploy.yml."
+          exit 1
+
       - name: Wijzigingstijden herstellen uit git
         if: env.DEPLOY_HOST != ''
         # Zo uploadt lftp alleen bestanden die echt gewijzigd zijn.
@@ -53,29 +63,18 @@ jobs:
       - name: Uploaden
         if: env.DEPLOY_HOST != ''
         env:
-          PROTOCOL: ${{ secrets.DEPLOY_PROTOCOL }}
-          HOST: ${{ env.DEPLOY_HOST }}
-          PORT: ${{ secrets.DEPLOY_PORT }}
           USER: ${{ secrets.DEPLOY_USER }}
           LFTP_PASSWORD: ${{ secrets.DEPLOY_PASSWORD }}
-          REMOTE: ${{ secrets.DEPLOY_PATH }}
           KNOWN_HOSTS: ${{ secrets.DEPLOY_KNOWN_HOSTS }}
         run: |
           set -euo pipefail
-          if [ "$PROTOCOL" = "sftp" ]; then
-            mkdir -p ~/.ssh && printf '%s\n' "$KNOWN_HOSTS" > ~/.ssh/known_hosts
-            PORT="${PORT:-22}"
-            INSTELLINGEN="set sftp:auto-confirm no;"
-          else
-            PORT="${PORT:-21}"
-            INSTELLINGEN="set ftp:ssl-force true; set ftp:ssl-protect-data true; set ssl:verify-certificate yes;"
-          fi
+          mkdir -p ~/.ssh && printf '%s\n' "$KNOWN_HOSTS" > ~/.ssh/known_hosts
           # Nooit --delete: bestanden op de server die niet uit de repo komen blijven staan.
           # config.php wordt nooit overschreven.
-          lftp --env-password -u "$USER" -p "$PORT" "$PROTOCOL://$HOST" -e "
-            $INSTELLINGEN
+          lftp --env-password -u "$USER" -p "$DEPLOY_PORT" "sftp://$DEPLOY_HOST" -e "
+            set sftp:auto-confirm no;
             set net:max-retries 2;
-            mirror --reverse --only-newer --no-perms --verbose --exclude-glob config.php website/public   $REMOTE/public;
-            mirror --reverse --only-newer --no-perms --verbose --exclude-glob config.php website/includes $REMOTE/includes;
-            mirror --reverse --only-newer --no-perms --verbose website/content  $REMOTE/content;
+            mirror --reverse --only-newer --no-perms --verbose --exclude-glob config.php website/public   $DEPLOY_PATH/public;
+            mirror --reverse --only-newer --no-perms --verbose --exclude-glob config.php website/includes $DEPLOY_PATH/includes;
+            mirror --reverse --only-newer --no-perms --verbose website/content  $DEPLOY_PATH/content;
             bye"

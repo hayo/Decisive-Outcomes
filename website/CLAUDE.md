@@ -81,8 +81,8 @@ website/
 - **Vóór het uitrollen:** test lokaal met `php -S localhost:8000 -t website/public` en loop de checklijst onder *Controleren* door.
 - **De workflow:**
     1. Draai `php -l` over alle PHP-bestanden. Bij een fout stopt de deploy.
-    2. Upload `public/`, `includes/` en `content/` via SFTP. Is SFTP niet beschikbaar, gebruik dan FTPS. Upload alleen gewijzigde bestanden.
-- **Inloggegevens:** host, gebruiker, wachtwoord of sleutel en het pad op de server staan als GitHub Secrets, nooit in de repo.
+    2. Upload `public/`, `includes/` en `content/` via SFTP. Upload alleen gewijzigde bestanden.
+- **Inloggegevens:** host, gebruiker, wachtwoord en de host key (`DEPLOY_KNOWN_HOSTS`, daar staat de hostnaam in) staan als GitHub Secrets, nooit in de repo. Poort en pad op de server staan gewoon in `deploy.yml`.
 - **Op de server:**
     - `includes/config.php` zet je één keer handmatig op de server, buiten de deploy om.
     - De deploy overschrijft of verwijdert dat bestand nooit. Hij verwijdert ook nooit andere bestanden op de server die niet uit de repo komen.
