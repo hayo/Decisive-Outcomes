@@ -6,7 +6,7 @@ De site komt op **decisiveoutcomes.nl**. Ze ziet eruit als de corporate site van
 
 ## Techniek
 
-- Handgeschreven HTML, CSS en PHP. Geen frameworks, geen CMS, geen build-stap, geen packagemanagers en geen afhankelijkheden van derden.
+- Handgeschreven HTML, CSS en PHP. Geen frameworks, geen CMS, geen packagemanagers en geen afhankelijkheden van derden. De code heeft geen build-stap; alleen de beelden worden bij de deploy verwerkt.
 - De site draait op eigen hosting met PHP 8 en Apache, met `.htaccess` voor headers en serverregels.
 - Header, navigatie, footer en terugkerende onderdelen zijn PHP-includes.
 - Mappenstructuur:
@@ -28,9 +28,59 @@ website/
     components/        herbruikbare onderdelen
     config.example.php
   content/newsroom/    één PHP-bestand per persbericht (metadata + HTML)
+  beelden/
+    originelen/        originele beelden, in de repo
+    beelden.json       manifest: alt-tekst, uitsnedes, type en bron
 ```
 
 - `includes/` en `content/` staan buiten de documentroot. Echte configuratie (zoals het teamadres voor het formulier) staat in `includes/config.php`. Dat bestand staat in `.gitignore` en komt nooit in de repo.
+
+## URL's en routering
+
+- **Eén adres:** alles draait op `https://decisiveoutcomes.nl/`. HTTP en `www.` worden met een 301 doorgestuurd naar dat adres.
+- **Nette URL's:** kleine letters, Nederlandse woorden met koppeltekens, en een slash aan het eind (`/over-ons/`, `/diensten/decisive-security/`). Nooit `.php` in een URL.
+- **Persberichten:** `/newsroom/jjjj-mm-dd-korte-titel/`.
+- **Foutpagina's:**
+    - Een eigen 404-pagina in de huisstijl, met een droge zin en links naar de hoofdpagina's. Bijvoorbeeld: *Deze pagina staat stand-by.*
+    - Verwijderde inhoud krijgt een 410.
+    - Fouten op de server krijgen een sobere 500-pagina zonder technische details.
+- **Redirects:** alle 301- en 410-regels staan in één blok in `.htaccess`, met een korte reden erbij. Een URL die eenmaal gepubliceerd is, verdwijnt nooit zonder redirect of 410.
+
+## Zoekmachines en structured data
+
+- **sitemap.xml:**
+    - Een PHP-script maakt `/sitemap.xml` aan uit de lijst met pagina's en de newsroom, met `lastmod` op basis van de wijzigingsdatum.
+    - Een rewrite-regel maakt het bestand bereikbaar onder dat adres.
+    - `robots.txt` verwijst ernaar.
+- **Structured data als JSON-LD** in `<script type="application/ld+json">`. Dit is een datablok en geen uitvoerbaar script, dus het past binnen de CSP.
+    - Op elke pagina: `Organization` (naam, url, logo).
+    - Op persberichten: `NewsArticle` (kop, datum, beeld, auteur = de organisatie).
+    - Op de bestuurspagina: `Person` per bestuurder, met alleen naam en functie.
+    - Geen verzonnen adressen of contactgegevens in de structured data. Die moeten kloppen, of ze blijven weg.
+- Breadcrumbs als `BreadcrumbList` op pagina's dieper dan één niveau.
+
+## Contentwerkwijze
+
+- Teksten voor pagina's en persberichten worden aangeleverd, als gewone tekst of Markdown. Claude zet ze om naar het juiste bestand.
+- Elk persbericht is één bestand in `content/newsroom/`, met een vaste opbouw:
+    - metadata: `slug`, `titel`, `datum`, `plaats`, `samenvatting`, `beeld` (een beeld-ID) en `alt`;
+    - de tekst als HTML: drie tot vijf alinea's, gevolgd door het standaardblok *Over Decisive Outcomes Group*.
+- Een nieuwe pagina krijgt een eigen map in `public/` en gebruikt de bestaande componenten. Als er een nieuw component nodig is, overleg je dat eerst.
+- Controleer bij elke tekst de canon en de stijlregels uit de root-`CLAUDE.md`. Klopt iets niet, meld het dan voordat je het publiceert.
+
+## Deployment
+
+- **Automatisch:** een push naar `main` die iets in `website/` verandert, rolt automatisch uit via GitHub Actions. Er is geen testomgeving, dus elke push is meteen live.
+- **Vóór elke push:** test lokaal met `php -S localhost:8000 -t website/public` en loop de checklijst onder *Controleren* door.
+- **De workflow:**
+    1. Draai `php -l` over alle PHP-bestanden. Bij een fout stopt de deploy.
+    2. Maak de afgeleide beelden aan (zie de beeldeisen in [beeldtaal.md](beeldtaal.md)).
+    3. Upload `public/`, `includes/` en `content/` via SFTP. Is SFTP niet beschikbaar, gebruik dan FTPS. Upload alleen gewijzigde bestanden.
+- **Inloggegevens:** host, gebruiker, wachtwoord of sleutel en het pad op de server staan als GitHub Secrets, nooit in de repo.
+- **Op de server:**
+    - `includes/config.php` zet je één keer handmatig op de server, buiten de deploy om.
+    - De deploy overschrijft of verwijdert dat bestand nooit. Hij verwijdert ook nooit andere bestanden op de server die niet uit de repo komen.
+- **Terugdraaien:** met `git revert` op `main`. De volgende deploy zet de vorige versie terug.
 
 ## HTML
 

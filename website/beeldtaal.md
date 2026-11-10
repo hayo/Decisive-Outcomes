@@ -22,7 +22,7 @@ Begin elke prompt met dit blok, zodat de stijl overal hetzelfde is:
 ## Wat nooit in beeld komt
 
 - Herkenbare gezichten of echte personen.
-- Logo's, merknamen, vlaggen of insignes van echte landen, legers of bedrijven. Het eigen logo plaatsen jullie er later zelf op, want Gemini kan het niet exact namaken.
+- Logo's, merknamen, vlaggen of insignes van echte landen, legers of bedrijven. Ook het eigen logo komt niet in beeld.
 - Gevechten, gewonden, slachtoffers of verwoesting.
 - Clichébeelden van Afrika: geen armoede als decor, geen "exotische" stereotypen. Landschappen en mensen worden net zo serieus en waardig neergezet als in de rest van de shoot.
 - Leesbare tekst in het beeld. Die wordt meestal verminkt; tekst gaat er later in de vormgeving overheen.
@@ -35,6 +35,7 @@ Begin elke prompt met dit blok, zodat de stijl overal hetzelfde is:
 | Tegels en kaarten | 4:3 | 1200 × 900 px |
 | Portretten bestuur | 4:5 | 1200 × 1500 px |
 | Persbericht | 3:2 | 1500 × 1000 px |
+| Deelafbeelding (Open Graph) | 1,91:1 | 1200 × 630 px, uitgesneden uit een bestaand beeld |
 
 Zet de verhouding ook in de prompt, bijvoorbeeld: *Aspect ratio 16:9.*
 
@@ -42,7 +43,67 @@ Zet de verhouding ook in de prompt, bijvoorbeeld: *Aspect ratio 16:9.*
 
 - Maak eerst `HOME-01`. Gebruik het goedgekeurde beeld daarna als referentiebeeld bij de andere prompts, met de toevoeging: *Match the color grading, light and grain of the reference image.*
 - Doe hetzelfde bij de portretten: keur er één goed en gebruik die als referentie voor de andere drie.
-- Leg goedgekeurde beelden vast in `website/beelden/`, met het ID als bestandsnaam (bijvoorbeeld `HOME-01.jpg`).
+- Leg goedgekeurde beelden vast in `website/beelden/originelen/`, met het ID als bestandsnaam (zie *Beeldeisen*).
+
+## Beeldeisen
+
+### Maken in Google AI Studio
+
+- Maak de beelden in Google AI Studio of via de Gemini-API, in de hoogste resolutie die beschikbaar is. Een hero moet minimaal 1600 px breed zijn. Haalt Gemini dat niet, maak hem dan opnieuw of overleg.
+- Leg per beeld vast hoe het gemaakt is: het model, de datum, de volledige prompt (inclusief stijlblok) en eventueel gebruikte referentiebeelden. Dat gaat in het manifest (zie hieronder).
+- Upload nooit foto's van echte teamleden of andere echte mensen als referentie naar Gemini, tenzij die persoon daar uitdrukkelijk toestemming voor heeft gegeven.
+
+### Controleren voordat een beeld wordt gebruikt
+
+- **Stijl:** het beeld past bij `HOME-01` in kleur, licht en korrel.
+- **Fouten:** geen typische AI-fouten, zoals rare handen of vingers, vervormde geweren of voertuigen, onleesbare tekst of verzonnen insignes.
+- **Wat nooit in beeld komt:** geen herkenbare gezichten, echte vlaggen, logo's of merknamen. Zie de lijst hierboven.
+- **Twijfel:** bij twijfel maak je het beeld opnieuw. Een middelmatig beeld maakt de hele site minder geloofwaardig.
+
+### Opslag en manifest
+
+- Originelen staan in de repo, in `website/beelden/originelen/`, met het beeld-ID als bestandsnaam. Bijvoorbeeld `HOME-01.png`, of `HOME-01-mobiel.png` voor een aparte mobiele uitsnede.
+- Elk beeld staat in `website/beelden/beelden.json`, met:
+    - `id` en `type` (`ai` of `foto`);
+    - `alt`: de Nederlandse alt-tekst;
+    - `uitsnede`: het focuspunt, of een verwijzing naar een apart mobiel origineel;
+    - `bron`: model, datum en prompt bij AI-beelden; fotograaf en datum bij foto's.
+- De PHP-component voor beelden en het deployscript lezen allebei dit manifest.
+
+### Afgeleiden bij de deploy
+
+GitHub Actions maakt bij elke deploy de afgeleide bestanden. Ze staan niet in git.
+
+| | |
+|---|---|
+| Breedtes | 480, 800, 1200, 1600 en 2400 px. Nooit groter dan het origineel. |
+| Formaten | AVIF (kwaliteit ±50), WebP (±75), JPEG (±80, progressive) |
+| Mobiele uitsnede | 4:5, uit het mobiele origineel of rond het focuspunt |
+| Deelafbeelding | 1200 × 630 px JPEG voor Open Graph, zonder logo |
+| Metadata | Alle EXIF- en locatiegegevens worden verwijderd |
+| Uitvoer | `public/assets/img/<id>-<breedte>.<ext>` |
+
+Houd je aan de bestandsgroottes uit het snelheidsbudget in `website/CLAUDE.md`: een hero is maximaal 120 KB op mobiel en 250 KB op desktop.
+
+### Alt-teksten
+
+- Beschrijf in het Nederlands wat er te zien is en waarom het beeld er staat, in één of twee zinnen.
+- Niet beginnen met "afbeelding van" of "AI-beeld van".
+- Puur decoratieve beelden krijgen `alt=""`.
+
+### AI-vermelding
+
+Op de colofonpagina staat dat de beelden op de site met Google Gemini zijn gemaakt, behalve de foto's van speeldagen. Bij de beelden zelf staat geen label.
+
+### Echte foto's van speeldagen
+
+- Echte foto's van speeldagen zijn toegestaan, maar alleen met toestemming van iedereen die herkenbaar in beeld is. Leg die toestemming vast. Foto's waarop iemand herkenbaar is zonder toestemming worden niet gebruikt.
+- Geef ze dezelfde kleurbewerking als de AI-beelden: licht ontkleurd, warm in de lichten, diep in de schaduwen en met een subtiele korrel.
+- Vermeld in het manifest wie de fotograaf is en wanneer de foto is gemaakt. De deploy verwijdert de locatiegegevens.
+
+### Logo
+
+Het logo komt nooit in een beeld, ook niet op deelafbeeldingen. Het staat alleen in de header en de footer van de site.
 
 ## Prompts
 

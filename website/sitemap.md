@@ -8,7 +8,7 @@ Beeld-ID's (zoals `HOME-01`) verwijzen naar [beeldtaal.md](beeldtaal.md).
 
 **Hoofdmenu:** Over ons · Diensten · Wereldwijd · Newsroom · Werken bij · Contact
 
-**Footer:** Ethiek & compliance · Investor relations · Algemene voorwaarden · Privacyverklaring
+**Footer:** Ethiek & compliance · Investor relations · Algemene voorwaarden · Privacyverklaring · Colofon
 
 ## Pagina's
 
@@ -86,6 +86,7 @@ Elke divisiepagina heeft dezelfde opbouw:
 - © 1984–2026 Decisive Outcomes Group. Ingeschreven in Rhodesië.
 - Algemene voorwaarden in corporate stijl.
 - Privacyverklaring: deze moet **echt** zijn als het formulier persoonsgegevens verzamelt.
+- Colofon: echt en zakelijk. Vermeldt dat de beelden met Google Gemini zijn gemaakt (behalve foto's van speeldagen), welke lettertypes worden gebruikt en wie de site maakt.
 
 ## Tone of voice voor de site
 
