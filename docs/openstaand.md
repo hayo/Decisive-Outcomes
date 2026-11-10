@@ -21,13 +21,20 @@ Wat nog moet gebeuren voordat en nadat de site live gaat. Vink af wat klaar is e
 
 ## Website bouwen
 
+- [x] Eerste versie van de website gebouwd (10 november 2026): alle pagina's uit de sitemap, contactformulier, feed, sitemap.xml, `.htaccess` en deploy-workflow.
+- [ ] Concept-teksten op de website nalezen. Alle teksten zijn door Claude geschreven op basis van de canon; vooral de bestuursbio's moeten langs de teamleden (zie [toestemming.md](toestemming.md)).
+- [ ] Echte informatie voor *Meedoen met het airsoftteam* op Werken bij aanvullen: waar en wanneer het team speelt, wat iemand nodig heeft.
+- [ ] Privacyverklaring laten controleren, vooral de bewaartermijn (nu: uiterlijk een jaar) en de grondslag.
+- [ ] Besluiten of het volledige verhaal als pagina *Ons verhaal* op de site komt. Het is te groot voor het paginabudget en bevat nog niet-goedgekeurde personages.
+- [ ] Beelden maken en plaatsen: de site werkt zonder, maar hero's en kaarten zijn nu nog leeg. Zonder beelden is er ook geen `og:image`.
+- [ ] Op de server: documentroot naar `public/` zetten, `includes/config.php` aanmaken (zie `config.example.php`) en de GitHub Secrets voor de deploy invullen. Tot die tijd mislukt de deploy-workflow.
 - [ ] Eventueel een professionele vectorversie (SVG) van het logo laten maken. Tot die tijd gebruiken we de originele PNG.
-- [ ] De lijniconen per divisie ontwerpen.
-- [ ] De lettertypes Oswald en Source Sans 3 downloaden, beperken tot de Latijnse tekenset en de OFL-licentiebestanden meenemen.
+- [x] De lijniconen per divisie ontwerpen.
+- [x] De lettertypes Oswald en Source Sans 3 downloaden, beperken tot de Latijnse tekenset en de OFL-licentiebestanden meenemen.
 - [ ] `HOME-01` maken in AI Studio en goedkeuren als referentie voor de stijl.
 - [ ] De overige beelden uit [beeldtaal.md](../website/beeldtaal.md).
-- [ ] Het colofon, de privacyverklaring en de disclaimer schrijven. Deze teksten zijn echt, geen satire.
-- [ ] De GitHub Actions-workflow voor de deploy.
+- [x] Het colofon, de privacyverklaring en de disclaimer schrijven. Deze teksten zijn echt, geen satire.
+- [x] De GitHub Actions-workflow voor de deploy.
 
 ## Later
 

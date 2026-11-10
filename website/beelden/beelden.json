@@ -1,0 +1,11 @@
+{
+  "_uitleg": "Manifest van alle beelden. Zie website/beeldtaal.md, onder Beeldeisen. Voorbeeld van één beeld staat hieronder onder _voorbeeld.",
+  "_voorbeeld": {
+    "id": "HOME-01",
+    "type": "ai",
+    "alt": "Twee oude terreinwagens op een zandweg in de savanne bij zonsondergang.",
+    "uitsnede": "HOME-01-mobiel.png",
+    "bron": { "model": "", "datum": "", "prompt": "" }
+  },
+  "beelden": []
+}

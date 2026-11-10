@@ -24,8 +24,12 @@ website/
     robots.txt
     .htaccess
   includes/            buiten de documentroot
+    bootstrap.php      helpers: e(), asset(), component(), beeld(), icoon(), pagina_begin()
+    data.php           vaste inhoud: navigatie, divisies, sectoren, bestuur, tijdlijn
     head.php, header.php, footer.php
     components/        herbruikbare onderdelen
+    templates/         sjablonen voor divisie- en artikelpagina's
+    formulier.php      contactformulier
     config.example.php
   content/newsroom/    één PHP-bestand per persbericht (metadata + HTML)
   content/inzichten/   analyses, casestudy's, rapporten en de Stand-By Outlook
@@ -252,7 +256,7 @@ Gemeten op een gemiddelde mobiele telefoon met een 4G-verbinding:
 - **Componenten passen zich aan hun eigen ruimte aan met container queries,** zodat ze overal herbruikbaar zijn: in een smalle kolom, een brede kolom of naast elkaar.
 - **Vloeiende maten:** typografie en witruimte schalen met `clamp()`. Layouts met grid en flexbox, nooit met vaste breedtes in pixels.
 - **Geen horizontale scroll vanaf 320 px breed.** Inhoud blijft bruikbaar bij 400 procent zoom (WCAG reflow). De viewport-meta heeft geen `maximum-scale` en blokkeert nooit inzoomen.
-- **Navigatie op mobiel** werkt zonder JavaScript, bijvoorbeeld met een `details`/`summary`-patroon. JavaScript voegt hooguit `aria-expanded` en een nettere animatie toe.
+- **Navigatie op mobiel** werkt zonder JavaScript met een `details`/`summary`-menu. Op desktop staat het menu als rij, via `::details-content`; browsers die dat niet kennen, houden ook op desktop de menuknop.
 - **Tabellen:**
     - Smalle tabellen blijven een tabel.
     - Brede tabellen staan in een scrollcontainer met `tabindex="0"`, `role="region"` en een `aria-label`.

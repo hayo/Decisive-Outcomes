@@ -1,0 +1,79 @@
+# Rolt de website uit bij een push naar main die iets in website/ verandert.
+# Zie website/CLAUDE.md, onder Deployment. Benodigde GitHub Secrets:
+#   DEPLOY_PROTOCOL     sftp of ftps
+#   DEPLOY_HOST         hostnaam van de server
+#   DEPLOY_PORT         optioneel; standaard 22 (sftp) of 21 (ftps)
+#   DEPLOY_USER         gebruikersnaam
+#   DEPLOY_PASSWORD     wachtwoord
+#   DEPLOY_PATH         map op de server waarin public/, includes/ en content/ komen
+#   DEPLOY_KNOWN_HOSTS  alleen bij sftp: de regel(s) uit known_hosts voor de server
+name: Deploy website
+
+on:
+  push:
+    branches: [main]
+    paths: ['website/**', '.github/workflows/deploy.yml']
+  workflow_dispatch:
+
+concurrency:
+  group: deploy
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    env:
+      DEPLOY_HOST: ${{ secrets.DEPLOY_HOST }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: PHP-syntax controleren
+        run: find website -name '*.php' -print0 | xargs -0 -n1 php -l
+
+      - name: Melding als de server nog niet is ingesteld
+        if: env.DEPLOY_HOST == ''
+        run: echo "::notice::Geen DEPLOY_HOST ingesteld; alleen gecontroleerd, niet geüpload."
+
+      - name: Wijzigingstijden herstellen uit git
+        if: env.DEPLOY_HOST != ''
+        # Zo uploadt lftp alleen bestanden die echt gewijzigd zijn.
+        run: |
+          git ls-files website | while IFS= read -r f; do
+            touch -d "$(git log -1 --format=%cI -- "$f")" "$f"
+          done
+
+      - name: lftp installeren
+        if: env.DEPLOY_HOST != ''
+        run: sudo apt-get update -qq && sudo apt-get install -y -qq lftp
+
+      - name: Uploaden
+        if: env.DEPLOY_HOST != ''
+        env:
+          PROTOCOL: ${{ secrets.DEPLOY_PROTOCOL }}
+          HOST: ${{ env.DEPLOY_HOST }}
+          PORT: ${{ secrets.DEPLOY_PORT }}
+          USER: ${{ secrets.DEPLOY_USER }}
+          LFTP_PASSWORD: ${{ secrets.DEPLOY_PASSWORD }}
+          REMOTE: ${{ secrets.DEPLOY_PATH }}
+          KNOWN_HOSTS: ${{ secrets.DEPLOY_KNOWN_HOSTS }}
+        run: |
+          set -euo pipefail
+          if [ "$PROTOCOL" = "sftp" ]; then
+            mkdir -p ~/.ssh && printf '%s\n' "$KNOWN_HOSTS" > ~/.ssh/known_hosts
+            PORT="${PORT:-22}"
+            INSTELLINGEN="set sftp:auto-confirm no;"
+          else
+            PORT="${PORT:-21}"
+            INSTELLINGEN="set ftp:ssl-force true; set ftp:ssl-protect-data true; set ssl:verify-certificate yes;"
+          fi
+          # Nooit --delete: bestanden op de server die niet uit de repo komen blijven staan.
+          # config.php wordt nooit overschreven.
+          lftp --env-password -u "$USER" -p "$PORT" "$PROTOCOL://$HOST" -e "
+            $INSTELLINGEN
+            set net:max-retries 2;
+            mirror --reverse --only-newer --no-perms --verbose --exclude-glob config.php website/public   $REMOTE/public;
+            mirror --reverse --only-newer --no-perms --verbose --exclude-glob config.php website/includes $REMOTE/includes;
+            mirror --reverse --only-newer --no-perms --verbose website/content  $REMOTE/content;
+            bye"
