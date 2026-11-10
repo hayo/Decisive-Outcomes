@@ -1,4 +1,5 @@
-# Rolt de website uit bij een push naar main die iets in website/ verandert.
+# Rolt de website uit bij elke push naar de branch deploy.
+# Uitrollen: git push origin main:deploy
 # Zie website/CLAUDE.md, onder Deployment. Benodigde GitHub Secrets:
 #   DEPLOY_PROTOCOL     sftp of ftps
 #   DEPLOY_HOST         hostnaam van de server
@@ -11,8 +12,7 @@ name: Deploy website
 
 on:
   push:
-    branches: [main]
-    paths: ['website/**', '.github/workflows/deploy.yml']
+    branches: [deploy]
   workflow_dispatch:
 
 concurrency:
@@ -21,6 +21,8 @@ concurrency:
 
 jobs:
   deploy:
+    # Alleen vanaf de branch deploy, ook bij handmatig starten.
+    if: github.ref == 'refs/heads/deploy'
     runs-on: ubuntu-latest
     env:
       DEPLOY_HOST: ${{ secrets.DEPLOY_HOST }}

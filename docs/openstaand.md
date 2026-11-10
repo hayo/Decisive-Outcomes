@@ -13,7 +13,8 @@ Wat nog moet gebeuren voordat en nadat de site live gaat. Vink af wat klaar is e
 ## Hosting en techniek
 
 - [ ] Controleren of de hosting PHP 8 heeft en Apache-modules voor `mod_rewrite`, `mod_headers` en compressie (`mod_deflate` of Brotli).
-- [ ] Vaststellen of er SFTP is of alleen FTPS. Een account aanmaken voor GitHub Actions en de GitHub Secrets invullen.
+- [x] Vaststellen of er SFTP is of alleen FTPS: er is SFTP, met gebruiker en wachtwoord.
+- [ ] De GitHub Secrets voor de deploy invullen (zie de kop van `.github/workflows/deploy.yml`), inclusief `DEPLOY_KNOWN_HOSTS`. Daarna `main` naar `deploy` pushen.
 - [ ] Het teamadres voor het formulier kiezen en `includes/config.php` op de server zetten.
 - [ ] SPF, DKIM en DMARC instellen voor het afzenderadres van het formulier.
 - [ ] HTTPS-certificaat en de redirects naar `https://decisiveoutcomes.nl/` controleren.

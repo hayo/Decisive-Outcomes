@@ -17,6 +17,7 @@ Wat is besloten, wanneer en waarom. Nieuwe beslissingen komen bovenaan in de tab
 
 | Datum | Besluit | Reden |
 |---|---|---|
+| 2026-11-10 | Uitrollen via de branch `deploy`: elke push daarnaartoe gaat live (`git push origin main:deploy`). Een push naar `main` rolt niet meer uit. | Zelf bepalen wanneer iets live gaat, zonder testomgeving. |
 | 2026-11-10 | Aanspreekvorm: *u* voor opdrachtgevers en de corporate delen (ook de 404), *je* voor sollicitanten, spelers en alles wat echt is (contact, formulier, privacy, meedoen). | Echte PMC-sites spreken klanten met u aan; het echte deel van de site is persoonlijk. |
 | 2026-11-10 | Inzichten krijgen overzichtspagina's per soort (`/newsroom/`, `/inzichten/analyse/`, `/casestudy/`, `/rapport/`) met een filterrij van gewone links. | Filteren zonder JavaScript, en elke soort heeft een eigen adres. |
 | 2026-11-10 | Elke sector krijgt een eigen pagina onder `/sectoren/<sector>/`. Divisiepagina's linken naar hun sectoren, de casestudy en de inzichten met dezelfde divisie (veld `divisies`). | Zo is de site opgebouwd als die van echte PMC's, en de pagina's verwijzen naar elkaar. |

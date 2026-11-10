@@ -76,8 +76,9 @@ website/
 
 ## Deployment
 
-- **Automatisch:** een push naar `main` die iets in `website/` verandert, rolt automatisch uit via GitHub Actions. Er is geen testomgeving, dus elke push is meteen live.
-- **Vóór elke push:** test lokaal met `php -S localhost:8000 -t website/public` en loop de checklijst onder *Controleren* door.
+- **Via de branch `deploy`:** werk gewoon op `main`. Elke push naar `deploy` rolt automatisch uit via GitHub Actions. Uitrollen doe je met `git push origin main:deploy`. Er is geen testomgeving, dus elke push naar `deploy` is meteen live.
+- **Alleen doorschuiven:** op `deploy` wordt nooit los gecommit; de branch volgt `main`.
+- **Vóór het uitrollen:** test lokaal met `php -S localhost:8000 -t website/public` en loop de checklijst onder *Controleren* door.
 - **De workflow:**
     1. Draai `php -l` over alle PHP-bestanden. Bij een fout stopt de deploy.
     2. Upload `public/`, `includes/` en `content/` via SFTP. Is SFTP niet beschikbaar, gebruik dan FTPS. Upload alleen gewijzigde bestanden.
@@ -85,7 +86,7 @@ website/
 - **Op de server:**
     - `includes/config.php` zet je één keer handmatig op de server, buiten de deploy om.
     - De deploy overschrijft of verwijdert dat bestand nooit. Hij verwijdert ook nooit andere bestanden op de server die niet uit de repo komen.
-- **Terugdraaien:** met `git revert` op `main`. De volgende deploy zet de vorige versie terug.
+- **Terugdraaien:** met `git revert` op `main` en daarna weer `git push origin main:deploy`.
 
 ## HTML
 
