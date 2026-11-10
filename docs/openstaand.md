@@ -23,7 +23,6 @@ Wat nog moet gebeuren voordat en nadat de site live gaat. Vink af wat klaar is e
 
 - [ ] Een goede vectorversie (SVG) van het logo laten maken. Tot die tijd gebruiken we de PNG.
 - [ ] De lijniconen per divisie ontwerpen.
-- [ ] Visueel vergelijken met sites van echte PMC's (kleur, licht of donker, lettertypes). Dat lukte nog niet: de browser in de Claude-app was niet bereikbaar en de sites zijn geblokkeerd in de werkomgeving.
 - [ ] De lettertypes Oswald en Source Sans 3 downloaden, beperken tot de Latijnse tekenset en de OFL-licentiebestanden meenemen.
 - [ ] `HOME-01` maken in AI Studio en goedkeuren als referentie voor de stijl.
 - [ ] De overige beelden uit [beeldtaal.md](../website/beeldtaal.md).
@@ -35,3 +34,4 @@ Wat nog moet gebeuren voordat en nadat de site live gaat. Vink af wat klaar is e
 - [ ] De map `events/`: patch-ontwerp, callsigns en templates.
 - [ ] Webmentions, als dat kan zonder externe afhankelijkheid.
 - [ ] De eerste vier commits opschonen (vermelding van Claude eruit). Dit vraagt een force-push op `main`; doe je dat zelf, zie de opdracht in het gesprek van 10 november.
+

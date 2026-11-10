@@ -17,6 +17,7 @@ Wat is besloten, wanneer en waarom. Nieuwe beslissingen komen bovenaan in de tab
 
 | Datum | Besluit | Reden |
 |---|---|---|
+| 2026-11-10 | Donkere hero over de volle breedte, lichte secties, vierkante vormen, gouden knoppen op donker, donkere footer. Oswald alleen voor `h1`, `h2` en cijfers. | Zo zien echte PMC-sites eruit, na visuele controle in Chrome (zie [onderzoek-pmc-sites.md](onderzoek-pmc-sites.md)). |
 | 2026-11-10 | Sitemap aangepast naar het onderzoek: een pagina Sectoren, Newsroom wordt Inzichten met de *Stand-By Outlook* als vlaggenschip, werving hoog op de homepage, een contactknop in de header, kaarten in 16:9, lijniconen per divisie en een uitgebreide compliancepagina zonder echte keurmerken. | Zo lijkt de site meer op echte sites van PMC's en beveiligingsbedrijven (zie [onderzoek-pmc-sites.md](onderzoek-pmc-sites.md)). |
 | 2026-11-10 | Het logo voorlopig als PNG; de SVG is verwijderd. | De SVG was niet goed genoeg. |
 | 2026-11-10 | Beelden als gewone JPEG in twee breedtes; de originelen staan in de repo. | Een build-stap voor AVIF en WebP werd te groot voor het project. |

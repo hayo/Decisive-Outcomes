@@ -12,7 +12,25 @@ Uitgevoerd op 10 november 2026. Doel: nagaan of de aannames in [sitemap.md](../w
 | [Amentum](https://www.amentum.com/) | Beursgenoteerde defensiecontractor (onder meer de voormalige DynCorp) | Investor relations in de bovenbalk, cijfers (medewerkers, landen), lijniconen per markt, ethiek en compliance in de footer |
 | Executive Outcomes (2020) | Heropgericht door de oprichter | Werd aangekondigd via sociale media; [geen beschreven website](https://overtdefense.com/2020/11/27/private-military-contractor-executive-outcomes-revived-after-22-years) |
 
-Het kleurgebruik (licht of donker) en de precieze beeldstijl konden niet visueel worden gecontroleerd. Het onderzoek ging over de tekst en de structuur van de pagina's, niet over schermafbeeldingen.
+De sites zijn op 10 november 2026 ook visueel bekeken in Chrome, met schermafbeeldingen en de berekende stijlen van de pagina's (zie *Vormgeving*).
+
+## Vormgeving
+
+| Bedrijf | Achtergrond | Hero | Header | Lettertype | Knoppen |
+|---|---|---|---|---|---|
+| Constellis | wit | donker, volle breedte, witte kop in hoofdletters | transparant over de hero | Europa (geometrische sans), vet | vierkant, 3 px afronding |
+| GardaWorld | wit | foto van een medewerker, donker gemaakt, witte kop in dunne letter | rood vlak | Neue Helvetica, licht | vierkant, rood accent met pijl |
+| Control Risks | wit en lichtgrijs | donkerblauw met een fotocollage, witte kop | wit | Open Sans | vierkant, **goud/oker op donker** |
+| Amentum | wit, footer donkergrijs | aarde bij nacht met netwerklijnen, witte kop | transparant over de hero | Roboto, vet | vierkant, hoofdletters |
+
+### Wat dit betekent
+
+- **Licht ontwerp klopt.** Alle vier hebben een witte basis. Het patroon is een donkere hero over de volle breedte met een witte kop, daaronder lichte secties.
+- **Goud als accent klopt.** Control Risks gebruikt een gouden knop op een donkere hero, precies zoals wij goud op donker willen inzetten.
+- **Vierkante vormen.** Knoppen, kaarten en beelden hebben geen of nauwelijks afgeronde hoeken (0 tot 3 px).
+- **Lettertypes.** Ze gebruiken allemaal een gewone sans-serif. Source Sans 3 voor de tekst past daar goed bij. Een smalle letter zoals Oswald gebruikt geen van vieren; dat maakt ons herkenbaarder, maar gebruik hem spaarzaam: alleen voor `h1`, `h2` en de cijferbalk.
+- **Aarde bij nacht** (Constellis, Amentum) is een vast motief voor wereldwijde aanwezigheid. Ons `WERELD-01` sluit daarop aan.
+- **Kleine tekst.** De lopende tekst is bij hen vaak 13 tot 16 px. Wij houden een grotere tekstmaat aan voor de leesbaarheid (WCAG).
 
 ## Wat klopt
 

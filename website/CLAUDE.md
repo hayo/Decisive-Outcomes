@@ -98,6 +98,10 @@ website/
 - Modern CSS: grid, flexbox, `clamp()` voor vloeiende typografie en logische eigenschappen (`margin-inline` en dergelijke). Mobile-first.
 - Respecteer `prefers-reduced-motion`. Voeg een eenvoudige printstijl toe.
 - **Licht corporate ontwerp:** witte of gebroken witte achtergrond, veel ruimte en een rustige typografie. Goud is het accent.
+- **Opbouw van een pagina:** een donkere hero over de volle breedte (beeld met een donkere laag eroverheen, witte of gouden kop), daaronder lichte secties. De header ligt transparant over de hero en wordt wit zodra de hero voorbij is (zonder JavaScript: een witte header onder de hero is ook goed).
+- **Vormen:** vierkant. Knoppen, kaarten, beelden en invoervelden hebben een afronding van hooguit 2 px.
+- **Knoppen:** op donker een gouden knop (`#D4A94F`) met zwarte tekst; op licht een rode (`#9B1C15`) of zwarte knop met witte tekst.
+- **Footer:** donker (`#0F0D0B`) met lichte tekst en gouden accenten.
 
 ### Kleuren en contrast
 
@@ -114,6 +118,8 @@ Op donkere vlakken, zoals een hero met beeld, mag goud `#D4A94F` wel als tekstkl
 ## Lettertypes
 
 - Koppen in **Oswald**, lopende tekst in **Source Sans 3**. Beide hebben een open licentie (OFL).
+- Oswald alleen voor `h1`, `h2` en de cijfers in de cijferbalk, in hoofdletters met wat extra letterafstand. Kleinere koppen, navigatie, knoppen en tekst in Source Sans 3.
+- Lopende tekst minimaal 18 px op desktop en 17 px op mobiel, met een regelhoogte van ongeveer 1,6.
 - Self-hosted als WOFF2, beperkt tot de Latijnse tekenset, met `font-display: swap`. Preload alleen het lettertype voor de koppen.
 - Nooit fonts laden van Google Fonts of een andere externe dienst.
 
