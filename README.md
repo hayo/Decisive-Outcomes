@@ -13,7 +13,7 @@ Decisive Outcomes is een verzonnen private military company. In 1979 bleven vier
 | Map | Wat erin staat |
 |---|---|
 | [`verhaal/`](verhaal/) | De backstory in [`backstory.md`](verhaal/backstory.md): Deel 1 vertelt hoe het begon, Deel 2 beschrijft het concern van nu. |
-| [`logo/`](logo/) | Het originele logo, rond uitgesneden met een transparante achtergrond (PNG, 942 px). |
+| [`logo/`](logo/) | Het logo als PNG van 1880 px, rond met een transparante achtergrond. |
 | [`docs/`](docs/) | Beslissingen, openstaande punten en de toestemming van teamleden. |
 | [`website/`](website/) | De opzet van de website: de [sitemap](website/sitemap.md), de [beeldtaal en Gemini-prompts](website/beeldtaal.md) en later de site zelf. |
 
