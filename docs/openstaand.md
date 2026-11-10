@@ -31,6 +31,7 @@ Wat nog moet gebeuren voordat en nadat de site live gaat. Vink af wat klaar is e
 
 ## Later
 
+- [ ] Na akkoord van alle vier: besluiten of de silhouetportretten worden vervangen door echte foto's.
 - [ ] De map `events/`: patch-ontwerp, callsigns en templates.
 - [ ] Webmentions, als dat kan zonder externe afhankelijkheid.
 - [ ] De eerste vier commits opschonen (vermelding van Claude eruit). Dit vraagt een force-push op `main`; doe je dat zelf, zie de opdracht in het gesprek van 10 november.

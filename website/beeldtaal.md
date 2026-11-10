@@ -133,7 +133,7 @@ Four pairs of worn military boots standing side by side on red earth, shot low t
 
 ### Raad van bestuur
 
-Gebruik voor alle vier hetzelfde decor en licht, en alleen de details uit de canon.
+Gebruik voor alle vier hetzelfde decor en licht, en alleen de details uit de canon. Dit zijn voorlopig silhouetten; echte gezichten pas na een nieuw besluit (zie `docs/beslissingen.md`). Maak geen AI-portretten op basis van foto's van echte teamleden.
 
 **LEAD-basis** (zet dit voor elk portret):
 Formal executive portrait in a dark boardroom with a large window behind, the man silhouetted against warm evening light, face in deep shadow and not recognizable, wearing a dark suit. *Aspect ratio 4:5.*
