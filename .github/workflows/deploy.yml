@@ -13,6 +13,11 @@ on:
   push:
     branches: [deploy]
   workflow_dispatch:
+    inputs:
+      alleen_kijken:
+        description: 'Alleen inloggen en de mappen op de server tonen, niets uploaden'
+        type: boolean
+        default: false
 
 concurrency:
   group: deploy
@@ -42,14 +47,28 @@ jobs:
         if: env.DEPLOY_HOST == ''
         run: echo "::notice::Geen DEPLOY_HOST ingesteld; alleen gecontroleerd, niet geüpload."
 
+      - name: Mappen op de server tonen
+        if: env.DEPLOY_HOST != '' && inputs.alleen_kijken
+        env:
+          USER: ${{ secrets.DEPLOY_USER }}
+          LFTP_PASSWORD: ${{ secrets.DEPLOY_PASSWORD }}
+          KNOWN_HOSTS: ${{ secrets.DEPLOY_KNOWN_HOSTS }}
+        run: |
+          set -euo pipefail
+          sudo apt-get update -qq && sudo apt-get install -y -qq lftp
+          mkdir -p ~/.ssh && printf '%s\n' "$KNOWN_HOSTS" > ~/.ssh/known_hosts
+          lftp --env-password -u "$USER" -p "$DEPLOY_PORT" "sftp://$DEPLOY_HOST" -e "
+            set sftp:auto-confirm no;
+            pwd; cls -la; bye"
+
       - name: Pad op de server controleren
-        if: env.DEPLOY_HOST != '' && env.DEPLOY_PATH == ''
+        if: env.DEPLOY_HOST != '' && !inputs.alleen_kijken && env.DEPLOY_PATH == ''
         run: |
           echo "::error::DEPLOY_PATH is leeg; vul het pad in bovenaan deploy.yml."
           exit 1
 
       - name: Wijzigingstijden herstellen uit git
-        if: env.DEPLOY_HOST != ''
+        if: env.DEPLOY_HOST != '' && !inputs.alleen_kijken
         # Zo uploadt lftp alleen bestanden die echt gewijzigd zijn.
         run: |
           git ls-files website | while IFS= read -r f; do
@@ -57,11 +76,11 @@ jobs:
           done
 
       - name: lftp installeren
-        if: env.DEPLOY_HOST != ''
+        if: env.DEPLOY_HOST != '' && !inputs.alleen_kijken
         run: sudo apt-get update -qq && sudo apt-get install -y -qq lftp
 
       - name: Uploaden
-        if: env.DEPLOY_HOST != ''
+        if: env.DEPLOY_HOST != '' && !inputs.alleen_kijken
         env:
           USER: ${{ secrets.DEPLOY_USER }}
           LFTP_PASSWORD: ${{ secrets.DEPLOY_PASSWORD }}
