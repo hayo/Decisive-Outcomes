@@ -1,0 +1,34 @@
+# Openstaand
+
+Wat nog moet gebeuren voordat en nadat de site live gaat. Vink af wat klaar is en verwijder het bij de volgende opruimronde.
+
+## Team en inhoud
+
+- [ ] Frederik, Jochem en Robert lezen hun personage en geven akkoord (zie [toestemming.md](toestemming.md)).
+- [ ] Echte praktische informatie verzamelen: waar en wanneer het team speelt, hoe je kunt meedoen en het echte contactadres.
+- [ ] De licentie bevestigen (zie [LICENSE.md](../LICENSE.md)) of een andere kiezen.
+- [ ] Besluiten of de naam Decisive Outcomes goed genoeg te onderscheiden is van bestaande bedrijven met een vergelijkbare naam.
+- [ ] Een besloten plek kiezen voor toestemmingen bij foto's, buiten de repo.
+
+## Hosting en techniek
+
+- [ ] Controleren of de hosting PHP 8 heeft en Apache-modules voor `mod_rewrite`, `mod_headers` en compressie (`mod_deflate` of Brotli).
+- [ ] Vaststellen of er SFTP is of alleen FTPS. Een account aanmaken voor GitHub Actions en de GitHub Secrets invullen.
+- [ ] Het teamadres voor het formulier kiezen en `includes/config.php` op de server zetten.
+- [ ] SPF, DKIM en DMARC instellen voor het afzenderadres van het formulier.
+- [ ] HTTPS-certificaat en de redirects naar `https://decisiveoutcomes.nl/` controleren.
+- [ ] Beheergegevens vastleggen buiten de repo: waar het domein en de hosting zijn ondergebracht en wie toegang heeft. Gebruik een wachtwoordkluis of een besloten document.
+
+## Website bouwen
+
+- [ ] De lettertypes Oswald en Source Sans 3 downloaden, beperken tot de Latijnse tekenset en de OFL-licentiebestanden meenemen.
+- [ ] `HOME-01` maken in AI Studio en goedkeuren als referentie voor de stijl.
+- [ ] De overige beelden uit [beeldtaal.md](../website/beeldtaal.md).
+- [ ] Het colofon, de privacyverklaring en de disclaimer schrijven. Deze teksten zijn echt, geen satire.
+- [ ] De GitHub Actions-workflow voor de deploy.
+
+## Later
+
+- [ ] De map `events/`: patch-ontwerp, callsigns en templates.
+- [ ] Webmentions, als dat kan zonder externe afhankelijkheid.
+- [ ] De eerste vier commits opschonen (vermelding van Claude eruit). Dit vraagt een force-push op `main`; doe je dat zelf, zie de opdracht in het gesprek van 10 november.

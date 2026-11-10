@@ -8,6 +8,7 @@ Deze repository bevat alles rond het airsoftteam Decisive Outcomes: het verhaal,
 - `logo/` — het logo als SVG (bron) en PNG (2000 px).
 - `website/` — de teamwebsite voor decisiveoutcomes.nl. Volg daar ook `website/CLAUDE.md`.
 - `events/` — materiaal voor events, patches en dergelijke (nog niet aangemaakt).
+- `docs/` — projectdocumentatie: [beslissingen](docs/beslissingen.md), [openstaande punten](docs/openstaand.md) en [toestemming](docs/toestemming.md) van teamleden.
 
 Maak een map pas aan als er iets in komt.
 
@@ -74,6 +75,12 @@ Gebruik deze feiten consequent en wijzig ze niet zonder overleg.
 - Kleuren: goud `#D4A94F`, rood `#9B1C15`, zwart `#0F0D0B`.
 - Lettertype: Oswald Bold. In de SVG zijn de letters al omgezet naar paden.
 - Het embleem (parachute, vleugels, dolk, twee AK's, vlam) is met de hand opgebouwd en symmetrisch. Pas het aan in de SVG; maak de PNG daarna opnieuw.
+
+## Documentatie bijhouden
+
+- Wordt er iets besloten over het verhaal, de website of de repo? Zet het met datum en reden in `docs/beslissingen.md`.
+- Is een punt uit `docs/openstaand.md` klaar? Vink het af. Komt er iets nieuws bij, zet het erin.
+- Iets nieuws over een personage gaat pas live als het in `docs/toestemming.md` is goedgekeurd.
 
 ## Git
 

@@ -262,3 +262,5 @@ Noem in het commitbericht wat er is gecontroleerd.
 
 - Nederlands, in de toon uit de sitemap: zakelijk, zelfverzekerd en zonder knipogen. De grap staat in een bijzin, een voetnoot of een getal.
 - Volg de canon en de stijlregels uit de root-`CLAUDE.md`.
+- De disclaimer staat altijd in de footer, in het colofon en bij het formulier (zie de sitemap). Haal die nooit weg en maak hem nooit grappig.
+- Echte personen: alleen voornamen van teamleden, en alleen wat in `docs/toestemming.md` is goedgekeurd.

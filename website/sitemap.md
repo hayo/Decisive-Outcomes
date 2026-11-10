@@ -87,6 +87,18 @@ Elke divisiepagina heeft dezelfde opbouw:
 - Algemene voorwaarden in corporate stijl.
 - Privacyverklaring: deze moet **echt** zijn als het formulier persoonsgegevens verzamelt.
 - Colofon: echt en zakelijk. Vermeldt dat de beelden met Google Gemini zijn gemaakt (behalve foto's van speeldagen), welke lettertypes worden gebruikt en wie de site maakt.
+- Disclaimer, kort en zakelijk, op elke pagina in de footer: *Decisive Outcomes is een airsoftteam. Decisive Outcomes Group is fictie.*
+
+### Disclaimer
+
+De site lijkt bewust op die van een echt bedrijf. Daarom staat op drie plekken duidelijk dat het fictie is, in dezelfde zakelijke toon als de rest. Er komt geen knipoog bij, en het is geen grap.
+
+- **Footer:** de korte zin hierboven.
+- **Colofon,** volledig:
+
+  > Decisive Outcomes is een airsoftteam uit Nederland. Decisive Outcomes Group, de geschiedenis en de bedrijven, personen en gebeurtenissen op deze site zijn verzonnen, met uitzondering van de teamleden zelf. Sommige figuren zijn losjes geïnspireerd op historische personen, maar hun namen en daden in dit verhaal zijn verzonnen. Wij leveren geen beveiligings-, militaire of andere diensten en hebben geen enkele band met bestaande bedrijven, waaronder Executive Outcomes en andere organisaties met een vergelijkbare naam.
+
+- **Contact en aanvraagformulier:** boven het formulier staat een korte versie, met de toevoeging dat aanvragen voor echte diensten niet in behandeling worden genomen. De bevestigingspagina herhaalt dat. Wie wil meespelen of een vraag over het team heeft, krijgt wel een echt antwoord.
 
 ## Tone of voice voor de site
 
