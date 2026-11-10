@@ -32,9 +32,7 @@ Wat nog moet gebeuren voordat en nadat de site live gaat. Vink af wat klaar is e
 - [x] De lijniconen per divisie ontwerpen.
 - [x] De lettertypes Oswald en Source Sans 3 downloaden, beperken tot de Latijnse tekenset en de OFL-licentiebestanden meenemen.
 - [x] `HOME-01` en twaalf andere beelden uit [beeldtaal.md](../website/beeldtaal.md) gemaakt en geplaatst (10 november 2026).
-- [ ] Gemini-tegoed aanvullen in AI Studio; het prepaid-tegoed was op.
-- [ ] `DIEN-01` opnieuw maken: in de eerste versie waren gezichten zichtbaar.
-- [ ] `LEAD-02` en `LEAD-03` opnieuw maken, met `LEAD-01` als referentie. Bij `LEAD-02` was het gezicht te goed zichtbaar, `LEAD-03` had een ander decor. De portretten gaan pas op de site als alle vier klaar zijn.
+- [x] Tactische beelden (`DIEN-01`, `HOME-02`, `TACT-01` t/m `03`) en de vier portretten van de raad van bestuur gemaakt en geplaatst.
 - [ ] Beelden voor de dertien inzichten (NEWS-basis), zodat ook persberichten een `og:image` hebben.
 - [ ] `OVER-02` wordt nergens gebruikt: een plek geven of uit de beeldtaal halen.
 - [x] Het colofon, de privacyverklaring en de disclaimer schrijven. Deze teksten zijn echt, geen satire.

@@ -28,12 +28,12 @@
     {
       "id": "HOME-02",
       "type": "ai",
-      "alt": "Een man in donkere kleding kijkt bij schemering met een verrekijker vanaf een dak uit over een stad.",
+      "alt": "Een team in tactische uitrusting loopt bij zonsondergang naar een wachtende helikopter op een stoffige landingsplaats.",
       "uitsnede": "geen aparte mobiele uitsnede",
       "bron": {
         "model": "gemini-3-pro-image",
         "datum": "2026-11-10",
-        "prompt": "Cinematic corporate photography for a private security company annual report. Shot on 35mm film, subtle grain, slightly desaturated colors with warm golden highlights and deep near-black shadows, occasional muted crimson accent. Low, warm side light or single-source interior light, strong contrast, calm and serious mood. Generous negative space for text overlay. No text, no logos, no watermarks, no flags. A lone figure in dark field clothing seen from behind on a rooftop at dusk, looking out over a quiet city with a pair of binoculars. Warm lights coming on in the distance, the figure in silhouette. Everything is unbadged: no lettering, no number plates, no brand names, no insignia. Aspect ratio 16:9. Match the color grading, light and grain of the reference image.",
+        "prompt": "Cinematic corporate photography for a private security company annual report. Shot on 35mm film, subtle grain, slightly desaturated colors with warm golden highlights and deep near-black shadows, occasional muted crimson accent. Low, warm side light or single-source interior light, strong contrast, calm and serious mood. Generous negative space for text overlay. No text, no logos, no watermarks, no flags. A small team in tactical gear with slung carbines walking toward a small, unmarked dark grey utility helicopter waiting on a dusty landing zone at golden hour, dust in the air. Seen from behind, faces not visible. Readiness, not combat: weapons slung or pointed at the ground, nobody aiming or firing. Anatomically correct hands, realistic and intact equipment. Everything is unbadged: no lettering, no number plates, no brand names, no insignia, no flags, no aircraft markings. Aspect ratio 16:9. Match the color grading, light and grain of the reference image.",
         "referentie": "HOME-01",
         "instellingen": "aspectRatio 16:9, imageSize 4K"
       }
@@ -86,6 +86,19 @@
         "model": "gemini-3-pro-image",
         "datum": "2026-11-10",
         "prompt": "Cinematic corporate photography for a private security company annual report. Shot on 35mm film, subtle grain, slightly desaturated colors with warm golden highlights and deep near-black shadows, occasional muted crimson accent. Low, warm side light or single-source interior light, strong contrast, calm and serious mood. Generous negative space for text overlay. No text, no logos, no watermarks, no flags. A group of people in practical outdoor gear seen from behind, walking into a forest at early morning, mist between the trees, soft golden light. Purposeful, a team. Everything is unbadged: no lettering, no number plates, no brand names, no insignia. Composition for a website header: main subject in the right half of the frame, the left half calm and darker for text overlay. Aspect ratio 16:9. Match the color grading, light and grain of the reference image.",
+        "referentie": "HOME-01",
+        "instellingen": "aspectRatio 16:9, imageSize 4K"
+      }
+    },
+    {
+      "id": "DIEN-01",
+      "type": "ai",
+      "alt": "Beveiligers staan bij dageraad paraat naast een rij terreinwagens; één van hen kijkt door een verrekijker.",
+      "uitsnede": "mobiel: 4:5 rond het focuspunt (x 0,72)",
+      "bron": {
+        "model": "gemini-3-pro-image",
+        "datum": "2026-11-10",
+        "prompt": "Cinematic corporate photography for a private security company annual report. Shot on 35mm film, subtle grain, slightly desaturated colors with warm golden highlights and deep near-black shadows, occasional muted crimson accent. Low, warm side light or single-source interior light, strong contrast, calm and serious mood. Generous negative space for text overlay. No text, no logos, no watermarks, no flags. Security operators with slung carbines beside a convoy of three unmarked dark 4x4 vehicles on a dusty road at dawn, one man scanning the horizon, the others standing ready. Seen from behind and from the side, faces turned away or hidden by caps and sunglasses. Calm, professional and controlled. Readiness, not combat: weapons slung or pointed at the ground, nobody aiming or firing. Anatomically correct hands, realistic and intact equipment. Everything is unbadged: no lettering, no number plates, no brand names, no insignia, no flags, no aircraft markings. No patches, no first-aid symbols, no crosses, no text on any pouch or bag. Faces turned away from the camera. Composition for a website header: main subject in the right half of the frame, the left half calm and darker for text overlay. Aspect ratio 16:9. Match the color grading, light and grain of the reference image.",
         "referentie": "HOME-01",
         "instellingen": "aspectRatio 16:9, imageSize 4K"
       }
@@ -169,6 +182,55 @@
       }
     },
     {
+      "id": "TACT-01",
+      "type": "ai",
+      "alt": "Een beveiliger met een geweer aan de draagriem kijkt bij zonsopgang vanaf een wal uit over een dagbouwmijn, achter een hek met prikkeldraad.",
+      "uitsnede": "mobiel: 4:5 rond het focuspunt (x 0,65)",
+      "bron": {
+        "model": "gemini-3-pro-image",
+        "datum": "2026-11-10",
+        "prompt": "Cinematic corporate photography for a private security company annual report. Shot on 35mm film, subtle grain, slightly desaturated colors with warm golden highlights and deep near-black shadows, occasional muted crimson accent. Low, warm side light or single-source interior light, strong contrast, calm and serious mood. Generous negative space for text overlay. No text, no logos, no watermarks, no flags. A security guard with a slung rifle seen from behind on a raised earth berm overlooking an open-pit mine at sunrise, binoculars in hand, heavy machinery small in the distance, a chain-link fence with razor wire in the foreground. Readiness, not combat: weapons slung or pointed at the ground, nobody aiming or firing. Anatomically correct hands, realistic and intact equipment. Everything is unbadged: no lettering, no number plates, no brand names, no insignia, no flags, no aircraft markings. Composition for a website header: main subject in the right half of the frame, the left half calm and darker for text overlay. Aspect ratio 16:9. Match the color grading, light and grain of the reference image.",
+        "referentie": "HOME-01",
+        "instellingen": "aspectRatio 16:9, imageSize 4K"
+      }
+    },
+    {
+      "id": "TACT-02",
+      "type": "ai",
+      "alt": "Een briefing op de motorkap van een terreinwagen: een kaart, een kompas, een portofoon en handschoenen, met handen die naar de kaart wijzen.",
+      "uitsnede": "mobiel: 4:5 rond het focuspunt (x 0,75)",
+      "bron": {
+        "model": "gemini-3-pro-image",
+        "datum": "2026-11-10",
+        "prompt": "Cinematic corporate photography for a private security company annual report. Shot on 35mm film, subtle grain, slightly desaturated colors with warm golden highlights and deep near-black shadows, occasional muted crimson accent. Low, warm side light or single-source interior light, strong contrast, calm and serious mood. Generous negative space for text overlay. No text, no logos, no watermarks, no flags. A briefing on the hood of a dusty 4x4 vehicle in early morning light: a paper map spread out, hands pointing at it, a compass, a radio and a pair of gloves on the map. Men in tactical vests around the vehicle, visible only from the chest down. The map has no readable text. Readiness, not combat: weapons slung or pointed at the ground, nobody aiming or firing. Anatomically correct hands, realistic and intact equipment. Everything is unbadged: no lettering, no number plates, no brand names, no insignia, no flags, no aircraft markings. Composition for a website header: main subject in the right half of the frame, the left half calm and darker for text overlay. Aspect ratio 16:9. Match the color grading, light and grain of the reference image.",
+        "referentie": "HOME-01",
+        "instellingen": "aspectRatio 16:9, imageSize 4K"
+      }
+    },
+    {
+      "id": "TACT-03",
+      "type": "ai",
+      "alt": "Een kleine ongemarkeerde helikopter vliegt laag over de savanne bij zonsondergang.",
+      "uitsnede": "mobiel: 4:5 rond het focuspunt (x 0,68)",
+      "bron": {
+        "model": "gemini-3-pro-image",
+        "datum": "2026-11-10",
+        "prompt": "Cinematic corporate photography for a private security company annual report. Shot on 35mm film, subtle grain, slightly desaturated colors with warm golden highlights and deep near-black shadows, occasional muted crimson accent. Low, warm side light or single-source interior light, strong contrast, calm and serious mood. Generous negative space for text overlay. No text, no logos, no watermarks, no flags. A single small, unmarked utility helicopter flying low over African savanna at golden hour, seen from behind and slightly above, its shadow on the grass, a few acacia trees, dust and haze. Everything is unbadged: no lettering, no number plates, no brand names, no insignia, no flags, no aircraft markings. The helicopter is higher above the ground, the light comes from the side; no visible shadow of the helicopter on the ground. Composition for a website header: main subject in the right half of the frame, the left half calm and darker for text overlay. Aspect ratio 16:9. Match the color grading, light and grain of the reference image.",
+        "referentie": "HOME-01",
+        "instellingen": "aspectRatio 16:9, imageSize 4K"
+      }
+    },
+    {
+      "id": "WERELD-01",
+      "type": "grafisch",
+      "alt": "Wereldkaart met de vestigingen van de groep en verbindingen vanaf het hoofdkantoor op Bonaire.",
+      "uitsnede": "mobiel: 4:5 rond Afrika en de Atlantische Oceaan",
+      "bron": {
+        "methode": "code: d3-geo (Equal Earth), Natural Earth land 1:50m via world-atlas, puntenraster",
+        "datum": "2026-11-10"
+      }
+    },
+    {
       "id": "WERELD-02",
       "type": "ai",
       "alt": "Een moderne vergaderruimte van glas op een klein eiland bij zonsopgang, met zee aan alle kanten.",
@@ -192,8 +254,33 @@
         "prompt": "Cinematic corporate photography for a private security company annual report. Shot on 35mm film, subtle grain, slightly desaturated colors with warm golden highlights and deep near-black shadows, occasional muted crimson accent. Low, warm side light or single-source interior light, strong contrast, calm and serious mood. Generous negative space for text overlay. No text, no logos, no watermarks, no flags. Formal executive portrait in a dark boardroom with a large window behind, the man silhouetted against warm evening light, face in deep shadow and not recognizable, wearing a dark suit. The man is white. A very tall, broad man standing upright, almost filling the frame, completely still. Aspect ratio 4:5. Match the color grading, light and grain of the reference image.",
         "referentie": "HOME-01",
         "instellingen": "aspectRatio 4:5, imageSize 4K"
-      },
-      "status": "alleen origineel; komt op de site als alle vier de portretten klaar zijn"
+      }
+    },
+    {
+      "id": "LEAD-02",
+      "type": "ai",
+      "alt": "",
+      "uitsnede": "portret 4:5",
+      "bron": {
+        "model": "gemini-3-pro-image",
+        "datum": "2026-11-10",
+        "prompt": "Cinematic corporate photography for a private security company annual report. Shot on 35mm film, subtle grain, slightly desaturated colors with warm golden highlights and deep near-black shadows, occasional muted crimson accent. Low, warm side light or single-source interior light, strong contrast, calm and serious mood. Generous negative space for text overlay. No text, no logos, no watermarks, no flags. Formal executive portrait in a dark boardroom with a large window behind, the man silhouetted against warm evening light, wearing a dark suit. The man is white. His face is completely in shadow, a dark silhouette with no visible facial features. Exactly one person in the image, nobody else in the room. The same boardroom, window, furniture and light as the reference image. A man seated at the boardroom table, a folded map and an open notebook in front of him, a pen in his hand. Aspect ratio 4:5. Match the color grading, light and grain of the reference image.",
+        "referentie": "LEAD-01",
+        "instellingen": "aspectRatio 4:5, imageSize 4K"
+      }
+    },
+    {
+      "id": "LEAD-03",
+      "type": "ai",
+      "alt": "",
+      "uitsnede": "portret 4:5",
+      "bron": {
+        "model": "gemini-3-pro-image",
+        "datum": "2026-11-10",
+        "prompt": "Cinematic corporate photography for a private security company annual report. Shot on 35mm film, subtle grain, slightly desaturated colors with warm golden highlights and deep near-black shadows, occasional muted crimson accent. Low, warm side light or single-source interior light, strong contrast, calm and serious mood. Generous negative space for text overlay. No text, no logos, no watermarks, no flags. Formal executive portrait in a dark boardroom with a large window behind, the man silhouetted against warm evening light, wearing a dark suit. The man is white. His face is completely in shadow, a dark silhouette with no visible facial features. Exactly one person in the image, nobody else in the room. The same boardroom, window, furniture and light as the reference image. A man standing beside a closed dark wooden chest with iron bands, one hand resting on it. Aspect ratio 4:5. Match the color grading, light and grain of the reference image.",
+        "referentie": "LEAD-01",
+        "instellingen": "aspectRatio 4:5, imageSize 4K"
+      }
     },
     {
       "id": "LEAD-04",
@@ -206,17 +293,6 @@
         "prompt": "Cinematic corporate photography for a private security company annual report. Shot on 35mm film, subtle grain, slightly desaturated colors with warm golden highlights and deep near-black shadows, occasional muted crimson accent. Low, warm side light or single-source interior light, strong contrast, calm and serious mood. Generous negative space for text overlay. No text, no logos, no watermarks, no flags. Formal executive portrait in a dark boardroom with a large window behind, the man silhouetted against warm evening light, face in deep shadow and not recognizable, wearing a dark suit. The man is white. Exactly one person in the image, nobody else in the room. The same boardroom, window, furniture and light as the reference image. A man standing by the window with a coffee cup, half turned away, relaxed but alert. Aspect ratio 4:5. Match the color grading, light and grain of the reference image.",
         "referentie": "LEAD-01",
         "instellingen": "aspectRatio 4:5, imageSize 4K"
-      },
-      "status": "alleen origineel; komt op de site als alle vier de portretten klaar zijn"
-    },
-    {
-      "id": "WERELD-01",
-      "type": "grafisch",
-      "alt": "Wereldkaart met de vestigingen van de groep en verbindingen vanaf het hoofdkantoor op Bonaire.",
-      "uitsnede": "mobiel: 4:5 rond Afrika en de Atlantische Oceaan",
-      "bron": {
-        "methode": "code: d3-geo (Equal Earth), Natural Earth land 1:50m via world-atlas, puntenraster",
-        "datum": "2026-11-10"
       }
     },
     {

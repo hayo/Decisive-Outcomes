@@ -9,6 +9,8 @@ component('hero', [
     'label' => 'Sectoren',
     'kop' => 'Wie wij bedienen',
     'intro' => 'Elke sector kent eigen risico\'s. Wij combineren de juiste divisies voor elke klantgroep.',
+    'beeld' => 'TACT-01',
+    'alt' => 'Een beveiliger met een geweer aan de draagriem kijkt bij zonsopgang vanaf een wal uit over een dagbouwmijn, achter een hek met prikkeldraad.',
 ]);
 ?>
 <section>

@@ -9,6 +9,8 @@ component('hero', [
     'label' => 'Ethiek & compliance',
     'kop' => 'Integriteit als uitgangspunt',
     'intro' => 'Decisive Outcomes Group houdt zich aan alle regels. Ook aan regels die niet meer bestaan.',
+    'beeld' => 'TACT-02',
+    'alt' => 'Een briefing op de motorkap van een terreinwagen: een kaart, een kompas, een portofoon en handschoenen, met handen die naar de kaart wijzen.',
 ]);
 ?>
 <section>
