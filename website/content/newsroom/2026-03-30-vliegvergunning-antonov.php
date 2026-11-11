@@ -6,8 +6,8 @@ return [
     'plaats' => 'Kralendijk',
     'samenvatting' => 'De aanvraag voor een vliegvergunning voor de Antonov van de groep is sinds 1993 in behandeling, in vijf landen tegelijk. Ook dit jaar is er een herinnering verstuurd.',
     'divisies' => ['decisive-real-estate'],
-    'beeld' => 'DIEN-05',
-    'alt' => 'Een verroeste dubbeldekker in de branding van een klein eiland bij avondlicht.',
+    'beeld' => 'NEWS-15',
+    'alt' => 'Een oude tweedekker zonder kentekens staat in de branding van een strand bij avondlicht, met golven tegen de romp.',
     'html' => <<<'HTML'
 <p>Decisive Outcomes Group heeft de jaarlijkse herinnering verstuurd over haar aanvraag voor een vliegvergunning voor de Antonov An-2 van de groep. Het toestel werd in 1993 aangeschaft in Sharjah en is geregistreerd in vijf landen. Het is de drieëndertigste herinnering sinds de aanvraag werd ingediend.</p>
 <p>De aanvraag wordt sinds 1993 doorverwezen tussen de luchtvaartautoriteiten van de vijf landen waar het toestel geregistreerd staat. Elke autoriteit verwijst naar een van de vier andere. De groep beschouwt de aanvraag daarom als in behandeling bij alle vijf tegelijk. De herinnering is in vijfvoud verstuurd.</p>

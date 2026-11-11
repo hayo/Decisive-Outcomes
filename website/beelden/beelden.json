@@ -90,8 +90,7 @@
         "referentie": "HOME-01",
         "instellingen": "aspectRatio 16:9, imageSize 4K",
         "nabewerking": "Gemini maakte steeds te weinig paren; het vierde paar is er met een bewerking bij gezet: Edit this photograph. Keep everything exactly the same: light, color grading, grain, ground, shadows and the three pairs of boots. Add one more pair of the same kind of worn leather combat boots directly to the left of the row, with the same spacing, so the row has exactly four pairs (eight boots) and four long shadows. The new pair is a little larger than the others. No text, no logos."
-      },
-      "og": "OVER-02-og.jpg: 1200 × 630 uit het midden (2026-11-11), voor het persbericht over Bevrijdingsdag"
+      }
     },
     {
       "id": "WERK-01",
@@ -500,6 +499,63 @@
         "model": "gemini-3-pro-image",
         "datum": "2026-11-10",
         "prompt": "Cinematic corporate photography for a private security company annual report. Shot on 35mm film, subtle grain, slightly desaturated colors with warm golden highlights and deep near-black shadows, occasional muted crimson accent. Low, warm side light or single-source interior light, strong contrast, calm and serious mood. Generous negative space for text overlay. No text, no logos, no watermarks, no flags. Documentary-style photograph, same color grading as the rest of the series, people only as silhouettes or from behind. An old military field radio on a wooden table in a dark room at dawn, the handset resting on top, a small red indicator light glowing, a cup of coffee beside it. A sense of waiting. Everything is unbadged: no lettering, no readable text, no numbers, no brand names, no insignia, no flags. Main subject in the right half of the frame, the left half calmer and darker for text overlay. Aspect ratio 16:9. Match the color grading, light and grain of the reference image.",
+        "referentie": "HOME-01",
+        "instellingen": "aspectRatio 16:9, imageSize 4K"
+      }
+    },
+    {
+      "id": "NEWS-14",
+      "type": "ai",
+      "alt": "Twee oude terreinwagens met open motorkap in een schemerige werkplaats, met gereedschap op een werkbank onder één hanglamp.",
+      "gebruik": "newsroom/2026-02-02-vervangingsplan-wagenpark.php",
+      "uitsnede": "mobiel: 4:5 rond het focuspunt (x 0,62)",
+      "bron": {
+        "model": "gemini-3-pro-image",
+        "datum": "2026-11-11",
+        "prompt": "Cinematic corporate photography for a private security company annual report. Shot on 35mm film, subtle grain, slightly desaturated colors with warm golden highlights and deep near-black shadows, occasional muted crimson accent. Low, warm side light or single-source interior light, strong contrast, calm and serious mood. Generous negative space for text overlay. No text, no logos, no watermarks, no flags. Documentary-style photograph, same color grading as the rest of the series. Two weathered, unbadged 1970s four-wheel-drive utility vehicles with their bonnets open inside a dim, orderly workshop, tools laid out neatly on a wooden workbench, a single hanging lamp casting warm light, dust in the air. No people. Everything is unbadged: no lettering, no readable text, no numbers, no number plates, no brand names, no insignia, no flags. Main subject in the right half of the frame, the left half calmer and darker for text overlay. Aspect ratio 16:9. Match the color grading, light and grain of the reference image.",
+        "referentie": "HOME-01",
+        "instellingen": "aspectRatio 16:9, imageSize 4K",
+        "nabewerking": "Het verminkte merkembleem op de grille is weggeretoucheerd (vervaagd naar de kleur van de plaat)."
+      }
+    },
+    {
+      "id": "NEWS-15",
+      "type": "ai",
+      "alt": "Een oude tweedekker zonder kentekens staat in de branding van een strand bij avondlicht, met golven tegen de romp.",
+      "gebruik": "newsroom/2026-03-30-vliegvergunning-antonov.php",
+      "uitsnede": "mobiel: 4:5 rond het focuspunt (x 0,78)",
+      "bron": {
+        "model": "gemini-3-pro-image",
+        "datum": "2026-11-11",
+        "prompt": "Cinematic corporate photography for a private security company annual report. Shot on 35mm film, subtle grain, slightly desaturated colors with warm golden highlights and deep near-black shadows, occasional muted crimson accent. Low, warm side light or single-source interior light, strong contrast, calm and serious mood. Generous negative space for text overlay. No text, no logos, no watermarks, no flags. Documentary-style photograph, same color grading as the rest of the series. An old single-engine Soviet-era biplane without any markings standing on a sandbar at the edge of a turquoise Caribbean sea at low tide, small waves breaking gently against its fuselage like a breakwater, warm late-afternoon light, a calm horizon. Everything is unbadged: no lettering, no readable text, no numbers, no number plates, no brand names, no insignia, no flags. Main subject in the right half of the frame, the left half calmer and darker for text overlay. Aspect ratio 16:9. Match the color grading, light and grain of the reference image.",
+        "referentie": "HOME-01",
+        "instellingen": "aspectRatio 16:9, imageSize 4K"
+      }
+    },
+    {
+      "id": "NEWS-16",
+      "type": "ai",
+      "alt": "Een open sorteerloods met een golfplaten dak tegen een rotsheuvel bij zonsopgang, met houten kratten vol bleke stenen voor een mijningang.",
+      "gebruik": "newsroom/2026-04-14-decisive-mining.php",
+      "uitsnede": "mobiel: 4:5 rond het focuspunt (x 0,5)",
+      "bron": {
+        "model": "gemini-3-pro-image",
+        "datum": "2026-11-11",
+        "prompt": "Cinematic corporate photography for a private security company annual report. Shot on 35mm film, subtle grain, slightly desaturated colors with warm golden highlights and deep near-black shadows, occasional muted crimson accent. Low, warm side light or single-source interior light, strong contrast, calm and serious mood. Generous negative space for text overlay. No text, no logos, no watermarks, no flags. Documentary-style photograph, same color grading as the rest of the series. An open-sided sorting shed with a corrugated metal roof against a grey rocky hillside in the Angolan highlands at sunrise, wooden crates filled with pale quartz stones glinting in the low light, a small mine entrance in the rock behind. Calm and orderly, no people. Everything is unbadged: no lettering, no readable text, no numbers, no number plates, no brand names, no insignia, no flags. Main subject in the right half of the frame, the left half calmer and darker for text overlay. Aspect ratio 16:9. Match the color grading, light and grain of the reference image.",
+        "referentie": "HOME-01",
+        "instellingen": "aspectRatio 16:9, imageSize 4K"
+      }
+    },
+    {
+      "id": "NEWS-17",
+      "type": "ai",
+      "alt": "Een witte feesttent met rijen lege stoelen voor een eenvoudige dorpsschool tegen een groene heuvel, in avondlicht, met brandende lampen achter de ramen.",
+      "gebruik": "newsroom/2026-11-09-bevrijdingsdag.php",
+      "uitsnede": "mobiel: 4:5 rond het focuspunt (x 0,72)",
+      "bron": {
+        "model": "gemini-3-pro-image",
+        "datum": "2026-11-11",
+        "prompt": "Cinematic corporate photography for a private security company annual report. Shot on 35mm film, subtle grain, slightly desaturated colors with warm golden highlights and deep near-black shadows, occasional muted crimson accent. Low, warm side light or single-source interior light, strong contrast, calm and serious mood. Generous negative space for text overlay. No text, no logos, no watermarks, no flags. Documentary-style photograph, same color grading as the rest of the series. A large white marquee tent with neat rows of empty chairs on a swept square in front of a simple, well-kept village school building against a green hillside in Eswatini, warm evening light, the school windows glowing with electric light. Dignified, peaceful, no people visible. Everything is unbadged: no lettering, no readable text, no numbers, no number plates, no brand names, no insignia, no flags. Main subject in the right half of the frame, the left half calmer and darker for text overlay. Aspect ratio 16:9. Match the color grading, light and grain of the reference image.",
         "referentie": "HOME-01",
         "instellingen": "aspectRatio 16:9, imageSize 4K"
       }

@@ -6,8 +6,8 @@ return [
     'plaats' => 'Kralendijk',
     'samenvatting' => 'Decisive Mining heeft 2025 opnieuw afgesloten met winst. Het is de enige divisie van de groep die sinds haar oprichting elk jaar winst maakt.',
     'divisies' => ['decisive-mining'],
-    'beeld' => 'DIEN-03',
-    'alt' => 'Ruwe heldere kwartskristallen en een juweliersloep op een donkere stenen tafel.',
+    'beeld' => 'NEWS-16',
+    'alt' => 'Een open sorteerloods met een golfplaten dak tegen een rotsheuvel bij zonsopgang, met houten kratten vol bleke stenen voor een mijningang.',
     'html' => <<<'HTML'
 <p>Decisive Mining, de grondstoffendivisie van Decisive Outcomes Group, heeft boekjaar 2025 afgesloten met winst. Het is het zevenendertigste winstgevende jaar op rij. Decisive Mining is daarmee de enige divisie van de groep die sinds haar oprichting in 1989 elk jaar winst maakt.</p>
 <p>De mijn in de hooglanden van Huíla, in Angola, levert hoogwaardig kwarts aan een glasfabriek en aan aannemers in de regio. De vraag naar kwarts voor vloeren en aanrechtbladen was in 2025 opnieuw stabiel. Diamanten zijn ook in 2025 niet gevonden. De groep had dat ook niet verwacht, en verwacht dat sinds augustus 1989 niet meer.</p>

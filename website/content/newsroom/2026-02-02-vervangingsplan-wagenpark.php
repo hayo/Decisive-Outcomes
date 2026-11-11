@@ -6,8 +6,8 @@ return [
     'plaats' => 'Kralendijk',
     'samenvatting' => 'Het vervangingsplan voor beide Land Rovers uit 1971 is voor het zevenendertigste jaar op rij unaniem goedgekeurd. De uitvoering is uitgesteld.',
     'divisies' => ['decisive-security'],
-    'beeld' => 'HOME-01',
-    'alt' => 'Vier mannen in veldkleding staan met de rug naar de camera bij twee oude terreinwagens op een rode zandweg en kijken naar een baobab aan de horizon.',
+    'beeld' => 'NEWS-14',
+    'alt' => 'Twee oude terreinwagens met open motorkap in een schemerige werkplaats, met gereedschap op een werkbank onder één hanglamp.',
     'html' => <<<'HTML'
 <p>De raad van bestuur van Decisive Outcomes Group heeft in het Stand-By-overleg van maandag het vervangingsplan voor het wagenpark 2026 unaniem goedgekeurd. Het plan is opgesteld door Kapitein Jochem, Chief Operating Officer, en voorziet in de vervanging van beide Land Rovers uit 1971.</p>
 <p>Het is het zevenendertigste vervangingsplan op rij dat unaniem wordt goedgekeurd. Net als in voorgaande jaren is bij de goedkeuring besloten de uitvoering uit te stellen tot de huidige voertuigen niet meer rijden. Volgens de afdeling Operaties is dat moment nog niet in zicht.</p>

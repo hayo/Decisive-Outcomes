@@ -39,7 +39,7 @@ Wat nog moet gebeuren voordat en nadat de site live gaat. Vink af wat klaar is e
 - [x] `HOME-01` en twaalf andere beelden uit [beeldtaal.md](../website/beeldtaal.md) gemaakt en geplaatst (10 november 2026).
 - [x] Tactische beelden (`DIEN-01`, `HOME-02`, `TACT-01` t/m `03`) en de vier portretten van de raad van bestuur gemaakt en geplaatst.
 - [x] Beelden voor de dertien inzichten (`NEWS-01` t/m `13`), met `og:image`. Een nieuw inzicht krijgt voortaan meteen een eigen beeld.
-- [ ] Beelden `NEWS-14` t/m `17` maken voor de vier nieuwe persberichten (prompts in [beeldtaal.md](../website/beeldtaal.md)). Het Gemini-tegoed was op 11 november op; de berichten gebruiken tot dan een bestaand beeld.
+- [x] Beelden `NEWS-14` t/m `17` voor de vier nieuwe persberichten (11 november 2026). Bij `NEWS-14` is een verminkt merkembleem weggeretoucheerd.
 - [ ] De HTML van alle pagina's door de W3C-validator halen. Op 11 november is alleen een eigen structuurcontrole gedaan.
 - [x] `OVER-02` (de laarzen) staat op Over ons, bij de kernwaarden.
 - [x] Het colofon, de privacyverklaring en de disclaimer schrijven. Deze teksten zijn echt, geen satire.

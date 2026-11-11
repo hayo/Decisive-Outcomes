@@ -6,8 +6,8 @@ return [
     'plaats' => 'Kralendijk',
     'samenvatting' => 'Decisive Outcomes Group was ook dit jaar hoofdsponsor van Bevrijdingsdag in een dorp in Eswatini. De groep steunt de viering sinds de eerste editie in 1993.',
     'divisies' => ['decisive-security'],
-    'beeld' => 'OVER-02',
-    'alt' => 'Vier paar versleten legerkisten naast elkaar op rode aarde, in laag tegenlicht.',
+    'beeld' => 'NEWS-17',
+    'alt' => 'Een witte feesttent met rijen lege stoelen voor een eenvoudige dorpsschool tegen een groene heuvel, in avondlicht, met brandende lampen achter de ramen.',
     'html' => <<<'HTML'
 <p>Decisive Outcomes Group was afgelopen zaterdag opnieuw hoofdsponsor van Bevrijdingsdag in een dorp in de heuvels ten zuiden van Manzini, in Eswatini. Het was de vierendertigste editie van de viering. De groep is sinds de eerste editie in 1993 hoofdsponsor.</p>
 <p>Bevrijdingsdag herdenkt de dag in november 1992 waarop een team van de groep het dorp bereikte, na een melding dat het dorp bezet was. Bij aankomst bleek het dorp bezet door gasten voor de opening van de nieuwe school. Het team herstelde die dag de generator van de school, die daarna voor het eerst licht gaf.</p>
