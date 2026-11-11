@@ -28,7 +28,8 @@ Beeld-ID's (zoals `HOME-01`) verwijzen naar [beeldtaal.md](beeldtaal.md).
 
 ### 2. Over ons
 
-- **Onze geschiedenis** (`OVER-01`): de corporate versie van Deel 1, in tien regels. *Opgericht in 1984 door vier veteranen met een gedeelde visie en een gedeelde kist.* Verwijs naar het volledige verhaal als *Ons verhaal*.
+- **Onze geschiedenis** (`OVER-01`): de corporate versie van Deel 1, in tien regels. *Opgericht in 1984 door vier veteranen met een gedeelde visie en een gedeelde kist.* Verwijs naar *Ons verhaal*.
+- **Ons verhaal** (`/over-ons/ons-verhaal/`): een verkorte, corporate versie van Deel 1, per periode. Sierra Leone 1998–1999 staat er serieus in.
 - **Missie, visie en kernwaarden:** uit de backstory, als strakke blokken. *Pamwe chete* krijgt een eigen visual (`OVER-02`).
 - **Raad van bestuur** (`LEAD-01` t/m `LEAD-04`): vier portretten in vaste stijl met naam, functie en een formele bio van ongeveer 80 woorden. Nieuwe biodetails eerst voorleggen aan het teamlid.
 - **Tijdlijn:** 1979 · 1984 · 1991 · 1995 · 1999 · 2005 · 2019. Elk jaartal met één droge zin.
@@ -105,6 +106,7 @@ De URL blijft `/newsroom/` voor persberichten; het overzicht staat op `/inzichte
 
 - Kerncijfers (tabel uit de backstory), het jaarverslag als download en de aandeelhoudersstructuur (vier aandeelhouders, allen bestuurder).
 - Koersinformatie: *Niet beschikbaar in Rhodesische dollars.*
+- **Jaarverslag 2025** als sectie op de pagina: verslag van de raad van bestuur, kerngegevens per valuta, governance, risicoparagraaf, vooruitblik, verslag van de raad van commissarissen en de jaarrekening. Daarna een financiële kalender.
 
 ### 9. Contact
 

@@ -29,7 +29,9 @@ Wat nog moet gebeuren voordat en nadat de site live gaat. Vink af wat klaar is e
 - [ ] De elf inzichten in de newsroom nalezen (concepten van Claude). Actuele berichten verouderen: kijk eens per kwartaal of ze nog kloppen.
 - [x] Echte informatie voor *Meedoen met het airsoftteam* op Werken bij.
 - [ ] Privacyverklaring laten controleren, vooral de bewaartermijn (nu: uiterlijk een jaar) en de grondslag.
-- [ ] Besluiten of het volledige verhaal als pagina *Ons verhaal* op de site komt. Het is te groot voor het paginabudget en bevat nog niet-goedgekeurde personages.
+- [x] Besluiten of het verhaal als pagina *Ons verhaal* op de site komt: ja, als verkorte corporate versie (11 november 2026).
+- [ ] De uitgebreide teksten van 11 november nalezen: divisies, sectoren, Over ons, *Ons verhaal*, Ethiek, Investor relations (jaarverslag 2025), Wereldwijd, Werken bij en de persberichten.
+- [ ] De drie nieuwe hoofdstukken (7, 10 en 14) laten lezen door Frederik, Jochem en Robert; ze spelen er alle drie een rol in.
 - [ ] Op de server: `includes/config.php` aanmaken (zie `config.example.php`).
 - [ ] Eventueel een professionele vectorversie (SVG) van het logo laten maken. Tot die tijd gebruiken we de originele PNG.
 - [x] De lijniconen per divisie ontwerpen.
@@ -37,6 +39,8 @@ Wat nog moet gebeuren voordat en nadat de site live gaat. Vink af wat klaar is e
 - [x] `HOME-01` en twaalf andere beelden uit [beeldtaal.md](../website/beeldtaal.md) gemaakt en geplaatst (10 november 2026).
 - [x] Tactische beelden (`DIEN-01`, `HOME-02`, `TACT-01` t/m `03`) en de vier portretten van de raad van bestuur gemaakt en geplaatst.
 - [x] Beelden voor de dertien inzichten (`NEWS-01` t/m `13`), met `og:image`. Een nieuw inzicht krijgt voortaan meteen een eigen beeld.
+- [ ] Beelden `NEWS-14` t/m `17` maken voor de vier nieuwe persberichten (prompts in [beeldtaal.md](../website/beeldtaal.md)). Het Gemini-tegoed was op 11 november op; de berichten gebruiken tot dan een bestaand beeld.
+- [ ] De HTML van alle pagina's door de W3C-validator halen. Op 11 november is alleen een eigen structuurcontrole gedaan.
 - [x] `OVER-02` (de laarzen) staat op Over ons, bij de kernwaarden.
 - [x] Het colofon, de privacyverklaring en de disclaimer schrijven. Deze teksten zijn echt, geen satire.
 - [x] De GitHub Actions-workflow voor de deploy.

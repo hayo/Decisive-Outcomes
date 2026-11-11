@@ -12,7 +12,14 @@ pagina_begin([
 component('hero', ['label' => $d['naam'], 'kop' => $d['kop'], 'intro' => $d['kort'], 'beeld' => $d['beeld'], 'alt' => '']);
 ?>
 <section>
+<div class="artikel">
 <p class="inleiding"><?= e($d['intro']) ?></p>
+<?php foreach ($d['tekst'] ?? [] as $alinea): ?>
+<p><?= e($alinea) ?></p>
+<?php endforeach ?>
+</div>
+</section>
+<section class="vlak">
 <h2>Kerncompetenties</h2>
 <ul class="punten">
 <?php foreach ($d['competenties'] as [$titel, $tekst]): ?>
@@ -20,15 +27,41 @@ component('hero', ['label' => $d['naam'], 'kop' => $d['kop'], 'intro' => $d['kor
 <?php endforeach ?>
 </ul>
 </section>
-<section class="vlak">
+<?php if (!empty($d['aanpak'])): ?>
+<section>
+<h2>Onze aanpak</h2>
+<ol class="punten">
+<?php foreach ($d['aanpak'] as $n => [$stap, $tekst]): ?>
+<li><h3><?= $n + 1 ?>. <?= e($stap) ?></h3><p><?= e($tekst) ?></p></li>
+<?php endforeach ?>
+</ol>
+</section>
+<?php endif ?>
+<section<?= empty($d['aanpak']) ? '' : ' class="vlak"' ?>>
+<div class="twee">
+<div>
 <p class="label">Recente inzet</p>
 <h2><?= e($d['inzet'][0]) ?></h2>
-<p class="inleiding"><?= e($d['inzet'][1]) ?></p>
+<p><?= e($d['inzet'][1]) ?></p>
 <?php if (!empty($d['inzet'][2])): ?><p><a href="<?= e($d['inzet'][2]) ?>">Lees de casestudy</a></p><?php endif ?>
 <?php $sectoren = array_filter(SECTOREN, fn($s) => in_array($slug, $s['divisies'], true)); if ($sectoren): ?>
 <p class="label">Sectoren</p>
 <p><?php $n = 0; foreach ($sectoren as $id => $s): ?><?= $n++ ? ', ' : '' ?><a href="/sectoren/<?= e($id) ?>/"><?= e($s['naam']) ?></a><?php endforeach ?></p>
 <?php endif ?>
+</div>
+<?php if (!empty($d['feiten'])): ?>
+<div class="tabel" role="region" aria-label="<?= e($d['naam']) ?> in feiten" tabindex="0">
+<table>
+<caption><?= e($d['naam']) ?> in feiten</caption>
+<tbody>
+<?php foreach ($d['feiten'] as [$kenmerk, $waarde]): ?>
+<tr><th scope="row"><?= e($kenmerk) ?></th><td><?= e($waarde) ?></td></tr>
+<?php endforeach ?>
+</tbody>
+</table>
+</div>
+<?php endif ?>
+</div>
 </section>
 <?php require_once SITE_ROOT . '/includes/inzichten.php'; $inzichten = array_slice(inzichten_waar(null, $slug), 0, 3); if ($inzichten): ?>
 <section>

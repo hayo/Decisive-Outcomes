@@ -6,6 +6,8 @@ Wat is besloten, wanneer en waarom. Nieuwe beslissingen komen bovenaan in de tab
 
 | Datum | Besluit | Reden |
 |---|---|---|
+| 2026-11-11 | Drie nieuwe hoofdstukken in Deel 1: 7 *De kwartsmijn* (Angola 1989), 10 *Bevrijdingsdag* (Swaziland 1992) en 14 *Klein Klein Bonaire* (1999). De latere hoofdstukken zijn vernummerd; Sierra Leone is nu hoofdstuk 13. Het eerste stuk van *Van kamp naar concern* is ingekort, omdat het kaartspel nu in hoofdstuk 14 staat. Nieuwe verzonnen figuren: mestre Domingos, Make Simelane en Shon Ernesto. | Gekozen door Hayo, om het corpus te vergroten. De lokale figuren zijn slim en winnen de deal. |
+| 2026-11-11 | Annelies Brouwer komt van een communicatieafdeling van een ministerie in Den Haag. Ze ergert zich aan concepten die niet worden goedgekeurd, Hayo's bijlagen en Roberts productplaatsing. Haar frustratie staat in de noot en in een enkel subtiel zinnetje in het persbericht zelf. Uitgewerkt in de root-`CLAUDE.md`. | Antwoorden van Hayo. |
 | 2026-11-10 | Figuren die op echte mensen zijn gebaseerd (Viktor Bout, Neall Ellis) krijgen verzonnen namen: Arkadi Morozov en Gavin Laurie. | In het verhaal doen en zeggen ze dingen die de echte personen nooit deden. |
 | 2026-11-10 | Hoofdstuk 11 (Sierra Leone 1998–1999) is serieus, zonder grappen over de oorlog. | Echte oorlogen en slachtoffers zijn nooit de grap. |
 | 2026-11-10 | Geen slapstick en geen A-Team-verwijzingen; droge, corporate humor. | Slapstick maakt het verhaal goedkoper en minder geloofwaardig. |
@@ -17,6 +19,9 @@ Wat is besloten, wanneer en waarom. Nieuwe beslissingen komen bovenaan in de tab
 
 | Datum | Besluit | Reden |
 |---|---|---|
+| 2026-11-11 | Alle teksten op de site uitgebreid tot de lengte van een echte PMC-site: divisies (met aanpak en feitentabel), sectoren, Over ons (governance, Stand-By-overleg, embleem), Ethiek, Wereldwijd, Werken bij, algemene voorwaarden, persberichten en inzichten. Nieuw: de pagina *Ons verhaal*, een jaarverslag 2025 op Investor relations en vier persberichten. Geen veldrollen en geen uitrusting van het echte team op de site. | De teksten lazen als placeholder. Keuzes van Hayo. |
+| 2026-11-11 | *Ons verhaal* staat op `/over-ons/ons-verhaal/`, als verkorte corporate versie van Deel 1, niet het volledige verhaal. | Past binnen het paginabudget; het volledige verhaal blijft in de repo. |
+| 2026-11-11 | Koppen (`h1`, `h2`) krijgen `hyphens: auto` en `overflow-wrap: break-word`. | Lange Nederlandse woorden in hoofdletters liepen op 320 px uit beeld. |
 | 2026-11-10 | De site staat bij Strato in de root van de webruimte; het domein wijst naar `/public/`. | Eenvoudig, en `includes/` en `content/` staan zo buiten de documentroot. |
 | 2026-11-10 | Alleen host, gebruiker, wachtwoord en host key zijn GitHub Secrets; poort en pad staan in `deploy.yml`. Alleen SFTP, geen FTPS meer. | De rest is niet geheim en zo makkelijker te lezen en aan te passen. De server heeft SFTP. |
 | 2026-11-10 | Uitrollen via de branch `deploy`: elke push daarnaartoe gaat live (`git push origin main:deploy`). Een push naar `main` rolt niet meer uit. | Zelf bepalen wanneer iets live gaat, zonder testomgeving. |

@@ -21,7 +21,17 @@ component('hero', ['label' => 'Juridisch', 'kop' => 'Algemene voorwaarden', 'int
 <p>Betaling in natura is toegestaan, waaronder grondstoffen, bedrijven en vee. De waardering van betalingen in natura wordt vastgesteld door de groep, zodra dat mogelijk is.</p>
 <h2>Artikel 6. Aansprakelijkheid</h2>
 <p>De groep is niet aansprakelijk voor schade die voortvloeit uit een ophaalpunt dat door een andere partij is aangewezen of verkeerd is ingetekend.</p>
-<h2>Artikel 7. Toepasselijk recht</h2>
+<h2>Artikel 7. Geheimhouding</h2>
+<p>Beide partijen behandelen alle informatie over de opdracht als vertrouwelijk. Zaken die de opdrachtgever aan de groep in bewaring geeft, worden niet geopend, ook niet als de opdrachtgever niet meer bereikbaar is.</p>
+<h2>Artikel 8. Bewaring</h2>
+<p>De groep bewaart goederen die haar zijn toevertrouwd voor onbepaalde tijd, totdat de rechtmatige ontvanger zich meldt en het afgesproken wachtwoord noemt. Kosten van bewaring worden niet in rekening gebracht. De groep behoudt zich het recht voor om bewaarde goederen op haar balans op te nemen als reserve.</p>
+<h2>Artikel 9. Overmacht</h2>
+<p>Onder overmacht wordt in ieder geval verstaan: het opheffen of hernoemen van de staat van de opdrachtgever, het uitblijven van een helikopter op het afgesproken ophaalpunt, hoog water en het ontbreken van een vliegvergunning. Overmacht schort de opdracht op, maar beëindigt haar niet.</p>
+<h2>Artikel 10. Wijzigingen</h2>
+<p>De groep kan deze voorwaarden wijzigen. Wijzigingen worden vastgesteld in het Stand-By-overleg en treden in werking op de maandag na vaststelling, om 06.00 uur.</p>
+<h2>Artikel 11. Geschillen</h2>
+<p>Geschillen worden in eerste instantie voorgelegd aan de raad van bestuur. Komen partijen er niet uit, dan worden zij voorgelegd aan de raad van commissarissen. Een geschil wordt geacht te zijn beslecht zodra de voorzitter opstaat.</p>
+<h2>Artikel 12. Toepasselijk recht</h2>
 <p>Op deze voorwaarden is het recht van Rhodesië van toepassing. Is dat niet mogelijk, dan het recht van het land waar de opdracht op dat moment wordt uitgevoerd.</p>
 </div>
 </section>

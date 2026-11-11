@@ -18,6 +18,7 @@ component('cijfers');
 <p class="label">Werken bij</p>
 <h2>Wij zoeken mensen die kunnen wachten</h2>
 <p class="inleiding">Onze opdrachten vragen om discipline, geduld en een lange adem. Via Decisive People bieden wij flexibele inzet, per dag, wereldwijd.</p>
+<p>Wij werken in veertig landen, op plekken waar de omstandigheden zelden voorspelbaar zijn. Wat onze medewerkers verbindt, is het vermogen om op hun post te blijven als anderen vertrekken. Daar staat een contract per dag tegenover, een internationale werkomgeving en, na drie opdrachten zonder incidenten, een geit uit de eigen veestapel.</p>
 <p><a class="knop knop-rood" href="/werken-bij/">Bekijk de mogelijkheden</a></p>
 </div>
 <?= beeld('WERK-01', 'Een groep mensen in buitenkleding loopt bij ochtendgloren een mistig bos in.', '(min-width: 50em) 50vw, 100vw') ?>
@@ -31,7 +32,27 @@ component('cijfers');
     component('kaart', ['titel' => $d['naam'], 'href' => "/diensten/$slug/", 'tekst' => $d['kort'], 'icoon' => $d['icoon'], 'beeld' => $beeld, 'alt' => '']);
 } ?>
 </ul>
-<p><a href="/diensten/">Alle diensten</a></p>
+<p><a href="/diensten/">Alle zeven divisies</a></p>
+</section>
+<section class="twee">
+<div>
+<p class="label">Over de groep</p>
+<h2>Sinds 1979 stand-by</h2>
+<p class="inleiding">Decisive Outcomes Group begon met vier man, een kist en een opdracht in de provincie Manica. Die opdracht is nooit ingetrokken.</p>
+<p>Uit dat begin groeide een internationale groep met zeven divisies, actief in beveiliging, horeca, grondstoffen, beleggingen, vastgoed, personeel en veehouderij. Bijna elke divisie begon als betaling van een opdrachtgever. Wij noemen dat groei door overnames.</p>
+<p>De vier oprichters leiden de groep nog altijd zelf, vanuit het hoofdkantoor op Klein Klein Bonaire. Elke maandag om 06.00 uur komen zij bijeen voor het Stand-By-overleg, zoals zij dat sinds augustus 1979 elke week hebben gedaan.</p>
+<p><a class="knop knop-rood" href="/over-ons/ons-verhaal/">Lees ons verhaal</a></p>
+</div>
+<div>
+<p class="label">Sectoren</p>
+<h2>Voor wie wij werken</h2>
+<p>Wij werken voor overheden, bedrijven en maatschappelijke organisaties, in sectoren waar continuïteit niet vanzelfsprekend is.</p>
+<ul>
+<?php foreach (SECTOREN as $id => $s): ?>
+<li><a href="/sectoren/<?= e($id) ?>/"><?= e($s['naam']) ?></a>: <?= e(lcfirst($s['kort'])) ?></li>
+<?php endforeach ?>
+</ul>
+</div>
 </section>
 <?php component('band', [
     'label' => 'Jaarrapport',

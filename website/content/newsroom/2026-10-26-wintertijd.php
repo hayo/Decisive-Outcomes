@@ -12,6 +12,7 @@ return [
 <p>Omdat in Salisbury geen zomer- of wintertijd geldt, verandert daar niets. Voor de divisie Benelux betekent de wintertijd wel dat het overleg voortaan om 05.00 uur Nederlandse tijd begint. De divisie heeft laten weten dat dit geen bezwaar is, omdat zij in het weekend toch al vroeg op het terrein staat.</p>
 <p>Op het hoofdkantoor in Kralendijk begint het overleg zoals altijd om middernacht. Daar wordt niets aan veranderd.</p>
 <p>De agenda van het overleg blijft ongewijzigd. Het eerste agendapunt is het nieuws uit Salisbury.</p>
+<p>Een eerdere versie van dit bericht, waarin het overleg voor de divisie Benelux om 06.00 uur Nederlandse tijd zou beginnen, is door de raad van bestuur niet goedgekeurd.</p>
 HTML,
     'noot' => <<<'HTML'
 <p>De afdeling Corporate Communications neemt vanuit Kralendijk deel aan het overleg en heeft gevraagd of het overleg een keer later op de dag kan beginnen. Dat verzoek is op de agenda gezet, als tweede punt.</p>

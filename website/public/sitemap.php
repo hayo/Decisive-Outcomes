@@ -1,7 +1,7 @@
 <?php
 require __DIR__ . '/../includes/bootstrap.php';
 require SITE_ROOT . '/includes/inzichten.php';
-$paden = ['/', '/contact/'];
+$paden = ['/', '/contact/', '/over-ons/ons-verhaal/'];
 foreach (array_merge(NAVIGATIE, FOOTER_LINKS) as [$href]) $paden[] = $href;
 foreach (array_keys(DIVISIES) as $slug) $paden[] = "/diensten/$slug/";
 foreach (array_keys(SECTOREN) as $id) $paden[] = "/sectoren/$id/";

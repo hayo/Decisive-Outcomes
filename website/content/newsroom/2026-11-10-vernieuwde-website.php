@@ -10,7 +10,9 @@ return [
     'html' => <<<'HTML'
 <p>Decisive Outcomes Group heeft vandaag haar vernieuwde website gepresenteerd. Met de lancering zet de groep een belangrijke stap in haar digitale strategie, die in 1984 werd ingezet met het versturen van de oprichtingspapieren per aangetekende post.</p>
 <p>De website geeft een overzicht van de zeven divisies, de sectoren waarin de groep actief is en haar wereldwijde netwerk van veertig vestigingen. Opdrachtgevers kunnen voortaan ook online een aanvraag indienen. De gebruikelijke reactietermijn van zes tot acht jaar blijft daarbij van kracht.</p>
+<p>Op de website is voor het eerst ook het verhaal van de groep te lezen, van de opdracht in 1979 tot de oprichting van de holding in 2005. De website werkt zonder cookies, trackers of externe diensten. De groep ziet dat als een vanzelfsprekende voortzetting van haar beleid op het gebied van discretie.</p>
 <p>"Wij staan al sinds 1979 stand-by," aldus Kolonel Frederik, voorzitter van de raad van bestuur. "Het is goed dat de buitenwereld dat nu ook kan zien."</p>
+<p>Op verzoek van de directie wordt vermeld dat bij de lancering koffie en biltong werden geserveerd door Decisive Hospitality.</p>
 HTML,
     'noot' => <<<'HTML'
 <p>De website stond gepland voor 2019. De raad van bestuur heeft de website voor publicatie niet bekeken. De afdeling Corporate Communications gaat ervan uit dat dit instemming betekent.</p>

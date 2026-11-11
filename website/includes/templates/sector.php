@@ -10,7 +10,14 @@ pagina_begin([
 component('hero', ['label' => 'Sectoren', 'kop' => $s['naam'], 'intro' => $s['kort']]);
 ?>
 <section>
+<div class="artikel">
 <p class="inleiding"><?= e($s['intro']) ?></p>
+<?php foreach ($s['tekst'] ?? [] as $alinea): ?>
+<p><?= e($alinea) ?></p>
+<?php endforeach ?>
+</div>
+</section>
+<section class="vlak">
 <h2>Waar wij bij helpen</h2>
 <ul class="punten">
 <?php foreach ($s['uitdagingen'] as [$titel, $tekst]): ?>
@@ -18,12 +25,14 @@ component('hero', ['label' => 'Sectoren', 'kop' => $s['naam'], 'intro' => $s['ko
 <?php endforeach ?>
 </ul>
 </section>
-<section class="vlak">
-<p class="label">Wapenfeit</p>
-<h2><?= e(strtok($s['wapenfeit'], ':')) ?></h2>
-<p class="inleiding"><?= e(ucfirst(trim(substr($s['wapenfeit'], strpos($s['wapenfeit'], ':') + 1)))) ?></p>
-</section>
 <section>
+<div class="artikel">
+<p class="label">Wapenfeit</p>
+<h2><?= e($s['wapenfeit'][0]) ?></h2>
+<p class="inleiding"><?= e($s['wapenfeit'][1]) ?></p>
+</div>
+</section>
+<section class="vlak">
 <h2>Betrokken divisies</h2>
 <ul class="kaarten">
 <?php foreach ($s['divisies'] as $slug) {

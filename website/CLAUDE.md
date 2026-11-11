@@ -287,7 +287,7 @@ Noem in het commitbericht wat er is gecontroleerd.
 
 - Nederlands, in de toon uit de sitemap: zakelijk, zelfverzekerd en zonder knipogen. De grap staat in een bijzin, een voetnoot of een getal.
 - Aanspreekvorm: *u* voor opdrachtgevers en alle corporate tekst, *je* voor sollicitanten, spelers en alles wat echt is (contact, formulier, privacy, meedoen).
-- Persberichten kunnen een *Noot voor de redactie* hebben (veld `noot`). Daarin sijpelt de frustratie van Annelies Brouwer (Corporate Communications) over de raad van bestuur door. Droog, nooit als openlijke klacht.
+- Persberichten kunnen een *Noot voor de redactie* hebben (veld `noot`). Daarin, en in hooguit één of twee subtiele zinnetjes in het bericht zelf, sijpelt de frustratie van Annelies Brouwer (Corporate Communications) over de raad van bestuur door. Droog, nooit als openlijke klacht. Zie *Annelies Brouwer* in de root-`CLAUDE.md`.
 - Komt er een teamlid in een citaat of noot, werk dan [docs/inzage.md](../docs/inzage.md) bij.
 - Volg de canon en de stijlregels uit de root-`CLAUDE.md`.
 - De disclaimer staat altijd in de footer, in het colofon en bij het formulier (zie de sitemap). Haal die nooit weg en maak hem nooit grappig.
