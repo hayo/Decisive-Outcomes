@@ -47,19 +47,24 @@ Gebruik deze feiten consequent en wijzig ze niet zonder overleg.
     - Arkadi Morozov: luchtvrachthandelaar in Sharjah, voormalig Sovjet-militair vertaler. Verzonnen figuur, geïnspireerd op Viktor Bout. Verkocht de Antonov en vliegt vracht voor de groep. Het team weigert zijn "andere vracht". In 2008 opgepakt in Bangkok, in 2022 vrij bij een gevangenenruil.
     - Gavin Laurie: de piloot van de Alouette in 1979, later gunshippiloot in Sierra Leone. Verzonnen figuur, geïnspireerd op Neall Ellis. Over 1979 zegt hij alleen dat hij landde bij de boom die op zijn kaart stond. Wie die kaart tekende, blijft open.
     - Ibrahim Kamara: vliegtuigtechnicus uit Sierra Leone, kent de helikopter beter dan iedereen. Werkt in 1998–1999 samen met Jochem.
-    - Annelies Brouwer: manager Corporate Communications in Kralendijk, verzonnen figuur. Zij zet de persberichten op de website. Haar frustratie over de raad van bestuur sijpelt droog door, vooral in de *Noot voor de redactie*: concepten die niet gelezen worden, verzoeken die naar het volgende overleg schuiven. Ze klaagt nooit openlijk.
+    - Annelies Brouwer: manager Corporate Communications in Kralendijk, verzonnen figuur. Zie *Annelies Brouwer* hieronder.
+    - Mestre Domingos: leidt sinds 1961 de mijn in Huíla (Angola). Wist altijd dat het kwarts was en hield de mijn rendabel. Kreeg in 1989 vrijwel alle winst in het contract met Robert. Nu leidt zijn dochter de mijn.
+    - Make Simelane: hoofd van de school en voorzitter van de dorpsraad in een dorp ten zuiden van Manzini (Swaziland). Maakte van de "bevrijding" van 1992 een jaarlijkse Bevrijdingsdag met de groep als hoofdsponsor.
+    - Shon Ernesto: visser op Bonaire. Verloor in 1999 met kaarten Klein Klein Bonaire aan Robert, of volgens hem alleen het recht om erover te praten. Vaste veerman, de enige leverancier die contant wordt betaald.
     - Gebruik voor figuren die op echte mensen zijn gebaseerd altijd verzonnen namen.
 - **Tijdlijn:**
     - 1979: de kist moet naar een kruispunt in Manica. Het team wacht bij de verkeerde baobab.
     - 1979–1983: Kamp Stand-By in een cashewplantage.
     - 1983: via de kranten hoort het team dat Rhodesië Zimbabwe is.
     - 1 april 1984: oprichting. Eerste klant is Senhor Almeida, eerste factuur 0001.
+    - 1989: Angola, de kwartsmijn (mei–augustus; Jochem blijft bij de kist). Begin van Decisive Mining.
     - 1989: de eerste kerstkaart.
     - 1991: Kinshasa (de frituur).
+    - 1992: Swaziland. Het team "bevrijdt" een dorp dat bezet was door gasten voor de opening van de school, en repareert de generator. Sindsdien Bevrijdingsdag.
     - 1993: Sharjah. Robert koopt de Antonov van Morozov; het team weigert zijn "andere vracht".
     - 1995: Freetown, verloren aan Executive Outcomes. Eerste ontmoeting met Laurie.
     - 1998–1999: Sierra Leone. Onderhoud en logistiek voor Lauries helikopter, met Ibrahim Kamara. Eindigt in januari 1999 met de evacuatie over de baai naar Lungi. Er is nooit een factuur gestuurd; deze episode is serieus en nooit een grap.
-    - 1999: Klein Klein Bonaire gewonnen met kaarten. De kist verhuist mee.
+    - 1999: Robert wint Klein Klein Bonaire met kaarten van Shon Ernesto (inzet: de Antonov). De kist verhuist in een zeecontainer, met Jochem en de frietketel.
     - 2005: Decisive Outcomes Group bij de notaris in Kralendijk.
     - 2008: Morozov opgepakt in Bangkok; Robert ging niet.
     - Sinds 2019: de "divisie Benelux". Het team denkt dat airsoft een echt conflict is.
@@ -70,6 +75,22 @@ Gebruik deze feiten consequent en wijzig ze niet zonder overleg.
     - Het hoofdkantoor is Postbus 1, Kralendijk, met een reactietermijn van zes tot acht jaar.
     - Zeven divisies, die bijna allemaal begonnen als betaling.
 - **Motto:** *Percute primo, cito decerne.* Kernwaarde *Pamwe chete*.
+
+## Annelies Brouwer
+
+Annelies Brouwer is manager Corporate Communications van de groep, en verzonnen. Ze werkte jarenlang op de communicatieafdeling van een ministerie in Den Haag en verhuisde naar Bonaire voor de rust. Die rust is er niet gekomen. Ze schrijft de persberichten en zet ze op de website. Ze is goed in haar vak en de enige in het concern die weet hoe een persbericht eruit hoort te zien. De lezer staat aan haar kant.
+
+Wat haar dwarszit:
+
+- **Niets wordt goedgekeurd.** Haar concepten liggen ter goedkeuring bij de raad van bestuur, en dus stand-by. Persverzoeken schuiven door naar het volgende Stand-By-overleg, maandag om 06.00 uur.
+- **Hayo's bijlagen.** Hayo wil bij elk persbericht zijn volledige rapport als bijlage, en een kopie naar Salisbury.
+- **Roberts productplaatsing.** Robert vraagt bij elk bericht of de catering van Decisive Hospitality genoemd kan worden.
+
+Zo schrijf je haar:
+
+- Haar frustratie zit in de *Noot voor de redactie* en in een enkel subtiel zinnetje in het persbericht zelf. Bijvoorbeeld: *Dit bericht verschijnt in afwachting van de goedkeuring van de raad van bestuur*, of *Op verzoek van de directie wordt vermeld dat de catering werd verzorgd door Decisive Hospitality.*
+- Hooguit één of twee van zulke zinnen per bericht. Ze blijft correct en beleefd, klaagt nooit openlijk en gebruikt geen uitroeptekens. Wie snel leest, ziet een gewoon persbericht.
+- Ze is geen grap op zichzelf en geen teamlid. Ze is de enige normale professional in het verhaal.
 
 ## Logo en huisstijl
 
