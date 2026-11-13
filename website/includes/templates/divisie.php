@@ -63,7 +63,7 @@ component('hero', ['label' => $d['naam'], 'kop' => $d['kop'], 'intro' => $d['kor
 <?php endif ?>
 </div>
 </section>
-<?php require_once SITE_ROOT . '/includes/inzichten.php'; $inzichten = array_slice(inzichten_waar(null, $slug), 0, 3); if ($inzichten): ?>
+<?php $inzichten = array_slice(inzichten_waar(null, $slug), 0, 3); if ($inzichten): ?>
 <section>
 <h2>Inzichten</h2>
 <ul class="kaarten">

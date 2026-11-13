@@ -15,7 +15,8 @@ De site komt op **decisiveoutcomes.nl**. Ze ziet eruit als de corporate site van
 website/
   public/              documentroot
     index.php
-    over-ons/index.php    (één map per pagina, voor nette URL's)
+    over-ons/index.php    (één map per gewone pagina, voor nette URL's)
+    router.php            persberichten, inzichten, divisies en sectoren
     inzichten/feed.php    Atom-feed
     assets/css/site.css
     assets/js/            alleen kleine verbeteringen
@@ -24,14 +25,16 @@ website/
     robots.txt
     .htaccess
   includes/            buiten de documentroot
-    bootstrap.php      helpers: e(), asset(), component(), beeld(), icoon(), pagina_begin()
+    bootstrap.php      helpers: e(), asset(), component(), beeld(), icoon(), pagina_begin(); laadt data.php en inzichten.php
     data.php           vaste inhoud: navigatie, divisies, sectoren, bestuur, tijdlijn
+    inzichten.php      inlezen van content/ en een kleine Markdown-omzetter
     head.php, header.php, footer.php
     components/        herbruikbare onderdelen
-    templates/         sjablonen voor divisie- en artikelpagina's
+    templates/         sjablonen voor de pagina's van router.php
     formulier.php      contactformulier
     config.example.php
-  content/newsroom/    één PHP-bestand per persbericht (metadata + HTML)
+  content/README.md    zo voeg je nieuws en inzichten toe
+  content/newsroom/    één Markdown-bestand per persbericht
   content/inzichten/   analyses, casestudy's, rapporten en de Stand-By Outlook
   beelden/
     originelen/        originele beelden, in de repo
@@ -46,6 +49,7 @@ website/
 - **Eén adres:** alles draait op `https://decisiveoutcomes.nl/`. HTTP en `www.` worden met een 301 doorgestuurd naar dat adres.
 - **Nette URL's:** kleine letters, Nederlandse woorden met koppeltekens, en een slash aan het eind (`/over-ons/`, `/diensten/decisive-security/`). Nooit `.php` in een URL.
 - **Persberichten:** `/newsroom/jjjj-mm-dd-korte-titel/`. Andere inzichten: `/inzichten/<soort>/<korte-titel>/`. Het overzicht staat op `/inzichten/`.
+- **Router:** persberichten, inzichten en hun overzichten, divisies (`/diensten/<slug>/`) en sectoren (`/sectoren/<id>/`) hebben geen eigen map in `public/`. `.htaccess` stuurt die adressen naar `router.php`, dat ze opbouwt uit `content/` en `data.php`. Een onbekend adres geeft de 404. De routeringsregels staan ná het redirectblok, zodat een redirect altijd voorgaat.
 - **Foutpagina's:**
     - Een eigen 404-pagina in de huisstijl, met een droge zin en links naar de hoofdpagina's. Bijvoorbeeld: *Deze pagina staat stand-by.*
     - Verwijderde inhoud krijgt een 410.
@@ -67,10 +71,11 @@ website/
 
 ## Contentwerkwijze
 
-- Teksten voor pagina's en persberichten worden aangeleverd, als gewone tekst of Markdown. Claude zet ze om naar het juiste bestand.
-- Elk persbericht is één bestand in `content/newsroom/`; andere inzichten staan in `content/inzichten/`, met dezelfde opbouw plus het veld `soort`. De vaste opbouw:
-    - metadata: `slug`, `titel`, `datum`, `plaats`, `samenvatting`, `beeld` (een beeld-ID) en `alt`;
-    - de tekst als HTML: drie tot vijf alinea's, gevolgd door het standaardblok *Over Decisive Outcomes Group*.
+- Teksten voor pagina's en persberichten worden aangeleverd, als gewone tekst of Markdown.
+- Elk persbericht is één Markdown-bestand in `content/newsroom/`, met de naam `jjjj-mm-dd-korte-titel.md`; andere inzichten staan in `content/inzichten/`, met dezelfde opbouw plus het veld `soort`. Opbouw en velden staan in [content/README.md](content/README.md):
+    - een kop tussen `---` met `titel`, `samenvatting`, `beeld` (een beeld-ID), `alt` en zo nodig `plaats`, `divisies`, `datum`;
+    - de tekst: drie tot vijf alinea's. Het standaardblok *Over Decisive Outcomes Group* komt er vanzelf onder. Een *Noot voor de redactie* staat onder de kop `## Noot voor de redactie`.
+- Er is geen apart PHP-bestand of map per bericht nodig. Het bestand neerzetten is genoeg.
 - Een nieuwe pagina krijgt een eigen map in `public/` en gebruikt de bestaande componenten. Als er een nieuw component nodig is, overleg je dat eerst.
 - Controleer bij elke tekst de canon en de stijlregels uit de root-`CLAUDE.md`. Klopt iets niet, meld het dan voordat je het publiceert.
 
@@ -78,7 +83,7 @@ website/
 
 - **Via de branch `deploy`:** werk gewoon op `main`. Elke push naar `deploy` rolt automatisch uit via GitHub Actions. Uitrollen doe je met `git push origin main:deploy`. Er is geen testomgeving, dus elke push naar `deploy` is meteen live.
 - **Alleen doorschuiven:** op `deploy` wordt nooit los gecommit; de branch volgt `main`.
-- **Vóór het uitrollen:** test lokaal met `php -S localhost:8000 -t website/public` en loop de checklijst onder *Controleren* door.
+- **Vóór het uitrollen:** test lokaal met `php -S localhost:8000 -t website/public website/public/router.php` (de router doet dan ook het werk van `.htaccess`) en loop de checklijst onder *Controleren* door.
 - **De workflow:**
     1. Draai `php -l` over alle PHP-bestanden. Bij een fout stopt de deploy.
     2. Upload `public/`, `includes/` en `content/` via SFTP. Upload alleen gewijzigde bestanden.
@@ -203,6 +208,7 @@ object-src 'none'; upgrade-insecure-requests
 - Persberichten staan in `content/newsroom/`, de andere inzichten in `content/inzichten/`. Het overzicht op `/inzichten/` en de feed worden uit beide opgebouwd.
 - Per soort is er een overzicht: `/newsroom/`, `/inzichten/analyse/`, `/inzichten/casestudy/` en `/inzichten/rapport/` (`INZICHT_OVERZICHTEN` in `includes/inzichten.php`).
 - Het veld `divisies` koppelt een inzicht aan divisies; de divisiepagina toont de drie nieuwste.
+- Een inzicht kan een openingsalinea hebben (veld `inleiding`).
 - Een inzicht kan een PDF hebben (veld `download`, pad onder `public/assets/`). Maak die opnieuw uit de printweergave als de tekst verandert, bijvoorbeeld met Playwright: `page.emulateMedia({ media: 'print' })` en `page.pdf({ format: 'A4' })`.
 - De Atom-feed bevat alle inzichten, met de soort als `category`. Hij staat op `/inzichten/feed.php` en wordt via `link rel="alternate"` in de `head` aangekondigd.
 
@@ -287,7 +293,7 @@ Noem in het commitbericht wat er is gecontroleerd.
 
 - Nederlands, in de toon uit de sitemap: zakelijk, zelfverzekerd en zonder knipogen. De grap staat in een bijzin, een voetnoot of een getal.
 - Aanspreekvorm: *u* voor opdrachtgevers en alle corporate tekst, *je* voor sollicitanten, spelers en alles wat echt is (contact, formulier, privacy, meedoen).
-- Persberichten kunnen een *Noot voor de redactie* hebben (veld `noot`). Daarin, en in hooguit één of twee subtiele zinnetjes in het bericht zelf, sijpelt de frustratie van Annelies Brouwer (Corporate Communications) over de raad van bestuur door. Droog, nooit als openlijke klacht. Zie *Annelies Brouwer* in de root-`CLAUDE.md`.
+- Persberichten kunnen een *Noot voor de redactie* hebben (onder de kop `## Noot voor de redactie`). Daarin, en in hooguit één of twee subtiele zinnetjes in het bericht zelf, sijpelt de frustratie van Annelies Brouwer (Corporate Communications) over de raad van bestuur door. Droog, nooit als openlijke klacht. Zie *Annelies Brouwer* in de root-`CLAUDE.md`.
 - Komt er een teamlid in een citaat of noot, werk dan [docs/inzage.md](../docs/inzage.md) bij.
 - Volg de canon en de stijlregels uit de root-`CLAUDE.md`.
 - De disclaimer staat altijd in de footer, in het colofon en bij het formulier (zie de sitemap). Haal die nooit weg en maak hem nooit grappig.

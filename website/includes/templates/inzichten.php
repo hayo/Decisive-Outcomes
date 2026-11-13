@@ -1,6 +1,5 @@
 <?php
 /** Overzicht van inzichten. Verwacht $pad: '/inzichten/' of een sleutel uit INZICHT_OVERZICHTEN. */
-require __DIR__ . '/../inzichten.php';
 $overzicht = INZICHT_OVERZICHTEN[$pad] ?? null;
 pagina_begin([
     'titel' => $overzicht[0] ?? 'Inzichten',

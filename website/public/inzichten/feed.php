@@ -1,6 +1,5 @@
 <?php
 require __DIR__ . '/../../includes/bootstrap.php';
-require SITE_ROOT . '/includes/inzichten.php';
 $items = alle_inzichten();
 $bijgewerkt = $items ? max(array_column($items, 'gewijzigd')) : time();
 header('Content-Type: application/atom+xml; charset=utf-8');

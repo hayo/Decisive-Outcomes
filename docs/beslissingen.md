@@ -19,6 +19,7 @@ Wat is besloten, wanneer en waarom. Nieuwe beslissingen komen bovenaan in de tab
 
 | Datum | Besluit | Reden |
 |---|---|---|
+| 2026-11-13 | Persberichten en inzichten zijn Markdown-bestanden met een kop tussen `---`, gelezen door een eigen kleine omzetter in `includes/inzichten.php`. Eén `router.php` bouwt persberichten, inzichten, overzichten, divisies en sectoren op; de dertig losse `index.php`-bestanden van vier regels zijn weg. | Nieuws toevoegen is nu één bestand neerzetten. Markdown schrijft makkelijker dan PHP met HTML, ook in de GitHub-editor, en er komt geen afhankelijkheid bij. |
 | 2026-11-11 | Alle teksten op de site uitgebreid tot de lengte van een echte PMC-site: divisies (met aanpak en feitentabel), sectoren, Over ons (governance, Stand-By-overleg, embleem), Ethiek, Wereldwijd, Werken bij, algemene voorwaarden, persberichten en inzichten. Nieuw: de pagina *Ons verhaal*, een jaarverslag 2025 op Investor relations en vier persberichten. Geen veldrollen en geen uitrusting van het echte team op de site. | De teksten lazen als placeholder. Keuzes van Hayo. |
 | 2026-11-11 | *Ons verhaal* staat op `/over-ons/ons-verhaal/`, als verkorte corporate versie van Deel 1, niet het volledige verhaal. | Past binnen het paginabudget; het volledige verhaal blijft in de repo. |
 | 2026-11-11 | Koppen (`h1`, `h2`) krijgen `hyphens: auto` en `overflow-wrap: break-word`. | Lange Nederlandse woorden in hoofdletters liepen op 320 px uit beeld. |

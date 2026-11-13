@@ -1,6 +1,5 @@
 <?php
 require __DIR__ . '/../includes/bootstrap.php';
-require __DIR__ . '/../includes/inzichten.php';
 pagina_begin(['pad' => '/']);
 component('hero', [
     'groot' => true,

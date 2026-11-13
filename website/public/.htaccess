@@ -41,6 +41,13 @@ RewriteRule ^sitemap\.xml$ sitemap.php [L]
 # Formaat: één regel per URL, met een korte reden erboven.
 # Voorbeeld, oude naam van de nieuwssectie:
 RewriteRule ^nieuws/?$ /inzichten/ [R=301,L]
+
+# --- Routering (na de redirects, zodat een redirect altijd voorgaat) ---
+# Persberichten, inzichten, divisies en sectoren hebben geen eigen map: die
+# pagina's maakt router.php uit content/ en includes/data.php.
+RewriteRule ^newsroom/([a-z0-9-]+/?)?$ router.php [L]
+RewriteRule ^inzichten/([a-z]+(/([a-z0-9-]+/?)?)?)?$ router.php [L]
+RewriteRule ^(diensten|sectoren)/[a-z0-9-]+/?$ router.php [L]
 </IfModule>
 
 <IfModule mod_headers.c>
