@@ -67,6 +67,7 @@ Wat is besloten, wanneer en waarom. Nieuwe beslissingen komen bovenaan in de tab
 | Datum | Besluit | Reden |
 |---|---|---|
 | 2026-11-10 | Licentie: de code van de website onder MIT; teksten, logo en beelden met alle rechten voorbehouden. *Voorstel, nog te bevestigen.* | De code mag iedereen gebruiken; de personages zijn echte mensen. |
-| 2026-11-10 | Commits als Hayo, zonder vermelding van Claude. | Het is het project van het team. |
+| 2026-11-14 | Commits van Claude mogen een vermelding van Claude bevatten (`Co-Authored-By`, sessielink). Vervangt het besluit van 10 november. | Zonder die vermelding kon Claude niet pushen. |
+| 2026-11-10 | Commits als Hayo, zonder vermelding van Claude. *Vervangen op 14 november.* | Het is het project van het team. |
 | 2026-11-10 | Direct committen op `main`. | Klein team, geen reviewproces nodig. |
 | 2026-11-10 | Alles in het Nederlands. | Het team en het publiek zijn Nederlands. |
