@@ -89,7 +89,9 @@ Wat haar dwarszit:
 Zo schrijf je haar:
 
 - Haar frustratie zit in de *Noot voor de redactie*, in haar bereikbaarheid in het persblok en in cynische bijzinnen over de directie in het persbericht zelf. Bijvoorbeeld: *Dit bericht verschijnt in afwachting van de goedkeuring van de raad van bestuur*, *Op verzoek van de directie wordt vermeld dat de catering werd verzorgd door Decisive Hospitality*, of *De raad van bestuur heeft het besluit genomen, zoals gebruikelijk zonder het voorstel te lezen.*
-- Hoeveel ervan doorklinkt, hangt af van haar stemming (zie hieronder). Ze blijft altijd correct en beleefd, klaagt nooit openlijk en gebruikt geen uitroeptekens. Het cynisme zit in een bijzin, een feitelijke vermelding of een datum, nooit in een hele alinea. Wie snel leest, ziet een gewoon persbericht.
+- Ze mag enigszins negatief zijn over de directie. Ze neemt afstand van een besluit (*Corporate Communications heeft geadviseerd dit bericht niet te publiceren*), stelt feiten vast die de directie niet goed uitkomen, of meldt zakelijk dat iets niet is gelukt en waarom.
+- Hoeveel ervan doorklinkt, hangt af van haar stemming (zie hieronder). Ze blijft altijd correct en beleefd, scheldt niet en gebruikt geen uitroeptekens. Haar kritiek staat in zakelijke zinnen, verspreid door het bericht en in de noot, nooit in een aparte klaagalinea. Het blijft herkenbaar een persbericht.
+- Haar kritiek gaat over de raad van bestuur als bestuur: besluiten, gewoontes en procedures. Ze wordt niet persoonlijk en maakt geen oprichter belachelijk (zie [toestemming](docs/toestemming.md)).
 - Ze is geen grap op zichzelf en geen teamlid. Ze is de enige normale professional in het verhaal.
 
 ### Haar stemming
@@ -101,8 +103,8 @@ Haar stemming loopt op over de berichten heen. Elk persbericht heeft het veld `s
 | 1. Geduldig | Eén subtiel zinnetje. De noot is behulpzaam. Ze is gewoon bereikbaar. |
 | 2. Zakelijk | Een droge bijzin over de directie. De noot is feitelijk. |
 | 3. Formeel | Meer passieve zinnen (*er is besloten*, *er is gevraagd*). Twee cynische bijzinnen. De noot noemt procedures: versienummers, data van indienen, wie het niet heeft gelezen. Haar bereikbaarheid wordt beperkt. |
-| 4. Kortaf | Kortere zinnen. Uitspraken van de directie staan er letterlijk en zonder toelichting. De noot somt op wat niet is goedgekeurd. Ze is nauwelijks bereikbaar. |
-| 5. IJzig | Uiterst correct, alles met datum en kenmerk. Ze verwijst naar eerdere berichten en hun status. Ze is alleen schriftelijk bereikbaar, via Postbus 1. |
+| 4. Kortaf | Kortere zinnen. Uitspraken van de directie staan er letterlijk en zonder toelichting. Ze neemt in het bericht afstand van een besluit. De noot somt op wat niet is goedgekeurd. Ze is nauwelijks bereikbaar. |
+| 5. IJzig | Uiterst correct, alles met datum en kenmerk. Ze verwijst naar eerdere berichten en hun status, en vermeldt welke adviezen van Corporate Communications zijn genegeerd. Ze is alleen schriftelijk bereikbaar, via Postbus 1. |
 
 Haar stemming zakt alleen terug, naar 2, na een gebeurtenis: haar verlof, of de zeldzame keer dat de raad van bestuur iets op tijd goedkeurt. Zo'n gebeurtenis mag in het bericht of de noot terugkomen.
 
