@@ -17,6 +17,7 @@ Wat nog moet gebeuren voordat en nadat de site live gaat. Vink af wat klaar is e
 - [x] De GitHub Secrets voor de deploy invullen en `DEPLOY_PATH` zetten (`.`, de root).
 - [ ] Bij Strato het domein laten wijzen naar `/public/`.
 - [ ] De half geüploade map `decisiveoutcomes/` op de server weggooien.
+- [ ] Op de server de oude mappen weggooien die sinds de router (13 november 2026) niet meer worden gebruikt: in `public/` alles onder `newsroom/`, `inzichten/` behalve `feed.php`, de submappen van `diensten/` en `sectoren/`, en in `content/` alle `.php`-bestanden. De deploy verwijdert niets; de oude bestanden doen niets meer, maar horen er niet te staan.
 - [ ] Het teamadres voor het formulier kiezen en `includes/config.php` op de server zetten.
 - [ ] SPF, DKIM en DMARC instellen voor het afzenderadres van het formulier.
 - [ ] HTTPS-certificaat en de redirects naar `https://decisiveoutcomes.nl/` controleren.

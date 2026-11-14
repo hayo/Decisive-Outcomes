@@ -18,6 +18,7 @@ $config = is_file(__DIR__ . '/config.php')
     : require __DIR__ . '/config.example.php';
 
 require __DIR__ . '/data.php';
+require __DIR__ . '/inzichten.php';
 
 /** Escape voor HTML-uitvoer. */
 function e(?string $s): string

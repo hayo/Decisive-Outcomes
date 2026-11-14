@@ -1,7 +1,5 @@
 <?php
-/** Pagina voor één inzicht. Verwacht $bestand (bijv. 'newsroom/2026-11-10-nieuwe-website'). */
-require __DIR__ . '/../inzichten.php';
-$i = inzicht_laden($bestand);
+/** Pagina voor één inzicht. Verwacht $i uit alle_inzichten(). */
 $pers = $i['soort'] === 'Persbericht';
 $overzicht = $pers ? '/newsroom/' : '/inzichten/' . SOORT_URL[$i['soort']] . '/';
 pagina_begin([
@@ -33,7 +31,7 @@ component('hero', ['label' => $i['soort'], 'kop' => $i['titel'], 'intro' => $i['
 <?php if (!empty($i['download']) && is_file(SITE_PUBLIC . '/assets/' . $i['download'])): ?>
 <p class="download"><a class="knop knop-rood" href="<?= e(asset($i['download'])) ?>" download>Download als PDF</a> <small>PDF, <?= round(filesize(SITE_PUBLIC . '/assets/' . $i['download']) / 1024) ?> kB</small></p>
 <?php endif ?>
-<?php if (!empty($i['noot'])): ?>
+<?php if ($i['noot']): ?>
 <aside class="over">
 <h2 class="label">Noot voor de redactie</h2>
 <?= $i['noot'] ?>

@@ -109,5 +109,5 @@ Zo schrijf je haar:
 ## Git
 
 - Commit direct op `main`.
-- Commit en push altijd als Hayo (`Hayo Bethlehem <855982+hayo@users.noreply.github.com>`), zonder vermelding van Claude: geen `Co-Authored-By`, geen sessielink.
+- Commit en push altijd als Hayo (`Hayo Bethlehem <855982+hayo@users.noreply.github.com>`).
 - Schrijf commitberichten in het Nederlands, kort en beschrijvend.
