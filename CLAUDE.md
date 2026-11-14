@@ -118,6 +118,8 @@ Haar karakter zit ook in de manier waarop ze schrijft, niet alleen in wat ze ove
 - Ze neemt afstand van beweringen van de directie met *volgens de groep*, *naar eigen zeggen* of aanhalingstekens rond de woorden van de directie (*de zogeheten "beste frituur van Centraal-Afrika"*).
 - Superlatieven en marketingwoorden komen nooit van haar. Staat de directie erop, dan citeert ze ze letterlijk.
 - Ze corrigeert zonder het te zeggen: de getallen kloppen, en waar de directie overdreef, staat het juiste cijfer.
+- De opbouw wisselt per bericht. Soms zijn de kop en de eerste alinea strikt zakelijk (wie, wat, waar, wanneer) en komt de absurditeit pas verderop. Soms staat de absurde kern al, droog gebracht, in de eerste alinea. Kies niet twee keer achter elkaar dezelfde opbouw.
+- Soms citeert ze zichzelf als *een woordvoerder van de groep*, met een correcte zin die niets zegt: *"De groep neemt kennis van de ontwikkelingen en blijft deze nauwlettend volgen," aldus een woordvoerder.* Hooguit één keer per bericht, en niet in elk bericht.
 
 ### Rectificaties
 

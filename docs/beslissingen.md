@@ -19,6 +19,7 @@ Wat is besloten, wanneer en waarom. Nieuwe beslissingen komen bovenaan in de tab
 
 | Datum | Besluit | Reden |
 |---|---|---|
+| 2026-11-14 | De opbouw van de persberichten wisselt (zakelijke lead of de absurde kern meteen), en Annelies citeert zichzelf soms als *een woordvoerder van de groep*. Geen embargoregel, kenmerk of schrijfwijzer. | Gekozen door Hayo: de newsroom moet niet voorspelbaar worden. |
 | 2026-11-14 | Annelies' karakter klinkt ook door in hoe ze schrijft (precisie, afstand tot directietaal, geen superlatieven). Nieuw: rectificaties (veld `rectificeert`) en een stagiair, Kim de Graaf (verzonnen), die schrijft als Annelies met verlof is (veld `auteur: stagiair`). In het interview duwt Annelies terug. | Gekozen door Hayo. De naam Kim de Graaf is een voorstel. |
 | 2026-11-14 | Annelies Brouwer mag enigszins negatief zijn over de directie: afstand nemen van besluiten, feiten noemen die de directie niet uitkomen, genegeerde adviezen vermelden. Zakelijk en beleefd, nooit persoonlijk. | Gekozen door Hayo. |
 | 2026-11-14 | Annelies Brouwer krijgt een stemming die over de persberichten heen oploopt (veld `stemming`, 1 t/m 5), een wisselende bereikbaarheid in het persblok (veld `bereikbaar`) en ruimte voor cynische bijzinnen over de directie. Dit vervangt de regel van hooguit één of twee zinnetjes per bericht. Bestaande berichten blijven zoals ze zijn. | Gekozen door Hayo: haar stemming mag meer doorklinken. |
