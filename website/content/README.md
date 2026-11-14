@@ -14,6 +14,8 @@ plaats: Kralendijk
 beeld: NEWS-18
 alt: Wat er op het beeld te zien is.
 divisies: decisive-agri
+stemming: 3
+bereikbaar: Bereikbaar op werkdagen, na het Stand-By-overleg.
 ---
 
 Eerste alinea.
@@ -37,6 +39,8 @@ Het blok *Over Decisive Outcomes Group* komt er vanzelf onder.
 | `beeld` | nee | Beeld-ID uit `beelden/beelden.json`, met de JPEG's in `public/assets/img/`. Zonder beeld krijgt de hero geen foto. |
 | `alt` | bij een beeld | Beschrijving van het beeld. |
 | `divisies` | nee | Slugs uit `includes/data.php`, gescheiden door komma's. De divisiepagina toont dan het bericht. |
+| `stemming` | ja, voor nieuwe berichten | De stemming van Annelies Brouwer, 1 t/m 5 (zie de root-`CLAUDE.md`). Wordt niet getoond; zo weet het volgende bericht waar ze staat. |
+| `bereikbaar` | nee | Een zin achter het perscontact, bijvoorbeeld *Bereikbaar na het Stand-By-overleg.* |
 | `datum` | nee | Alleen nodig als de bestandsnaam niet met een datum begint (`jjjj-mm-dd`). |
 | `soort` | nee | Standaard `Persbericht`. Anders: `Analyse`, `Casestudy`, `Rapport` of `Jaarrapport`. Die horen in `inzichten/`. |
 | `inleiding` | nee | Een openingsalinea in grotere letters, boven de tekst. |

@@ -41,7 +41,7 @@ component('hero', ['label' => $i['soort'], 'kop' => $i['titel'], 'intro' => $i['
 <aside class="over">
 <h2 class="label">Over <?= e(SITE_NAAM) ?></h2>
 <p><?= e(OVER_DE_GROEP) ?></p>
-<p>Voor persvragen: <?= e(PERSCONTACT) ?>, Postbus 1, Kralendijk.</p>
+<p>Voor persvragen: <?= e(PERSCONTACT) ?>, Postbus 1, Kralendijk.<?= empty($i['bereikbaar']) ? '' : ' ' . e($i['bereikbaar']) ?></p>
 </aside>
 <?php endif ?>
 <p class="terug"><a href="/inzichten/">Alle inzichten</a></p>
