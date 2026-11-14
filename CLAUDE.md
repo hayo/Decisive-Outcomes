@@ -48,6 +48,7 @@ Gebruik deze feiten consequent en wijzig ze niet zonder overleg.
     - Gavin Laurie: de piloot van de Alouette in 1979, later gunshippiloot in Sierra Leone. Verzonnen figuur, geïnspireerd op Neall Ellis. Over 1979 zegt hij alleen dat hij landde bij de boom die op zijn kaart stond. Wie die kaart tekende, blijft open.
     - Ibrahim Kamara: vliegtuigtechnicus uit Sierra Leone, kent de helikopter beter dan iedereen. Werkt in 1998–1999 samen met Jochem.
     - Annelies Brouwer: manager Corporate Communications in Kralendijk, verzonnen figuur. Zie *Annelies Brouwer* hieronder.
+    - Kim de Graaf: stagiair Corporate Communications, verzonnen figuur. Schrijft de persberichten als Annelies met verlof is. Zie *Verlof en de stagiair* hieronder.
     - Mestre Domingos: leidt sinds 1961 de mijn in Huíla (Angola). Wist altijd dat het kwarts was en hield de mijn rendabel. Kreeg in 1989 vrijwel alle winst in het contract met Robert. Nu leidt zijn dochter de mijn.
     - Make Simelane: hoofd van de school en voorzitter van de dorpsraad in een dorp ten zuiden van Manzini (Swaziland). Maakte van de "bevrijding" van 1992 een jaarlijkse Bevrijdingsdag met de groep als hoofdsponsor.
     - Shon Ernesto: visser op Bonaire. Verloor in 1999 met kaarten Klein Klein Bonaire aan Robert, of volgens hem alleen het recht om erover te praten. Vaste veerman, de enige leverancier die contant wordt betaald.
@@ -107,6 +108,30 @@ Haar stemming loopt op over de berichten heen. Elk persbericht heeft het veld `s
 | 5. IJzig | Uiterst correct, alles met datum en kenmerk. Ze verwijst naar eerdere berichten en hun status, en vermeldt welke adviezen van Corporate Communications zijn genegeerd. Ze is alleen schriftelijk bereikbaar, via Postbus 1. |
 
 Haar stemming zakt alleen terug, naar 2, na een gebeurtenis: haar verlof, of de zeldzame keer dat de raad van bestuur iets op tijd goedkeurt. Zo'n gebeurtenis mag in het bericht of de noot terugkomen.
+
+### Hoe ze schrijft
+
+Haar karakter zit ook in de manier waarop ze schrijft, niet alleen in wat ze over de directie zegt.
+
+- Ze is precies: exacte data en tijden, volledige functietitels, citaten met *aldus*.
+- Ze schrijft korte, heldere zinnen, zoals ze op het ministerie heeft geleerd. Jargon van de directie vertaalt ze, of ze zet het tussen aanhalingstekens.
+- Ze neemt afstand van beweringen van de directie met *volgens de groep*, *naar eigen zeggen* of aanhalingstekens rond de woorden van de directie (*de zogeheten "beste frituur van Centraal-Afrika"*).
+- Superlatieven en marketingwoorden komen nooit van haar. Staat de directie erop, dan citeert ze ze letterlijk.
+- Ze corrigeert zonder het te zeggen: de getallen kloppen, en waar de directie overdreef, staat het juiste cijfer.
+
+### Rectificaties
+
+- Een rectificatie is een kort persbericht met het veld `rectificeert` (de slug van het oorspronkelijke bericht). De site zet bij beide berichten een verwijzing naar het andere. Het oorspronkelijke bericht blijft ongewijzigd.
+- Aanleidingen: de directie heeft achteraf iets veranderd of toegevoegd, een bewering van de directie bleek niet te kloppen, of een bericht van de stagiair moest worden rechtgezet.
+- Annelies schrijft een rectificatie zakelijk, maar haar stemming mag er duidelijk in doorklinken.
+- Af en toe, niet na elk bericht.
+
+### Verlof en de stagiair
+
+- Bij stemming 5 kan Annelies met verlof gaan. Tijdens haar verlof schrijft Kim de Graaf, stagiair Corporate Communications, de persberichten, met het veld `auteur: stagiair`. Hooguit twee berichten per verlof.
+- Kim is te enthousiast: uitroeptekens, superlatieven, de woorden van de directie zonder afstand overgenomen, en de catering van Decisive Hospitality noemt Kim graag uit zichzelf. De canonregels gelden ook voor Kim.
+- Berichten van Kim hebben geen veld `stemming`.
+- Komt Annelies terug, dan staat haar stemming op 2. Haar eerste bericht is vaak een rectificatie van een bericht van Kim.
 
 ## Logo en huisstijl
 

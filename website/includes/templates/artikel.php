@@ -19,12 +19,18 @@ pagina_begin([
         'image' => !empty($i['beeld']) && is_file(SITE_PUBLIC . '/assets/img/' . $i['beeld'] . '-1600.jpg') ? SITE_URL . '/assets/img/' . $i['beeld'] . '-1600.jpg' : null,
     ])],
 ]);
-component('hero', ['label' => $i['soort'], 'kop' => $i['titel'], 'intro' => $i['samenvatting'], 'beeld' => $i['beeld'] ?? '', 'alt' => $i['alt'] ?? '']);
+component('hero', ['label' => $i['label'], 'kop' => $i['titel'], 'intro' => $i['samenvatting'], 'beeld' => $i['beeld'] ?? '', 'alt' => $i['alt'] ?? '']);
 ?>
 <section>
 <article class="artikel h-entry">
 <data class="p-name" value="<?= e($i['titel']) ?>"></data>
 <p class="meta"><?= e($i['plaats']) ?>, <time class="dt-published" datetime="<?= e($i['datum']) ?>"><?= e(datum($i['datum'])) ?></time> · <span class="p-author h-card"><?= e(SITE_NAAM) ?></span></p>
+<?php if ($i['rectificeert'] && ($origineel = inzicht($i['rectificeert']))): ?>
+<p class="rectificatie">Dit bericht rectificeert <a href="<?= e($origineel['url']) ?>"><?= e($origineel['titel']) ?></a> van <?= e(datum($origineel['datum'])) ?>.</p>
+<?php endif ?>
+<?php foreach (rectificaties($i['slug']) as $r): ?>
+<p class="rectificatie">Dit bericht is op <?= e(datum($r['datum'])) ?> gerectificeerd. Lees de <a href="<?= e($r['url']) ?>">rectificatie</a>.</p>
+<?php endforeach ?>
 <div class="e-content">
 <?= $i['html'] ?>
 </div>
@@ -41,7 +47,7 @@ component('hero', ['label' => $i['soort'], 'kop' => $i['titel'], 'intro' => $i['
 <aside class="over">
 <h2 class="label">Over <?= e(SITE_NAAM) ?></h2>
 <p><?= e(OVER_DE_GROEP) ?></p>
-<p>Voor persvragen: <?= e(PERSCONTACT) ?>, Postbus 1, Kralendijk.<?= empty($i['bereikbaar']) ? '' : ' ' . e($i['bereikbaar']) ?></p>
+<p>Voor persvragen: <?= e(($i['auteur'] ?? '') === 'stagiair' ? STAGIAIR : PERSCONTACT) ?>, Postbus 1, Kralendijk.<?= empty($i['bereikbaar']) ? '' : ' ' . e($i['bereikbaar']) ?></p>
 </aside>
 <?php endif ?>
 <p class="terug"><a href="/inzichten/">Alle inzichten</a></p>

@@ -39,8 +39,10 @@ Het blok *Over Decisive Outcomes Group* komt er vanzelf onder.
 | `beeld` | nee | Beeld-ID uit `beelden/beelden.json`, met de JPEG's in `public/assets/img/`. Zonder beeld krijgt de hero geen foto. |
 | `alt` | bij een beeld | Beschrijving van het beeld. |
 | `divisies` | nee | Slugs uit `includes/data.php`, gescheiden door komma's. De divisiepagina toont dan het bericht. |
-| `stemming` | ja, voor nieuwe berichten | De stemming van Annelies Brouwer, 1 t/m 5 (zie de root-`CLAUDE.md`). Wordt niet getoond; zo weet het volgende bericht waar ze staat. |
+| `stemming` | ja, voor nieuwe berichten van Annelies | De stemming van Annelies Brouwer, 1 t/m 5 (zie de root-`CLAUDE.md`). Wordt niet getoond; zo weet het volgende bericht waar ze staat. |
 | `bereikbaar` | nee | Een zin achter het perscontact, bijvoorbeeld *Bereikbaar na het Stand-By-overleg.* |
+| `rectificeert` | nee | Slug van een eerder bericht. Dit bericht is dan een rectificatie; beide berichten verwijzen naar elkaar. |
+| `auteur` | nee | `stagiair` als Kim de Graaf het bericht schreef, tijdens het verlof van Annelies. Het persblok noemt dan Kim. |
 | `datum` | nee | Alleen nodig als de bestandsnaam niet met een datum begint (`jjjj-mm-dd`). |
 | `soort` | nee | Standaard `Persbericht`. Anders: `Analyse`, `Casestudy`, `Rapport` of `Jaarrapport`. Die horen in `inzichten/`. |
 | `inleiding` | nee | Een openingsalinea in grotere letters, boven de tekst. |

@@ -24,7 +24,7 @@ component('hero', [
 </nav>
 <ul class="kaarten">
 <?php foreach (inzichten_waar($overzicht[1] ?? null) as $i) {
-    component('kaart', ['titel' => $i['titel'], 'href' => $i['url'], 'tekst' => $i['samenvatting'], 'label' => $i['soort'] . ' · ' . datum($i['datum']), 'beeld' => $i['beeld'], 'alt' => $i['alt'], 'kop' => 'h2']);
+    component('kaart', ['titel' => $i['titel'], 'href' => $i['url'], 'tekst' => $i['samenvatting'], 'label' => $i['label'] . ' · ' . datum($i['datum']), 'beeld' => $i['beeld'], 'alt' => $i['alt'], 'kop' => 'h2']);
 } ?>
 </ul>
 <p>Volg onze inzichten via de <a href="/inzichten/feed.php">Atom-feed</a>. Voor persvragen: <?= e(PERSCONTACT) ?>, Postbus 1, Kralendijk.</p>
