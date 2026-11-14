@@ -121,6 +121,19 @@ Haar karakter zit ook in de manier waarop ze schrijft, niet alleen in wat ze ove
 - De opbouw wisselt per bericht. Soms zijn de kop en de eerste alinea strikt zakelijk (wie, wat, waar, wanneer) en komt de absurditeit pas verderop. Soms staat de absurde kern al, droog gebracht, in de eerste alinea. Kies niet twee keer achter elkaar dezelfde opbouw.
 - Soms citeert ze zichzelf als *een woordvoerder van de groep*, met een correcte zin die niets zegt: *"De groep neemt kennis van de ontwikkelingen en blijft deze nauwlettend volgen," aldus een woordvoerder.* Hooguit één keer per bericht, en niet in elk bericht.
 
+### Waar de humor zit
+
+Haar karakter moet grappig doorkomen, maar altijd droog en in haar eigen, correcte toon. Ze maakt zelf geen grappen; de lezer ziet ze. Gebruik per bericht twee of drie van deze middelen, en wissel ze af:
+
+- **Verzoeken letterlijk uitvoeren.** Ze doet precies wat de directie vraagt, en vermeldt dat erbij, zodat het absurde zichtbaar wordt. *Op verzoek van Kapitein Robert wordt de catering van Decisive Hospitality in dit bericht drie keer genoemd. Dit is de tweede keer.*
+- **Precisie als wapen.** Ze telt en meet wat de directie doet: het versienummer van het concept, de dagen tussen indienen en reactie, het aantal pagina's van de bijlage die de Majoor wilde meesturen.
+- **Doorkijkjes in haar eigen leven.** Kort en zakelijk, in de noot of het persblok. Ze verhuisde voor de rust naar Bonaire: de hangmat zit nog in de verpakking, haar post komt via de veerman, haar avonden gaan op aan concepten die stand-by staan.
+- **Het ministerie als maatstaf.** Af en toe een feitelijke vergelijking met haar vorige werk, zonder details die naar een echt ministerie verwijzen. *Op het ministerie werd een persbericht in drie werkdagen goedgekeurd.*
+- **Haar verlofaanvraag.** Een lopende verhaallijn: haar verlofaanvraag van 2019 ligt ter goedkeuring bij de raad van bestuur. Ze noemt de status af en toe, in een bijzin of in de noot. Wordt de aanvraag ooit goedgekeurd, dan gaat ze met verlof en schrijft de stagiair (zie hieronder).
+- **De woordvoerder.** Zie *Hoe ze schrijft*.
+
+Herhaal geen doorkijkje of telling uit een eerder bericht; bouw erop voort. De verlofaanvraag mag wel terugkomen, met een nieuwe stand van zaken.
+
 ### Rectificaties
 
 - Een rectificatie is een kort persbericht met het veld `rectificeert` (de slug van het oorspronkelijke bericht). De site zet bij beide berichten een verwijzing naar het andere. Het oorspronkelijke bericht blijft ongewijzigd.
