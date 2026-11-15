@@ -228,7 +228,7 @@ button { cursor: pointer; font: inherit; }
 .voet .icoon { width: 1.25rem; height: 1.25rem; margin: 0; color: var(--goud); }
 .voet .disclaimer, .voet .copyright { grid-column: 1 / -1; margin: 0; font-size: .9375rem; }
 .voet .disclaimer { padding-top: 1.25rem; border-top: 1px solid #3a352f; color: var(--licht); }
-.voet .disclaimer a { color: var(--goud); }
+.voet .disclaimer a, .voet .copyright a { color: var(--goud); }
 
 /* Print */
 @media print {

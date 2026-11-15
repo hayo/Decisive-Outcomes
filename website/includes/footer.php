@@ -30,7 +30,7 @@
 </ul>
 </nav>
 <p class="disclaimer">Decisive Outcomes is een airsoftteam. Decisive Outcomes Group is fictie. <a href="/colofon/">Lees meer</a>.</p>
-<p class="copyright">© 1984–<?= date('Y') ?> <?= e(SITE_NAAM) ?>. Ingeschreven in Rhodesië.</p>
+<p class="copyright">© 1984–<?= date('Y') ?> <?= e(SITE_NAAM) ?>. Ingeschreven in Rhodesië. Website door <a href="https://hayobethlehem.nl/">Hayo</a>.</p>
 </footer>
 </body>
 </html>
