@@ -68,7 +68,7 @@ component('hero', ['label' => $d['naam'], 'kop' => $d['kop'], 'intro' => $d['kor
 <h2>Inzichten</h2>
 <ul class="kaarten">
 <?php foreach ($inzichten as $i) {
-    component('kaart', ['titel' => $i['titel'], 'href' => $i['url'], 'tekst' => $i['samenvatting'], 'label' => $i['soort'] . ' · ' . datum($i['datum']), 'beeld' => $i['beeld'], 'alt' => $i['alt']]);
+    component('kaart', ['titel' => $i['titel'], 'href' => $i['url'], 'tekst' => $i['samenvatting'], 'label' => $i['label'] . ' · ' . datum($i['datum']), 'beeld' => $i['beeld'], 'alt' => $i['alt']]);
 } ?>
 </ul>
 </section>

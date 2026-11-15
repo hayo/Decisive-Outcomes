@@ -48,6 +48,7 @@ Gebruik deze feiten consequent en wijzig ze niet zonder overleg.
     - Gavin Laurie: de piloot van de Alouette in 1979, later gunshippiloot in Sierra Leone. Verzonnen figuur, geïnspireerd op Neall Ellis. Over 1979 zegt hij alleen dat hij landde bij de boom die op zijn kaart stond. Wie die kaart tekende, blijft open.
     - Ibrahim Kamara: vliegtuigtechnicus uit Sierra Leone, kent de helikopter beter dan iedereen. Werkt in 1998–1999 samen met Jochem.
     - Annelies Brouwer: manager Corporate Communications in Kralendijk, verzonnen figuur. Zie *Annelies Brouwer* hieronder.
+    - Kim de Graaf: stagiair Corporate Communications, verzonnen figuur. Schrijft de persberichten als Annelies met verlof is. Zie *Verlof en de stagiair* hieronder.
     - Mestre Domingos: leidt sinds 1961 de mijn in Huíla (Angola). Wist altijd dat het kwarts was en hield de mijn rendabel. Kreeg in 1989 vrijwel alle winst in het contract met Robert. Nu leidt zijn dochter de mijn.
     - Make Simelane: hoofd van de school en voorzitter van de dorpsraad in een dorp ten zuiden van Manzini (Swaziland). Maakte van de "bevrijding" van 1992 een jaarlijkse Bevrijdingsdag met de groep als hoofdsponsor.
     - Shon Ernesto: visser op Bonaire. Verloor in 1999 met kaarten Klein Klein Bonaire aan Robert, of volgens hem alleen het recht om erover te praten. Vaste veerman, de enige leverancier die contant wordt betaald.
@@ -88,9 +89,64 @@ Wat haar dwarszit:
 
 Zo schrijf je haar:
 
-- Haar frustratie zit in de *Noot voor de redactie* en in een enkel subtiel zinnetje in het persbericht zelf. Bijvoorbeeld: *Dit bericht verschijnt in afwachting van de goedkeuring van de raad van bestuur*, of *Op verzoek van de directie wordt vermeld dat de catering werd verzorgd door Decisive Hospitality.*
-- Hooguit één of twee van zulke zinnen per bericht. Ze blijft correct en beleefd, klaagt nooit openlijk en gebruikt geen uitroeptekens. Wie snel leest, ziet een gewoon persbericht.
+- Haar frustratie zit in de *Noot voor de redactie*, in haar bereikbaarheid in het persblok en in cynische bijzinnen over de directie in het persbericht zelf. Bijvoorbeeld: *Dit bericht verschijnt in afwachting van de goedkeuring van de raad van bestuur*, *Op verzoek van de directie wordt vermeld dat de catering werd verzorgd door Decisive Hospitality*, of *De raad van bestuur heeft het besluit genomen, zoals gebruikelijk zonder het voorstel te lezen.*
+- Ze mag enigszins negatief zijn over de directie. Ze neemt afstand van een besluit (*Corporate Communications heeft geadviseerd dit bericht niet te publiceren*), stelt feiten vast die de directie niet goed uitkomen, of meldt zakelijk dat iets niet is gelukt en waarom.
+- Hoeveel ervan doorklinkt, hangt af van haar stemming (zie hieronder). Ze blijft altijd correct en beleefd, scheldt niet en gebruikt geen uitroeptekens. Haar kritiek staat in zakelijke zinnen, verspreid door het bericht en in de noot, nooit in een aparte klaagalinea. Het blijft herkenbaar een persbericht.
+- Haar kritiek gaat over de raad van bestuur als bestuur: besluiten, gewoontes en procedures. Ze wordt niet persoonlijk en maakt geen oprichter belachelijk (zie [toestemming](docs/toestemming.md)).
 - Ze is geen grap op zichzelf en geen teamlid. Ze is de enige normale professional in het verhaal.
+
+### Haar stemming
+
+Haar stemming loopt op over de berichten heen. Elk persbericht heeft het veld `stemming` (1 t/m 5); het volgende bericht gaat meestal één stap omhoog, of blijft gelijk.
+
+| Stemming | Zo klinkt het |
+|---|---|
+| 1. Geduldig | Eén subtiel zinnetje. De noot is behulpzaam. Ze is gewoon bereikbaar. |
+| 2. Zakelijk | Een droge bijzin over de directie. De noot is feitelijk. |
+| 3. Formeel | Meer passieve zinnen (*er is besloten*, *er is gevraagd*). Twee cynische bijzinnen. De noot noemt procedures: versienummers, data van indienen, wie het niet heeft gelezen. Haar bereikbaarheid wordt beperkt. |
+| 4. Kortaf | Kortere zinnen. Uitspraken van de directie staan er letterlijk en zonder toelichting. Ze neemt in het bericht afstand van een besluit. De noot somt op wat niet is goedgekeurd. Ze is nauwelijks bereikbaar. |
+| 5. IJzig | Uiterst correct, alles met datum en kenmerk. Ze verwijst naar eerdere berichten en hun status, en vermeldt welke adviezen van Corporate Communications zijn genegeerd. Ze is alleen schriftelijk bereikbaar, via Postbus 1. |
+
+Haar stemming zakt alleen terug, naar 2, na een gebeurtenis: haar verlof, of de zeldzame keer dat de raad van bestuur iets op tijd goedkeurt. Zo'n gebeurtenis mag in het bericht of de noot terugkomen.
+
+### Hoe ze schrijft
+
+Haar karakter zit ook in de manier waarop ze schrijft, niet alleen in wat ze over de directie zegt.
+
+- Ze is precies: exacte data en tijden, volledige functietitels, citaten met *aldus*.
+- Ze schrijft korte, heldere zinnen, zoals ze op het ministerie heeft geleerd. Jargon van de directie vertaalt ze, of ze zet het tussen aanhalingstekens.
+- Ze neemt afstand van beweringen van de directie met *volgens de groep*, *naar eigen zeggen* of aanhalingstekens rond de woorden van de directie (*de zogeheten "beste frituur van Centraal-Afrika"*).
+- Superlatieven en marketingwoorden komen nooit van haar. Staat de directie erop, dan citeert ze ze letterlijk.
+- Ze corrigeert zonder het te zeggen: de getallen kloppen, en waar de directie overdreef, staat het juiste cijfer.
+- De opbouw wisselt per bericht. Soms zijn de kop en de eerste alinea strikt zakelijk (wie, wat, waar, wanneer) en komt de absurditeit pas verderop. Soms staat de absurde kern al, droog gebracht, in de eerste alinea. Kies niet twee keer achter elkaar dezelfde opbouw.
+- Soms citeert ze zichzelf als *een woordvoerder van de groep*, met een correcte zin die niets zegt: *"De groep neemt kennis van de ontwikkelingen en blijft deze nauwlettend volgen," aldus een woordvoerder.* Hooguit één keer per bericht, en niet in elk bericht.
+
+### Waar de humor zit
+
+Haar karakter moet grappig doorkomen, maar altijd droog en in haar eigen, correcte toon. Ze maakt zelf geen grappen; de lezer ziet ze. Gebruik per bericht twee of drie van deze middelen, en wissel ze af:
+
+- **Verzoeken letterlijk uitvoeren.** Ze doet precies wat de directie vraagt, en vermeldt dat erbij, zodat het absurde zichtbaar wordt. *Op verzoek van Kapitein Robert wordt de catering van Decisive Hospitality in dit bericht drie keer genoemd. Dit is de tweede keer.*
+- **Precisie als wapen.** Ze telt en meet wat de directie doet: het versienummer van het concept, de dagen tussen indienen en reactie, het aantal pagina's van de bijlage die de Majoor wilde meesturen.
+- **Doorkijkjes in haar eigen leven.** Kort en zakelijk, in de noot of het persblok. Ze verhuisde voor de rust naar Bonaire: de hangmat zit nog in de verpakking, haar post komt via de veerman, haar avonden gaan op aan concepten die stand-by staan.
+- **Het ministerie als maatstaf.** Af en toe een feitelijke vergelijking met haar vorige werk, zonder details die naar een echt ministerie verwijzen. *Op het ministerie werd een persbericht in drie werkdagen goedgekeurd.*
+- **Haar verlofaanvraag.** Een lopende verhaallijn: haar verlofaanvraag van 2019 ligt ter goedkeuring bij de raad van bestuur. Ze noemt de status af en toe, in een bijzin of in de noot. Wordt de aanvraag ooit goedgekeurd, dan gaat ze met verlof en schrijft de stagiair (zie hieronder).
+- **De woordvoerder.** Zie *Hoe ze schrijft*.
+
+Herhaal geen doorkijkje of telling uit een eerder bericht; bouw erop voort. De verlofaanvraag mag wel terugkomen, met een nieuwe stand van zaken.
+
+### Rectificaties
+
+- Een rectificatie is een kort persbericht met het veld `rectificeert` (de slug van het oorspronkelijke bericht). De site zet bij beide berichten een verwijzing naar het andere. Het oorspronkelijke bericht blijft ongewijzigd.
+- Aanleidingen: de directie heeft achteraf iets veranderd of toegevoegd, een bewering van de directie bleek niet te kloppen, of een bericht van de stagiair moest worden rechtgezet.
+- Annelies schrijft een rectificatie zakelijk, maar haar stemming mag er duidelijk in doorklinken.
+- Af en toe, niet na elk bericht.
+
+### Verlof en de stagiair
+
+- Bij stemming 5 kan Annelies met verlof gaan. Tijdens haar verlof schrijft Kim de Graaf, stagiair Corporate Communications, de persberichten, met het veld `auteur: stagiair`. Hooguit twee berichten per verlof.
+- Kim is te enthousiast: uitroeptekens, superlatieven, de woorden van de directie zonder afstand overgenomen, en de catering van Decisive Hospitality noemt Kim graag uit zichzelf. De canonregels gelden ook voor Kim.
+- Berichten van Kim hebben geen veld `stemming`.
+- Komt Annelies terug, dan staat haar stemming op 2. Haar eerste bericht is vaak een rectificatie van een bericht van Kim.
 
 ## Logo en huisstijl
 

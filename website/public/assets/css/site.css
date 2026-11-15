@@ -176,6 +176,7 @@ thead th { border-bottom: 2px solid var(--inkt); }
 /* Artikel (persbericht en inzicht) */
 .artikel { max-width: 46rem; }
 .artikel .meta { color: var(--tekst-2); }
+.rectificatie { padding: .75rem 1rem; border-inline-start: 3px solid var(--goud); background: var(--vlak); }
 .over { margin-top: 2rem; padding-top: 1rem; border-top: 1px solid var(--lijn); color: var(--tekst-2); }
 
 /* Formulier */

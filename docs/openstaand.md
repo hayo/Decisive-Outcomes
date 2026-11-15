@@ -4,7 +4,7 @@ Wat nog moet gebeuren voordat en nadat de site live gaat. Vink af wat klaar is e
 
 ## Team en inhoud
 
-- [ ] Frederik, Jochem en Robert lezen hun personage en geven akkoord. Stuur ieder zijn deel uit [inzage.md](inzage.md); vul het akkoord in bij [toestemming.md](toestemming.md).
+- [x] Frederik, Jochem en Robert lezen hun personage en geven akkoord. Vervangen door het groepsakkoord van 15 november (zie [toestemming.md](toestemming.md)).
 - [ ] Het echte contactadres voor het formulier kiezen. (Waar het team speelt en hoe je meedoet, staat op de site.)
 - [ ] De licentie bevestigen (zie [LICENSE.md](../LICENSE.md)) of een andere kiezen.
 - [ ] Besluiten of de naam Decisive Outcomes goed genoeg te onderscheiden is van bestaande bedrijven met een vergelijkbare naam.

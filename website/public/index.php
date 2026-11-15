@@ -65,7 +65,7 @@ component('cijfers');
 <h2>Laatste inzichten</h2>
 <ul class="kaarten">
 <?php foreach (array_slice(alle_inzichten(), 0, 3) as $i) {
-    component('kaart', ['titel' => $i['titel'], 'href' => $i['url'], 'tekst' => $i['samenvatting'], 'label' => $i['soort'], 'beeld' => $i['beeld'], 'alt' => $i['alt']]);
+    component('kaart', ['titel' => $i['titel'], 'href' => $i['url'], 'tekst' => $i['samenvatting'], 'label' => $i['label'], 'beeld' => $i['beeld'], 'alt' => $i['alt']]);
 } ?>
 </ul>
 <p><a href="/inzichten/">Alle inzichten</a></p>

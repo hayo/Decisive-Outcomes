@@ -34,6 +34,8 @@ function inzicht_laden(string $pad): array
     $i['datum'] ??= preg_match('/^\d{4}-\d{2}-\d{2}/', $i['slug'], $d) ? $d[0] : date('Y-m-d', filemtime($pad));
     $i += ['titel' => $i['slug'], 'plaats' => 'Kralendijk', 'samenvatting' => '', 'beeld' => '', 'alt' => ''];
     $i['divisies'] = array_filter(array_map('trim', explode(',', $i['divisies'] ?? '')));
+    $i['rectificeert'] ??= '';
+    $i['label'] = $i['rectificeert'] ? 'Rectificatie' : $i['soort'];
     $i['html'] = (empty($i['inleiding']) ? '' : '<p class="inleiding">' . markdown_inline($i['inleiding']) . "</p>\n") . markdown($tekst);
     $i['noot'] = markdown($noot);
     $i['url'] = $i['soort'] === 'Persbericht'
@@ -55,6 +57,23 @@ function alle_inzichten(): array
         usort($lijst, fn($a, $b) => strcmp($b['datum'], $a['datum']));
     }
     return $lijst;
+}
+
+/** Het inzicht met deze slug, of null. */
+function inzicht(string $slug): ?array
+{
+    foreach (alle_inzichten() as $i) {
+        if ($i['slug'] === $slug) {
+            return $i;
+        }
+    }
+    return null;
+}
+
+/** Rectificaties van een inzicht, oudste eerst. */
+function rectificaties(string $slug): array
+{
+    return array_reverse(array_values(array_filter(alle_inzichten(), fn($i) => $i['rectificeert'] === $slug)));
 }
 
 /** Inzichten van bepaalde soorten of bij een divisie, nieuwste eerst. */
