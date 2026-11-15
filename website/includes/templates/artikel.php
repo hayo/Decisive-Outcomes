@@ -37,6 +37,17 @@ component('hero', ['label' => $i['label'], 'kop' => $i['titel'], 'intro' => $i['
 <?php if (!empty($i['download']) && is_file(SITE_PUBLIC . '/assets/' . $i['download'])): ?>
 <p class="download"><a class="knop knop-rood" href="<?= e(asset($i['download'])) ?>" download>Download als PDF</a> <small>PDF, <?= round(filesize(SITE_PUBLIC . '/assets/' . $i['download']) / 1024) ?> kB</small></p>
 <?php endif ?>
+<?php if ($i['boekingen']): ?>
+<aside class="over">
+<h2 class="label">Financiële verwerking</h2>
+<ul>
+<?php foreach ($i['boekingen'] as [$divisie, $w, $omschrijving]): ?>
+<li><?= e(DIVISIES[$divisie]['naam']) ?>: <?= e($omschrijving) ?>, <?= e(bedrag($w)) ?> (<?= e(bedrag($w, 'usd')) ?>).</li>
+<?php endforeach ?>
+</ul>
+<p>Opgenomen in de <a href="/investor-relations/#boekjaar">jaarcijfers <?= e(substr($i['datum'], 0, 4)) ?></a>.</p>
+</aside>
+<?php endif ?>
 <?php if ($i['noot']): ?>
 <aside class="over">
 <h2 class="label">Noot voor de redactie</h2>

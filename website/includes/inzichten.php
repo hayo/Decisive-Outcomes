@@ -35,6 +35,7 @@ function inzicht_laden(string $pad): array
     $i += ['titel' => $i['slug'], 'plaats' => 'Kralendijk', 'samenvatting' => '', 'beeld' => '', 'alt' => ''];
     $i['divisies'] = array_filter(array_map('trim', explode(',', $i['divisies'] ?? '')));
     $i['rectificeert'] ??= '';
+    $i['boekingen'] = boekingen_lezen($i['boeking'] ?? '');
     $i['label'] = $i['rectificeert'] ? 'Rectificatie' : $i['soort'];
     $i['html'] = (empty($i['inleiding']) ? '' : '<p class="inleiding">' . markdown_inline($i['inleiding']) . "</p>\n") . markdown($tekst);
     $i['noot'] = markdown($noot);
@@ -43,6 +44,37 @@ function inzicht_laden(string $pad): array
         : '/inzichten/' . (SOORT_URL[$i['soort']] ?? 'analyse') . '/' . $i['slug'] . '/';
     $i['gewijzigd'] = filemtime($pad);
     return $i;
+}
+
+/**
+ * Financiële gevolgen uit het veld boeking: 'divisie-slug bedrag omschrijving', gescheiden door ';'.
+ * Het bedrag is in Rhodesische dollars, met een min voor kosten. Geeft [[divisie, bedrag, omschrijving], ...].
+ */
+function boekingen_lezen(string $veld): array
+{
+    $uit = [];
+    foreach (array_filter(array_map('trim', explode(';', $veld))) as $deel) {
+        if (preg_match('/^([a-z-]+)\s+([-−]?[\d.]+)\s+(.+)$/u', $deel, $m) && isset(DIVISIES[$m[1]])) {
+            $uit[] = [$m[1], (float) str_replace(['−', '.'], ['-', ''], $m[2]), $m[3]];
+        } else {
+            error_log('Onleesbare boeking: ' . $deel);
+        }
+    }
+    return $uit;
+}
+
+/** Alle boekingen uit persberichten van één jaar, oudste eerst: [[inzicht, divisie, bedrag, omschrijving], ...]. */
+function boekingen(string $jaar): array
+{
+    $uit = [];
+    foreach (array_reverse(alle_inzichten()) as $i) {
+        if (str_starts_with($i['datum'], $jaar)) {
+            foreach ($i['boekingen'] as [$divisie, $bedrag, $omschrijving]) {
+                $uit[] = [$i, $divisie, $bedrag, $omschrijving];
+            }
+        }
+    }
+    return $uit;
 }
 
 /** Alle inzichten, nieuwste eerst. Bestanden die met _ beginnen tellen niet mee. */

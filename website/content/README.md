@@ -15,6 +15,7 @@ beeld: NEWS-18
 alt: Wat er op het beeld te zien is.
 divisies: decisive-agri
 stemming: 3
+boeking: decisive-agri -25 Aankoop van één geit
 bereikbaar: Bereikbaar op werkdagen, na het Stand-By-overleg.
 ---
 
@@ -42,6 +43,7 @@ Het blok *Over Decisive Outcomes Group* komt er vanzelf onder.
 | `stemming` | ja, voor nieuwe berichten van Annelies | De stemming van Annelies Brouwer, 1 t/m 5 (zie de root-`CLAUDE.md`). Wordt niet getoond; zo weet het volgende bericht waar ze staat. |
 | `bereikbaar` | nee | Een zin achter het perscontact, bijvoorbeeld *Bereikbaar na het Stand-By-overleg.* |
 | `rectificeert` | nee | Slug van een eerder bericht. Dit bericht is dan een rectificatie; beide berichten verwijzen naar elkaar. |
+| `boeking` | bij een operatie | Financiële gevolgen: `divisie-slug bedrag omschrijving`, met het bedrag in hele Rhodesische dollars en een min voor kosten. Meer boekingen scheid je met `;`. Bijvoorbeeld: `decisive-security -120 Veldfee trainingslocatie; decisive-hospitality -45 Bevoorrading`. De site toont ze onder het bericht en telt ze op in het lopende boekjaar op Investor relations. |
 | `auteur` | nee | `stagiair` als Kim de Graaf het bericht schreef, tijdens het verlof van Annelies. Het persblok noemt dan Kim. |
 | `datum` | nee | Alleen nodig als de bestandsnaam niet met een datum begint (`jjjj-mm-dd`). |
 | `soort` | nee | Standaard `Persbericht`. Anders: `Analyse`, `Casestudy`, `Rapport` of `Jaarrapport`. Die horen in `inzichten/`. |

@@ -26,6 +26,15 @@ function e(?string $s): string
     return htmlspecialchars($s ?? '', ENT_QUOTES | ENT_SUBSTITUTE | ENT_HTML5, 'UTF-8');
 }
 
+/** Bedrag in Rhodesische dollars, of omgerekend tegen KOERS ('usd' of 'geit'). Met een echte min. */
+function bedrag(float $rhd, string $valuta = 'rhd'): string
+{
+    $w = match ($valuta) { 'usd' => round($rhd * KOERS['usd']), 'geit' => $rhd / KOERS['geit'], default => $rhd };
+    $getal = number_format(abs($w), $valuta === 'geit' && fmod($w, 1) != 0 ? 1 : 0, ',', '.');
+    $teken = $w < 0 ? '−' : '';
+    return match ($valuta) { 'usd' => $teken . 'US$ ' . $getal, 'geit' => $teken . $getal . ' ' . (abs($w) == 1 ? 'geit' : 'geiten'), default => $teken . 'R$ ' . $getal };
+}
+
 /** Pad naar een bestand in /assets met ?v= op basis van de wijzigingstijd. */
 function asset(string $pad): string
 {

@@ -39,6 +39,7 @@ Stel daarna één vraag per bericht, hooguit twee als ze bij elkaar horen. Vraag
 - **De corporate invalshoek.** Hoe het concern dit naar buiten zou brengen. Doe zelf een voorstel als Hayo er geen heeft, bijvoorbeeld een haakje aan actueel nieuws.
 - **Divisie en plaats.** Welke divisie erbij hoort (slugs uit `includes/data.php`) en de plaats in de kop van het bericht (standaard Kralendijk).
 - **Het citaat.** Wie het zegt. Een citaat van Frederik, Jochem of Robert, of een nieuw feit over hen, kan pas live na hun akkoord; zeg dat als Annelies (*dat moet ik eerst aan de kolonel voorleggen*) en vraag of Hayo het al heeft afgestemd.
+- **De financiële gevolgen.** Gaat het bericht over een operatie (een speeldag, training, aankoop of inzet), vraag dan wat het kostte of opleverde en bij welke divisie het hoort. Weet Hayo het niet, doe dan zelf een voorstel dat past bij de jaarcijfers op Investor relations. Zie *Financiële gevolgen* in de root-`CLAUDE.md`.
 - **De datum.** Standaard vandaag.
 
 Genoeg informatie? Vat de invalshoek samen in één zin, geef een voorstel voor de titel en vraag of dat klopt.
@@ -51,6 +52,7 @@ Schrijf het uit je losse pols, als Annelies: zoals zij het die dag zou opschrijv
 - Annelies mag uit de vorm stappen, in de noot en in het bericht zelf: een opmerking in de ik-vorm, iets uit haar eigen week, een mening die ze niet voor zich kan houden, een P.S. Niet in elk bericht, en niet steeds op dezelfde plek.
 - De lengte volgt het nieuws. Een kort bericht mag kort zijn; een noot mag langer zijn dan het bericht.
 - Haar stemming geeft de richting (tabel *Haar stemming* in de root-`CLAUDE.md`), maar ze is een mens: een goede duik of een vrije zondag mag haar even milder maken, ook zonder dat de stemming terugzakt.
+- Meldt het bericht een operatie, dan noemt Annelies de financiële gevolgen, in de tekst of in de noot, en staan dezelfde bedragen in het veld `boeking`. Zo komen ze in de jaarcijfers.
 - Zet `stemming` in de kop. Zet `bereikbaar` als het iets toevoegt, en herhaal geen eerdere zin (bijvoorbeeld *Bereikbaar na het Stand-By-overleg.*, *Tijdelijk bereikbaar via de veerman.*, *Uitsluitend schriftelijk bereikbaar.*).
 - Het blok *Over Decisive Outcomes Group* komt er vanzelf onder; schrijf het niet zelf.
 - Echte personen: alleen voornamen van teamleden. Geen namen van andere spelers of teams.

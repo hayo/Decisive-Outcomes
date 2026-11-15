@@ -229,6 +229,28 @@ component('grafiek', [
 </table>
 </div>
 </section>
+<section id="boekjaar">
+<h2>Lopend boekjaar <?= e(date('Y')) ?></h2>
+<?php $lopend = boekingen(date('Y')); ?>
+<p>Elke operatie die de groep in een persbericht meldt, wordt met haar financiële gevolgen in de boeken verwerkt. Hieronder staan de boekingen van dit jaar, in Rhodesische dollars en omgerekend tegen de vaste koers. Ze worden na afloop van het jaar opgenomen in het jaarverslag.</p>
+<?php if (!$lopend): ?>
+<p>Er zijn dit jaar nog geen boekingen uit persberichten. Het inwisselen tegen renminbi heeft nog niets opgeleverd, omdat er nog niets is ingewisseld.</p>
+<?php else: ?>
+<div class="tabel" role="region" aria-label="Boekingen lopend boekjaar" tabindex="0">
+<table>
+<caption>Boekingen uit persberichten, <?= e(date('Y')) ?></caption>
+<thead><tr><th scope="col">Datum</th><th scope="col">Persbericht</th><th scope="col">Divisie</th><th scope="col">Omschrijving</th><th scope="col">Bedrag</th><th scope="col">In US$</th></tr></thead>
+<tbody>
+<?php foreach ($lopend as [$bericht, $divisie, $w, $omschrijving]): ?>
+<tr><td><?= e(datum($bericht['datum'])) ?></td><th scope="row"><a href="<?= e($bericht['url']) ?>"><?= e($bericht['titel']) ?></a></th><td><?= e(DIVISIES[$divisie]['naam']) ?></td><td><?= e($omschrijving) ?></td><td><?= e(bedrag($w)) ?></td><td><?= e(bedrag($w, 'usd')) ?></td></tr>
+<?php endforeach ?>
+<?php $som = array_sum(array_column($lopend, 2)); ?>
+<tr><th scope="row" colspan="4">Totaal tot nu toe</th><td><?= e(bedrag($som)) ?></td><td><?= e(bedrag($som, 'usd')) ?>, of <?= e(bedrag($som, 'geit')) ?></td></tr>
+</tbody>
+</table>
+</div>
+<?php endif ?>
+</section>
 <section class="vlak" id="jaarverslag">
 <div class="artikel">
 <p class="label">Jaarverslag 2025</p>

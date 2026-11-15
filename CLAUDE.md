@@ -162,6 +162,13 @@ Herhaal geen doorkijkje of telling uit een eerder bericht; bouw erop voort. Lope
 - Annelies schrijft een rectificatie zakelijk, maar haar stemming mag er duidelijk in doorklinken.
 - Af en toe, niet na elk bericht.
 
+### Financiële gevolgen
+
+- Meldt een persbericht een operatie (een speeldag, een training, een aankoop, een inzet), dan noemt het bericht de financiële gevolgen: wat het kostte of opleverde, in Rhodesische dollars en zo nodig omgerekend tegen de vaste koers. Annelies schrijft dat zoals het bij haar past, in de tekst of in de noot.
+- Dezelfde bedragen staan in het veld `boeking` (zie `website/content/README.md`). De site toont ze onder het bericht als *Financiële verwerking* en telt ze op in het lopende boekjaar op Investor relations.
+- De bedragen passen bij de jaarcijfers: de omzet over 2025 was R$ 53.100, dus een speeldag kost tientallen tot honderden Rhodesische dollars.
+- Na afloop van het jaar gaan de boekingen naar het meerjarenoverzicht, de divisiecijfers en het jaarverslag op Investor relations.
+
 ### Verlof en de stagiair
 
 - Bij stemming 5 kan Annelies met verlof gaan. Tijdens haar verlof schrijft Kim de Graaf, stagiair Corporate Communications, de persberichten, met het veld `auteur: stagiair`. Hooguit twee berichten per verlof.
