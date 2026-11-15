@@ -27,11 +27,61 @@ const KERNCIJFERS = [
 const KERNCIJFERS_NOOT = '* Exclusief de opdracht uit 1979. Die loopt nog.';
 
 /*
- * Wisselkoersen van de groep, vastgesteld in het Stand-By-overleg van 9 november 2026.
- * usd: Amerikaanse dollars per Rhodesische dollar (laatst bekende koers, 31 maart 1979: R$ 0,6845 per US$).
- * geit: Rhodesische dollars per geit (marktprijs in Umtali in 1979, volgens Kapitein Jochem).
+ * Wisselkoersen van de groep: ankerpunten, waartussen koers() rechtlijnig rekent en dagelijkse uitschieters toevoegt.
+ * Op een ankerdatum geldt de koers precies. Na het laatste anker blijft de koers rond die waarde schommelen.
+ * usd: Amerikaanse dollars per Rhodesische dollar. Begint bij de laatste officiële koers (31 maart 1979: R$ 0,6845 per US$)
+ *      en volgt daarna de Zuid-Afrikaanse rand, met diepere dalen en hogere pieken: de markt in Rhodesische dollars is klein.
+ * geit: Rhodesische dollars per geit. Begint bij de marktprijs in Umtali in 1979 (volgens Kapitein Jochem) en heeft eigen uitschieters.
+ * Een ankerpunt wijzigen verandert bedragen die al op de site staan; voeg liever een nieuw punt toe.
  */
-const KOERS = ['usd' => 1.4609, 'geit' => 25];
+const KOERS_USD = [
+    '1979-03-31' => 1.4609,
+    '1980-12-31' => 1.85,
+    '1982-06-30' => 1.10,
+    '1983-12-31' => 1.02,
+    '1985-02-28' => 0.62,
+    '1985-08-31' => 0.30,
+    '1986-06-30' => 0.52,
+    '1988-12-31' => 0.50,
+    '1990-12-31' => 0.48,
+    '1993-06-30' => 0.38,
+    '1995-12-31' => 0.33,
+    '1996-12-31' => 0.25,
+    '1998-08-31' => 0.15,
+    '1999-06-30' => 0.21,
+    '2000-12-31' => 0.16,
+    '2001-12-20' => 0.065,
+    '2002-12-31' => 0.13,
+    '2004-12-31' => 0.23,
+    '2006-06-30' => 0.18,
+    '2007-12-31' => 0.19,
+    '2008-10-31' => 0.085,
+    '2009-12-31' => 0.165,
+    '2011-07-31' => 0.20,
+    '2013-12-31' => 0.115,
+    '2015-12-15' => 0.055,
+    '2016-12-31' => 0.09,
+    '2018-02-28' => 0.11,
+    '2018-09-30' => 0.072,
+    '2020-04-15' => 0.048,
+    '2021-05-31' => 0.098,
+    '2023-06-01' => 0.058,
+    '2024-12-31' => 0.068,
+    '2025-12-31' => 0.071,
+];
+const KOERS_GEIT = [
+    '1979-03-31' => 25,
+    '1983-12-31' => 22,
+    '1989-08-31' => 34,
+    '1992-09-30' => 41,
+    '1993-12-31' => 26,
+    '1999-06-30' => 19,
+    '2005-12-31' => 27,
+    '2010-10-10' => 52,
+    '2011-12-31' => 28,
+    '2020-06-30' => 21,
+    '2025-12-31' => 25,
+];
 
 /*
  * Divisies. Velden: naam, kop, kort (kaart en hero), intro (inleiding), tekst (alinea's),

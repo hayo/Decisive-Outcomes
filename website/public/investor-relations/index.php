@@ -8,15 +8,28 @@ pagina_begin([
 component('hero', [
     'label' => 'Investor relations',
     'kop' => 'Informatie voor aandeelhouders',
-    'intro' => 'Transparant over onze resultaten, in drie valuta. Sinds 9 november 2026 tegen een vaste koers.',
+    'intro' => 'Transparant over onze resultaten, in drie valuta, tegen de koers van de dag.',
     'knoppen' => [['#jaarverslag', 'Jaarverslag 2025', 'goud'], ['#koers', 'Wisselkoers', 'rand']],
 ]);
 
-/** Bedragen: Rhodesische dollars zijn leidend, de andere valuta worden omgerekend tegen KOERS. */
+/** Bedragen: Rhodesische dollars zijn leidend. Jaarcijfers worden omgerekend tegen de koers op 31 december van dat jaar. */
+$eind = '2025-12-31';
 $getal = fn(float $w, int $d = 0): string => ($w < 0 ? '−' : '') . number_format(abs($w), $d, ',', '.');
 $rhd = fn(float $w): string => 'R$ ' . $getal($w);
-$usd = fn(float $w): string => 'US$ ' . $getal(round($w * KOERS['usd']));
-$geit = fn(float $w): string => $getal($w / KOERS['geit'], fmod($w, KOERS['geit']) == 0 ? 0 : 1);
+$usd = fn(float $w, string $op = '2025-12-31'): string => 'US$ ' . $getal(omrekenen($w, 'usd', $op));
+$geit = fn(float $w, string $op = '2025-12-31'): string => $getal(omrekenen($w, 'geit', $op), fmod(omrekenen($w, 'geit', $op), 1) == 0 ? 0 : 1);
+
+// Koersverloop: 31 maart 1979 (de laatste officiële koers), daarna 31 december van elk jaar, en vandaag.
+$koersdata = ['1979' => '1979-03-31'];
+for ($j = 1980; $j < (int) date('Y'); $j++) {
+    $koersdata[(string) $j] = $j . '-12-31';
+}
+$koersdata[date('Y')] = date('Y-m-d');
+$koersreeks = array_map(fn($j, $d) => [$j, koers('usd', $d)], array_keys($koersdata), $koersdata);
+$geitreeks = array_map(fn($j, $d) => [$j, koers('geit', $d)], array_keys($koersdata), $koersdata);
+$uiterste = fn(array $reeks, callable $kies): array => array_values(array_filter($reeks, fn($r) => $r[1] == $kies(array_column($reeks, 1))))[0];
+[$hoogJaar, $hoog] = $uiterste($koersreeks, 'max');
+[$laagJaar, $laag] = $uiterste($koersreeks, 'min');
 
 // Meerjarenoverzicht: [jaar, omzet, resultaat, toelichting], in Rhodesische dollars.
 $jaren = [
@@ -45,7 +58,7 @@ $divisies = [
 // Balans per 31 december 2025: [post, bedrag in R$ of null, toelichting].
 $activa = [
     ['Klein Klein Bonaire', 6275, 'Gemiddelde van de waarde bij laag water (R$ 12.500) en bij hoog water (R$ 50).'],
-    ['Veestapel', 412 * KOERS['geit'], '412 geiten tegen de vaste koers.'],
+    ['Veestapel', 412 * koers('geit', $eind), '412 geiten tegen de koers van 31 december 2025.'],
     ['Albanese aandelen', 4000, 'Tegen aankoopprijs, 1997. Er is sindsdien niets verkocht.'],
     ['Kas', 2140, 'Contant, voor de veerman.'],
     ['Antonov', 1, 'Herbestemd als golfbreker.'],
@@ -62,17 +75,17 @@ $kerncijfers = [
     ['Landen met activiteiten', '40', 'Inclusief landen met alleen een postbus.'],
     ['Divisies', '7', 'Bijna allemaal ontstaan als betaling van een klant.'],
     ['Medewerkers', '4 vast, ruim 3.000 flexibel', 'Flexibel via Decisive People.'],
-    ['Veestapel', '412 geiten', 'Waardering: ' . $rhd(412 * KOERS['geit']) . ' (' . $usd(412 * KOERS['geit']) . ').'],
+    ['Veestapel', '412 geiten', 'Waardering per 31 december 2025: ' . $rhd(412 * koers('geit', $eind)) . ' (' . $usd(412 * koers('geit', $eind)) . ').'],
     ['Afgeronde opdrachten', '100 procent', 'Exclusief de opdracht uit 1979. Die loopt nog.'],
     ['Klanttevredenheid', 'Niet gemeten', 'Bewuste keuze sinds 1986.'],
-    ['Omzet 2025', $rhd(53100), $usd(53100) . ', deels in geiten.'],
-    ['Wisselkoers', 'R$ 1 = US$ ' . $getal(KOERS['usd'], 4), 'Vast sinds 1979, vastgesteld in 2026.'],
+    ['Omzet 2025', $rhd(53100), $usd(53100) . ' tegen de koers van 31 december 2025, deels in geiten.'],
+    ['Wisselkoers', 'R$ 1 = US$ ' . $getal(koers('usd'), 4), 'Koers van ' . datum(date('Y-m-d')) . '. Laatste officiële koers, 31 maart 1979: US$ ' . $getal(KOERS_USD['1979-03-31'], 4) . '.'],
 ];
 ?>
 <section>
 <div class="artikel">
 <p class="inleiding">Decisive Outcomes Group is een besloten groep met vier aandeelhouders. Wij publiceren desondanks jaarlijks onze kerncijfers en een jaarverslag, omdat wij transparantie beschouwen als onderdeel van goed bestuur.</p>
-<p>Onze cijfers worden opgesteld door de afdeling Strategie, gecontroleerd door de afdeling Compliance en goedgekeurd door de raad van bestuur, die ze vervolgens doorstuurt naar Salisbury. Wij rapporteren in drie valuta. Tot november 2026 bestond er tussen die valuta geen wisselkoers en werden de bedragen niet opgeteld. Dat voorkwam rekenfouten. Sinds 9 november 2026 heeft de groep een vaste wisselkoers, en kan de boekhouder optellen.</p>
+<p>Onze cijfers worden opgesteld door de afdeling Strategie, gecontroleerd door de afdeling Compliance en goedgekeurd door de raad van bestuur, die ze vervolgens doorstuurt naar Salisbury. Wij rapporteren in drie valuta. Tot november 2026 werden de bedragen in die valuta niet opgeteld. Dat voorkwam rekenfouten. Sinds 9 november 2026 rekent de groep met wisselkoersen, en kan de boekhouder optellen.</p>
 </div>
 </section>
 <section class="vlak">
@@ -106,19 +119,20 @@ $kerncijfers = [
 <section class="vlak" id="koers">
 <div class="artikel">
 <p class="label">Wisselkoers</p>
-<h2>Eén koers sinds 1979</h2>
-<p class="inleiding">In het Stand-By-overleg van maandag 9 november 2026, om 06.00 uur, heeft de raad van bestuur voor het eerst een wisselkoers vastgesteld tussen de drie valuta van de groep.</p>
+<h2>Een kleine munt</h2>
+<p class="inleiding">In het Stand-By-overleg van maandag 9 november 2026, om 06.00 uur, heeft de raad van bestuur besloten voortaan met wisselkoersen te rekenen tussen de drie valuta van de groep.</p>
 <p>Het voorstel kwam van de boekhouder, die er sinds 1986 om vroeg. Het besluit werd genomen toen Kolonel Frederik opstond. Majoor Hayo heeft in de notulen laten aantekenen dat hij de koersen aanvaardt onder voorbehoud van bekrachtiging door Salisbury. Een kopie is verzonden.</p>
-<p>De groep gebruikt de laatste koers die zij heeft ontvangen: die van 31 maart 1979. Er is sindsdien geen nieuwe koers bekendgemaakt. De Rhodesische dollar is daarmee de stabielste munt waarin ter wereld wordt gerapporteerd. Inflatie komt in de boeken van de groep niet voor.</p>
+<p>Uitgangspunt is de laatste officiële koers die de groep heeft ontvangen: die van 31 maart 1979. Sindsdien houdt de boekhouder de koers zelf bij. De Rhodesische dollar beweegt grofweg mee met de Zuid-Afrikaanse rand, maar heftiger. De markt in Rhodesische dollars is klein, en een enkele transactie verplaatst de koers. De groep dekt het valutarisico niet af.</p>
+<p>Ook de geit heeft een eigen koers. Die begon bij R$ 25, de marktprijs in Umtali in 1979, volgens Kapitein Jochem, en kent eigen uitschieters. Bedragen worden omgerekend tegen de koers op de dag van de boeking. Jaarcijfers worden omgerekend tegen de koers op 31 december.</p>
 <p>Sinds november 2026 kan de Rhodesische dollar bovendien worden ingewisseld tegen de Chinese renminbi, met als rekeneenheid de yuan (CNY). Kolonel Frederik heeft dit geregeld via een zakelijk contact in Florida, dat de koers per transactie vaststelt. Er is nog niets ingewisseld.</p>
 <div class="tabel" role="region" aria-label="Wisselkoersen" tabindex="0">
 <table>
-<caption>Wisselkoersen van de groep, vastgesteld op 9 november 2026</caption>
+<caption>Wisselkoersen van de groep op <?= e(datum(date('Y-m-d'))) ?></caption>
 <thead><tr><th scope="col">Koers</th><th scope="col">Waarde</th><th scope="col">Grondslag</th></tr></thead>
 <tbody>
-<tr><th scope="row">Rhodesische dollar in Amerikaanse dollars</th><td>R$ 1 = US$ <?= e($getal(KOERS['usd'], 4)) ?></td><td>Laatst bekende koers: R$ 0,6845 per Amerikaanse dollar, 31 maart 1979.</td></tr>
-<tr><th scope="row">Geit in Rhodesische dollars</th><td>1 geit = R$ <?= e($getal(KOERS['geit'])) ?></td><td>Marktprijs in Umtali in 1979, volgens Kapitein Jochem.</td></tr>
-<tr><th scope="row">Geit in Amerikaanse dollars</th><td>1 geit = US$ <?= e($getal(KOERS['geit'] * KOERS['usd'], 2)) ?></td><td>Afgeleid uit de twee koersen hierboven.</td></tr>
+<tr><th scope="row">Rhodesische dollar in Amerikaanse dollars</th><td>R$ 1 = US$ <?= e($getal(koers('usd'), 4)) ?></td><td>Laatste officiële koers: R$ 0,6845 per Amerikaanse dollar (US$ <?= e($getal(KOERS_USD['1979-03-31'], 4)) ?>), 31 maart 1979. Daarna bijgehouden door de boekhouder.</td></tr>
+<tr><th scope="row">Geit in Rhodesische dollars</th><td>1 geit = R$ <?= e($getal(koers('geit'), 2)) ?></td><td>Uitgangspunt: R$ 25, de marktprijs in Umtali in 1979, volgens Kapitein Jochem.</td></tr>
+<tr><th scope="row">Geit in Amerikaanse dollars</th><td>1 geit = US$ <?= e($getal(koers('geit') * koers('usd'), 2)) ?></td><td>Afgeleid uit de twee koersen hierboven.</td></tr>
 </tbody>
 </table>
 </div>
@@ -129,15 +143,24 @@ component('grafiek', [
     'soort' => 'lijn',
     'eenheid' => 'US$',
     'decimalen' => 4,
-    'reeks' => array_map(fn($j) => [$j, KOERS['usd']], [1979, 1984, 1989, 1994, 1999, 2004, 2009, 2014, 2019, 2024, 2026]),
-    'toelichting' => 'Volatiliteit sinds 1979: 0,0 procent.',
+    'reeks' => $koersreeks,
+    'toelichting' => 'Koers op 31 maart 1979, daarna op 31 december van elk jaar, en voor ' . date('Y') . ' de koers van vandaag. Hoogste stand: US$ ' . $getal($hoog, 4) . ' (' . $hoogJaar . '). Laagste stand: US$ ' . $getal($laag, 4) . ' (' . $laagJaar . ').',
+]);
+component('grafiek', [
+    'id' => 'grafiek-geit',
+    'titel' => 'Prijs van een geit in Rhodesische dollars, 1979–' . date('Y'),
+    'soort' => 'lijn',
+    'eenheid' => 'R$',
+    'decimalen' => 2,
+    'reeks' => $geitreeks,
+    'toelichting' => 'Zelfde peildata als hierboven. Marktprijs volgens Kapitein Jochem.',
 ]);
 ?>
 </div>
 </section>
 <section>
 <h2>Meerjarenoverzicht</h2>
-<p>Alle bedragen in Rhodesische dollars, omgerekend tegen de vaste koers. Omdat de koers sinds 1979 vastligt, zit er in deze reeks geen inflatie. De groei is volgens de raad van bestuur dus volledig organisch.</p>
+<p>Alle bedragen in Rhodesische dollars. De omzet in Amerikaanse dollars is omgerekend tegen de koers op 31 december van elk jaar. In Rhodesische dollars groeit de omzet sinds 1985 vrijwel elk jaar. In Amerikaanse dollars lag hij in 1990 het hoogst. De groep rapporteert in Rhodesische dollars.</p>
 <div class="twee">
 <?php
 component('grafiek', [
@@ -164,7 +187,7 @@ component('grafiek', [
 <thead><tr><th scope="col">Jaar</th><th scope="col">Omzet</th><th scope="col">Omzet in US$</th><th scope="col">Resultaat</th><th scope="col">Toelichting</th></tr></thead>
 <tbody>
 <?php foreach ($jaren as [$jaar, $omzet, $resultaat, $toelichting]): ?>
-<tr><th scope="row"><?= $jaar ?></th><td><?= e($rhd($omzet)) ?></td><td><?= e($usd($omzet)) ?></td><td><?= e($rhd($resultaat)) ?></td><td><?= e($toelichting) ?></td></tr>
+<tr><th scope="row"><?= $jaar ?></th><td><?= e($rhd($omzet)) ?></td><td><?= e($usd($omzet, $jaar . '-12-31')) ?></td><td><?= e($rhd($resultaat)) ?></td><td><?= e($toelichting) ?></td></tr>
 <?php endforeach ?>
 </tbody>
 </table>
@@ -209,7 +232,7 @@ component('grafiek', [
 ]);
 ?>
 <div>
-<p>Met de vaste koers heeft de groep voor het eerst een balans kunnen opstellen. De veestapel staat erop tegen <?= e($rhd(KOERS['geit'])) ?> per geit. De kist staat erop als reserve, tegen een onbekende waarde, en telt daarom niet mee in het totaal.</p>
+<p>Met de wisselkoersen heeft de groep voor het eerst een balans kunnen opstellen. De veestapel staat erop tegen de koers van 31 december 2025: <?= e($rhd(koers('geit', $eind))) ?> per geit. De kist staat erop als reserve, tegen een onbekende waarde, en telt daarom niet mee in het totaal.</p>
 <p>De boekhouder heeft erop gewezen dat de balans in één klap heel goed of heel slecht kan worden als iemand de kist openmaakt. Dat is niet voorzien.</p>
 </div>
 </div>
@@ -232,7 +255,7 @@ component('grafiek', [
 <section id="boekjaar">
 <h2>Lopend boekjaar <?= e(date('Y')) ?></h2>
 <?php $lopend = boekingen(date('Y')); ?>
-<p>Elke operatie die de groep in een persbericht meldt, wordt met haar financiële gevolgen in de boeken verwerkt. Hieronder staan de boekingen van dit jaar, in Rhodesische dollars en omgerekend tegen de vaste koers. Ze worden na afloop van het jaar opgenomen in het jaarverslag.</p>
+<p>Elke operatie die de groep in een persbericht meldt, wordt met haar financiële gevolgen in de boeken verwerkt. Hieronder staan de boekingen van dit jaar, in Rhodesische dollars en omgerekend tegen de koers op de datum van het persbericht. Ze worden na afloop van het jaar opgenomen in het jaarverslag.</p>
 <?php if (!$lopend): ?>
 <p>Er zijn dit jaar nog geen boekingen uit persberichten. Het inwisselen tegen renminbi heeft nog niets opgeleverd, omdat er nog niets is ingewisseld.</p>
 <?php else: ?>
@@ -242,10 +265,14 @@ component('grafiek', [
 <thead><tr><th scope="col">Datum</th><th scope="col">Persbericht</th><th scope="col">Divisie</th><th scope="col">Omschrijving</th><th scope="col">Bedrag</th><th scope="col">In US$</th></tr></thead>
 <tbody>
 <?php foreach ($lopend as [$bericht, $divisie, $w, $omschrijving]): ?>
-<tr><td><?= e(datum($bericht['datum'])) ?></td><th scope="row"><a href="<?= e($bericht['url']) ?>"><?= e($bericht['titel']) ?></a></th><td><?= e(DIVISIES[$divisie]['naam']) ?></td><td><?= e($omschrijving) ?></td><td><?= e(bedrag($w)) ?></td><td><?= e(bedrag($w, 'usd')) ?></td></tr>
+<tr><td><?= e(datum($bericht['datum'])) ?></td><th scope="row"><a href="<?= e($bericht['url']) ?>"><?= e($bericht['titel']) ?></a></th><td><?= e(DIVISIES[$divisie]['naam']) ?></td><td><?= e($omschrijving) ?></td><td><?= e(bedrag($w)) ?></td><td><?= e(bedrag($w, 'usd', $bericht['datum'])) ?></td></tr>
 <?php endforeach ?>
-<?php $som = array_sum(array_column($lopend, 2)); ?>
-<tr><th scope="row" colspan="4">Totaal tot nu toe</th><td><?= e(bedrag($som)) ?></td><td><?= e(bedrag($som, 'usd')) ?>, of <?= e(bedrag($som, 'geit')) ?></td></tr>
+<?php
+$som = array_sum(array_column($lopend, 2));
+$somUsd = array_sum(array_map(fn($b) => omrekenen($b[2], 'usd', $b[0]['datum']), $lopend));
+$somGeit = array_sum(array_map(fn($b) => omrekenen($b[2], 'geit', $b[0]['datum']), $lopend));
+?>
+<tr><th scope="row" colspan="4">Totaal tot nu toe</th><td><?= e(bedrag($som)) ?></td><td><?= e(bedrag_tekst($somUsd, 'usd')) ?>, of <?= e(bedrag_tekst(round($somGeit, 1), 'geit')) ?></td></tr>
 </tbody>
 </table>
 </div>
@@ -261,10 +288,10 @@ component('grafiek', [
 <h2>Kerngegevens 2025</h2>
 <div class="tabel" role="region" aria-label="Kerngegevens 2025" tabindex="0">
 <table>
-<caption>Kerngegevens 2025, per valuta, omgerekend tegen de vaste koers</caption>
+<caption>Kerngegevens 2025, per valuta, omgerekend tegen de koers van 31 december 2025</caption>
 <thead><tr><th scope="col">Onderdeel</th><th scope="col">Rhodesische dollars</th><th scope="col">Amerikaanse dollars</th><th scope="col">Geiten</th></tr></thead>
 <tbody>
-<?php foreach ([['Omzet', 53100], ['Resultaat', 90], ['Resultaat Decisive Mining', 210], ['Resultaat Decisive Hospitality', -1850], ['Veestapel', 412 * KOERS['geit']]] as [$onderdeel, $w]): ?>
+<?php foreach ([['Omzet', 53100], ['Resultaat', 90], ['Resultaat Decisive Mining', 210], ['Resultaat Decisive Hospitality', -1850], ['Veestapel', 412 * koers('geit', $eind)]] as [$onderdeel, $w]): ?>
 <tr><th scope="row"><?= e($onderdeel) ?></th><td><?= e($rhd($w)) ?></td><td><?= e($usd($w)) ?></td><td><?= e($geit($w)) ?></td></tr>
 <?php endforeach ?>
 <tr><th scope="row">Reserve (de kist)</th><td>Onbekend</td><td>Onbekend</td><td>Onbekend</td></tr>
@@ -291,7 +318,7 @@ component('grafiek', [
 <h2>Verslag van de raad van commissarissen</h2>
 <p>De raad van commissarissen heeft het jaarverslag besproken met de raad van bestuur en kan zich vinden in het gevoerde beleid. De raad dankt de raad van bestuur voor de inzet in het afgelopen jaar. De raad van bestuur dankt de raad van commissarissen voor het vertrouwen.</p>
 <h2>Jaarrekening</h2>
-<p>De jaarrekening over 2025 is opgesteld door de boekhouder van de groep, die sinds 1986 voor ons werkt. Tot november 2026 kon hij geen enkele jaarrekening afsluiten, omdat de bedragen in drie valuta niet konden worden opgeteld. Na de vaststelling van de wisselkoers heeft hij de jaarrekening 2025 op 10 november 2026 afgesloten, als eerste jaarrekening sinds 1986. Zij ligt ter goedkeuring bij de raad van bestuur.</p>
+<p>De jaarrekening over 2025 is opgesteld door de boekhouder van de groep, die sinds 1986 voor ons werkt. Tot november 2026 kon hij geen enkele jaarrekening afsluiten, omdat de bedragen in drie valuta niet konden worden opgeteld. Na de invoering van de wisselkoersen heeft hij de jaarrekening 2025 op 10 november 2026 afgesloten, als eerste jaarrekening sinds 1986. Zij ligt ter goedkeuring bij de raad van bestuur.</p>
 </div>
 </section>
 <section>
@@ -302,7 +329,7 @@ component('grafiek', [
 <thead><tr><th scope="col">Moment</th><th scope="col">Datum</th></tr></thead>
 <tbody>
 <tr><th scope="row">Stand-By Outlook 2026</th><td>5 januari 2026, gepubliceerd</td></tr>
-<tr><th scope="row">Vaststelling wisselkoers</th><td>9 november 2026, Stand-By-overleg</td></tr>
+<tr><th scope="row">Invoering wisselkoersen</th><td>9 november 2026, Stand-By-overleg</td></tr>
 <tr><th scope="row">Jaarrekening 2025 afgesloten</th><td>10 november 2026, ter goedkeuring</td></tr>
 <tr><th scope="row">Stand-By-overleg</th><td>Elke maandag, 06.00 uur</td></tr>
 <tr><th scope="row">Algemene vergadering van aandeelhouders</th><td>Aansluitend aan het Stand-By-overleg, wanneer nodig</td></tr>

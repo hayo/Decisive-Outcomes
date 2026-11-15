@@ -74,7 +74,7 @@ Gebruik deze feiten consequent en wijzig ze niet zonder overleg.
     - Het Stand-By-overleg, elke maandag om 06.00 uur: "geen nieuws uit Salisbury, wij blijven stand-by".
     - Betaling in natura en geiten (412).
     - De boekhouding loopt in Rhodesische dollars.
-    - Wisselkoers, vastgesteld in het Stand-By-overleg van 9 november 2026: R$ 1 = US$ 1,4609 (de laatst bekende koers, 31 maart 1979) en 1 geit = R$ 25 (marktprijs in Umtali in 1979, volgens Jochem). De koers verandert nooit. Sinds november 2026 is de Rhodesische dollar ook inwisselbaar tegen Chinese renminbi (yuan, CNY), via een naamloos zakelijk contact van Frederik in Florida dat de koers per transactie vaststelt. Geen nationaliteit, geen drugsverwijzingen. Daarvóór bestond er geen wisselkoers; wat in eerdere persberichten en episodes (zoals Freetown 1995) staat, blijft kloppen.
+    - Wisselkoersen, ingevoerd in het Stand-By-overleg van 9 november 2026. De Rhodesische dollar begint bij de laatste officiële koers, R$ 1 = US$ 1,4609 (31 maart 1979), en volgt daarna de Zuid-Afrikaanse rand, met grotere uitschieters omdat de markt in Rhodesische dollars klein is: eind 2025 is R$ 1 = US$ 0,071. De geit begint bij R$ 25 (marktprijs in Umtali in 1979, volgens Jochem) en heeft een eigen koers met eigen uitschieters. De koersen staan als ankerpunten in `website/includes/data.php`; `koers()` geeft de koers op elke datum. Een bedrag wordt omgerekend tegen de koers op de dag van de boeking, jaarcijfers tegen de koers op 31 december. Sinds november 2026 is de Rhodesische dollar ook inwisselbaar tegen Chinese renminbi (yuan, CNY), via een naamloos zakelijk contact van Frederik in Florida dat de koers per transactie vaststelt. Geen nationaliteit, geen drugsverwijzingen. Daarvóór rekende de groep niet met een wisselkoers; wat in eerdere persberichten en episodes (zoals Freetown 1995) staat, blijft kloppen.
     - Het hoofdkantoor is Postbus 1, Kralendijk, met een reactietermijn van zes tot acht jaar.
     - Zeven divisies, die bijna allemaal begonnen als betaling.
 - **Motto:** *Percute primo, cito decerne.* Kernwaarde *Pamwe chete*.
@@ -164,7 +164,7 @@ Herhaal geen doorkijkje of telling uit een eerder bericht; bouw erop voort. Lope
 
 ### Financiële gevolgen
 
-- Meldt een persbericht een operatie (een speeldag, een training, een aankoop, een inzet), dan noemt het bericht de financiële gevolgen: wat het kostte of opleverde, in Rhodesische dollars en zo nodig omgerekend tegen de vaste koers. Annelies schrijft dat zoals het bij haar past, in de tekst of in de noot.
+- Meldt een persbericht een operatie (een speeldag, een training, een aankoop, een inzet), dan noemt het bericht de financiële gevolgen: wat het kostte of opleverde, in Rhodesische dollars en zo nodig omgerekend tegen de koers op de datum van het bericht. Annelies schrijft dat zoals het bij haar past, in de tekst of in de noot.
 - Dezelfde bedragen staan in het veld `boeking` (zie `website/content/README.md`). De site toont ze onder het bericht als *Financiële verwerking* en telt ze op in het lopende boekjaar op Investor relations.
 - De bedragen passen bij de jaarcijfers: de omzet over 2025 was R$ 53.100, dus een speeldag kost tientallen tot honderden Rhodesische dollars.
 - Na afloop van het jaar gaan de boekingen naar het meerjarenoverzicht, de divisiecijfers en het jaarverslag op Investor relations.

@@ -47,6 +47,7 @@ Wat nog moet gebeuren voordat en nadat de site live gaat. Vink af wat klaar is e
 - [x] `OVER-02` (de laarzen) staat op Over ons, bij de kernwaarden.
 - [x] Het colofon, de privacyverklaring en de disclaimer schrijven. Deze teksten zijn echt, geen satire.
 - [x] De GitHub Actions-workflow voor de deploy.
+- [ ] Het persbericht over de renminbi (15 november 2026) noemt nog de vaste koers van R$ 1 = US$ 1,4609. De koers beweegt sinds dezelfde dag; eventueel een rectificatie door Annelies.
 
 ## Later
 

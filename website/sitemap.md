@@ -106,7 +106,7 @@ De URL blijft `/newsroom/` voor persberichten; het overzicht staat op `/inzichte
 
 - Kerncijfers (tabel uit de backstory), het jaarverslag als download en de aandeelhoudersstructuur (vier aandeelhouders, allen bestuurder).
 - Koersinformatie: *Niet beschikbaar in Rhodesische dollars.* (De groep is niet beursgenoteerd.)
-- **Wisselkoers:** sinds 9 november 2026 vast: R$ 1 = US$ 1,4609 (laatst bekende koers, 31 maart 1979) en 1 geit = R$ 25. Met een grafiek van het koersverloop: een vlakke lijn.
+- **Wisselkoers:** sinds 9 november 2026 rekent de groep met wisselkoersen. De Rhodesische dollar begint bij R$ 1 = US$ 1,4609 (laatste officiële koers, 31 maart 1979) en volgt daarna de Zuid-Afrikaanse rand, met grotere uitschieters. De geit begint bij R$ 25 en heeft een eigen koers. Met de koers van vandaag en twee grafieken van het koersverloop.
 - **Meerjarenoverzicht** (omzet en resultaat per vijf jaar sinds 1985), **resultaat per divisie** en **veestapel en balans**, met grafieken (component `grafiek`, inline SVG) en de cijfers als tabel.
 - **Jaarverslag 2025** als sectie op de pagina: verslag van de raad van bestuur, kerngegevens per valuta, governance, risicoparagraaf, vooruitblik, verslag van de raad van commissarissen en de jaarrekening. Daarna een financiële kalender.
 

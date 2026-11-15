@@ -42,7 +42,7 @@ component('hero', ['label' => $i['label'], 'kop' => $i['titel'], 'intro' => $i['
 <h2 class="label">Financiële verwerking</h2>
 <ul>
 <?php foreach ($i['boekingen'] as [$divisie, $w, $omschrijving]): ?>
-<li><?= e(DIVISIES[$divisie]['naam']) ?>: <?= e($omschrijving) ?>, <?= e(bedrag($w)) ?> (<?= e(bedrag($w, 'usd')) ?>).</li>
+<li><?= e(DIVISIES[$divisie]['naam']) ?>: <?= e($omschrijving) ?>, <?= e(bedrag($w)) ?> (<?= e(bedrag($w, 'usd', $i['datum'])) ?>, tegen de koers van <?= e(datum($i['datum'])) ?>).</li>
 <?php endforeach ?>
 </ul>
 <p>Opgenomen in de <a href="/investor-relations/#boekjaar">jaarcijfers <?= e(substr($i['datum'], 0, 4)) ?></a>.</p>
