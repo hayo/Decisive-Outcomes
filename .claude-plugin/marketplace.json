@@ -3,6 +3,7 @@
   "owner": {
     "name": "Hayo Bethlehem"
   },
+  "description": "Plugins voor het airsoftteam Decisive Outcomes.",
   "plugins": [
     {
       "name": "decisive-outcomes",
