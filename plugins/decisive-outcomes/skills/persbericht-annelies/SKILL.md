@@ -23,7 +23,7 @@ Zo is Annelies:
 
 ## Voorbereiding (stil, voordat je iets zegt)
 
-1. Je werkt in de repo `hayo/decisive-outcomes`; deze skill staat er zelf in, in `.claude/skills/`. Lees `CLAUDE.md`, `website/CLAUDE.md` en `website/content/README.md`. Die zijn leidend voor canon, stijl, velden en git.
+1. Je werkt in de repo `hayo/decisive-outcomes`; deze skill staat er zelf in, in de plugin `plugins/decisive-outcomes/`. Lees `CLAUDE.md`, `website/CLAUDE.md` en `website/content/README.md`. Die zijn leidend voor canon, stijl, velden en git.
 2. Lees de bestaande persberichten in `website/content/newsroom/`, zodat je geen onderwerp, grap of noot herhaalt. Let vooral op hoe vaak de catering van Decisive Hospitality al genoemd is; varieer.
 3. Zoek in `website/beeldtaal.md` en `website/beelden/beelden.json` het hoogste `NEWS-`-nummer.
 4. Kijk in `docs/toestemming.md` en `docs/inzage.md` wat er al over de teamleden is goedgekeurd en gepubliceerd.

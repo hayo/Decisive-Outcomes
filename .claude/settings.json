@@ -1,0 +1,13 @@
+{
+  "extraKnownMarketplaces": {
+    "decisive-outcomes": {
+      "source": {
+        "source": "github",
+        "repo": "hayo/decisive-outcomes"
+      }
+    }
+  },
+  "enabledPlugins": {
+    "decisive-outcomes@decisive-outcomes": true
+  }
+}

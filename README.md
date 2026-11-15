@@ -15,6 +15,7 @@ Decisive Outcomes is een verzonnen private military company. In 1979 bleven vier
 | [`verhaal/`](verhaal/) | De backstory in [`backstory.md`](verhaal/backstory.md): Deel 1 vertelt hoe het begon, Deel 2 beschrijft het concern van nu. |
 | [`logo/`](logo/) | Het logo als PNG van 1880 px, rond met een transparante achtergrond. |
 | [`docs/`](docs/) | Beslissingen, openstaande punten en de toestemming van teamleden. |
+| [`plugins/`](plugins/) | De Claude Code-plugin met de skill voor persberichten van Annelies Brouwer. |
 | [`website/`](website/) | De opzet van de website: de [sitemap](website/sitemap.md), de [beeldtaal en Gemini-prompts](website/beeldtaal.md) en later de site zelf. |
 
 ## Huisstijl
@@ -33,6 +34,14 @@ De site wordt met de hand gebouwd in HTML, CSS en PHP:
 - zonder cookies, trackers of externe diensten.
 
 Alle eisen staan in [`website/CLAUDE.md`](website/CLAUDE.md).
+
+## Plugin
+
+De skills voor dit project zitten in de plugin `decisive-outcomes`. In deze repo staat hij al aan. Elders installeer je hem met:
+
+```
+/plugin install decisive-outcomes --marketplace hayo/Decisive-Outcomes
+```
 
 ## Werkafspraken
 
