@@ -2,7 +2,7 @@
 
 Per teamlid staat hier wat er over hem in het verhaal en op de website staat. Laat ieder zijn eigen deel lezen en vul het akkoord in bij [toestemming.md](toestemming.md). Werk dit bestand bij als er iets nieuws over een personage bijkomt.
 
-Stand: 11 november 2026. Op 11 november zijn drie hoofdstukken toegevoegd (7, 10 en 14); de hoofdstukken daarna zijn vernummerd.
+Stand: 15 november 2026. Op 11 november zijn drie hoofdstukken toegevoegd (7, 10 en 14); de hoofdstukken daarna zijn vernummerd.
 
 ## Frederik
 
@@ -18,6 +18,7 @@ Stand: 11 november 2026. Op 11 november zijn drie hoofdstukken toegevoegd (7, 10
 - Citaat op de homepage: *Een opdracht stopt pas als iemand zegt dat hij stopt. Dat heeft niemand gezegd.*
 - Persbericht over de website: *Wij staan al sinds 1979 stand-by. Het is goed dat de buitenwereld dat nu ook kan zien.*
 - Persbericht over de NAVO-norm, in de noot: hij werd om een reactie gevraagd en stond op.
+- Persbericht over de training in gebouwen (15 november): behaalt op korte afstand opvallend goede resultaten, voor een groot deel met het mes.
 
 ## Hayo
 
@@ -33,6 +34,7 @@ Stand: 11 november 2026. Op 11 november zijn drie hoofdstukken toegevoegd (7, 10
 - Persbericht over de opdracht uit 1979: *Wij stonden in 1979 bij de juiste boom, en daar staan wij nog steeds.*
 - Persbericht over reservisten: *Paraat zijn is vooral een kwestie van wachten. Daar hebben wij een methode voor ontwikkeld. Die staat in de notulen.*
 - Auteur van de analyse over het conflict in de Benelux en van rapport 412. In de noot bij de najaarsinzet: zijn rapport telt 38 pagina's.
+- Persbericht over de training in gebouwen (15 november): was verhinderd wegens een blessure en stelde de plattegrond op zonder het gebouw te bezoeken. Citaat: *Op basis van de verslagen stel ik vast dat de operatie volgens plan is verlopen. Ik hoefde er niet bij te zijn. Ik kende het plan al.* In de noot: hij verzocht Corporate Communications aan het werk te gaan en wil zijn rapport van zeventien pagina's als bijlage.
 
 ## Jochem
 
@@ -44,6 +46,7 @@ Stand: 11 november 2026. Op 11 november zijn drie hoofdstukken toegevoegd (7, 10
 
 - Bio op Over ons: *Jochem is verantwoordelijk voor operaties, wagenpark, luchtvloot en vastgoed. Hij begon als monteur in Umtali en houdt sindsdien alles rijdend wat de groep bezit, ook als er onderdelen ontbreken. Het wagenpark bestaat uit twee Land Rovers uit 1971; zijn jaarlijkse vervangingsplan wordt elk jaar unaniem goedgekeurd. Zijn functieomschrijving omvat ook het dragen en bewaken van de kist, een taak die hij sinds 1979 uitvoert.*
 - Persbericht over het vervangingsplan: *Kapitein Jochem was niet bereikbaar voor een reactie. Hij was bij de kist.*
+- Persbericht over de training in gebouwen (15 november): legt in hoog tempo grote afstanden af en treft muren aan waarmee in de planning geen rekening was gehouden.
 - Geen citaten.
 
 ## Robert
@@ -60,3 +63,4 @@ Stand: 11 november 2026. Op 11 november zijn drie hoofdstukken toegevoegd (7, 10
 - In meerdere persberichten (veestapel, divisie Benelux, website): op verzoek van de directie wordt Decisive Hospitality genoemd.
 - Persbericht over ISO 18788: *Wij hebben begrip voor de zorgvuldigheid van de procedure. Onze eigen reactietermijn is zes tot acht jaar. Wij beoordelen anderen niet strenger dan onszelf.*
 - In de noot bij hetzelfde persbericht: op zijn verzoek wordt de catering van Decisive Hospitality aangeprezen.
+- Persbericht over de training in gebouwen (15 november): een deel van zijn munitie volgt een opwaartse baan, wat als verkenning van het plafond wordt beschouwd.
