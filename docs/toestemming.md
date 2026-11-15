@@ -4,21 +4,20 @@ De personages in het verhaal en op de website zijn gebaseerd op echte teamleden,
 
 ## Personages
 
-| Teamlid | Personage en achtergrond gezien | Akkoord op | Versie (commit) |
-|---|---|---|---|
-| Frederik | nog niet | — | — |
-| Hayo | ja | — | — |
-| Jochem | nog niet | — | — |
-| Robert | nog niet | — | — |
+Op 15 november 2026 heeft Hayo namens het team akkoord gegeven op de personages en op wat er over hen in het verhaal en op de website staat. Dat akkoord geldt voor het hele project, ook voor nieuwe teksten.
 
-De achtergronden van Jochem (monteur uit Umtali) en Robert (hotel bij de Victoria-watervallen) zijn verzonnen. Zij moeten die zeker zelf lezen.
+| Teamlid | Akkoord | Op |
+|---|---|---|
+| Frederik | groepsakkoord, via Hayo | 15 november 2026 |
+| Hayo | ja | 15 november 2026 |
+| Jochem | groepsakkoord, via Hayo | 15 november 2026 |
+| Robert | groepsakkoord, via Hayo | 15 november 2026 |
 
 ### Werkwijze
 
-1. Laat het teamlid het verhaal lezen (`verhaal/backstory.md`), plus zijn deel uit [inzage.md](inzage.md): wat er over hem op de website staat.
-2. Vul hierboven de datum in en het commit waarop het akkoord slaat.
-3. Komt er iets nieuws bij voor een personage, zoals een eigenschap, een gebeurtenis of een bio-tekst? Dan is opnieuw akkoord nodig voordat het live gaat.
-4. Trekt iemand zijn akkoord in, dan wordt het personage binnen een week aangepast of van de site gehaald.
+1. Nieuwe teksten over een personage vallen onder het groepsakkoord. Werk wel [inzage.md](inzage.md) bij, zodat iedereen kan zien wat er over hem staat.
+2. Wil een teamlid zelf meelezen of iets anders, dan gaat zijn wens voor. Zijn akkoord komt dan in de tabel hierboven.
+3. Trekt iemand zijn akkoord in, dan wordt het personage binnen een week aangepast of van de site gehaald.
 
 ### Grenzen
 
