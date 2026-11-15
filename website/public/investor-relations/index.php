@@ -110,6 +110,7 @@ $kerncijfers = [
 <p class="inleiding">In het Stand-By-overleg van maandag 9 november 2026, om 06.00 uur, heeft de raad van bestuur voor het eerst een wisselkoers vastgesteld tussen de drie valuta van de groep.</p>
 <p>Het voorstel kwam van de boekhouder, die er sinds 1986 om vroeg. Het besluit werd genomen toen Kolonel Frederik opstond. Majoor Hayo heeft in de notulen laten aantekenen dat hij de koersen aanvaardt onder voorbehoud van bekrachtiging door Salisbury. Een kopie is verzonden.</p>
 <p>De groep gebruikt de laatste koers die zij heeft ontvangen: die van 31 maart 1979. Er is sindsdien geen nieuwe koers bekendgemaakt. De Rhodesische dollar is daarmee de stabielste munt waarin ter wereld wordt gerapporteerd. Inflatie komt in de boeken van de groep niet voor.</p>
+<p>Sinds november 2026 kan de Rhodesische dollar bovendien worden ingewisseld tegen de Chinese renminbi, met als rekeneenheid de yuan (CNY). Kolonel Frederik heeft dit geregeld via een zakelijk contact in Florida, dat de koers per transactie vaststelt. Er is nog niets ingewisseld.</p>
 <div class="tabel" role="region" aria-label="Wisselkoersen" tabindex="0">
 <table>
 <caption>Wisselkoersen van de groep, vastgesteld op 9 november 2026</caption>

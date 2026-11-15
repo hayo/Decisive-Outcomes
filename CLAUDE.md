@@ -74,7 +74,7 @@ Gebruik deze feiten consequent en wijzig ze niet zonder overleg.
     - Het Stand-By-overleg, elke maandag om 06.00 uur: "geen nieuws uit Salisbury, wij blijven stand-by".
     - Betaling in natura en geiten (412).
     - De boekhouding loopt in Rhodesische dollars.
-    - Wisselkoers, vastgesteld in het Stand-By-overleg van 9 november 2026: R$ 1 = US$ 1,4609 (de laatst bekende koers, 31 maart 1979) en 1 geit = R$ 25 (marktprijs in Umtali in 1979, volgens Jochem). De koers verandert nooit. Daarvóór bestond er geen wisselkoers; wat in eerdere persberichten en episodes (zoals Freetown 1995) staat, blijft kloppen.
+    - Wisselkoers, vastgesteld in het Stand-By-overleg van 9 november 2026: R$ 1 = US$ 1,4609 (de laatst bekende koers, 31 maart 1979) en 1 geit = R$ 25 (marktprijs in Umtali in 1979, volgens Jochem). De koers verandert nooit. Sinds november 2026 is de Rhodesische dollar ook inwisselbaar tegen Chinese renminbi (yuan, CNY), via een naamloos zakelijk contact van Frederik in Florida dat de koers per transactie vaststelt. Geen nationaliteit, geen drugsverwijzingen. Daarvóór bestond er geen wisselkoers; wat in eerdere persberichten en episodes (zoals Freetown 1995) staat, blijft kloppen.
     - Het hoofdkantoor is Postbus 1, Kralendijk, met een reactietermijn van zes tot acht jaar.
     - Zeven divisies, die bijna allemaal begonnen als betaling.
 - **Motto:** *Percute primo, cito decerne.* Kernwaarde *Pamwe chete*.

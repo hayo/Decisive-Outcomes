@@ -19,6 +19,7 @@ Stand: 15 november 2026. Op 11 november zijn drie hoofdstukken toegevoegd (7, 10
 - Op *Ons verhaal* en elders: besluiten zijn genomen als hij opstaat (onder meer bij de notaris in 2005).
 - Citaat op de homepage: *Een opdracht stopt pas als iemand zegt dat hij stopt. Dat heeft niemand gezegd.*
 - Investor relations (15 november): het besluit over de wisselkoers viel toen hij opstond. Ook in het verhaal, Deel 2, *Financiën*.
+- Persbericht over de renminbi (15 november): regelde via een zakelijk contact in Florida dat de Rhodesische dollar inwisselbaar is tegen renminbi. Citaat: *Het is geregeld.* In de noot: het contact was volgens hem zeer vriendelijk. Ook op Investor relations en in het verhaal.
 - Persbericht over de website: *Wij staan al sinds 1979 stand-by. Het is goed dat de buitenwereld dat nu ook kan zien.*
 - Persbericht over de NAVO-norm, in de noot: hij werd om een reactie gevraagd en stond op.
 - Persbericht over de training in gebouwen (15 november): behaalt op korte afstand opvallend goede resultaten, voor een groot deel met het mes.
@@ -41,6 +42,7 @@ Stand: 15 november 2026. Op 11 november zijn drie hoofdstukken toegevoegd (7, 10
 - Auteur van de analyse over het conflict in de Benelux en van rapport 412. In de noot bij de najaarsinzet: zijn rapport telt 38 pagina's.
 - Persbericht over de training in gebouwen (15 november): was verhinderd wegens een blessure en stelde de plattegrond op zonder het gebouw te bezoeken. Citaat: *Op basis van de verslagen stel ik vast dat de operatie volgens plan is verlopen. Ik hoefde er niet bij te zijn. Ik kende het plan al.* In de noot: hij verzocht Corporate Communications aan het werk te gaan en wil zijn rapport van zeventien pagina's als bijlage.
 
+- Persbericht over de renminbi (15 november): zijn voorbehoud over Salisbury staat erin.
 - Investor relations (15 november): liet in de notulen aantekenen dat hij de wisselkoersen aanvaardt onder voorbehoud van bekrachtiging door Salisbury, en stuurde een kopie. Ook in het verhaal, Deel 2, *Financiën*.
 
 ## Jochem
@@ -56,7 +58,7 @@ Stand: 15 november 2026. Op 11 november zijn drie hoofdstukken toegevoegd (7, 10
 - Bio op Over ons: *Jochem is verantwoordelijk voor operaties, wagenpark, luchtvloot en vastgoed. Hij begon als monteur in Umtali en houdt sindsdien alles rijdend wat de groep bezit, ook als er onderdelen ontbreken. Het wagenpark bestaat uit twee Land Rovers uit 1971; zijn jaarlijkse vervangingsplan wordt elk jaar unaniem goedgekeurd. Zijn functieomschrijving omvat ook het dragen en bewaken van de kist, een taak die hij sinds 1979 uitvoert.*
 - Persbericht over het vervangingsplan: *Kapitein Jochem was niet bereikbaar voor een reactie. Hij was bij de kist.*
 - Persbericht over de training in gebouwen (15 november): legt in hoog tempo grote afstanden af en treft muren aan waarmee in de planning geen rekening was gehouden.
-- Investor relations (15 november): de koers van de geit (R$ 25) is de marktprijs in Umtali in 1979, volgens hem. Ook in het verhaal, Deel 2, *Financiën*.
+- Investor relations en persbericht over de renminbi (15 november): de koers van de geit (R$ 25) is de marktprijs in Umtali in 1979, volgens hem. Ook in het verhaal, Deel 2, *Financiën*.
 - Geen citaten.
 
 ## Robert
