@@ -1,0 +1,14 @@
+{
+  "name": "decisive-outcomes",
+  "owner": {
+    "name": "Hayo Bethlehem"
+  },
+  "description": "Plugins voor het airsoftteam Decisive Outcomes.",
+  "plugins": [
+    {
+      "name": "decisive-outcomes",
+      "source": "./plugins/decisive-outcomes",
+      "description": "Skills voor Decisive Outcomes: persberichten met Annelies Brouwer (Corporate Communications)."
+    }
+  ]
+}

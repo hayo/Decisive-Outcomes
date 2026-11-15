@@ -10,12 +10,16 @@ Stand: 15 november 2026. Op 11 november zijn drie hoofdstukken toegevoegd (7, 10
 
 **In het verhaal:** speelt een grote rol in hoofdstuk 1 (*De opdracht*), 3 (*De verkeerde boom*), 7 (*De kwartsmijn*, leidt de bewaking en loopt elke nacht de omheining langs), 10 (*Bevrijdingsdag*, zit elk jaar op de eerste rij op de stoel van de juf) en 12 (*Freetown*). Daarnaast in Deel 2 bij *Raad van bestuur* en *Missie, visie en kernwaarden*.
 
+**Verhouding met Annelies Brouwer** (richtlijn voor persberichten, nog niet gepubliceerd): Annelies Brouwer leest hem als een orakel: ze houdt bij wat zijn houding betekent (opstaan is een besluit, blijven zitten is geen bezwaar, half opstaan onderzoekt ze nog).
+
 **Op de website:**
 
 - Bio op Over ons: *Frederik is voorzitter van de raad van bestuur en lid van alle commissies, ook van de commissie die toezicht houdt op de raad van bestuur. Hij groeide op op een tabaksboerderij bij Marandellas en leidde in 1979 het team dat de basis legde voor de groep. Hij gelooft in een platte organisatie en in korte vergaderingen: de meeste besluiten zijn genomen zodra hij opstaat. Hij tekent elk contract persoonlijk.*
 - Persbericht over Bevrijdingsdag: hij zit op de eerste rij, op de stoel die het dorp sinds 1992 voor hem bewaart.
 - Op *Ons verhaal* en elders: besluiten zijn genomen als hij opstaat (onder meer bij de notaris in 2005).
 - Citaat op de homepage: *Een opdracht stopt pas als iemand zegt dat hij stopt. Dat heeft niemand gezegd.*
+- Investor relations (15 november): het besluit over de wisselkoers viel toen hij opstond. Ook in het verhaal, Deel 2, *Financiën*.
+- Persbericht over de renminbi (15 november): regelde via een zakelijk contact in Florida dat de Rhodesische dollar inwisselbaar is tegen renminbi. Citaat: *Het is geregeld.* In de noot: het contact was volgens hem zeer vriendelijk. Ook op Investor relations en in het verhaal.
 - Persbericht over de website: *Wij staan al sinds 1979 stand-by. Het is goed dat de buitenwereld dat nu ook kan zien.*
 - Persbericht over de NAVO-norm, in de noot: hij werd om een reactie gevraagd en stond op.
 - Persbericht over de training in gebouwen (15 november): behaalt op korte afstand opvallend goede resultaten, voor een groot deel met het mes.
@@ -25,6 +29,8 @@ Stand: 15 november 2026. Op 11 november zijn drie hoofdstukken toegevoegd (7, 10
 **Personage:** sergeant in 1979, nu majoor, strategie en scherpschutter. Zoon van een landmeter uit Bulawayo. Koos de "verkeerde" baobab en houdt vol dat de boom goed was. Schrijft de notulen en de rapporten aan Salisbury.
 
 **In het verhaal:** speelt een grote rol in hoofdstuk 3 (*De verkeerde boom*), 6 (*De eerste klant*), 7 (*De kwartsmijn*, nummert de rotsen), 10 (*Bevrijdingsdag*, ligt met de verrekijker op de richel), 12 (*Freetown*) en 14 (*Klein Klein Bonaire*, stelt de lijst met plekken op en meet het eiland).
+
+**Verhouding met Annelies Brouwer** (richtlijn voor persberichten, nog niet gepubliceerd): Annelies Brouwer ziet hem als bondgenoot tegen wil en dank: hij levert als enige stukken op tijd aan, wat haar irriteert, want dan heeft ze geen reden om later te zijn.
 
 **Op de website:**
 
@@ -36,17 +42,23 @@ Stand: 15 november 2026. Op 11 november zijn drie hoofdstukken toegevoegd (7, 10
 - Auteur van de analyse over het conflict in de Benelux en van rapport 412. In de noot bij de najaarsinzet: zijn rapport telt 38 pagina's.
 - Persbericht over de training in gebouwen (15 november): was verhinderd wegens een blessure en stelde de plattegrond op zonder het gebouw te bezoeken. Citaat: *Op basis van de verslagen stel ik vast dat de operatie volgens plan is verlopen. Ik hoefde er niet bij te zijn. Ik kende het plan al.* In de noot: hij verzocht Corporate Communications aan het werk te gaan en wil zijn rapport van zeventien pagina's als bijlage.
 
+- Persbericht over de renminbi (15 november): zijn voorbehoud over Salisbury staat erin.
+- Investor relations (15 november): liet in de notulen aantekenen dat hij de wisselkoersen aanvaardt onder voorbehoud van bekrachtiging door Salisbury, en stuurde een kopie. Ook in het verhaal, Deel 2, *Financiën*.
+
 ## Jochem
 
 **Personage:** korporaal in 1979, nu kapitein en COO. Monteur uit Umtali. Draagt en bewaakt de kist. *Deze achtergrond is verzonnen.*
 
 **In het verhaal:** speelt een grote rol in hoofdstuk 10 (*Bevrijdingsdag*, repareert de generator van de school), 12 (*Freetown*), 13 (*Gunship*) en 14 (*Klein Klein Bonaire*, wil de kist weg en reist drie weken met de container mee). In hoofdstuk 7 (*De kwartsmijn*) blijft hij bij de kist. Hoofdstuk 13 gaat over Sierra Leone in 1998–1999 en is serieus: Jochem onderhoudt daar met Ibrahim Kamara de helikopter van Laurie.
 
+**Verhouding met Annelies Brouwer** (richtlijn voor persberichten, nog niet gepubliceerd): Annelies Brouwer heeft schriftelijk vastgelegd dat ze niet wil weten wat er in de kist zit. Jochem is de enige die dat respecteert: hij begint er nooit over.
+
 **Op de website:**
 
 - Bio op Over ons: *Jochem is verantwoordelijk voor operaties, wagenpark, luchtvloot en vastgoed. Hij begon als monteur in Umtali en houdt sindsdien alles rijdend wat de groep bezit, ook als er onderdelen ontbreken. Het wagenpark bestaat uit twee Land Rovers uit 1971; zijn jaarlijkse vervangingsplan wordt elk jaar unaniem goedgekeurd. Zijn functieomschrijving omvat ook het dragen en bewaken van de kist, een taak die hij sinds 1979 uitvoert.*
 - Persbericht over het vervangingsplan: *Kapitein Jochem was niet bereikbaar voor een reactie. Hij was bij de kist.*
 - Persbericht over de training in gebouwen (15 november): legt in hoog tempo grote afstanden af en treft muren aan waarmee in de planning geen rekening was gehouden.
+- Investor relations en persbericht over de renminbi (15 november): de koers van de geit (R$ 25) is de marktprijs in Umtali in 1979, volgens hem. Ook in het verhaal, Deel 2, *Financiën*.
 - Geen citaten.
 
 ## Robert
@@ -54,6 +66,8 @@ Stand: 15 november 2026. Op 11 november zijn drie hoofdstukken toegevoegd (7, 10
 **Personage:** korporaal in 1979, nu kapitein en verantwoordelijk voor commercie. Groeide op in een hotel bij de Victoria-watervallen. Spreekt Portugees en is altijd een verkoper. *Deze achtergrond is verzonnen.*
 
 **In het verhaal:** speelt een grote rol in hoofdstuk 4 (*Kamp Stand-By*), 6 (*De eerste klant*), 7 (*De kwartsmijn*, sluit een contract waarin de mijn vrijwel alle winst houdt), 9 (*Kinshasa*), 10 (*Bevrijdingsdag*, neemt de telefoon op en sluit het sponsorcontract), 11 (*Sharjah*, waar hij de Antonov koopt) en 14 (*Klein Klein Bonaire*, wint het eiland met kaarten met de Antonov als inzet).
+
+**Verhouding met Annelies Brouwer** (richtlijn voor persberichten, nog niet gepubliceerd): Annelies Brouwer vertaalt zijn marketingtaal steeds terug naar gewoon Nederlands, en hij merkt het niet.
 
 **Op de website:**
 

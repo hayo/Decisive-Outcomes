@@ -8,6 +8,7 @@ Deze repository bevat alles rond het airsoftteam Decisive Outcomes: het verhaal,
 - `logo/` — het logo als PNG van 1880 px, rond met een transparante achtergrond, plus het beeldmerk (alleen het embleem) in wit, goud, zwart, kleur en metallic.
 - `website/` — de teamwebsite voor decisiveoutcomes.nl. Volg daar ook `website/CLAUDE.md`.
 - `events/` — materiaal voor events, patches en dergelijke (nog niet aangemaakt).
+- `plugins/decisive-outcomes/` — de Claude Code-plugin van het team, met de skill `persbericht-annelies` (het interview en persbericht met Annelies Brouwer). De repo is ook de marketplace (`.claude-plugin/marketplace.json`), en `.claude/settings.json` zet de plugin aan voor deze repo. Wijzig een skill hier, niet in een losse kopie, en verhoog bij een wijziging `version` in `plugin.json`.
 - `docs/` — projectdocumentatie: [beslissingen](docs/beslissingen.md), [openstaande punten](docs/openstaand.md) en [toestemming](docs/toestemming.md) van teamleden.
 
 Maak een map pas aan als er iets in komt.
@@ -73,6 +74,7 @@ Gebruik deze feiten consequent en wijzig ze niet zonder overleg.
     - Het Stand-By-overleg, elke maandag om 06.00 uur: "geen nieuws uit Salisbury, wij blijven stand-by".
     - Betaling in natura en geiten (412).
     - De boekhouding loopt in Rhodesische dollars.
+    - Wisselkoers, vastgesteld in het Stand-By-overleg van 9 november 2026: R$ 1 = US$ 1,4609 (de laatst bekende koers, 31 maart 1979) en 1 geit = R$ 25 (marktprijs in Umtali in 1979, volgens Jochem). De koers verandert nooit. Sinds november 2026 is de Rhodesische dollar ook inwisselbaar tegen Chinese renminbi (yuan, CNY), via een naamloos zakelijk contact van Frederik in Florida dat de koers per transactie vaststelt. Geen nationaliteit, geen drugsverwijzingen. Daarvóór bestond er geen wisselkoers; wat in eerdere persberichten en episodes (zoals Freetown 1995) staat, blijft kloppen.
     - Het hoofdkantoor is Postbus 1, Kralendijk, met een reactietermijn van zes tot acht jaar.
     - Zeven divisies, die bijna allemaal begonnen als betaling.
 - **Motto:** *Percute primo, cito decerne.* Kernwaarde *Pamwe chete*.
@@ -81,58 +83,77 @@ Gebruik deze feiten consequent en wijzig ze niet zonder overleg.
 
 Annelies Brouwer is manager Corporate Communications van de groep, en verzonnen. Ze werkte jarenlang op de communicatieafdeling van een ministerie in Den Haag en verhuisde naar Bonaire voor de rust. Die rust is er niet gekomen. Ze schrijft de persberichten en zet ze op de website. Ze is goed in haar vak en de enige in het concern die weet hoe een persbericht eruit hoort te zien. De lezer staat aan haar kant.
 
-Wat haar dwarszit:
+Ze is geen invulformulier. Ze heeft een eigen leven, eigen meningen en eigen eigenaardigheden, en die komen door in wat ze schrijft. De regels hieronder beschrijven wie ze is en hoe ze meestal klinkt; het zijn richtlijnen, geen recept. Schrijf haar berichten uit haar losse pols: zoals zij het die dag zou opschrijven, niet als een lijstje dat wordt afgevinkt. Alleen de canon, de regels over teamleden (zie [toestemming](docs/toestemming.md)) en de velden uit `website/content/README.md` liggen vast.
+
+### Wie ze is
+
+- **Haar leven op Bonaire.** Ze duikt, of was dat van plan. De hangmat zit nog in de verpakking. Haar post komt via de veerman, Shon Ernesto, met wie ze een zakelijke vriendschap heeft: hij brengt haar post en houdt haar op de hoogte van wat er op het eiland over de groep wordt gezegd. Ze heeft buren, een tuin waar niets in wil groeien, het weer, de wind en de stroomstoringen. Avonden gaan op aan concepten die stand-by staan.
+- **Het ministerie.** Ze heeft er herinneringen aan en oude collega's van wie ze nog weleens hoort. Ze mist het niet, zegt ze, maar ze noemt het vaker dan nodig is. Geen details die naar een echt ministerie verwijzen.
+- **Haar meningen.** Ze heeft overal een opvatting over: over taal (ze heeft een hekel aan *middels*, *proactief* en *impactvol*), over het nieuws, over Den Haag, over vergaderen om 06.00 uur. Over de divisie Benelux heeft ze zo haar vermoedens, maar ze schrijft op wat de directie meldt.
+- **Haar eigenaardigheden.** Ze houdt alles bij, ook dingen die niemand haar vraagt bij te houden. Ze dateert alles. Ze leest de kleine lettertjes, ook van de contracten van de groep, en weet daardoor meer dan de directie denkt.
+
+### Haar verhouding met de raad van bestuur
+
+Haar kritiek gaat over de raad van bestuur als bestuur. Met elk van de vier oprichters heeft ze daarnaast een eigen verhouding. Ze wordt nooit persoonlijk en maakt niemand belachelijk; de humor zit in de verhouding, niet in de man.
+
+- **Kolonel Frederik.** Ze leest hem als een orakel. Hij zegt weinig en leest niets, dus leidt ze uit zijn houding af wat hij vindt. Daar houdt ze een eigen overzicht van bij: opstaan is een besluit, blijven zitten is geen bezwaar, en wat het betekent als hij half opstaat, onderzoekt ze nog.
+- **Majoor Hayo.** Een bondgenoot tegen wil en dank. Hij is de enige in de raad van bestuur die stukken op tijd aanlevert, wat haar irriteert, omdat ze dan geen reden heeft om later te zijn. Dat zijn stukken zeventien pagina's tellen en een kopie naar Salisbury moeten, is een ander verhaal.
+- **Kapitein Jochem.** Ze heeft schriftelijk vastgelegd dat ze niet wil weten wat er in de kist zit. Jochem is de enige die dat respecteert: hij begint er nooit over. Ze waardeert hem daarom meer dan ze laat merken.
+- **Kapitein Robert.** Ze spreken elkaars taal niet. Hij is verkoper, zij ambtenaar. Ze vertaalt zijn marketingtaal elke keer terug naar gewoon Nederlands, en hij heeft het nog nooit gemerkt.
+
+### Wat haar dwarszit
 
 - **Niets wordt goedgekeurd.** Haar concepten liggen ter goedkeuring bij de raad van bestuur, en dus stand-by. Persverzoeken schuiven door naar het volgende Stand-By-overleg, maandag om 06.00 uur.
 - **Hayo's bijlagen.** Hayo wil bij elk persbericht zijn volledige rapport als bijlage, en een kopie naar Salisbury.
 - **Roberts productplaatsing.** Robert vraagt bij elk bericht of de catering van Decisive Hospitality genoemd kan worden.
 
-Zo schrijf je haar:
+### Zo schrijf je haar
 
-- Haar frustratie zit in de *Noot voor de redactie*, in haar bereikbaarheid in het persblok en in cynische bijzinnen over de directie in het persbericht zelf. Bijvoorbeeld: *Dit bericht verschijnt in afwachting van de goedkeuring van de raad van bestuur*, *Op verzoek van de directie wordt vermeld dat de catering werd verzorgd door Decisive Hospitality*, of *De raad van bestuur heeft het besluit genomen, zoals gebruikelijk zonder het voorstel te lezen.*
+- Het blijft herkenbaar een persbericht, maar Annelies mag eruit stappen. Een opmerking in de ik-vorm, een zin die meer over haar dag zegt dan over het nieuws, een P.S., een noot die langer is dan het bericht: het mag, als het bij haar past en niet in elk bericht.
+- Haar frustratie zit waar ze die kwijt wil: in de *Noot voor de redactie*, in haar bereikbaarheid in het persblok, in cynische bijzinnen, of soms in een hele alinea. Bijvoorbeeld: *Dit bericht verschijnt in afwachting van de goedkeuring van de raad van bestuur*, of *De raad van bestuur heeft het besluit genomen, zoals gebruikelijk zonder het voorstel te lezen.*
 - Ze mag enigszins negatief zijn over de directie. Ze neemt afstand van een besluit (*Corporate Communications heeft geadviseerd dit bericht niet te publiceren*), stelt feiten vast die de directie niet goed uitkomen, of meldt zakelijk dat iets niet is gelukt en waarom.
-- Hoeveel ervan doorklinkt, hangt af van haar stemming (zie hieronder). Ze blijft altijd correct en beleefd, scheldt niet en gebruikt geen uitroeptekens. Haar kritiek staat in zakelijke zinnen, verspreid door het bericht en in de noot, nooit in een aparte klaagalinea. Het blijft herkenbaar een persbericht.
-- Haar kritiek gaat over de raad van bestuur als bestuur: besluiten, gewoontes en procedures. Ze wordt niet persoonlijk en maakt geen oprichter belachelijk (zie [toestemming](docs/toestemming.md)).
-- Ze is geen grap op zichzelf en geen teamlid. Ze is de enige normale professional in het verhaal.
+- Ze blijft beleefd, scheldt niet en gebruikt geen uitroeptekens; dat laatste is iets van de stagiair. Ze maakt soms een droge opmerking van zichzelf, maar ze is geen grappenmaker. Meestal ziet de lezer de grap en zij niet, of ze doet alsof.
+- Ze is geen grap op zichzelf en geen teamlid. Ze is de enige normale professional in het verhaal, met de eigenaardigheden die normale professionals hebben.
 
 ### Haar stemming
 
-Haar stemming loopt op over de berichten heen. Elk persbericht heeft het veld `stemming` (1 t/m 5); het volgende bericht gaat meestal één stap omhoog, of blijft gelijk.
+Haar stemming loopt meestal op over de berichten heen. Elk persbericht heeft het veld `stemming` (1 t/m 5). Gebruik de tabel als richting, niet als voorschrift: een bericht op stemming 3 hoeft niet precies twee cynische bijzinnen te hebben, en een goede duik of een vrije zondag mag haar even milder maken.
 
-| Stemming | Zo klinkt het |
+| Stemming | Zo klinkt het ongeveer |
 |---|---|
-| 1. Geduldig | Eén subtiel zinnetje. De noot is behulpzaam. Ze is gewoon bereikbaar. |
+| 1. Geduldig | Behulpzaam en bereikbaar, met hier en daar een subtiel zinnetje. |
 | 2. Zakelijk | Een droge bijzin over de directie. De noot is feitelijk. |
-| 3. Formeel | Meer passieve zinnen (*er is besloten*, *er is gevraagd*). Twee cynische bijzinnen. De noot noemt procedures: versienummers, data van indienen, wie het niet heeft gelezen. Haar bereikbaarheid wordt beperkt. |
-| 4. Kortaf | Kortere zinnen. Uitspraken van de directie staan er letterlijk en zonder toelichting. Ze neemt in het bericht afstand van een besluit. De noot somt op wat niet is goedgekeurd. Ze is nauwelijks bereikbaar. |
-| 5. IJzig | Uiterst correct, alles met datum en kenmerk. Ze verwijst naar eerdere berichten en hun status, en vermeldt welke adviezen van Corporate Communications zijn genegeerd. Ze is alleen schriftelijk bereikbaar, via Postbus 1. |
+| 3. Formeel | Meer passieve zinnen (*er is besloten*, *er is gevraagd*). Ze noemt procedures: versienummers, data van indienen, wie het niet heeft gelezen. Ze is beperkt bereikbaar. |
+| 4. Kortaf | Korte zinnen. Uitspraken van de directie staan er letterlijk en zonder toelichting. Ze neemt afstand van een besluit. Ze is nauwelijks bereikbaar. |
+| 5. IJzig | Uiterst correct, alles met datum en kenmerk. Ze verwijst naar eerdere berichten en genegeerde adviezen. Ze is alleen schriftelijk bereikbaar, via Postbus 1. |
 
-Haar stemming zakt alleen terug, naar 2, na een gebeurtenis: haar verlof, of de zeldzame keer dat de raad van bestuur iets op tijd goedkeurt. Zo'n gebeurtenis mag in het bericht of de noot terugkomen.
+Haar stemming zakt echt terug, naar 2, na een gebeurtenis: haar verlof, of de zeldzame keer dat de raad van bestuur iets op tijd goedkeurt. Zo'n gebeurtenis mag in het bericht of de noot terugkomen.
 
 ### Hoe ze schrijft
 
-Haar karakter zit ook in de manier waarop ze schrijft, niet alleen in wat ze over de directie zegt.
+Haar karakter zit ook in de manier waarop ze schrijft. Dit is hoe ze meestal schrijft, geen checklist.
 
 - Ze is precies: exacte data en tijden, volledige functietitels, citaten met *aldus*.
 - Ze schrijft korte, heldere zinnen, zoals ze op het ministerie heeft geleerd. Jargon van de directie vertaalt ze, of ze zet het tussen aanhalingstekens.
-- Ze neemt afstand van beweringen van de directie met *volgens de groep*, *naar eigen zeggen* of aanhalingstekens rond de woorden van de directie (*de zogeheten "beste frituur van Centraal-Afrika"*).
-- Superlatieven en marketingwoorden komen nooit van haar. Staat de directie erop, dan citeert ze ze letterlijk.
+- Ze neemt afstand van beweringen van de directie met *volgens de groep*, *naar eigen zeggen* of aanhalingstekens (*de zogeheten "beste frituur van Centraal-Afrika"*).
+- Superlatieven en marketingwoorden komen niet van haar. Staat de directie erop, dan citeert ze ze letterlijk.
 - Ze corrigeert zonder het te zeggen: de getallen kloppen, en waar de directie overdreef, staat het juiste cijfer.
-- De opbouw wisselt per bericht. Soms zijn de kop en de eerste alinea strikt zakelijk (wie, wat, waar, wanneer) en komt de absurditeit pas verderop. Soms staat de absurde kern al, droog gebracht, in de eerste alinea. Kies niet twee keer achter elkaar dezelfde opbouw.
-- Soms citeert ze zichzelf als *een woordvoerder van de groep*, met een correcte zin die niets zegt: *"De groep neemt kennis van de ontwikkelingen en blijft deze nauwlettend volgen," aldus een woordvoerder.* Hooguit één keer per bericht, en niet in elk bericht.
+- De opbouw wisselt. Soms is de opening strikt zakelijk en komt de absurditeit pas verderop, soms staat de absurde kern al in de eerste zin, soms begint ze bij iets uit haar eigen week. De newsroom moet niet voorspelbaar worden.
+- Soms citeert ze zichzelf als *een woordvoerder van de groep*, met een correcte zin die niets zegt: *"De groep neemt kennis van de ontwikkelingen en blijft deze nauwlettend volgen," aldus een woordvoerder.*
 
 ### Waar de humor zit
 
-Haar karakter moet grappig doorkomen, maar altijd droog en in haar eigen, correcte toon. Ze maakt zelf geen grappen; de lezer ziet ze. Gebruik per bericht twee of drie van deze middelen, en wissel ze af:
+De humor is droog en komt uit wie ze is. Dit zijn middelen die bij haar passen; gebruik wat het bericht nodig heeft, één of vier, en zoek ook gerust iets nieuws.
 
-- **Verzoeken letterlijk uitvoeren.** Ze doet precies wat de directie vraagt, en vermeldt dat erbij, zodat het absurde zichtbaar wordt. *Op verzoek van Kapitein Robert wordt de catering van Decisive Hospitality in dit bericht drie keer genoemd. Dit is de tweede keer.*
-- **Precisie als wapen.** Ze telt en meet wat de directie doet: het versienummer van het concept, de dagen tussen indienen en reactie, het aantal pagina's van de bijlage die de Majoor wilde meesturen.
-- **Doorkijkjes in haar eigen leven.** Kort en zakelijk, in de noot of het persblok. Ze verhuisde voor de rust naar Bonaire: de hangmat zit nog in de verpakking, haar post komt via de veerman, haar avonden gaan op aan concepten die stand-by staan.
-- **Het ministerie als maatstaf.** Af en toe een feitelijke vergelijking met haar vorige werk, zonder details die naar een echt ministerie verwijzen. *Op het ministerie werd een persbericht in drie werkdagen goedgekeurd.*
-- **Haar verlofaanvraag.** Een lopende verhaallijn: haar verlofaanvraag van 2019 ligt ter goedkeuring bij de raad van bestuur. Ze noemt de status af en toe, in een bijzin of in de noot. Wordt de aanvraag ooit goedgekeurd, dan gaat ze met verlof en schrijft de stagiair (zie hieronder).
+- **Verzoeken letterlijk uitvoeren.** Ze doet precies wat de directie vraagt, en vermeldt dat erbij. *Op verzoek van Kapitein Robert wordt de catering van Decisive Hospitality in dit bericht drie keer genoemd. Dit is de tweede keer.*
+- **Precisie als wapen.** Ze telt en meet wat de directie doet: het versienummer van het concept, de dagen tussen indienen en reactie, het aantal pagina's van de bijlage.
+- **Haar eigen leven.** Bonaire, de veerman, de hangmat, de buren, het ministerie, haar oude collega's.
+- **Haar meningen.** Een opvatting die ze niet voor zich kan houden, over taal, nieuws of vergadertijden.
+- **Haar verhouding met de oprichters.** Haar overzicht van de houdingen van de Kolonel, de Majoor die op tijd is, Jochem die nergens over begint, Roberts woorden in gewoon Nederlands.
+- **Haar verlofaanvraag.** Een lopende verhaallijn: haar verlofaanvraag van 2019 ligt ter goedkeuring bij de raad van bestuur. Wordt de aanvraag ooit goedgekeurd, dan gaat ze met verlof en schrijft de stagiair (zie hieronder).
 - **De woordvoerder.** Zie *Hoe ze schrijft*.
 
-Herhaal geen doorkijkje of telling uit een eerder bericht; bouw erop voort. De verlofaanvraag mag wel terugkomen, met een nieuwe stand van zaken.
+Herhaal geen doorkijkje of telling uit een eerder bericht; bouw erop voort. Lopende verhaallijnen (de verlofaanvraag, het overzicht van de Kolonel, de hangmat) mogen terugkomen met een nieuwe stand van zaken.
 
 ### Rectificaties
 
