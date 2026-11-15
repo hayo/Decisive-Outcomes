@@ -8,6 +8,7 @@ Deze repository bevat alles rond het airsoftteam Decisive Outcomes: het verhaal,
 - `logo/` — het logo als PNG van 1880 px, rond met een transparante achtergrond, plus het beeldmerk (alleen het embleem) in wit, goud, zwart, kleur en metallic.
 - `website/` — de teamwebsite voor decisiveoutcomes.nl. Volg daar ook `website/CLAUDE.md`.
 - `events/` — materiaal voor events, patches en dergelijke (nog niet aangemaakt).
+- `.claude/skills/` — skills voor Claude Code, zoals `persbericht-annelies` (het interview en persbericht met Annelies Brouwer). Wijzig een skill hier, niet in een losse kopie.
 - `docs/` — projectdocumentatie: [beslissingen](docs/beslissingen.md), [openstaande punten](docs/openstaand.md) en [toestemming](docs/toestemming.md) van teamleden.
 
 Maak een map pas aan als er iets in komt.
