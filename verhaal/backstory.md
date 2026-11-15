@@ -277,10 +277,10 @@ De groep publiceert elk jaar een beperkt aantal kerncijfers. Ze worden opgesteld
 | Landen met activiteiten | 40 | Inclusief landen met alleen een postbus. |
 | Divisies | 7 | Zie hieronder. |
 | Medewerkers | 4 vast, ruim 3.000 flexibel | Flexibel via Decisive People. |
-| Veestapel | 412 geiten | Waardering: nog niet bekend. |
+| Veestapel | 412 geiten | Waardering: R$ 10.300, tegen de vaste koers van november 2026. |
 | Afgeronde opdrachten | 100 procent | Exclusief de opdracht uit 1979. Die loopt nog. |
 | Klanttevredenheid | Niet gemeten | Bewuste keuze sinds 1986. |
-| Omzet | Niet openbaar | Deels in geiten. |
+| Omzet | R$ 53.100 (2025) | Deels in geiten. |
 
 ### Raad van bestuur
 
@@ -326,9 +326,9 @@ Klachten kunnen schriftelijk worden ingediend bij Postbus 1 in Kralendijk. Elke 
 
 ### Financiën
 
-De groep rapporteert in drie munteenheden: Amerikaanse dollars, Rhodesische dollars en geiten. Er bestaat geen wisselkoers tussen de drie, en volgens Hayo maakt dat het jaarverslag juist overzichtelijk, omdat niemand de bedragen kan optellen en er dus ook niemand een rekenfout kan vinden. De boekhouder, die al sinds 1986 voor de groep werkt en nog nooit een jaarrekening heeft kunnen afsluiten, is het daar niet mee eens, maar de boekhouder zit niet in de raad van bestuur.
+De groep rapporteert in drie munteenheden: Amerikaanse dollars, Rhodesische dollars en geiten. Tot november 2026 bestond er geen wisselkoers tussen de drie, en volgens Hayo maakte dat het jaarverslag juist overzichtelijk, omdat niemand de bedragen kon optellen en er dus ook niemand een rekenfout kon vinden. De boekhouder, die al sinds 1986 voor de groep werkt en in al die tijd geen jaarrekening had kunnen afsluiten, was het daar niet mee eens, maar de boekhouder zit niet in de raad van bestuur. Hij bleef het voorstellen, elk jaar opnieuw, tot de raad van bestuur in het Stand-By-overleg van 9 november 2026 twee vaste koersen vaststelde. De Rhodesische dollar staat op de laatste koers die de groep ooit heeft ontvangen, die van 31 maart 1979: één Rhodesische dollar is 1,4609 Amerikaanse dollar. Een geit is 25 Rhodesische dollar, de marktprijs in Umtali in 1979, volgens Jochem. Het besluit viel toen Frederik opstond. Hayo liet in de notulen aantekenen dat hij de koersen aanvaardt onder voorbehoud van bekrachtiging door Salisbury, en stuurde een kopie. Omdat de koers sinds 1979 niet is veranderd, komt inflatie in de boeken van de groep niet voor.
 
-De kist uit 1979 staat op de balans als reserve. De inhoud is onbekend, en de waarde dus ook. Volgens de boekhouder is dat geen probleem, zolang niemand hem openmaakt; op het moment dat iemand dat wel doet, wordt de balans in één klap ofwel heel goed ofwel heel slecht. Decisive Hospitality, de divisie die begon met het fabriekje van Senhor Almeida, maakt sinds 1985 elk jaar verlies. De raad van bestuur noemt dat een strategische keuze en heeft het verlies in elk meerjarenplan opgenomen als doelstelling. De jaarrekening van de groep is daardoor nog nooit goedgekeurd. Hij is ook nog nooit afgekeurd.
+De kist uit 1979 staat op de balans als reserve. De inhoud is onbekend, en de waarde dus ook. Volgens de boekhouder is dat geen probleem, zolang niemand hem openmaakt; op het moment dat iemand dat wel doet, wordt de balans in één klap ofwel heel goed ofwel heel slecht. Decisive Hospitality, de divisie die begon met het fabriekje van Senhor Almeida, maakt sinds 1985 elk jaar verlies. De raad van bestuur noemt dat een strategische keuze en heeft het verlies in elk meerjarenplan opgenomen als doelstelling. Met de vaste koers kon de boekhouder op 10 november 2026 voor het eerst een jaarrekening afsluiten, die over 2025. Hij ligt ter goedkeuring bij de raad van bestuur. Er is nog nooit een jaarrekening van de groep goedgekeurd. Er is ook nog nooit een afgekeurd.
 
 ### Sancties en compliance
 

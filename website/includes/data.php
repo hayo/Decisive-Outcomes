@@ -27,6 +27,13 @@ const KERNCIJFERS = [
 const KERNCIJFERS_NOOT = '* Exclusief de opdracht uit 1979. Die loopt nog.';
 
 /*
+ * Wisselkoersen van de groep, vastgesteld in het Stand-By-overleg van 9 november 2026.
+ * usd: Amerikaanse dollars per Rhodesische dollar (laatst bekende koers, 31 maart 1979: R$ 0,6845 per US$).
+ * geit: Rhodesische dollars per geit (marktprijs in Umtali in 1979, volgens Kapitein Jochem).
+ */
+const KOERS = ['usd' => 1.4609, 'geit' => 25];
+
+/*
  * Divisies. Velden: naam, kop, kort (kaart en hero), intro (inleiding), tekst (alinea's),
  * competenties ([titel, tekst]), aanpak (optioneel, [stap, tekst]), feiten ([kenmerk, waarde]),
  * inzet ([titel, tekst, link naar casestudy (optioneel)]), icoon, beeld.
@@ -136,16 +143,16 @@ const DIVISIES = [
             'Decisive Capital beheert ook de reserves van de groep, waaronder de kist uit 1979. De kist staat op de balans als reserve, met een onbekende waarde. Volgens onze boekhouder kan de balans daardoor in één klap heel goed of heel slecht worden, maar alleen als iemand de kist openmaakt. Dat is niet voorzien.',
         ],
         'competenties' => [
-            ['Vermogensbeheer', 'Beheer van een gespreide portefeuille in drie valuta. Er bestaat geen wisselkoers tussen de drie, wat de rapportage overzichtelijk houdt.'],
+            ['Vermogensbeheer', 'Beheer van een gespreide portefeuille in drie valuta. Sinds november 2026 tegen een vaste koers, die sinds 1979 niet is veranderd.'],
             ['Herstructurering', 'Omzetting van moeilijk verhandelbare bezittingen in nieuwe beleggingen, zoals een factuur in een fabriek of een frituur in een recept.'],
             ['Treasury', 'Beheer van de kasstroom van de groep, die voor een belangrijk deel op vier poten loopt.'],
             ['Waardering', 'Waardering van activa waarvoor geen markt bestaat. Waar een waardering niet mogelijk is, vermelden wij dat eerlijk: nog niet bekend.'],
-            ['Rapportage', 'Een jaarrekening die nog nooit is afgekeurd. Hij is ook nog nooit goedgekeurd.'],
+            ['Rapportage', 'Een jaarrekening die nog nooit is afgekeurd. Sinds november 2026 ligt de eerste ter goedkeuring.'],
         ],
         'feiten' => [
             ['Opgericht', '1997'],
             ['Valuta', '3'],
-            ['Wisselkoersen', '0'],
+            ['Wisselkoersen', '2, vast sinds 1979'],
             ['Beleggingshorizon', 'Onbepaald'],
         ],
         'inzet' => ['Albanië, 1997', 'In 1997 haalde de groep het vermogen van een opdrachtgever terug uit een beleggingsconstructie die op dat moment instortte, en zette het direct om in een nieuwe belegging. De opdrachtgever betaalde met een pakket Albanese aandelen. Die vormen nog altijd de kern van onze portefeuille.'],
