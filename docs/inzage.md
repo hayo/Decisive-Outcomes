@@ -2,7 +2,7 @@
 
 Per teamlid staat hier wat er over hem in het verhaal en op de website staat. Laat ieder zijn eigen deel lezen en vul het akkoord in bij [toestemming.md](toestemming.md). Werk dit bestand bij als er iets nieuws over een personage bijkomt.
 
-Stand: 15 november 2026. Op 11 november zijn drie hoofdstukken toegevoegd (7, 10 en 14); de hoofdstukken daarna zijn vernummerd.
+Stand: 19 november 2026. Op 11 november zijn drie hoofdstukken toegevoegd (7, 10 en 14); de hoofdstukken daarna zijn vernummerd.
 
 ## Frederik
 
@@ -23,6 +23,7 @@ Stand: 15 november 2026. Op 11 november zijn drie hoofdstukken toegevoegd (7, 10
 - Persbericht over de website: *Wij staan al sinds 1979 stand-by. Het is goed dat de buitenwereld dat nu ook kan zien.*
 - Persbericht over de NAVO-norm, in de noot: hij werd om een reactie gevraagd en stond op.
 - Persbericht over de training in gebouwen (15 november): behaalt op korte afstand opvallend goede resultaten, voor een groot deel met het mes.
+- Persbericht over de catering in Oekraïne (19 november): stond in een buitengewoon Stand-By-overleg om 07.31 uur half op, wat in afwachting van nader onderzoek is opgevat als vaststelling van de verklaring. Volgens de verklaring is hij, net als de andere oprichters, sinds 1979 militair in Rhodesische dienst en nooit afgezwaaid.
 
 ## Hayo
 
@@ -44,6 +45,7 @@ Stand: 15 november 2026. Op 11 november zijn drie hoofdstukken toegevoegd (7, 10
 
 - Persbericht over de renminbi (15 november): zijn voorbehoud over Salisbury staat erin.
 - Investor relations (15 november): liet in de notulen aantekenen dat hij de wisselkoersen aanvaardt onder voorbehoud van bekrachtiging door Salisbury, en stuurde een kopie. Ook in het verhaal, Deel 2, *Financiën*.
+- Persbericht over de catering in Oekraïne (19 november): schreef over de inzet van 2023 een rapport van eenenzestig pagina's, dat op 24 oktober 2023 naar Salisbury ging en nog op goedkeuring wacht.
 
 ## Jochem
 
@@ -58,6 +60,7 @@ Stand: 15 november 2026. Op 11 november zijn drie hoofdstukken toegevoegd (7, 10
 - Bio op Over ons: *Jochem is verantwoordelijk voor operaties, wagenpark, luchtvloot en vastgoed. Hij begon als monteur in Umtali en houdt sindsdien alles rijdend wat de groep bezit, ook als er onderdelen ontbreken. Het wagenpark bestaat uit twee Land Rovers uit 1971; zijn jaarlijkse vervangingsplan wordt elk jaar unaniem goedgekeurd. Zijn functieomschrijving omvat ook het dragen en bewaken van de kist, een taak die hij sinds 1979 uitvoert.*
 - Persbericht over het vervangingsplan: *Kapitein Jochem was niet bereikbaar voor een reactie. Hij was bij de kist.*
 - Persbericht over de training in gebouwen (15 november): legt in hoog tempo grote afstanden af en treft muren aan waarmee in de planning geen rekening was gehouden.
+- Persbericht over de catering in Oekraïne (19 november): verzorgde van april tot oktober 2023 in het oosten van Oekraïne het onderhoud van drones van een Europese fabrikant, die volgens zijn rapport "vaker neerkwamen dan nodig was". Reisde met een van de Land Rovers en de frietketel.
 - Investor relations en persbericht over de renminbi (15 november): de koers van de geit (R$ 25) is de marktprijs in Umtali in 1979, volgens hem. Ook in het verhaal, Deel 2, *Financiën*.
 - Geen citaten.
 
@@ -78,3 +81,4 @@ Stand: 15 november 2026. Op 11 november zijn drie hoofdstukken toegevoegd (7, 10
 - Persbericht over ISO 18788: *Wij hebben begrip voor de zorgvuldigheid van de procedure. Onze eigen reactietermijn is zes tot acht jaar. Wij beoordelen anderen niet strenger dan onszelf.*
 - In de noot bij hetzelfde persbericht: op zijn verzoek wordt de catering van Decisive Hospitality aangeprezen.
 - Persbericht over de training in gebouwen (15 november): een deel van zijn munitie volgt een opwaartse baan, wat als verkenning van het plafond wordt beschouwd.
+- Persbericht over de catering in Oekraïne (19 november): was van april tot oktober 2023 in het oosten van Oekraïne en stelde het contract op als cateringcontract van Decisive Hospitality, met in bijlage C "onderhoud van de friteuse en aanverwante vliegende apparatuur". Citaat: *Beide, afhankelijk van wie het vraagt. Wij leveren friet. Moet er tussen de bestellingen door iets gerepareerd worden, dan doen wij dat ook. Dat noemen wij service.*
