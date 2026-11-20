@@ -4,7 +4,7 @@ Deze repository bevat alles rond het airsoftteam Decisive Outcomes: het verhaal,
 
 ## Mappen
 
-- `verhaal/` — de backstory. `backstory.md` is het leidende bestand.
+- `verhaal/` — de backstory. `backstory.md` is het leidende bestand. `annelies.md` is het dossier van Annelies Brouwer: haar kenmerken, adviezen, lopende verhaallijnen en tellingen.
 - `logo/` — het logo als PNG van 1880 px, rond met een transparante achtergrond, plus het beeldmerk (alleen het embleem) in wit, goud, zwart, kleur en metallic.
 - `website/` — de teamwebsite voor decisiveoutcomes.nl. Volg daar ook `website/CLAUDE.md`.
 - `events/` — materiaal voor events, patches en dergelijke (nog niet aangemaakt).
@@ -154,12 +154,20 @@ Haar karakter zit ook in de manier waarop ze schrijft. Dit is hoe ze meestal sch
 - De opbouw wisselt. Soms is de opening strikt zakelijk en komt de absurditeit pas verderop, soms staat de absurde kern al in de eerste zin, soms begint ze bij iets uit haar eigen week. De newsroom moet niet voorspelbaar worden.
 - Soms citeert ze zichzelf als *een woordvoerder van de groep*, met een correcte zin die niets zegt: *"De groep neemt kennis van de ontwikkelingen en blijft deze nauwlettend volgen," aldus een woordvoerder.*
 
+Daarnaast heeft ze een paar vaste gewoonten. Die zijn wel steeds hetzelfde, want daaraan herken je haar zonder dat haar naam erbij staat:
+
+- Ze noemt zichzelf *Corporate Communications*, in de derde persoon en zonder *de afdeling* (dat deed ze tot november 2026). De ik-vorm bewaart ze voor de zeldzame keer dat ze uit de vorm stapt.
+- Over de groep schrijft ze *de groep*, nooit *wij*.
+- Ze noteert tijden tot op de minuut: *om 21.59 uur*, *om 06.40 uur*.
+- Getallen tot honderd schrijft ze voluit, ook rangtelwoorden: *eenenzestig pagina's*, *het zevenendertigste boekjaar*. Bedragen, jaartallen en kenmerken staan in cijfers.
+- De noot eindigt meestal met een korte, kale zin, zonder commentaar: *Corporate Communications is op haar post.* *Op Klein Klein Bonaire komt alleen de veerman.*
+
 ### Waar de humor zit
 
 De humor is droog en komt uit wie ze is. Dit zijn middelen die bij haar passen; gebruik wat het bericht nodig heeft, één of vier, en zoek ook gerust iets nieuws.
 
 - **Verzoeken letterlijk uitvoeren.** Ze doet precies wat de directie vraagt, en vermeldt dat erbij. *Op verzoek van Kapitein Robert wordt de catering van Decisive Hospitality in dit bericht drie keer genoemd. Dit is de tweede keer.*
-- **Nee zeggen.** Een geweigerd verzoek, een geschrapte zin of een ruil, met kenmerk. *Het verzoek om de bijlage te publiceren is afgewezen (CC-2026-121). De Majoor kan het rapport opvragen bij de Majoor.*
+- **Nee zeggen.** Een geweigerd verzoek, een geschrapte zin of een ruil, met kenmerk. *Het verzoek om de bijlage te publiceren is afgewezen. De Majoor kan het rapport opvragen bij de Majoor.*
 - **Haar eigen plannen.** De stijlgids, de mediatraining, het Stand-By-overleg om 09.00 uur: ingediend, aangehouden, en af en toe tot haar verbazing overgenomen.
 - **Precisie als wapen.** Ze telt en meet wat de directie doet: het versienummer van het concept, de dagen tussen indienen en reactie, het aantal pagina's van de bijlage.
 - **Haar eigen leven.** Bonaire, de veerman, de hangmat, de buren, het ministerie, haar oude collega's.
@@ -203,6 +211,7 @@ Herhaal geen doorkijkje of telling uit een eerder bericht; bouw erop voort. Lope
 
 - Wordt er iets besloten over het verhaal, de website of de repo? Zet het met datum en reden in `docs/beslissingen.md`.
 - Is een punt uit `docs/openstaand.md` klaar? Vink het af. Komt er iets nieuws bij, zet het erin.
+- Na elk persbericht wordt `verhaal/annelies.md` bijgewerkt.
 - Iets nieuws over een personage gaat pas live als het in `docs/toestemming.md` is goedgekeurd.
 
 ## Git

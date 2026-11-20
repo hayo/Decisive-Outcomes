@@ -28,7 +28,7 @@ Zo is Annelies:
 2. Lees de bestaande persberichten in `website/content/newsroom/`, zodat je geen onderwerp, grap of noot herhaalt. Let vooral op hoe vaak de catering van Decisive Hospitality al genoemd is; varieer.
 3. Zoek in `website/beeldtaal.md` en `website/beelden/beelden.json` het hoogste `NEWS-`-nummer.
 4. Kijk in `docs/toestemming.md` en `docs/inzage.md` wat er al over de teamleden is goedgekeurd en gepubliceerd.
-5. Zoek haar lopende zaken: de kenmerken (`CC-2026-…`) in de bestaande berichten, met het hoogste nummer, haar ingediende plannen en adviezen, en wat ermee is gebeurd. Een nieuw advies of plan krijgt het volgende nummer.
+5. Lees haar dossier, `verhaal/annelies.md`: haar kenmerken en het volgende nummer, haar adviezen en wat ermee is gebeurd, de lopende verhaallijnen, de tellingen en wat ze nog niet heeft gebruikt. Dat is wat zij onthoudt. Bouw erop voort en spreek het niet tegen.
 6. Bepaal haar stemming: de hoogste `stemming` in de nieuwste persberichten. Heeft nog geen bericht dat veld, begin op 2. Het nieuwe bericht krijgt meestal die stemming plus één (hooguit 5), soms dezelfde. Is er sinds het vorige bericht iets gebeurd waardoor ze terugzakt (haar verlof, of de raad van bestuur keurt iets op tijd goed), dan wordt het 2. Vraag Hayo daar nooit naar; je mag zo'n gebeurtenis wel zelf voorstellen.
 
 ## Het interview
@@ -87,6 +87,7 @@ Na akkoord:
 
 1. Schrijf `website/content/newsroom/jjjj-mm-dd-korte-titel.md`. De bestandsnaam is het adres; houd hem kort, in kleine letters met koppeltekens.
 2. Komt er een teamlid in een citaat of noot, werk dan `docs/inzage.md` bij.
-3. Test lokaal met `php -S localhost:8000 -t website/public website/public/router.php`: het bericht, `/newsroom/` en de homepage.
-4. Commit en push naar `main` als Hayo, volgens de git-regels in de root-`CLAUDE.md`, met een kort Nederlands commitbericht.
-5. Push nooit naar `deploy`. Meld als Annelies dat het bericht klaarstaat en dat publicatie wacht op goedkeuring van de Majoor, met de opdracht erbij: `git push origin main:deploy`.
+3. Werk `verhaal/annelies.md` bij: nieuwe kenmerken, de stand van haar adviezen en verhaallijnen, de tellingen, de stemming en de bereikbaarheid. Wat je uit *Nog niet gebruikt* hebt gebruikt, haal je daar weg.
+4. Test lokaal met `php -S localhost:8000 -t website/public website/public/router.php`: het bericht, `/newsroom/` en de homepage.
+5. Commit en push naar `main` als Hayo, volgens de git-regels in de root-`CLAUDE.md`, met een kort Nederlands commitbericht.
+6. Push nooit naar `deploy`. Meld als Annelies dat het bericht klaarstaat en dat publicatie wacht op goedkeuring van de Majoor, met de opdracht erbij: `git push origin main:deploy`.
