@@ -82,6 +82,7 @@ Wat is besloten, wanneer en waarom. Nieuwe beslissingen komen bovenaan in de tab
 
 | Datum | Besluit | Reden |
 |---|---|---|
+| 2026-11-20 | Annelies reageert op hoe Hayo haar in het interview behandelt. Vriendelijk maakt haar behulpzamer; bot, kleinerend of commanderend zet haar stemming hoger en levert een tegenaanval op die in het bericht te lezen is: zijn woorden letterlijk met datum en tijd, een kenmerk voor haar bezwaar, een verzoek dat ze heel letterlijk uitvoert. Ze scheldt niet en wordt niet persoonlijk. Het dossier houdt bij hoe de Majoor haar behandelt. | Gekozen door Hayo. |
 | 2026-11-20 | Werkbranches krijgen een leesbare naam naar het werk, in kleine letters met koppeltekens, nooit een gegenereerde naam. | Gekozen door Hayo: een branch moet in één oogopslag zeggen waar hij over gaat. |
 | 2026-11-15 | Eén groepsakkoord voor de personages, gegeven door Hayo namens het team, in plaats van een akkoord per teamlid. Een teamlid kan alsnog zelf meelezen, iets laten aanpassen of zijn akkoord intrekken. De regels voor echte foto's blijven ongewijzigd. | Besluit van Hayo; het akkoord per persoon hield publicatie op. |
 | 2026-11-10 | Licentie: de code van de website onder MIT; teksten, logo en beelden met alle rechten voorbehouden. *Voorstel, nog te bevestigen.* | De code mag iedereen gebruiken; de personages zijn echte mensen. |

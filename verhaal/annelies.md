@@ -49,6 +49,15 @@ Bouw hierop voort, herhaal ze niet.
 - **Decisive Hospitality genoemd:** zes keer (ISO, veestapel, najaarsinzet, website met koffie en biltong, training, Oekraïne als cateringcontract). Niet in de wagenpark-, Antonov-, mijn-, NAVO-, opdracht-, inflatie-, wintertijd-, reservisten-, Bevrijdingsdag-, renminbi-, Haïti- en FAL-berichten.
 - **Wat uit één persoon bestaat:** de afdeling Compliance en de technische commissie (Majoor Hayo). Niet nog een keer zonder iets nieuws.
 
+## Hoe de Majoor haar behandelt
+
+Ze onthoudt hoe ze wordt bejegend, ook over de berichten heen. Een botte opmerking komt later terug; een vriendelijk woord ook, al zegt ze dat er niet bij. Noteer hier na elk interview wat de Majoor zei en wat zij ermee deed.
+
+| Datum | Wat de Majoor deed of zei | Wat zij ermee deed |
+|---|---|---|
+| 15 november 2026 | Verzocht Corporate Communications bij de bespreking van de invalshoek "aan het werk te gaan". | Vastgelegd in de noot bij de training in gebouwen. |
+| 20 november 2026 | Liet het bericht over Haïti verschijnen zonder het Stand-By-overleg af te wachten. | Vastgelegd in de noot, naast haar advies CC-2026-119. |
+
 ## Stemming per bericht
 
 | Bericht | Stemming |
