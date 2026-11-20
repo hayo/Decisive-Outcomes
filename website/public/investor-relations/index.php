@@ -228,7 +228,7 @@ component('grafiek', [
     'titel' => 'Veestapel in geiten, 1979–2025',
     'soort' => 'lijn',
     'reeks' => [[1979, 1], [1985, 34], [1990, 92], [1995, 141], [2000, 203], [2005, 266], [2010, 412], [2015, 412], [2020, 412], [2025, 412]],
-    'toelichting' => 'De eerste geit was de betaling voor een waterpomp, in 1979. Sinds de verhuizing naar Bonaire staat de teller op 412; welke geiten op het eiland van de groep zijn, onderzoekt een externe commissie.',
+    'toelichting' => 'De eerste geit was de betaling voor een waterpomp, in 1979. Sinds de verhuizing naar Bonaire stond de teller op 412; welke geiten op het eiland van de groep zijn, onderzoekt een externe commissie. Bij de telling van 10 november 2026 kwam de veestapel uit op 935.',
 ]);
 ?>
 <div>

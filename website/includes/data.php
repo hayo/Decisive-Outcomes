@@ -277,21 +277,21 @@ const DIVISIES = [
         'naam' => 'Decisive Agri',
         'kop' => 'Duurzame veehouderij en natuurlijk groenbeheer',
         'kort' => 'Beheer van de veestapel van de groep en natuurlijk groenonderhoud.',
-        'intro' => 'Decisive Agri beheert de veestapel van de groep: 412 geiten, verworven als betaling in de loop van ruim veertig jaar. De divisie verzorgt daarnaast al het groenonderhoud op Bonaire, op natuurlijke wijze.',
+        'intro' => 'Decisive Agri beheert de veestapel van de groep: 935 geiten, verworven als betaling in de loop van ruim veertig jaar. De divisie verzorgt daarnaast al het groenonderhoud op Bonaire, op natuurlijke wijze.',
         'tekst' => [
-            'De eerste betaling in de geschiedenis van de groep was een geit, voor de reparatie van een waterpomp in Manica. Er volgden meer reparaties, en meer geiten. Decisive Agri beheert die veestapel, die inmiddels 412 dieren telt. Van elk dier wordt een eigen bladzijde bijgehouden in het register van de groep, dat de titel Activa draagt en inmiddels uit meerdere delen bestaat.',
-            'Sinds 2010 graast de veestapel op Bonaire, waar ook veel wilde geiten rondlopen. Welke daarvan van de groep zijn, wordt onderzocht door een externe commissie. Tot die commissie haar bevindingen presenteert, houdt Decisive Agri vast aan het aantal van 412, dat zij als ondergrens beschouwt.',
+            'De eerste betaling in de geschiedenis van de groep was een geit, voor de reparatie van een waterpomp in Manica. Er volgden meer reparaties, en meer geiten. Decisive Agri beheert die veestapel, die inmiddels 935 dieren telt. Van elk dier wordt een eigen bladzijde bijgehouden in het register van de groep, dat de titel Activa draagt en inmiddels uit meerdere delen bestaat.',
+            'Sinds 2010 graast de veestapel op Bonaire, waar ook veel wilde geiten rondlopen. Welke daarvan van de groep zijn, wordt onderzocht door een externe commissie. Tot november 2026 hield Decisive Agri vast aan het aantal van 412, dat zij als ondergrens beschouwde. Bij de telling van 10 november 2026 kwam de veestapel uit op 935 geiten. De commissie zet haar werkzaamheden voort.',
             'Daarnaast verzorgt de divisie al het groenonderhoud op Bonaire en op het hoofdkantoor, zonder machines, brandstof of personeel. Dat levert de groep een uitstekende score op het gebied van duurzaamheid op, en een beperkt aantal vragen van omwonenden over hun tuin.',
         ],
         'competenties' => [
-            ['Veehouderij', 'Duurzaam beheer van 412 geiten op Bonaire, met een eigen register per dier.'],
+            ['Veehouderij', 'Duurzaam beheer van 935 geiten op Bonaire, met een eigen register per dier.'],
             ['Groenbeheer', 'Onderhoud van terreinen zonder machines, brandstof of personeel.'],
             ['Begeleiding van vee', 'Veilige doorgang van levende have over lange afstanden, met een opleverpercentage dat zelden onder de honderd ligt.'],
             ['Telling', 'Een betrouwbare telling, ook waar wilde dieren rondlopen. Onze tellingen vallen zelden lager uit dan verwacht.'],
             ['Betalingsverkeer', 'Ontvangst en verwerking van betalingen in levende have, inclusief de administratie.'],
         ],
         'feiten' => [
-            ['Veestapel', '412 geiten'],
+            ['Veestapel', '935 geiten'],
             ['Waardering', 'Nog niet bekend'],
             ['Opleverpercentage Malawi, 1986', '108 procent'],
             ['Machines in het groenbeheer', '0'],
@@ -381,7 +381,7 @@ const SECTOREN = [
         'intro' => 'Veehouderij en landbouw vragen om geduld en zorg voor levende have. Decisive Agri beheert de veestapel van de groep en begeleidt vee over lange afstanden.',
         'tekst' => [
             'Levende have laat zich niet plannen zoals vracht. Dieren hebben eigen opvattingen over routes en tempo, en een kudde die vertrekt, is bij aankomst zelden precies dezelfde. Wij begeleiden vee over lange afstanden, met vaste rustpunten, zorg voor water en een nauwkeurige telling bij vertrek en aankomst.',
-            'De groep is zelf een van de grotere veehouders in het Caribisch deel van het Koninkrijk. Onze veestapel van 412 geiten is in ruim veertig jaar opgebouwd uit betalingen van opdrachtgevers. Wij weten daardoor hoe het is om dieren te ontvangen, te registreren en te verzorgen, en hoe lastig het kan zijn om ze te onderscheiden van de wilde geiten van de buren.',
+            'De groep is zelf een van de grotere veehouders in het Caribisch deel van het Koninkrijk. Onze veestapel van 935 geiten is in ruim veertig jaar opgebouwd uit betalingen van opdrachtgevers. Wij weten daardoor hoe het is om dieren te ontvangen, te registreren en te verzorgen, en hoe lastig het kan zijn om ze te onderscheiden van de wilde geiten van de buren.',
         ],
         'uitdagingen' => [
             ['Telling', 'Een betrouwbare telling, ook waar wilde dieren rondlopen.'],
