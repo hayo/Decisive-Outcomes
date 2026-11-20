@@ -24,7 +24,7 @@ De raad van bestuur stelt het volgende vast:
 
 Volgens standpunt 1 waren de oprichters cateraars, en volgens standpunt 4 militairen. Er is gevraagd welk standpunt geldt. "Beide, afhankelijk van wie het vraagt," aldus Kapitein Robert, Chief Commercial Officer. "Wij leveren friet. Moet er tussen de bestellingen door iets gerepareerd worden, dan doen wij dat ook. Dat noemen wij service." Met service bedoelt de Kapitein onderhoud aan drones. Majoor Hayo heeft over de inzet een rapport van eenenzestig pagina's opgesteld. Het is op 24 oktober 2023 naar Salisbury gestuurd en wacht op goedkeuring.
 
-De kosten van de inzet zijn in 2023 niet geboekt. Op 19 november 2026 zijn ze alsnog verwerkt: R$ 940, ongeveer US$ 69 tegen de koers van vandaag. Volgens bijlage C ging het volledige bedrag op aan frituurolie. Factuur 0388 staat als vordering op de balans.
+De kosten van de inzet zijn in 2023 niet geboekt. Op 19 november 2026 zijn ze alsnog verwerkt: R$ 940, ongeveer € 59 tegen de koers van vandaag. Volgens bijlage C ging het volledige bedrag op aan frituurolie. Factuur 0388 staat als vordering op de balans.
 
 ## Noot voor de redactie
 

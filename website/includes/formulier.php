@@ -8,7 +8,7 @@ const ONDERWERPEN = [
     'anders' => 'Iets anders',
 ];
 const REGIOS = ['' => 'Kies een regio', 'afrika' => 'Afrika', 'amerika' => 'Amerika', 'europa' => 'Europa', 'benelux' => 'Benelux', 'azie' => 'Midden-Oosten en Azië'];
-const VALUTA = ['' => 'Kies een valuta', 'usd' => 'Amerikaanse dollar', 'rhd' => 'Rhodesische dollar', 'geiten' => 'Geiten'];
+const VALUTA = ['' => 'Kies een valuta', 'eur' => 'Euro', 'rhd' => 'Rhodesische dollar', 'geiten' => 'Geiten'];
 
 function formulier_actief(array $config): bool
 {
