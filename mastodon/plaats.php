@@ -98,12 +98,14 @@ if ($modus === 'check') {
     exit(0);
 }
 
-$token = getenv('MASTODON_TOKEN') ?: fout('MASTODON_TOKEN ontbreekt.');
+// Trimmen: een geplakt secret neemt makkelijk een spatie of regeleinde mee, en dat geeft een 401.
+$token = trim((string) getenv('MASTODON_TOKEN')) ?: fout('MASTODON_TOKEN ontbreekt.');
 
 [$status, $body] = verzoek('GET', "$instance/api/v1/accounts/verify_credentials", $token);
 $account = json_decode($body, true);
 if ($status !== 200 || !isset($account['id'])) {
-    fout("inloggen bij $instance mislukt (HTTP $status).");
+    $reden = json_decode($body, true)['error'] ?? substr($body, 0, 200);
+    fout("inloggen bij $instance mislukt (HTTP $status): $reden. Is MASTODON_TOKEN het toegangstoken (niet de client key of het client secret), met de scope read:accounts?");
 }
 echo "Account: @{$account['acct']}\n";
 
