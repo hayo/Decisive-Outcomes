@@ -78,7 +78,7 @@ Gebruik deze feiten consequent en wijzig ze niet zonder overleg.
     - Sinds 2019: de "divisie Benelux". Het team denkt dat airsoft een echt conflict is.
 - **Vaste elementen:**
     - Het Stand-By-overleg, elke maandag om 06.00 uur: "geen nieuws uit Salisbury, wij blijven stand-by".
-    - Betaling in natura en geiten: 935 sinds de telling van 10 november 2026, waarbij Majoor Hayo volgens de groep in een hinderlaag liep. Tot dan hield de groep twintig jaar 412 aan; de jaarcijfers tot en met 2025 houden 412.
+    - Betaling in natura en geiten: 935 sinds de telling van 10 november 2026, waarbij Majoor Hayo volgens de groep in een hinderlaag liep. Het is niet ineens 935: de groep meldde twintig jaar 412, de uitkomst van de telling van 2006, en telde al die tijd niet, terwijl de veestapel doorgroeide. De balans per 31 december 2025 en de reeks op Investor relations zijn herzien; het jaarverslag 2025 en het persbericht van juni houden 412.
     - De boekhouding loopt in Rhodesische dollars.
     - Wisselkoersen, ingevoerd in het Stand-By-overleg van 9 november 2026. De groep rekent om naar de euro, niet naar de Amerikaanse dollar. De Rhodesische dollar begint bij de laatste officiële koers, R$ 1 = US$ 1,4609 (31 maart 1979), via de gulden omgerekend € 1,3457, en volgt daarna de Zuid-Afrikaanse rand, met grotere uitschieters omdat de markt in Rhodesische dollars klein is: eind 2025 is R$ 1 = € 0,0607. Vóór 1999 loopt de omrekening via de gulden (1 euro = 2,20371 gulden). De geit begint bij R$ 25 (marktprijs in Umtali in 1979, volgens Jochem) en heeft een eigen koers met eigen uitschieters. De koersen staan als ankerpunten in `website/includes/data.php`; `koers()` geeft de koers op elke datum. Een bedrag wordt omgerekend tegen de koers op de dag van de boeking, jaarcijfers tegen de koers op 31 december. Sinds november 2026 is de Rhodesische dollar ook inwisselbaar tegen Chinese renminbi (yuan, CNY), via een naamloos zakelijk contact van Frederik in Florida dat de koers per transactie vaststelt. Geen nationaliteit, geen drugsverwijzingen. Daarvóór rekende de groep niet met een wisselkoers; wat in eerdere persberichten en episodes (zoals Freetown 1995) staat, blijft kloppen.
     - Het hoofdkantoor is Postbus 1, Kralendijk, met een reactietermijn van zes tot acht jaar.
@@ -244,6 +244,12 @@ Chef Marcel is chef-kok en hoofd catering van Decisive Hospitality, en verzonnen
 - Is een punt uit `docs/openstaand.md` klaar? Vink het af. Komt er iets nieuws bij, zet het erin.
 - Bij elk persbericht van Annelies hoort een post in `mastodon/<slug>.txt`. Een losse post komt in `mastodon/los/`. Werk daarna de tabel *Mastodon* in `verhaal/annelies.md` bij.
 - Na elk persbericht wordt `verhaal/annelies.md` bijgewerkt. Staat er een spoor van de affaire met Marcel in, of ligt er in een gesprek met Marcel iets vast, werk dan ook `verhaal/marcel.md` bij.
+- Verandert een canonwijziging, een persbericht of een inzicht een getal uit de financiën (de veestapel, een bezit, een bedrag, een koers, een divisie), werk dan in dezelfde commit alle pagina's met financiën bij:
+    - Investor relations (`website/public/investor-relations/index.php`): de kerncijfers, de balans (en daarmee het eigen vermogen), de grafieken en hun reeksen, het meerjarenoverzicht en de divisiecijfers;
+    - de vaste inhoud in `website/includes/data.php`: de feiten en teksten van de divisies en sectoren;
+    - Deel 2 van `verhaal/backstory.md`: de kerncijfers en *Financiën*.
+
+    Zoek op het oude getal, zodat er niets blijft staan. Een afgesloten jaarverslag en eerdere persberichten blijven zoals ze zijn; een herziening staat bij de cijfers zelf, met de datum en de reden (*Herzien na de telling van 10 november 2026; eerder 412.*).
 - Iets nieuws over een personage gaat pas live als het in `docs/toestemming.md` is goedgekeurd.
 
 ## Git

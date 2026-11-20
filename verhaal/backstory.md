@@ -277,7 +277,7 @@ De groep publiceert elk jaar een beperkt aantal kerncijfers. Ze worden opgesteld
 | Landen met activiteiten | 40 | Inclusief landen met alleen een postbus. |
 | Divisies | 7 | Zie hieronder. |
 | Medewerkers | 4 vast, ruim 3.000 flexibel | Flexibel via Decisive People. |
-| Veestapel | 412 geiten | Waardering: R$ 10.300, tegen de koers van 31 december 2025. |
+| Veestapel | 935 geiten | Geteld op 10 november 2026. Waardering: R$ 23.375, tegen de koers van 31 december 2025. Herzien na de telling; eerder 412. |
 | Afgeronde opdrachten | 100 procent | Exclusief de opdracht uit 1979. Die loopt nog. |
 | Klanttevredenheid | Niet gemeten | Bewuste keuze sinds 1986. |
 | Omzet | R$ 53.100 (2025) | Deels in geiten. |

@@ -55,10 +55,11 @@ $divisies = [
     ['Agri', 800, 700, 'Groenonderhoud op Bonaire, uitgevoerd door de veestapel.'],
 ];
 
-// Balans per 31 december 2025: [post, bedrag in R$ of null, toelichting].
+// Balans per 31 december 2025, herzien na de telling van de veestapel: [post, bedrag in R$ of null, toelichting].
+$geiten = 935;
 $activa = [
     ['Klein Klein Bonaire', 6275, 'Gemiddelde van de waarde bij laag water (R$ 12.500) en bij hoog water (R$ 50).'],
-    ['Veestapel', 412 * koers('geit', $eind), '412 geiten tegen de koers van 31 december 2025.'],
+    ['Veestapel', $geiten * koers('geit', $eind), '935 geiten tegen de koers van 31 december 2025. Herzien na de telling van 10 november 2026; eerder 412.'],
     ['Albanese aandelen', 4000, 'Tegen aankoopprijs, 1997. Er is sindsdien niets verkocht.'],
     ['Kas', 2140, 'Contant, voor de veerman.'],
     ['Antonov', 1, 'Herbestemd als golfbreker.'],
@@ -69,13 +70,13 @@ $passiva = [
     ['Voorziening aanslag grond', 1020, 'Het bezwaar loopt.'],
 ];
 $totaal = array_sum(array_column($activa, 1));
-$passiva[] = ['Eigen vermogen', $totaal - 1020, 'Voor het eerst berekend.'];
+$passiva[] = ['Eigen vermogen', $totaal - 1020, 'Voor het eerst berekend, en herzien na de telling van de veestapel.'];
 
 $kerncijfers = [
     ['Landen met activiteiten', '40', 'Inclusief landen met alleen een postbus.'],
     ['Divisies', '7', 'Bijna allemaal ontstaan als betaling van een klant.'],
     ['Medewerkers', '4 vast, ruim 3.000 flexibel', 'Flexibel via Decisive People.'],
-    ['Veestapel', '412 geiten', 'Waardering per 31 december 2025: ' . $rhd(412 * koers('geit', $eind)) . ' (' . $eur(412 * koers('geit', $eind)) . ').'],
+    ['Veestapel', '935 geiten', 'Geteld op 10 november 2026. Waardering tegen de koers van 31 december 2025: ' . $rhd($geiten * koers('geit', $eind)) . ' (' . $eur($geiten * koers('geit', $eind)) . ').'],
     ['Afgeronde opdrachten', '100 procent', 'Exclusief de opdracht uit 1979. Die loopt nog.'],
     ['Klanttevredenheid', 'Niet gemeten', 'Bewuste keuze sinds 1986.'],
     ['Omzet 2025', $rhd(53100), $eur(53100) . ' tegen de koers van 31 december 2025, deels in geiten.'],
@@ -225,14 +226,14 @@ component('grafiek', [
 <?php
 component('grafiek', [
     'id' => 'grafiek-veestapel',
-    'titel' => 'Veestapel in geiten, 1979–2025',
+    'titel' => 'Veestapel in geiten, 1979–2026',
     'soort' => 'lijn',
-    'reeks' => [[1979, 1], [1985, 34], [1990, 92], [1995, 141], [2000, 203], [2005, 266], [2010, 412], [2015, 412], [2020, 412], [2025, 412]],
-    'toelichting' => 'De eerste geit was de betaling voor een waterpomp, in 1979. Sinds de verhuizing naar Bonaire stond de teller op 412; welke geiten op het eiland van de groep zijn, onderzoekt een externe commissie. Bij de telling van 10 november 2026 kwam de veestapel uit op 935.',
+    'reeks' => [[1979, 1], [1985, 34], [1990, 92], [1995, 141], [2000, 203], [2006, 412], [2010, 480], [2015, 590], [2020, 720], [2025, 880], [2026, 935]],
+    'toelichting' => 'De eerste geit was de betaling voor een waterpomp, in 1979. Van 2006 tot 2026 meldde de groep elk jaar 412 geiten, het aantal van de laatste telling. Er werd in die jaren niet geteld, en de veestapel groeide gewoon door. Na de telling van 10 november 2026, met 935 geiten, is de reeks vanaf 2006 herberekend. Welke geiten op Bonaire van de groep zijn, onderzoekt een externe commissie.',
 ]);
 ?>
 <div>
-<p>Met de wisselkoersen heeft de groep voor het eerst een balans kunnen opstellen. De veestapel staat erop tegen de koers van 31 december 2025: <?= e($rhd(koers('geit', $eind))) ?> per geit. De kist staat erop als reserve, tegen een onbekende waarde, en telt daarom niet mee in het totaal.</p>
+<p>Met de wisselkoersen heeft de groep voor het eerst een balans kunnen opstellen. De veestapel staat erop tegen de koers van 31 december 2025: <?= e($rhd(koers('geit', $eind))) ?> per geit. Na de telling van 10 november 2026 is de balans herzien. De veestapel telt 935 geiten, niet 412, en het eigen vermogen is daardoor hoger dan eerst berekend. De kist staat erop als reserve, tegen een onbekende waarde, en telt daarom niet mee in het totaal.</p>
 <p>De boekhouder heeft erop gewezen dat de balans in één klap heel goed of heel slecht kan worden als iemand de kist openmaakt. Dat is niet voorzien.</p>
 </div>
 </div>

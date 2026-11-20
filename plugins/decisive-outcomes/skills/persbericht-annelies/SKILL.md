@@ -106,7 +106,7 @@ Na akkoord:
 
 1. Schrijf `website/content/newsroom/jjjj-mm-dd-korte-titel.md`. De bestandsnaam is het adres; houd hem kort, in kleine letters met koppeltekens.
 2. Schrijf de post in `mastodon/<slug>.txt`, met dezelfde slug als het bericht, en controleer hem met `php mastodon/plaats.php check`.
-3. Komt er een teamlid in een citaat of noot, werk dan `docs/inzage.md` bij.
+3. Komt er een teamlid in een citaat of noot, werk dan `docs/inzage.md` bij. Verandert het bericht of een canonwijziging een getal uit de financiën, werk dan de pagina's met financiën bij zoals *Documentatie bijhouden* in de root-`CLAUDE.md` voorschrijft, en test ook `/investor-relations/`.
 4. Werk `verhaal/annelies.md` bij, ook de tabel *Mastodon*: nieuwe kenmerken, de stand van haar adviezen en verhaallijnen, hoe de Majoor haar in dit interview behandelde, de tellingen, de stemming en de bereikbaarheid. Wat je uit *Nog niet gebruikt* hebt gebruikt, haal je daar weg.
 5. Test lokaal met `php -S localhost:8000 -t website/public website/public/router.php`: het bericht, `/newsroom/` en de homepage.
 6. Commit en push naar `main` als Hayo, volgens de git-regels in de root-`CLAUDE.md`, met een kort Nederlands commitbericht.
