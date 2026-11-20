@@ -27,7 +27,7 @@ Stand: 20 november 2026. Op 11 november zijn drie hoofdstukken toegevoegd (7, 10
 - Persberichten over Haïti en over de FAL (20 november): leverde op 19 november om 21.59 uur zelf twee persberichten aan, voor zover bekend zijn eerste teksten. Citaten: *Wij bereiden nooit iets voor; wij staan stand-by. Dat is een wezenlijk verschil.* en *Het recht geldt altijd, ook als het er niet is.* In de noot: Annelies houdt in haar overzicht van zijn houdingen een nieuwe rubriek bij, schrijven om 21.59 uur.
 - Persbericht over het computerspel (gedateerd 18 november): volgens het bericht begon een overleg "stipt op tijd om 06.47 uur", toen hij binnenkwam. In de noot: hij krijgt een kopie van de noot.
 
-**Bij chef Marcel** (dossier `verhaal/marcel.md` en de skill `chef-marcel`; zo ziet Marcel hem, niet hoe hij is): eet het ontbijt van het Stand-By-overleg van 06.00 uur pas om 06.47 uur, als de eieren koud zijn.
+**Bij chef Marcel** (dossier `verhaal/marcel.md` en de skill `chef-marcel`; zo ziet Marcel hem, niet hoe hij is): eet het ontbijt van het Stand-By-overleg van 06.00 uur pas om 06.47 uur, als de eieren koud zijn. Op de website, bij het Stand-By-overleg op Over ons: *De Kolonel ontbijt om 06.47 uur.*
 
 ## Hayo
 

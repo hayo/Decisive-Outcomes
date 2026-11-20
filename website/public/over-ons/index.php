@@ -73,6 +73,7 @@ component('hero', [
 <h2>Het Stand-By-overleg</h2>
 <p>Het belangrijkste overleg van de groep is het Stand-By-overleg, elke maandag om 06.00 uur. Het wordt gehouden sinds augustus 1979 en heeft nog nooit een week overgeslagen, ook niet tijdens de regentijd, de malaria of de evacuatie van Kinshasa.</p>
 <p>Er staat één vast punt op de agenda: is er nieuws uit Salisbury? Pas daarna komen andere zaken aan de orde. De notulen van het eerste punt luiden sinds 1979 vrijwel elke week hetzelfde: <i>geen nieuws uit Salisbury, wij blijven stand-by.</i></p>
+<p>Chef Marcel van Decisive Hospitality zet het ontbijt om 06.00 uur klaar, Salisbury-tijd; op Bonaire is het dan middernacht. De Kolonel ontbijt om 06.47 uur.</p>
 </div>
 </div>
 </section>

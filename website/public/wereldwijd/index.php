@@ -64,7 +64,7 @@ $regios = [
 </div>
 <div>
 <h2>Europa</h2>
-<p>In Europa is de groep actief op de Balkan, in Portugal en, sinds 2019, in de Benelux. De vestigingen in België hebben een historische band met Decisive Hospitality: in Roeselare werd onze frietketel gemaakt. In Nederland en België is de divisie Benelux actief op een groot aantal terreinen.</p>
+<p>In Europa is de groep actief op de Balkan, in Portugal en, sinds 2019, in de Benelux. De vestigingen in België hebben een historische band met Decisive Hospitality: in Roeselare werd onze frietketel gemaakt, en daar komt ook onze chef-kok vandaan. In Nederland en België is de divisie Benelux actief op een groot aantal terreinen.</p>
 <h2>Midden-Oosten en Azië</h2>
 <p>In de Golfregio onderhoudt de groep sinds 1993 contacten op het gebied van luchttransport. Onze luchtvloot werd in Sharjah aangeschaft. De aanvraag voor een vliegvergunning loopt.</p>
 </div>
