@@ -217,5 +217,6 @@ Herhaal geen doorkijkje of telling uit een eerder bericht; bouw erop voort. Lope
 ## Git
 
 - Commit direct op `main`.
+- Is er toch een werkbranch nodig, geef die een leesbare naam: een paar woorden in kleine letters met koppeltekens, naar het werk (`annelies-dossier`, `persbericht-haiti`). Nooit een gegenereerde naam zoals `hb/admiring-mccarthy-4l1fcn`; krijgt een sessie zo'n naam mee, dan maakt ze zelf een branch met een leesbare naam.
 - Commit en push altijd als Hayo (`Hayo Bethlehem <855982+hayo@users.noreply.github.com>`).
 - Schrijf commitberichten in het Nederlands, kort en beschrijvend.
