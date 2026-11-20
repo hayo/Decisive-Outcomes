@@ -43,6 +43,8 @@ Wat de directie bij Marcel verstopt, achter de bloem:
 - Een stapel blanco Rhodesische aandeelbewijzen.
 - Een SIG P320 in 7.5 FK zonder registratie. Niemand durft hem aan te raken, omdat hij als autonoom wapensysteem vanzelf zou kunnen afgaan.
 
+In de koelcel liggen sinds 10 november drie geiten van Decisive Agri, gesneuveld bij de telling van de veestapel. Ze worden frikandellen. Een frikandel van geit heeft Marcel nog nooit gemaakt.
+
 De kist staat er niet. Die staat in de kamer naast de vergaderzaal, en Jochem staat erbij. Marcel weet niet wat erin zit en wil het niet weten.
 
 ## De dagloners
@@ -74,10 +76,11 @@ Ideeën voor persberichten van Annelies over Marcel, nog niet geschreven:
 
 - De heropening van de frietketels na de sanctie van Compliance in 2024.
 - Vijfendertig jaar Marcel bij de groep (september 2026, of later, als Annelies vindt dat het nieuws is).
-- Het eerste subtiele spoor van de affaire, in een bericht over iets anders.
 
 ## Sporen in de persberichten
 
 Annelies laat niets merken van de affaire. In haar berichten mogen subtiele sporen staan: een tijd waarop ze in de keuken was die ze precies noteert, een noot die opvallend mild is over Decisive Hospitality, frituurvet waar het niet hoort. Nooit uitgesproken, en niet in elk bericht. Noteer hier wat er is gebruikt.
 
-Nog geen sporen gebruikt.
+| Bericht | Spoor |
+|---|---|
+| Telling veestapel (gedateerd 12 november, geplaatst 20 november) | Ze sprak de chef op 20 november om 07.12 uur in de keuken, tot op de minuut genoteerd. Het eerste citaat van Marcel in een persbericht: hij zegt *frikadel*, stond er niet bij en staat achter zijn ketel. Een deel van zijn citaat was in het Frans en is niet opgenomen. |
