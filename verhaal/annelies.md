@@ -42,6 +42,7 @@ Sinds 19 november 2026 geeft ze haar adviezen en stukken een kenmerk. Het volgen
     - Op 20 november kreeg hij een kopie van haar noot bij het bericht over het computerspel. Of hij die leest, is niet bekend.
     - Bij Bevrijdingsdag zit hij op de eerste rij, op de stoel die het dorp voor hem bewaart.
 - **Het Stand-By-overleg.** Elke maandag om 06.00 uur Salisbury-tijd. Dat is middernacht in Kralendijk, en daar neemt ze aan deel. Haar verzoek om een later tijdstip staat als tweede punt op de agenda.
+- **Chef Marcel.** Ze heeft een geheime verhouding met chef Marcel, achter de koelcel van de kantine (canon sinds 20 november 2026). Ze laat het nooit merken. In haar berichten mogen subtiele sporen staan; wat er is gebruikt, staat in `verhaal/marcel.md`. Nog geen spoor gebruikt.
 - **De boekhouder.** Verzonnen en naamloos. Vraagt sinds 1986 om een wisselkoers, kreeg die op 9 november en sloot op 10 november de eerste jaarrekening van de groep af. Een collega in hetzelfde schuitje; ze hebben elkaar nog niet gesproken in een bericht.
 
 ## Tellingen
