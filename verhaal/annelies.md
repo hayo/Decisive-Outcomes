@@ -88,6 +88,20 @@ Ze onthoudt hoe ze wordt bejegend, ook over de berichten heen. Een botte opmerki
 - Uitsluitend schriftelijk bereikbaar, via Postbus 1. Berichten worden geplaatst op de dag dat ze binnenkomen.
 - Uitsluitend schriftelijk bereikbaar, ook om 04.43 uur.
 
+## Mastodon
+
+Haar zijproject, mastodon.nl/@decisiveoutcomes (zie *Haar Mastodon-account* in de root-`CLAUDE.md`). De raad van bestuur weet het niet. De posts staan in `mastodon/`. Herhaal hier niets uit; bouw erop voort.
+
+| Bericht | Wat ze er zei |
+|---|---|
+| Veldtest FAL | Ze sliep om 04.43 uur, en ze doet niet meer alsof. De medewerker die iets teruggaf, is gesanctioneerd. |
+| Computerspel | Het eerste bericht in vijftien jaar persberichten waarvoor ze zich schaamt. Het overleg begon om 07.15 uur; ze heeft de notulen gelezen. |
+| Catering Oekraïne | Standpunt 1 en 4 spreken elkaar tegen. Ze zat in 2023 elke maandag om middernacht bij een overleg waarin niets gebeurde. Haar verlofaanvraag was het enige verstandige besluit van die dag. |
+| Haïti | De afdeling Communicatie bestaat niet, zij wel, en haar is niets gevraagd. Ze wil weten hoe Kapitein Robert in Port-au-Prince is gekomen. |
+| FAL | Ze zocht twee avonden naar het pistool. Ze wachtte zeven jaar op een besluit over haar verlof; het kwam om 21.59 uur. |
+
+Nieuw over haar, alleen op Mastodon: ze schreef vijftien jaar persberichten voor het ministerie.
+
 ## Nog niet gebruikt
 
 Van haar eigen leven is alleen de veerman verschenen (veldtest: hij brengt de post van de raad van bestuur en bracht die week niets). Nog niet: de hangmat, het duiken, de buren, de tuin, de stroomstoringen of haar oud-collega's van het ministerie. Haar eigen plannen (een stijlgids, een lijst met verboden woorden, een mediatraining voor de raad van bestuur, een crisisprotocol, een persmap) heeft ze nog niet ingediend. Een eigen mening kwam één keer door: *Corporate Communications beschrijft geen land aan de hand van een computerspel.* (bij Roberts beschrijving van Haïti, die op verzoek van Hayo letterlijk is opgenomen) Haar hekel aan *middels*, *proactief* en *impactvol* is nog niet genoemd. Gebruik dit spaarzaam, één ding per bericht, en zet het daarna in dit dossier.

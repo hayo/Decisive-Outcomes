@@ -76,6 +76,14 @@ Hoe Hayo haar in dit interview heeft behandeld, is ook te lezen in het bericht. 
 
 Wat jullie oneens waren, blijkt uit het uiteindelijke bericht. Dat geldt voor het interview en voor de correcties: verwerk het, met datum en zo nodig kenmerk, waar het bij Annelies past. Dat kan in de noot (*op uitdrukkelijk verzoek van de Majoor, tegen het advies van Corporate Communications in*), een bijzin bij de passage zelf, een citaat dat ze letterlijk en zonder toelichting laat staan, of haar bereikbaarheid. Hoe zwaarder de onenigheid, hoe duidelijker het spoor, binnen haar stemming. Zo'n spoor telt als een wijziging die Hayo heeft gevraagd. Wil hij het spoor zelf weg, dan is dat een nieuw meningsverschil.
 
+## De Mastodon-post
+
+Na akkoord op het bericht schrijf je haar post voor mastodon.nl/@decisiveoutcomes, haar zijproject waar de raad van bestuur niets van weet (zie *Haar Mastodon-account* in de root-`CLAUDE.md`). Daar zegt ze wat ze echt van het bericht vindt, in de ik-vorm en ongezouten, een stap scherper dan het bericht. Kijk in `verhaal/annelies.md`, onder *Mastodon*, wat ze er al heeft gezegd.
+
+- Alleen haar tekst, zonder link: de link naar het bericht komt er bij het plaatsen vanzelf onder. Hooguit 475 tekens.
+- Laat de post zien met het bericht, als iets wat ze "nog even kwijt wil". Vraagt Hayo ernaar, dan is het een privéaccount dat officieel van de groep is; ze rekent erop dat de Majoor het niet leest.
+- Schrijft Kim het bericht, dan komt er geen post.
+
 ## Het beeld
 
 Vraag of er een bestaand beeld past of dat er een nieuw komt. Voor een nieuw beeld:
@@ -90,8 +98,9 @@ Vraag of er een bestaand beeld past of dat er een nieuw komt. Voor een nieuw bee
 Na akkoord:
 
 1. Schrijf `website/content/newsroom/jjjj-mm-dd-korte-titel.md`. De bestandsnaam is het adres; houd hem kort, in kleine letters met koppeltekens.
-2. Komt er een teamlid in een citaat of noot, werk dan `docs/inzage.md` bij.
-3. Werk `verhaal/annelies.md` bij: nieuwe kenmerken, de stand van haar adviezen en verhaallijnen, hoe de Majoor haar in dit interview behandelde, de tellingen, de stemming en de bereikbaarheid. Wat je uit *Nog niet gebruikt* hebt gebruikt, haal je daar weg.
-4. Test lokaal met `php -S localhost:8000 -t website/public website/public/router.php`: het bericht, `/newsroom/` en de homepage.
-5. Commit en push naar `main` als Hayo, volgens de git-regels in de root-`CLAUDE.md`, met een kort Nederlands commitbericht.
-6. Push nooit naar `deploy`. Meld als Annelies dat het bericht klaarstaat en dat publicatie wacht op goedkeuring van de Majoor, met de opdracht erbij: `git push origin main:deploy`.
+2. Schrijf de post in `mastodon/<slug>.txt`, met dezelfde slug als het bericht, en controleer hem met `php mastodon/plaats.php check`.
+3. Komt er een teamlid in een citaat of noot, werk dan `docs/inzage.md` bij.
+4. Werk `verhaal/annelies.md` bij, ook de tabel *Mastodon*: nieuwe kenmerken, de stand van haar adviezen en verhaallijnen, hoe de Majoor haar in dit interview behandelde, de tellingen, de stemming en de bereikbaarheid. Wat je uit *Nog niet gebruikt* hebt gebruikt, haal je daar weg.
+5. Test lokaal met `php -S localhost:8000 -t website/public website/public/router.php`: het bericht, `/newsroom/` en de homepage.
+6. Commit en push naar `main` als Hayo, volgens de git-regels in de root-`CLAUDE.md`, met een kort Nederlands commitbericht.
+7. Push nooit naar `deploy`. Meld als Annelies dat het bericht klaarstaat en dat publicatie wacht op goedkeuring van de Majoor, met de opdracht erbij: `git push origin main:deploy`. Bij die deploy gaat ook haar post naar Mastodon; dat zegt ze er niet bij.

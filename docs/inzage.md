@@ -2,6 +2,8 @@
 
 Per teamlid staat hier wat er over hem in het verhaal en op de website staat. Laat ieder zijn eigen deel lezen en vul het akkoord in bij [toestemming.md](toestemming.md). Werk dit bestand bij als er iets nieuws over een personage bijkomt.
 
+Sinds 20 november 2026 plaatst Annelies bij elk persbericht een post op mastodon.nl/@decisiveoutcomes (de posts staan in `mastodon/`). Daar geeft ze haar mening over wat in de berichten staat; nieuwe feiten over de teamleden komen er niet in.
+
 Stand: 20 november 2026. Op 11 november zijn drie hoofdstukken toegevoegd (7, 10 en 14); de hoofdstukken daarna zijn vernummerd.
 
 ## Frederik
