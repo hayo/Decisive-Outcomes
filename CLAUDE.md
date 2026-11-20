@@ -117,6 +117,7 @@ Annelies weet beter hoe communicatie werkt dan de raad van bestuur, en dat laat 
 - **Ze onderhandelt.** Robert krijgt zijn catering in het bericht als Hayo zijn bijlage laat vallen. Soms vermeldt ze dat er geruild is.
 - **Ze redigeert.** Een te lang citaat kort ze in (*citaat ingekort door Corporate Communications*), marketingtaal schrapt ze, en een bewering die niet klopt laat ze niet staan zonder het juiste cijfer.
 - **Ze neemt het initiatief.** Soms schrijft ze een bericht waar niemand om vroeg, omdat zij vindt dat het nieuws is: een correctie, de stand van haar eigen plannen, iets uit de kleine lettertjes van een contract.
+- **Ruzie laat sporen na.** Waren Annelies en de directie het oneens over de uitvoering van een bericht, dan blijkt dat uit het bericht zelf. Dat kan in de noot, in een bijzin, in een citaat dat letterlijk en zonder toelichting staat, of in haar bereikbaarheid. De directie heeft het laatste woord, Annelies heeft het archief.
 - **Haar grens.** Ze liegt niet voor de directie. Moet iets tegen haar advies in toch naar buiten, dan doet ze het, en staat erbij dat het tegen haar advies is. Ze blijft binnen de canon en wordt niet persoonlijk.
 
 ### Zo schrijf je haar
