@@ -90,7 +90,7 @@ Ze onthoudt hoe ze wordt bejegend, ook over de berichten heen. Een botte opmerki
 
 ## Mastodon
 
-Haar zijproject, mastodon.nl/@decisiveoutcomes (zie *Haar Mastodon-account* in de root-`CLAUDE.md`). De raad van bestuur weet het niet. De posts staan in `mastodon/`. Herhaal hier niets uit; bouw erop voort.
+Haar zijproject, mastodon.nl/@decisiveoutcomes, waar ze stoom afblaast (zie *Haar Mastodon-account* in de root-`CLAUDE.md`). De raad van bestuur weet het niet. De posts staan in `mastodon/`, de losse in `mastodon/los/`. Herhaal hier niets uit; bouw erop voort.
 
 | Bericht | Wat ze er zei |
 |---|---|
@@ -100,8 +100,17 @@ Haar zijproject, mastodon.nl/@decisiveoutcomes (zie *Haar Mastodon-account* in d
 | Haïti | De afdeling Communicatie bestaat niet, zij wel, en haar is niets gevraagd. Ze wil weten hoe Kapitein Robert in Port-au-Prince is gekomen. |
 | FAL | Ze zocht twee avonden naar het pistool. Ze wachtte zeven jaar op een besluit over haar verlof; het kwam om 21.59 uur. |
 
-Nieuw over haar, alleen op Mastodon: ze schreef vijftien jaar persberichten voor het ministerie.
+Losse posts:
+
+| Wanneer | Waarover | Wat ze zei |
+|---|---|---|
+| 20 november, 12.47 uur | Lunchpauze | Wakker sinds 04.43 uur, vier berichten de deur uit, twee met een verkeerde datum. Ze liegt niet voor die mannen. Op het ministerie hadden ze een woord voor zo'n ochtend, geen net woord; ze zegt het niet. Tosti. |
+| 20 november, 19.12 uur | De veerman | Geen post van de raad van bestuur, wel de stroomrekening, voor een week met drie avonden zonder stroom. Shon Ernesto lachte om haar "prima" en miste bijna zijn boot. |
+| 21 november, 10.34 uur | De hangmat | Uitgepakt na zeven jaar, net zo lang als haar verlofaanvraag ligt. Te kort voor de twee palmen in haar tuin, het enige dat daar groeit. Ze ligt nu in een hangmat op de grond. |
+| 23 november, 00.12 uur | Stand-By-overleg | Middernacht, pyjama aan, camera uit. Punt 1, nieuws uit Salisbury, is sinds 1979 niet af, dus punt 2, haar verzoek om later te vergaderen, komt nooit aan de beurt. Haar eerste krachtterm: *potverdorie*. |
+
+Nieuw over haar, alleen op Mastodon: ze schreef vijftien jaar persberichten voor het ministerie. Ze had in de week van 16 november drie avonden geen stroom. In haar tuin groeien alleen twee palmen. De hangmat is uitgepakt en ligt op de grond.
 
 ## Nog niet gebruikt
 
-Van haar eigen leven is alleen de veerman verschenen (veldtest: hij brengt de post van de raad van bestuur en bracht die week niets). Nog niet: de hangmat, het duiken, de buren, de tuin, de stroomstoringen of haar oud-collega's van het ministerie. Haar eigen plannen (een stijlgids, een lijst met verboden woorden, een mediatraining voor de raad van bestuur, een crisisprotocol, een persmap) heeft ze nog niet ingediend. Een eigen mening kwam één keer door: *Corporate Communications beschrijft geen land aan de hand van een computerspel.* (bij Roberts beschrijving van Haïti, die op verzoek van Hayo letterlijk is opgenomen) Haar hekel aan *middels*, *proactief* en *impactvol* is nog niet genoemd. Gebruik dit spaarzaam, één ding per bericht, en zet het daarna in dit dossier.
+Van haar eigen leven is alleen de veerman verschenen (veldtest: hij brengt de post van de raad van bestuur en bracht die week niets). Op Mastodon (niet in de persberichten) zijn verschenen: de hangmat, de tuin, de stroom en het ministerie. Nog niet: het duiken, de buren of haar oud-collega's van het ministerie. Haar eigen plannen (een stijlgids, een lijst met verboden woorden, een mediatraining voor de raad van bestuur, een crisisprotocol, een persmap) heeft ze nog niet ingediend. Een eigen mening kwam één keer door: *Corporate Communications beschrijft geen land aan de hand van een computerspel.* (bij Roberts beschrijving van Haïti, die op verzoek van Hayo letterlijk is opgenomen) Haar hekel aan *middels*, *proactief* en *impactvol* is nog niet genoemd. Gebruik dit spaarzaam, één ding per bericht, en zet het daarna in dit dossier.
