@@ -573,6 +573,20 @@
         "referentie": "HOME-01",
         "instellingen": "aspectRatio 16:9, imageSize 4K"
       }
+    },
+    {
+      "id": "NEWS-00",
+      "type": "ai",
+      "alt": "",
+      "gebruik": "standaardbeeld voor elk inzicht zonder eigen beeld (BEELD_STANDAARD in includes/data.php); decoratief, dus alt=\"\"",
+      "uitsnede": "mobiel: 4:5 rond het focuspunt (x 0,72)",
+      "bron": {
+        "model": "gemini-3-pro-image",
+        "datum": "2026-11-20",
+        "prompt": "Cinematic corporate photography for a private security company annual report. Shot on 35mm film, subtle grain, slightly desaturated colors with warm golden highlights and deep near-black shadows, occasional muted crimson accent. Low, warm side light or single-source interior light, strong contrast, calm and serious mood. Generous negative space for text overlay. No text, no logos, no watermarks, no flags. Documentary-style photograph, same color grading as the rest of the series. A quiet, orderly wooden desk in a small island office late in the afternoon: a closed plain manila folder, a neat stack of blank paper, a rubber stamp beside an ink pad, a heavy old black desk telephone and a cup of coffee. Behind the desk a window with half-open wooden shutters, through which a calm turquoise sea and a pale horizon are visible. Low warm sunlight falls across the desk in stripes through the shutters. No people. Calm, patient, as if waiting for an answer. Everything is unbadged: no lettering, no readable text, no numbers, no brand names, no insignia, no flags. Main subject in the right half of the frame, the left half calmer and darker for text overlay. Aspect ratio 16:9. Match the color grading, light and grain of the reference image.",
+        "referentie": "HOME-01",
+        "instellingen": "aspectRatio 16:9, imageSize 4K"
+      }
     }
   ]
 }
