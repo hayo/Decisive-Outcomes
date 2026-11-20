@@ -587,6 +587,20 @@
         "referentie": "HOME-01",
         "instellingen": "aspectRatio 16:9, imageSize 4K"
       }
+    },
+    {
+      "id": "NEWS-18",
+      "type": "ai",
+      "alt": "Een schemerige gang tussen wanden van ruw multiplex, verlicht door één werklamp, met aan het eind één persoon in veldtenue, van achteren gezien.",
+      "gebruik": "newsroom/2026-11-15-training-gebouwen.md",
+      "uitsnede": "mobiel: 4:5 rond het focuspunt (x 0,74)",
+      "bron": {
+        "model": "gemini-3-pro-image",
+        "datum": "2026-11-20",
+        "prompt": "Cinematic corporate photography for a private security company annual report. Shot on 35mm film, subtle grain, slightly desaturated colors with warm golden highlights and deep near-black shadows, occasional muted crimson accent. Low, warm side light or single-source interior light, strong contrast, calm and serious mood. Generous negative space for text overlay. No text, no logos, no watermarks, no flags. Documentary-style photograph, same color grading as the rest of the series. A dim indoor training space with rough unpainted plywood walls forming a narrow corridor that turns a corner, a single caged work lamp casting warm light, scuffs on the walls and floor, one figure in plain tactical gear seen from behind in the distance, face not visible. Calm and orderly, no damage. Everything is unbadged: no lettering, no readable text, no numbers, no brand names, no insignia, no flags. Main subject in the right half of the frame, the left half calmer and darker for text overlay. Aspect ratio 16:9. Match the color grading, light and grain of the reference image.",
+        "referentie": "HOME-01",
+        "instellingen": "aspectRatio 16:9, imageSize 4K"
+      }
     }
   ]
 }
