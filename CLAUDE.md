@@ -244,6 +244,12 @@ Chef Marcel is chef-kok en hoofd catering van Decisive Hospitality, en verzonnen
 - Is een punt uit `docs/openstaand.md` klaar? Vink het af. Komt er iets nieuws bij, zet het erin.
 - Bij elk persbericht van Annelies hoort een post in `mastodon/<slug>.txt`. Een losse post komt in `mastodon/los/`. Werk daarna de tabel *Mastodon* in `verhaal/annelies.md` bij.
 - Na elk persbericht wordt `verhaal/annelies.md` bijgewerkt. Staat er een spoor van de affaire met Marcel in, of ligt er in een gesprek met Marcel iets vast, werk dan ook `verhaal/marcel.md` bij.
+- Verandert een canonwijziging, een persbericht of een inzicht een getal uit de financiën (de veestapel, een bezit, een bedrag, een koers, een divisie), werk dan in dezelfde commit alle pagina's met financiën bij:
+    - Investor relations (`website/public/investor-relations/index.php`): de kerncijfers, de balans (en daarmee het eigen vermogen), de grafieken en hun reeksen, het meerjarenoverzicht en de divisiecijfers;
+    - de vaste inhoud in `website/includes/data.php`: de feiten en teksten van de divisies en sectoren;
+    - Deel 2 van `verhaal/backstory.md`: de kerncijfers en *Financiën*.
+
+    Zoek op het oude getal, zodat er niets blijft staan. Een afgesloten jaarverslag en eerdere persberichten blijven zoals ze zijn; een herziening staat bij de cijfers zelf, met de datum en de reden (*Herzien na de telling van 10 november 2026; eerder 412.*).
 - Iets nieuws over een personage gaat pas live als het in `docs/toestemming.md` is goedgekeurd.
 
 ## Git
