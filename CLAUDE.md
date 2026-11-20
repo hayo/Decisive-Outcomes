@@ -4,11 +4,12 @@ Deze repository bevat alles rond het airsoftteam Decisive Outcomes: het verhaal,
 
 ## Mappen
 
-- `verhaal/` — de backstory. `backstory.md` is het leidende bestand. `annelies.md` is het dossier van Annelies Brouwer: haar kenmerken, adviezen, lopende verhaallijnen en tellingen.
+- `verhaal/` — de backstory. `backstory.md` is het leidende bestand. `annelies.md` is het dossier van Annelies Brouwer: haar kenmerken, adviezen, lopende verhaallijnen en tellingen. `marcel.md` is het dossier van chef Marcel: zijn keuken, zijn voorraadkast en zijn smoesjes.
 - `logo/` — het logo als PNG van 1880 px, rond met een transparante achtergrond, plus het beeldmerk (alleen het embleem) in wit, goud, zwart, kleur en metallic.
 - `website/` — de teamwebsite voor decisiveoutcomes.nl. Volg daar ook `website/CLAUDE.md`.
+- `mastodon/` — de posts van Annelies op mastodon.nl/@decisiveoutcomes, één tekstbestand per persbericht (`<slug>.txt`), en `plaats.php`, dat ze bij de deploy plaatst. Zie *Haar Mastodon-account* hieronder.
 - `events/` — materiaal voor events, patches en dergelijke (nog niet aangemaakt).
-- `plugins/decisive-outcomes/` — de Claude Code-plugin van het team, met de skill `persbericht-annelies` (het interview en persbericht met Annelies Brouwer). De repo is ook de marketplace (`.claude-plugin/marketplace.json`), en `.claude/settings.json` zet de plugin aan voor deze repo. Wijzig een skill hier, niet in een losse kopie, en verhoog bij een wijziging `version` in `plugin.json`.
+- `plugins/decisive-outcomes/` — de Claude Code-plugin van het team, met de skills `persbericht-annelies` (het interview en persbericht met Annelies Brouwer) en `chef-marcel` (een gesprek met chef Marcel in zijn keuken). De repo is ook de marketplace (`.claude-plugin/marketplace.json`), en `.claude/settings.json` zet de plugin aan voor deze repo. Wijzig een skill hier, niet in een losse kopie, en verhoog bij een wijziging `version` in `plugin.json`.
 - `docs/` — projectdocumentatie: [beslissingen](docs/beslissingen.md), [openstaande punten](docs/openstaand.md) en [toestemming](docs/toestemming.md) van teamleden.
 
 Maak een map pas aan als er iets in komt.
@@ -24,7 +25,7 @@ Maak een map pas aan als er iets in komt.
 
 - Deel 1 leest als een spannend boek: vloeiende, vertellende zinnen, scènes, dialoog, langere alinea's. Geen staccato.
 - Deel 2 beschrijft het concern van nu in dezelfde vloeiende stijl, met droge corporate humor (jaarverslag, governance, KPI's, beleid).
-- Humor is droog en ingehouden. Geen slapstick en geen A-Team-gekkigheid: geen busjes, geen ontploffingen, geen catchphrases.
+- Humor is droog en ingehouden. Geen slapstick en geen A-Team-gekkigheid: geen busjes, geen ontploffingen, geen catchphrases. Uitzondering: de verhalen van chef Marcel (zie *Chef Marcel* hieronder).
 - Houd het begin (vier man in 1979) en het wereldwijde concern van nu duidelijk uit elkaar.
 
 ## Vaste regels (canon)
@@ -52,10 +53,13 @@ Gebruik deze feiten consequent en wijzig ze niet zonder overleg.
     - Ibrahim Kamara: vliegtuigtechnicus uit Sierra Leone, kent de helikopter beter dan iedereen. Werkt in 1998–1999 samen met Jochem.
     - Annelies Brouwer: manager Corporate Communications in Kralendijk, verzonnen figuur. Zie *Annelies Brouwer* hieronder.
     - Kim de Graaf: stagiair Corporate Communications, verzonnen figuur. Schrijft de persberichten als Annelies met verlof is. Zie *Verlof en de stagiair* hieronder.
+    - Chef Marcel: chef-kok en hoofd catering van Decisive Hospitality, verzonnen figuur, geïnspireerd op René Artois uit *'Allo 'Allo!*. Belg uit Roeselare, kwam in 1991 met de frietketel uit Kinshasa bij de groep. Zie *Chef Marcel* hieronder.
+    - Germaine: de vrouw van Marcel, verzonnen. Beheert de kas van de kantine en zingt op de vrijdagmiddagborrel.
+    - Chantal en Monique: serveersters van Decisive Hospitality, op een dagcontract van Decisive People, verzonnen. Hebben allebei een geheime verhouding met Marcel.
     - Mestre Domingos: leidt sinds 1961 de mijn in Huíla (Angola). Wist altijd dat het kwarts was en hield de mijn rendabel. Kreeg in 1989 vrijwel alle winst in het contract met Robert. Nu leidt zijn dochter de mijn.
     - Make Simelane: hoofd van de school en voorzitter van de dorpsraad in een dorp ten zuiden van Manzini (Swaziland). Maakte van de "bevrijding" van 1992 een jaarlijkse Bevrijdingsdag met de groep als hoofdsponsor.
     - Shon Ernesto: visser op Bonaire. Verloor in 1999 met kaarten Klein Klein Bonaire aan Robert, of volgens hem alleen het recht om erover te praten. Vaste veerman, de enige leverancier die contant wordt betaald.
-    - Gebruik voor figuren die op echte mensen zijn gebaseerd altijd verzonnen namen.
+    - Gebruik voor figuren die op echte mensen of op bestaande personages uit film, televisie of boeken zijn gebaseerd altijd verzonnen namen.
 - **Tijdlijn:**
     - 1979: de kist moet naar een kruispunt in Manica. Het team wacht bij de verkeerde baobab.
     - 1979–1983: Kamp Stand-By in een cashewplantage.
@@ -63,7 +67,7 @@ Gebruik deze feiten consequent en wijzig ze niet zonder overleg.
     - 1 april 1984: oprichting. Eerste klant is Senhor Almeida, eerste factuur 0001.
     - 1989: Angola, de kwartsmijn (mei–augustus; Jochem blijft bij de kist). Begin van Decisive Mining.
     - 1989: de eerste kerstkaart.
-    - 1991: Kinshasa (de frituur).
+    - 1991: Kinshasa (de frituur). Marcel blijft bij de ketel en komt mee.
     - 1992: Swaziland. Het team "bevrijdt" een dorp dat bezet was door gasten voor de opening van de school, en repareert de generator. Sindsdien Bevrijdingsdag.
     - 1993: Sharjah. Robert koopt de Antonov van Morozov; het team weigert zijn "andere vracht".
     - 1995: Freetown, verloren aan Executive Outcomes. Eerste ontmoeting met Laurie.
@@ -93,6 +97,7 @@ Ze is geen invulformulier en geen uitvoerder. Ze heeft een eigen agenda, geeft t
 - **Het ministerie.** Ze heeft er herinneringen aan en oude collega's van wie ze nog weleens hoort. Ze mist het niet, zegt ze, maar ze noemt het vaker dan nodig is. Geen details die naar een echt ministerie verwijzen.
 - **Haar meningen.** Ze heeft overal een opvatting over: over taal (ze heeft een hekel aan *middels*, *proactief* en *impactvol*), over het nieuws, over Den Haag, over vergaderen om 06.00 uur. Over de divisie Benelux heeft ze zo haar vermoedens, en die houdt ze niet altijd voor zich.
 - **Haar eigenaardigheden.** Ze houdt alles bij, ook dingen die niemand haar vraagt bij te houden. Ze dateert alles. Ze leest de kleine lettertjes, ook van de contracten van de groep, en weet daardoor meer dan de directie denkt.
+- **Chef Marcel.** Ze heeft een geheime verhouding met chef Marcel, achter de koelcel van de kantine. Ze laat het nooit merken: ze blijft de professional, en wat ze privé doet, is privé. In haar persberichten staan hooguit subtiele sporen, nooit uitgesproken en niet in elk bericht: een tijd in de keuken die ze tot op de minuut noteert, een noot die opvallend mild is over Decisive Hospitality, frituurvet waar het niet hoort. Vraagt iemand ernaar, dan antwoordt ze zakelijk en over iets anders. Wat er is gebruikt, staat in `verhaal/marcel.md`.
 
 ### Haar verhouding met de raad van bestuur
 
@@ -195,12 +200,33 @@ Herhaal geen doorkijkje of telling uit een eerder bericht; bouw erop voort. Lope
 - De bedragen passen bij de jaarcijfers: de omzet over 2025 was R$ 53.100, dus een speeldag kost tientallen tot honderden Rhodesische dollars.
 - Na afloop van het jaar gaan de boekingen naar het meerjarenoverzicht, de divisiecijfers en het jaarverslag op Investor relations.
 
+### Haar Mastodon-account
+
+Het account mastodon.nl/@decisiveoutcomes is officieel het corporate account van de groep, beheerd door Corporate Communications. In werkelijkheid is het het zijproject van Annelies: daar zegt ze wat ze echt vindt van wat de groep doet. De raad van bestuur weet het niet. De Kolonel leest niets, de Majoor leest alleen zijn eigen rapporten, en de persberichten noemen het account nooit.
+
+- **Het format.** Bij elk persbericht één post: haar eigen tekst, met de link naar het bericht eronder. Mastodon toont bij de link een kaart met de officiële titel en samenvatting. Dat is het contrast: de kaart is het persbericht, de tekst erboven is Annelies. Hooguit 500 tekens, de link telt voor 23. Geen link in de tekst zelf.
+- **Hier gaat ze verder.** Ze schrijft in de ik-vorm en zegt het ongezouten: een besluit is onzin, ze schaamt zich voor een bericht, ze sliep toen de Majoor om 04.43 uur schreef, ze is het zat. Ze zegt wat er achter het bericht zat: haar advies dat niet is overgenomen, de datum die niet klopt, wat de directie haar liet doen. Ze mag spotten met wat de directie doet en zegt.
+- **Wat blijft.** Ze scheldt niet en gebruikt geen uitroeptekens. Ze oordeelt over wat een oprichter doet of zegt, niet over wie hij is. Ze verzint niets: wat ze zegt, staat in het bericht, haar dossier of de canon. Haar vaste gewoonten blijven: *de groep*, nooit *wij*, tijden tot op de minuut, getallen tot honderd voluit. De vaste regels van de canon gelden ook hier. Haar verhouding met Marcel blijft privé, ook op Mastodon.
+- **Stemming.** De post volgt de stemming van het bericht, maar een stap scherper dan het bericht zelf.
+- **Wat er al is gezegd**, staat in `verhaal/annelies.md`, onder *Mastodon*. Herhaal het niet.
+
 ### Verlof en de stagiair
 
 - Bij stemming 5 kan Annelies met verlof gaan. Tijdens haar verlof schrijft Kim de Graaf, stagiair Corporate Communications, de persberichten, met het veld `auteur: stagiair`. Hooguit twee berichten per verlof.
+- Tijdens het verlof plaatst Kim niets op Mastodon. Kim weet niet dat het account van Annelies is, en het blijft stil tot ze terug is.
 - Kim is te enthousiast: uitroeptekens, superlatieven, de woorden van de directie zonder afstand overgenomen, en de catering van Decisive Hospitality noemt Kim graag uit zichzelf. De canonregels gelden ook voor Kim.
 - Berichten van Kim hebben geen veld `stemming`.
 - Komt Annelies terug, dan staat haar stemming op 2. Haar eerste bericht is vaak een rectificatie van een bericht van Kim.
+
+## Chef Marcel
+
+Chef Marcel is chef-kok en hoofd catering van Decisive Hospitality, en verzonnen. Hij is geïnspireerd op René Artois uit *'Allo 'Allo!*, maar heeft een eigen naam, een eigen geschiedenis en een eigen keuken; zijn vrouw en serveersters ook. Zijn dossier, `verhaal/marcel.md`, houdt bij wie er in zijn keuken komt, wat er in zijn voorraadkast ligt en welke smoesjes hij al heeft gebruikt. De skill `chef-marcel` speelt hem.
+
+- **Wie hij is.** Belg uit Roeselare. Ging in 1984 met de frietketel mee naar de frituur in Kinshasa en bleef in 1991 bij de ketel toen de eigenaar naar Brussel vloog. Sinds 2001 tekent hij elke ochtend om 05.30 uur een dagcontract van Decisive People; hij is geen vaste medewerker, dus de groep heeft er nog steeds vier. Hij runt de kantine op Klein Klein Bonaire en gaat met de frietketel achterop een Land Rover mee waar de groep moet eten. Moe, pragmatisch, een beetje laf, onderdanig tegen de directie en achter hun rug spottend.
+- **Zijn keuken.** Zijn vrouw Germaine beheert de kas en zingt op de vrijdagmiddagborrel. Hij heeft geheime verhoudingen met de serveersters Chantal en Monique, en met Annelies Brouwer. Iedereen moet het voor iedereen geheim houden, en dat lukt niet.
+- **Zijn blik op de directie is de zijne.** Wat Marcel over de oprichters zegt, is zoals hij ze ziet, niet hoe ze zijn. Vooral Jochem: in Marcels ogen een luidruchtige charmeur met medailles die achter zijn vrouwen aan zit, in werkelijkheid de stille monteur bij de kist die goedemorgen zegt. De medailles zijn echt, maar voor Land Rover-werk en een kantineaudit. De canon van de oprichters verandert er niet door.
+- **Compliance.** Is Majoor Hayo. Ontzegde Marcel in 2024 drie weken de toegang tot zijn eigen frietketels.
+- **Toon.** In de verhalen en gesprekken van Marcel mag het kluchtiger dan elders: slapstick, omvallend keukengerei, doorzichtige smoesjes, vaste uitdrukkingen en theatrale terzijdes. Ook zijn zin dat "oorlogsmisdaden, en overgare groenten, ten strengste verboden zijn" mag. Voor de backstory en de persberichten blijven de gewone stijlregels gelden. Wat altijd blijft, ook bij Marcel: de kist blijft dicht (hij weet niet wat erin zit en wil het niet weten), Sierra Leone 1998–1999 is nooit een grap, respectvol over Afrika, en echte slachtoffers worden niet genoemd of belachelijk gemaakt.
 
 ## Logo en huisstijl
 
@@ -214,7 +240,8 @@ Herhaal geen doorkijkje of telling uit een eerder bericht; bouw erop voort. Lope
 
 - Wordt er iets besloten over het verhaal, de website of de repo? Zet het met datum en reden in `docs/beslissingen.md`.
 - Is een punt uit `docs/openstaand.md` klaar? Vink het af. Komt er iets nieuws bij, zet het erin.
-- Na elk persbericht wordt `verhaal/annelies.md` bijgewerkt.
+- Bij elk persbericht van Annelies hoort een post in `mastodon/<slug>.txt`.
+- Na elk persbericht wordt `verhaal/annelies.md` bijgewerkt. Staat er een spoor van de affaire met Marcel in, of ligt er in een gesprek met Marcel iets vast, werk dan ook `verhaal/marcel.md` bij.
 - Iets nieuws over een personage gaat pas live als het in `docs/toestemming.md` is goedgekeurd.
 
 ## Git

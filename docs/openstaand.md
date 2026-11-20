@@ -33,6 +33,7 @@ Wat nog moet gebeuren voordat en nadat de site live gaat. Vink af wat klaar is e
 - [x] Besluiten of het verhaal als pagina *Ons verhaal* op de site komt: ja, als verkorte corporate versie (11 november 2026).
 - [ ] De uitgebreide teksten van 11 november nalezen: divisies, sectoren, Over ons, *Ons verhaal*, Ethiek, Investor relations (jaarverslag 2025), Wereldwijd, Werken bij en de persberichten.
 - [ ] De drie nieuwe hoofdstukken (7, 10 en 14) laten lezen door Frederik, Jochem en Robert; ze spelen er alle drie een rol in.
+- [x] Chef Marcel op de website: op de divisiepagina van Decisive Hospitality, in *Ons verhaal* en in de casestudy over Kinshasa (20 november 2026).
 - [ ] Op de server: `includes/config.php` aanmaken (zie `config.example.php`).
 - [ ] Eventueel een professionele vectorversie (SVG) van het logo laten maken. Tot die tijd gebruiken we de originele PNG.
 - [x] De lijniconen per divisie ontwerpen.
@@ -48,6 +49,12 @@ Wat nog moet gebeuren voordat en nadat de site live gaat. Vink af wat klaar is e
 - [x] Het colofon, de privacyverklaring en de disclaimer schrijven. Deze teksten zijn echt, geen satire.
 - [x] De GitHub Actions-workflow voor de deploy.
 - [ ] Het persbericht over de renminbi (15 november 2026) noemt nog de vaste koers van R$ 1 = US$ 1,4609. De koers beweegt sinds dezelfde dag; eventueel een rectificatie door Annelies.
+
+## Mastodon
+
+- [ ] Op mastodon.nl een applicatie maken voor @decisiveoutcomes (Voorkeuren › Ontwikkelen) met de scopes `read:accounts`, `read:statuses` en `write:statuses`, en het token als GitHub Secret `MASTODON_TOKEN` zetten. Daarna plaatst de eerstvolgende deploy de vijf posts.
+- [ ] Naam, bio en avatar van het account instellen, met een duidelijke vermelding dat het satire is over een verzonnen bedrijf, zoals de disclaimer op de site. Controleer de regels van mastodon.nl voor zulke accounts.
+- [ ] Na de eerste deploy met token: kijken of de vijf posts in de goede volgorde staan en of de kaarten het beeld tonen.
 
 ## Later
 

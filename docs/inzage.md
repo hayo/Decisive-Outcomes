@@ -2,7 +2,9 @@
 
 Per teamlid staat hier wat er over hem in het verhaal en op de website staat. Laat ieder zijn eigen deel lezen en vul het akkoord in bij [toestemming.md](toestemming.md). Werk dit bestand bij als er iets nieuws over een personage bijkomt.
 
-Stand: 19 november 2026. Op 11 november zijn drie hoofdstukken toegevoegd (7, 10 en 14); de hoofdstukken daarna zijn vernummerd.
+Sinds 20 november 2026 plaatst Annelies bij elk persbericht een post op mastodon.nl/@decisiveoutcomes (de posts staan in `mastodon/`). Daar geeft ze haar mening over wat in de berichten staat; nieuwe feiten over de teamleden komen er niet in.
+
+Stand: 20 november 2026. Op 11 november zijn drie hoofdstukken toegevoegd (7, 10 en 14); de hoofdstukken daarna zijn vernummerd.
 
 ## Frederik
 
@@ -26,6 +28,8 @@ Stand: 19 november 2026. Op 11 november zijn drie hoofdstukken toegevoegd (7, 10
 - Persbericht over de catering in Oekraïne (19 november): stond in een buitengewoon Stand-By-overleg om 07.31 uur half op, wat in afwachting van nader onderzoek is opgevat als vaststelling van de verklaring. Volgens de verklaring is hij, net als de andere oprichters, sinds 1979 militair in Rhodesische dienst en nooit afgezwaaid.
 - Persberichten over Haïti en over de FAL (20 november): leverde op 19 november om 21.59 uur zelf twee persberichten aan, voor zover bekend zijn eerste teksten. Citaten: *Wij bereiden nooit iets voor; wij staan stand-by. Dat is een wezenlijk verschil.* en *Het recht geldt altijd, ook als het er niet is.* In de noot: Annelies houdt in haar overzicht van zijn houdingen een nieuwe rubriek bij, schrijven om 21.59 uur.
 - Persbericht over het computerspel (gedateerd 18 november): volgens het bericht begon een overleg "stipt op tijd om 06.47 uur", toen hij binnenkwam. In de noot: hij krijgt een kopie van de noot.
+
+**Bij chef Marcel** (dossier `verhaal/marcel.md` en de skill `chef-marcel`; zo ziet Marcel hem, niet hoe hij is): eet het ontbijt van het Stand-By-overleg van 06.00 uur pas om 06.47 uur, als de eieren koud zijn. Op de website, bij het Stand-By-overleg op Over ons: *De Kolonel ontbijt om 06.47 uur.*
 
 ## Hayo
 
@@ -52,6 +56,8 @@ Stand: 19 november 2026. Op 11 november zijn drie hoofdstukken toegevoegd (7, 10
 - Persbericht over de FAL (20 november): is de technische commissie. Citaat: *Het ding is veel te licht, hooguit geschikt voor Barbie en bovendien domweg te kort voor een propere bajonet.* Als afdeling Compliance keurde hij de P320 goed als werpwapen.
 - Persberichten over de veldtest en het computerspel (gedateerd 17 en 18 november, geplaatst 20 november): leverde ze om 04.43 uur aan met het verzoek ze te dateren "alsof ze allang op de site stonden"; in de noot letterlijk geciteerd. Een medewerker schrijft de afschrikking op de brug toe aan zijn bajonet. Als afdeling Compliance sanctioneert hij de medewerker (reiskosten bevroren). In de noot: hij vroeg of Corporate Communications sliep en dreigde haar verlof niet goed te keuren.
 
+**Bij chef Marcel** (dossier `verhaal/marcel.md` en de skill `chef-marcel`; zo ziet Marcel hem, niet hoe hij is): legt zijn FAL in 7mm Liviano, met bajonet, op het schone aanrecht en vindt de schilmesjes "te licht, hooguit geschikt voor Barbie". Is als afdeling Compliance degene die Marcel in 2024 drie weken de toegang tot zijn frietketels ontzegde.
+
 ## Jochem
 
 **Personage:** korporaal in 1979, nu kapitein en COO. Monteur uit Umtali. Draagt en bewaakt de kist. *Deze achtergrond is verzonnen.*
@@ -68,6 +74,8 @@ Stand: 19 november 2026. Op 11 november zijn drie hoofdstukken toegevoegd (7, 10
 - Persbericht over de catering in Oekraïne (19 november): verzorgde van april tot oktober 2023 in het oosten van Oekraïne het onderhoud van drones van een Europese fabrikant, die volgens zijn rapport "vaker neerkwamen dan nodig was". Reisde met een van de Land Rovers en de frietketel.
 - Investor relations en persbericht over de renminbi (15 november): de koers van de geit (R$ 25) is de marktprijs in Umtali in 1979, volgens hem. Ook in het verhaal, Deel 2, *Financiën*.
 - Geen citaten.
+
+**Bij chef Marcel** (dossier `verhaal/marcel.md` en de skill `chef-marcel`; zo ziet Marcel hem, niet hoe hij is): een luidruchtige charmeur met een rij medailles, voor het parkeren van een Land Rover en het overleven van een kantineaudit, die volgens Marcel de serveersters en Annelies Brouwer wil versieren en in de keuken dingen omstoot. Dat is uitdrukkelijk Marcels jaloerse blik: in de canon blijft Jochem de stille monteur bij de kist.
 
 ## Robert
 
@@ -89,3 +97,5 @@ Stand: 19 november 2026. Op 11 november zijn drie hoofdstukken toegevoegd (7, 10
 - Persbericht over de catering in Oekraïne (19 november): was van april tot oktober 2023 in het oosten van Oekraïne en stelde het contract op als cateringcontract van Decisive Hospitality, met in bijlage C "onderhoud van de friteuse en aanverwante vliegende apparatuur". Citaat: *Beide, afhankelijk van wie het vraagt. Wij leveren friet. Moet er tussen de bestellingen door iets gerepareerd worden, dan doen wij dat ook. Dat noemen wij service.*
 - Persbericht over Haïti (20 november): is volgens de raad van bestuur in Port-au-Prince voor "een grondige verkenning van de Haïtiaanse plafonds", met een voorschot van R$ 350.
 - Persbericht over het computerspel (gedateerd 18 november): stelt voor Grand Theft Auto VI op te nemen in de verplichte training; zijn woorden over "het vorderen van voertuigen onder tijdsdruk" vertaalt Annelies als het stelen van auto's. Was volgens de raad van bestuur tijdens het overleg in Port-au-Prince.
+
+**Bij chef Marcel** (dossier `verhaal/marcel.md` en de skill `chef-marcel`; zo ziet Marcel hem, niet hoe hij is): staat zwijgend naar het systeemplafond van de keuken te kijken, ter voorbereiding op Haïti, en wil Marcel overtuigen dat Grand Theft Auto VI de ideale training is voor de bezorgdienst.

@@ -6,6 +6,8 @@
 #   DEPLOY_PASSWORD     wachtwoord
 #   DEPLOY_KNOWN_HOSTS  uitvoer van: ssh-keyscan -p <poort> <host>
 #                       (geheim omdat de hostnaam erin staat)
+#   MASTODON_TOKEN      token van mastodon.nl/@decisiveoutcomes (scopes read:accounts,
+#                       read:statuses, write:statuses). Zonder token wordt er niets geplaatst.
 # De rest staat hieronder bij env.
 name: Deploy website
 
@@ -36,13 +38,17 @@ jobs:
     runs-on: ubuntu-latest
     env:
       DEPLOY_HOST: ${{ secrets.DEPLOY_HOST }}
+      MASTODON_TOKEN: ${{ secrets.MASTODON_TOKEN }}
     steps:
       - uses: actions/checkout@v4
         with:
           fetch-depth: 0
 
       - name: PHP-syntax controleren
-        run: find website -name '*.php' -print0 | xargs -0 -n1 php -l
+        run: find website mastodon -name '*.php' -print0 | xargs -0 -n1 php -l
+
+      - name: Mastodon-posts controleren
+        run: php mastodon/plaats.php check
 
       - name: Melding als de server nog niet is ingesteld
         if: env.DEPLOY_HOST == ''
@@ -98,3 +104,8 @@ jobs:
             mirror --reverse --only-newer --no-perms --verbose --exclude-glob config.php website/includes $DEPLOY_PATH/includes;
             mirror --reverse --only-newer --no-perms --verbose website/content  $DEPLOY_PATH/content;
             bye"
+
+      - name: Op Mastodon plaatsen
+        # Na de upload, zodat de link een kaart heeft. Plaatst alleen wat nog niet op het account staat.
+        if: env.DEPLOY_HOST != '' && !inputs.alleen_kijken && env.MASTODON_TOKEN != ''
+        run: php mastodon/plaats.php post

@@ -42,6 +42,7 @@ Sinds 19 november 2026 geeft ze haar adviezen en stukken een kenmerk. Het volgen
     - Op 20 november kreeg hij een kopie van haar noot bij het bericht over het computerspel. Of hij die leest, is niet bekend.
     - Bij Bevrijdingsdag zit hij op de eerste rij, op de stoel die het dorp voor hem bewaart.
 - **Het Stand-By-overleg.** Elke maandag om 06.00 uur Salisbury-tijd. Dat is middernacht in Kralendijk, en daar neemt ze aan deel. Haar verzoek om een later tijdstip staat als tweede punt op de agenda.
+- **Chef Marcel.** Ze heeft een geheime verhouding met chef Marcel, achter de koelcel van de kantine (canon sinds 20 november 2026). Ze laat het nooit merken. In haar berichten mogen subtiele sporen staan; wat er is gebruikt, staat in `verhaal/marcel.md`. Nog geen spoor gebruikt.
 - **De boekhouder.** Verzonnen en naamloos. Vraagt sinds 1986 om een wisselkoers, kreeg die op 9 november en sloot op 10 november de eerste jaarrekening van de groep af. Een collega in hetzelfde schuitje; ze hebben elkaar nog niet gesproken in een bericht.
 
 ## Tellingen
@@ -86,6 +87,20 @@ Ze onthoudt hoe ze wordt bejegend, ook over de berichten heen. Een botte opmerki
 - Uitsluitend schriftelijk bereikbaar, via Postbus 1. Een verlofadres is niet beschikbaar.
 - Uitsluitend schriftelijk bereikbaar, via Postbus 1. Berichten worden geplaatst op de dag dat ze binnenkomen.
 - Uitsluitend schriftelijk bereikbaar, ook om 04.43 uur.
+
+## Mastodon
+
+Haar zijproject, mastodon.nl/@decisiveoutcomes (zie *Haar Mastodon-account* in de root-`CLAUDE.md`). De raad van bestuur weet het niet. De posts staan in `mastodon/`. Herhaal hier niets uit; bouw erop voort.
+
+| Bericht | Wat ze er zei |
+|---|---|
+| Veldtest FAL | Ze sliep om 04.43 uur, en ze doet niet meer alsof. De medewerker die iets teruggaf, is gesanctioneerd. |
+| Computerspel | Het eerste bericht in vijftien jaar persberichten waarvoor ze zich schaamt. Het overleg begon om 07.15 uur; ze heeft de notulen gelezen. |
+| Catering Oekraïne | Standpunt 1 en 4 spreken elkaar tegen. Ze zat in 2023 elke maandag om middernacht bij een overleg waarin niets gebeurde. Haar verlofaanvraag was het enige verstandige besluit van die dag. |
+| Haïti | De afdeling Communicatie bestaat niet, zij wel, en haar is niets gevraagd. Ze wil weten hoe Kapitein Robert in Port-au-Prince is gekomen. |
+| FAL | Ze zocht twee avonden naar het pistool. Ze wachtte zeven jaar op een besluit over haar verlof; het kwam om 21.59 uur. |
+
+Nieuw over haar, alleen op Mastodon: ze schreef vijftien jaar persberichten voor het ministerie.
 
 ## Nog niet gebruikt
 
