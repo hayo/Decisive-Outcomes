@@ -6,15 +6,13 @@ declare(strict_types=1);
 //   mastodon/<slug>.txt                       bij een persbericht; de link komt er vanzelf onder
 //   mastodon/los/jjjj-mm-dd-uumm-onderwerp.txt   een losse post, geplaatst vanaf die tijd (Bonaire)
 //
-// Een post mag beginnen met een regel "cw: <waarschuwing>" en een lege regel.
-//
 //   php mastodon/plaats.php check            controleert de posts, zonder netwerk
 //   php mastodon/plaats.php post [--dry-run] plaatst wat aan de beurt is en nog niet op het account staat
 //
 // Voor post: MASTODON_TOKEN (scopes read:accounts, read:statuses, write:statuses).
 // MASTODON_INSTANCE, SITE_URL en NU (jjjj-mm-dd uu:mm) zijn er om lokaal te testen.
 
-const LIMIET = 500;      // tekens per post op mastodon.nl, waarschuwing meegeteld
+const LIMIET = 500;      // tekens per post op mastodon.nl
 const LINK_TELT = 23;    // Mastodon telt elke link als 23 tekens
 const TIJDZONE = 'America/Kralendijk';
 
@@ -76,18 +74,14 @@ function verzoek(string $methode, string $url, ?string $token = null, ?array $ve
     return [$status, $body === false ? '' : $body];
 }
 
-/** @return array{string, string} waarschuwing en tekst */
-function lees(string $pad, string $naam): array
+function lees(string $pad, string $naam): string
 {
     $tekst = trim(str_replace("\r\n", "\n", (string) file_get_contents($pad)));
-    $cw = '';
-    if (preg_match('/^cw:[ \t]*([^\n]+)\n[ \t]*\n(.*)$/s', $tekst, $m)) {
-        [$cw, $tekst] = [trim($m[1]), trim($m[2])];
-    } elseif (str_starts_with(strtolower($tekst), 'cw:')) {
-        fout("$naam: na de regel met cw: hoort een lege regel.");
-    }
     if ($tekst === '') {
         fout("$naam is leeg.");
+    }
+    if (preg_match('/^cw:/i', $tekst)) {
+        fout("$naam begint met een inhoudswaarschuwing. Annelies houdt het zo dat er geen nodig is.");
     }
     if (preg_match('{https?://}', $tekst)) {
         fout("$naam bevat een link. Bij een persbericht komt de link er vanzelf onder; een losse post heeft er geen.");
@@ -95,7 +89,7 @@ function lees(string $pad, string $naam): array
     if (str_contains($tekst, '!')) {
         fout("$naam bevat een uitroepteken. Die zijn van de stagiair.");
     }
-    return [$cw, $tekst];
+    return $tekst;
 }
 
 // Alle posts, met als sleutel het moment waarop ze aan de beurt zijn.
@@ -109,11 +103,11 @@ foreach (glob("$map/*.txt") ?: [] as $pad) {
     if (!is_file("$newsroom/$slug.md")) {
         fout("$naam: er is geen persbericht website/content/newsroom/$slug.md.");
     }
-    [$cw, $tekst] = lees($pad, $naam);
+    $tekst = lees($pad, $naam);
     $url = "$site/newsroom/$slug/";
-    $posts["{$m[1]} 00:00 $slug"] = ['naam' => $naam, 'cw' => $cw, 'tekst' => "$tekst\n\n$url", 'url' => $url,
+    $posts["{$m[1]} 00:00 $slug"] = ['naam' => $naam, 'tekst' => "$tekst\n\n$url", 'url' => $url,
         'vanaf' => new DateTimeImmutable($m[1], new DateTimeZone(TIJDZONE)),
-        'lengte' => tekens($cw) + tekens($tekst) + 2 + LINK_TELT];
+        'lengte' => tekens($tekst) + 2 + LINK_TELT];
 }
 foreach (glob("$map/los/*.txt") ?: [] as $pad) {
     $naam = 'los/' . basename($pad);
@@ -122,9 +116,9 @@ foreach (glob("$map/los/*.txt") ?: [] as $pad) {
     }
     $vanaf = DateTimeImmutable::createFromFormat('!Y-m-d H:i', "{$m[1]} {$m[2]}:{$m[3]}", new DateTimeZone(TIJDZONE))
         ?: fout("$naam: geen geldige datum en tijd.");
-    [$cw, $tekst] = lees($pad, $naam);
-    $posts["{$m[1]} {$m[2]}:{$m[3]} $naam"] = ['naam' => $naam, 'cw' => $cw, 'tekst' => $tekst, 'url' => null,
-        'vanaf' => $vanaf, 'lengte' => tekens($cw) + tekens($tekst)];
+    $tekst = lees($pad, $naam);
+    $posts["{$m[1]} {$m[2]}:{$m[3]} $naam"] = ['naam' => $naam, 'tekst' => $tekst, 'url' => null,
+        'vanaf' => $vanaf, 'lengte' => tekens($tekst)];
 }
 ksort($posts);
 foreach ($posts as $p) {
@@ -196,12 +190,11 @@ foreach ($nieuw as $p) {
         }
     }
     if ($proef) {
-        echo "--- zou plaatsen: {$p['naam']}\n" . ($p['cw'] !== '' ? "[cw: {$p['cw']}]\n" : '') . "{$p['tekst']}\n";
+        echo "--- zou plaatsen: {$p['naam']}\n{$p['tekst']}\n";
         continue;
     }
     [$status, $body] = verzoek('POST', "$instance/api/v1/statuses", $token, [
         'status' => $p['tekst'],
-        'spoiler_text' => $p['cw'],
         'visibility' => 'public',
         'language' => 'nl',
     ], ['Idempotency-Key: ' . hash('sha256', $p['naam'])]);

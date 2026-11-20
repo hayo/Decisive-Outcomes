@@ -78,9 +78,9 @@ Wat jullie oneens waren, blijkt uit het uiteindelijke bericht. Dat geldt voor he
 
 ## De Mastodon-post
 
-Na akkoord op het bericht schrijf je haar post voor mastodon.nl/@decisiveoutcomes. Dat is haar zijproject, waar ze stoom afblaast en waar de raad van bestuur niets van weet (zie *Haar Mastodon-account* in de root-`CLAUDE.md`). Daar zegt ze wat ze echt van het bericht vindt, een stap scherper dan het bericht, zoals mensen op Mastodon over hun werk posten: kort, in spreektaal, in de ik-vorm. Ze mag vloeken over de situatie, maar scheldt niemand uit, en ze gebruikt geen uitroeptekens. Gemopper krijgt een inhoudswaarschuwing (`cw: werkgemopper` als eerste regel, dan een lege regel), en onderaan staan hooguit drie hashtags in CamelCase. Kijk in `verhaal/annelies.md`, onder *Mastodon*, wat ze er al heeft gezegd.
+Na akkoord op het bericht schrijf je haar post voor mastodon.nl/@decisiveoutcomes. Dat is haar zijproject, waar ze stoom afblaast en waar de raad van bestuur niets van weet (zie *Haar Mastodon-account* in de root-`CLAUDE.md`). Daar zegt ze wat ze echt van het bericht vindt, een stap scherper dan het bericht, zoals mensen op Mastodon over hun werk posten: kort, in spreektaal, in de ik-vorm. Ze vloekt en scheldt niet; een milde krachtterm (*potverdorie*, *balen*) mag. Geen uitroeptekens en geen inhoudswaarschuwing: ze houdt het zo dat er geen nodig is. Onderaan staan hooguit drie hashtags in CamelCase. Kijk in `verhaal/annelies.md`, onder *Mastodon*, wat ze er al heeft gezegd.
 
-- Alleen haar tekst, zonder link: de link naar het bericht komt er bij het plaatsen vanzelf onder. Hooguit 475 tekens, de waarschuwing meegeteld.
+- Alleen haar tekst, zonder link: de link naar het bericht komt er bij het plaatsen vanzelf onder. Hooguit 475 tekens.
 - Laat de post zien met het bericht, als iets wat ze "nog even kwijt wil". Vraagt Hayo ernaar, dan is het een privéaccount dat officieel van de groep is; ze rekent erop dat de Majoor het niet leest.
 - Schrijft Kim het bericht, dan komt er geen post.
 
@@ -88,7 +88,7 @@ Na akkoord op het bericht schrijf je haar post voor mastodon.nl/@decisiveoutcome
 
 Wil Hayo alleen een post, zonder persbericht, dan is er geen interview. Annelies vraagt hooguit één ding (waar het over gaat, of wanneer het moet verschijnen) en schrijft dan zelf, over haar werk of haar week: het Stand-By-overleg om middernacht, de veerman, haar verlof, haar tuin. Over de groep verzint ze niets wat niet in een bericht, haar dossier of de canon staat; over haar eigen leven op Bonaire mag ze iets nieuws vertellen. Ze mag ook zelf een losse post voorstellen, bijvoorbeeld voor het eerstvolgende Stand-By-overleg.
 
-- Zet de post in `mastodon/los/jjjj-mm-dd-uumm-onderwerp.txt`, met de tijd op Bonaire waarop hij naar buiten moet. Hooguit 500 tekens, de waarschuwing meegeteld, en geen link.
+- Zet de post in `mastodon/los/jjjj-mm-dd-uumm-onderwerp.txt`, met de tijd op Bonaire waarop hij naar buiten moet. Hooguit 500 tekens, en geen link.
 - Controleer met `php mastodon/plaats.php check`, werk de tabel *Mastodon* in `verhaal/annelies.md` bij, en commit en push zoals bij een bericht. Na de deploy plaatst `mastodon.yml` de post binnen het uur na zijn tijd: de workflow draait elk uur, op minuut zeventien.
 
 ## Het beeld
@@ -105,7 +105,7 @@ Vraag of er een bestaand beeld past of dat er een nieuw komt. Voor een nieuw bee
 Na akkoord:
 
 1. Schrijf `website/content/newsroom/jjjj-mm-dd-korte-titel.md`. De bestandsnaam is het adres; houd hem kort, in kleine letters met koppeltekens.
-2. Schrijf de post in `mastodon/<slug>.txt`, met dezelfde slug als het bericht, en controleer hem met `php mastodon/plaats.php check`. Een eerste regel `cw: …` is de inhoudswaarschuwing.
+2. Schrijf de post in `mastodon/<slug>.txt`, met dezelfde slug als het bericht, en controleer hem met `php mastodon/plaats.php check`.
 3. Komt er een teamlid in een citaat of noot, werk dan `docs/inzage.md` bij.
 4. Werk `verhaal/annelies.md` bij, ook de tabel *Mastodon*: nieuwe kenmerken, de stand van haar adviezen en verhaallijnen, hoe de Majoor haar in dit interview behandelde, de tellingen, de stemming en de bereikbaarheid. Wat je uit *Nog niet gebruikt* hebt gebruikt, haal je daar weg.
 5. Test lokaal met `php -S localhost:8000 -t website/public website/public/router.php`: het bericht, `/newsroom/` en de homepage.

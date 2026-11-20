@@ -104,10 +104,10 @@ Losse posts:
 
 | Wanneer | Waarover | Wat ze zei |
 |---|---|---|
-| 20 november, 12.47 uur | Lunchpauze | Wakker sinds 04.43 uur, vier berichten de deur uit, twee met een verkeerde datum. Ze liegt niet voor die mannen. Op het ministerie hadden ze een woord voor zo'n ochtend, geen net woord. Tosti. |
+| 20 november, 12.47 uur | Lunchpauze | Wakker sinds 04.43 uur, vier berichten de deur uit, twee met een verkeerde datum. Ze liegt niet voor die mannen. Op het ministerie hadden ze een woord voor zo'n ochtend, geen net woord; ze zegt het niet. Tosti. |
 | 20 november, 19.12 uur | De veerman | Geen post van de raad van bestuur, wel de stroomrekening, voor een week met drie avonden zonder stroom. Shon Ernesto lachte om haar "prima" en miste bijna zijn boot. |
 | 21 november, 10.34 uur | De hangmat | Uitgepakt na zeven jaar, net zo lang als haar verlofaanvraag ligt. Te kort voor de twee palmen in haar tuin, het enige dat daar groeit. Ze ligt nu in een hangmat op de grond. |
-| 23 november, 00.12 uur | Stand-By-overleg | Middernacht, pyjama aan, camera uit. Punt 1, nieuws uit Salisbury, is sinds 1979 niet af, dus punt 2, haar verzoek om later te vergaderen, komt nooit aan de beurt. Haar eerste vloek: *godverdomme*. |
+| 23 november, 00.12 uur | Stand-By-overleg | Middernacht, pyjama aan, camera uit. Punt 1, nieuws uit Salisbury, is sinds 1979 niet af, dus punt 2, haar verzoek om later te vergaderen, komt nooit aan de beurt. Haar eerste krachtterm: *potverdorie*. |
 
 Nieuw over haar, alleen op Mastodon: ze schreef vijftien jaar persberichten voor het ministerie. Ze had in de week van 16 november drie avonden geen stroom. In haar tuin groeien alleen twee palmen. De hangmat is uitgepakt en ligt op de grond.
 
