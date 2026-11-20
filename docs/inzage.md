@@ -24,6 +24,7 @@ Stand: 19 november 2026. Op 11 november zijn drie hoofdstukken toegevoegd (7, 10
 - Persbericht over de NAVO-norm, in de noot: hij werd om een reactie gevraagd en stond op.
 - Persbericht over de training in gebouwen (15 november): behaalt op korte afstand opvallend goede resultaten, voor een groot deel met het mes.
 - Persbericht over de catering in Oekraïne (19 november): stond in een buitengewoon Stand-By-overleg om 07.31 uur half op, wat in afwachting van nader onderzoek is opgevat als vaststelling van de verklaring. Volgens de verklaring is hij, net als de andere oprichters, sinds 1979 militair in Rhodesische dienst en nooit afgezwaaid.
+- Persberichten over Haïti en over de FAL (20 november): leverde op 19 november om 21.59 uur zelf twee persberichten aan, voor zover bekend zijn eerste teksten. Citaten: *Wij bereiden nooit iets voor; wij staan stand-by. Dat is een wezenlijk verschil.* en *Het recht geldt altijd, ook als het er niet is.* In de noot: Annelies houdt in haar overzicht van zijn houdingen een nieuwe rubriek bij, schrijven om 21.59 uur.
 
 ## Hayo
 
@@ -46,6 +47,8 @@ Stand: 19 november 2026. Op 11 november zijn drie hoofdstukken toegevoegd (7, 10
 - Persbericht over de renminbi (15 november): zijn voorbehoud over Salisbury staat erin.
 - Investor relations (15 november): liet in de notulen aantekenen dat hij de wisselkoersen aanvaardt onder voorbehoud van bekrachtiging door Salisbury, en stuurde een kopie. Ook in het verhaal, Deel 2, *Financiën*.
 - Persbericht over de catering in Oekraïne (19 november): schreef over de inzet van 2023 een rapport van eenenzestig pagina's, dat op 24 oktober 2023 naar Salisbury ging en nog op goedkeuring wacht.
+- Persbericht over Haïti (20 november): vormt de afdeling Compliance, die de groep zo nodig zelf sanctioneert (in 2024 drie weken zonder frietketel). Op zijn verzoek verschijnt het bericht zonder het Stand-By-overleg af te wachten.
+- Persbericht over de FAL (20 november): is de technische commissie. Citaat: *Het ding is veel te licht, hooguit geschikt voor Barbie en bovendien domweg te kort voor een propere bajonet.* Als afdeling Compliance keurde hij de P320 goed als werpwapen.
 
 ## Jochem
 
@@ -82,3 +85,4 @@ Stand: 19 november 2026. Op 11 november zijn drie hoofdstukken toegevoegd (7, 10
 - In de noot bij hetzelfde persbericht: op zijn verzoek wordt de catering van Decisive Hospitality aangeprezen.
 - Persbericht over de training in gebouwen (15 november): een deel van zijn munitie volgt een opwaartse baan, wat als verkenning van het plafond wordt beschouwd.
 - Persbericht over de catering in Oekraïne (19 november): was van april tot oktober 2023 in het oosten van Oekraïne en stelde het contract op als cateringcontract van Decisive Hospitality, met in bijlage C "onderhoud van de friteuse en aanverwante vliegende apparatuur". Citaat: *Beide, afhankelijk van wie het vraagt. Wij leveren friet. Moet er tussen de bestellingen door iets gerepareerd worden, dan doen wij dat ook. Dat noemen wij service.*
+- Persbericht over Haïti (20 november): is volgens de raad van bestuur in Port-au-Prince voor "een grondige verkenning van de Haïtiaanse plafonds", met een voorschot van R$ 350.
