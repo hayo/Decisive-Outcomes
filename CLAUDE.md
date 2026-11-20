@@ -7,6 +7,7 @@ Deze repository bevat alles rond het airsoftteam Decisive Outcomes: het verhaal,
 - `verhaal/` — de backstory. `backstory.md` is het leidende bestand. `annelies.md` is het dossier van Annelies Brouwer: haar kenmerken, adviezen, lopende verhaallijnen en tellingen. `marcel.md` is het dossier van chef Marcel: zijn keuken, zijn voorraadkast en zijn smoesjes.
 - `logo/` — het logo als PNG van 1880 px, rond met een transparante achtergrond, plus het beeldmerk (alleen het embleem) in wit, goud, zwart, kleur en metallic.
 - `website/` — de teamwebsite voor decisiveoutcomes.nl. Volg daar ook `website/CLAUDE.md`.
+- `mastodon/` — de posts van Annelies op mastodon.nl/@decisiveoutcomes, één tekstbestand per persbericht (`<slug>.txt`), en `plaats.php`, dat ze bij de deploy plaatst. Zie *Haar Mastodon-account* hieronder.
 - `events/` — materiaal voor events, patches en dergelijke (nog niet aangemaakt).
 - `plugins/decisive-outcomes/` — de Claude Code-plugin van het team, met de skills `persbericht-annelies` (het interview en persbericht met Annelies Brouwer) en `chef-marcel` (een gesprek met chef Marcel in zijn keuken). De repo is ook de marketplace (`.claude-plugin/marketplace.json`), en `.claude/settings.json` zet de plugin aan voor deze repo. Wijzig een skill hier, niet in een losse kopie, en verhoog bij een wijziging `version` in `plugin.json`.
 - `docs/` — projectdocumentatie: [beslissingen](docs/beslissingen.md), [openstaande punten](docs/openstaand.md) en [toestemming](docs/toestemming.md) van teamleden.
@@ -199,9 +200,20 @@ Herhaal geen doorkijkje of telling uit een eerder bericht; bouw erop voort. Lope
 - De bedragen passen bij de jaarcijfers: de omzet over 2025 was R$ 53.100, dus een speeldag kost tientallen tot honderden Rhodesische dollars.
 - Na afloop van het jaar gaan de boekingen naar het meerjarenoverzicht, de divisiecijfers en het jaarverslag op Investor relations.
 
+### Haar Mastodon-account
+
+Het account mastodon.nl/@decisiveoutcomes is officieel het corporate account van de groep, beheerd door Corporate Communications. In werkelijkheid is het het zijproject van Annelies: daar zegt ze wat ze echt vindt van wat de groep doet. De raad van bestuur weet het niet. De Kolonel leest niets, de Majoor leest alleen zijn eigen rapporten, en de persberichten noemen het account nooit.
+
+- **Het format.** Bij elk persbericht één post: haar eigen tekst, met de link naar het bericht eronder. Mastodon toont bij de link een kaart met de officiële titel en samenvatting. Dat is het contrast: de kaart is het persbericht, de tekst erboven is Annelies. Hooguit 500 tekens, de link telt voor 23. Geen link in de tekst zelf.
+- **Hier gaat ze verder.** Ze schrijft in de ik-vorm en zegt het ongezouten: een besluit is onzin, ze schaamt zich voor een bericht, ze sliep toen de Majoor om 04.43 uur schreef, ze is het zat. Ze zegt wat er achter het bericht zat: haar advies dat niet is overgenomen, de datum die niet klopt, wat de directie haar liet doen. Ze mag spotten met wat de directie doet en zegt.
+- **Wat blijft.** Ze scheldt niet en gebruikt geen uitroeptekens. Ze oordeelt over wat een oprichter doet of zegt, niet over wie hij is. Ze verzint niets: wat ze zegt, staat in het bericht, haar dossier of de canon. Haar vaste gewoonten blijven: *de groep*, nooit *wij*, tijden tot op de minuut, getallen tot honderd voluit. De vaste regels van de canon gelden ook hier. Haar verhouding met Marcel blijft privé, ook op Mastodon.
+- **Stemming.** De post volgt de stemming van het bericht, maar een stap scherper dan het bericht zelf.
+- **Wat er al is gezegd**, staat in `verhaal/annelies.md`, onder *Mastodon*. Herhaal het niet.
+
 ### Verlof en de stagiair
 
 - Bij stemming 5 kan Annelies met verlof gaan. Tijdens haar verlof schrijft Kim de Graaf, stagiair Corporate Communications, de persberichten, met het veld `auteur: stagiair`. Hooguit twee berichten per verlof.
+- Tijdens het verlof plaatst Kim niets op Mastodon. Kim weet niet dat het account van Annelies is, en het blijft stil tot ze terug is.
 - Kim is te enthousiast: uitroeptekens, superlatieven, de woorden van de directie zonder afstand overgenomen, en de catering van Decisive Hospitality noemt Kim graag uit zichzelf. De canonregels gelden ook voor Kim.
 - Berichten van Kim hebben geen veld `stemming`.
 - Komt Annelies terug, dan staat haar stemming op 2. Haar eerste bericht is vaak een rectificatie van een bericht van Kim.
@@ -228,6 +240,7 @@ Chef Marcel is chef-kok en hoofd catering van Decisive Hospitality, en verzonnen
 
 - Wordt er iets besloten over het verhaal, de website of de repo? Zet het met datum en reden in `docs/beslissingen.md`.
 - Is een punt uit `docs/openstaand.md` klaar? Vink het af. Komt er iets nieuws bij, zet het erin.
+- Bij elk persbericht van Annelies hoort een post in `mastodon/<slug>.txt`.
 - Na elk persbericht wordt `verhaal/annelies.md` bijgewerkt. Staat er een spoor van de affaire met Marcel in, of ligt er in een gesprek met Marcel iets vast, werk dan ook `verhaal/marcel.md` bij.
 - Iets nieuws over een personage gaat pas live als het in `docs/toestemming.md` is goedgekeurd.
 

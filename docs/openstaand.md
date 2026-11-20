@@ -50,6 +50,12 @@ Wat nog moet gebeuren voordat en nadat de site live gaat. Vink af wat klaar is e
 - [x] De GitHub Actions-workflow voor de deploy.
 - [ ] Het persbericht over de renminbi (15 november 2026) noemt nog de vaste koers van R$ 1 = US$ 1,4609. De koers beweegt sinds dezelfde dag; eventueel een rectificatie door Annelies.
 
+## Mastodon
+
+- [ ] Op mastodon.nl een applicatie maken voor @decisiveoutcomes (Voorkeuren › Ontwikkelen) met de scopes `read:accounts`, `read:statuses` en `write:statuses`, en het token als GitHub Secret `MASTODON_TOKEN` zetten. Daarna plaatst de eerstvolgende deploy de vijf posts.
+- [ ] Naam, bio en avatar van het account instellen, met een duidelijke vermelding dat het satire is over een verzonnen bedrijf, zoals de disclaimer op de site. Controleer de regels van mastodon.nl voor zulke accounts.
+- [ ] Na de eerste deploy met token: kijken of de vijf posts in de goede volgorde staan en of de kaarten het beeld tonen.
+
 ## Later
 
 - [ ] Na akkoord van alle vier: besluiten of de silhouetportretten worden vervangen door echte foto's.
