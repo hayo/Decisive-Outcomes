@@ -62,6 +62,10 @@ Herhaal ze niet; verzin nieuwe.
 
 - Annelies in de voorraadkast: zij inspecteerde de ketencontinuïteit van de mayonaise.
 
+## Op de website
+
+Sinds 20 november 2026 staat Marcel op de divisiepagina van Decisive Hospitality (een alinea en *Chef-kok: Marcel, sinds 1991, op dagcontract* in de feitentabel), in *Ons verhaal* en in de casestudy over Kinshasa. Corporate en zonder klucht: het recept dat hij nooit zag, het dagcontract van half zes, de ketel achterop de Land Rover. Zijn liefdesleven staat er niet.
+
 ## Sporen in de persberichten
 
 Annelies laat niets merken van de affaire. In haar berichten mogen subtiele sporen staan: een tijd waarop ze in de keuken was die ze precies noteert, een noot die opvallend mild is over Decisive Hospitality, frituurvet waar het niet hoort. Nooit uitgesproken, en niet in elk bericht. Noteer hier wat er is gebruikt.

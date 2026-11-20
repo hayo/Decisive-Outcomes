@@ -131,6 +131,7 @@ const DIVISIES = [
         'tekst' => [
             'Kariba Biltong kwam in 1985 in handen van de groep, als betaling van factuur 0001, de eerste factuur in onze geschiedenis. Sindsdien levert het bedrijf zonder onderbreking gedroogd vlees aan teams, gasten en opdrachtgevers. Het heeft in die periode in geen enkel boekjaar winst gemaakt. De raad van bestuur beschouwt dat als een strategische keuze en heeft het verlies in elk meerjarenplan opgenomen als doelstelling. Die doelstelling wordt elk jaar gehaald.',
             'In 1991 kwam daar de frituur bij: een handgemaakte frietketel uit Roeselare en een saus waarvan het recept sinds 1962 binnen één familie is gebleven. Het recept wordt bewaard in de kluis van ons hoofdkantoor, naast de kist. Het is het best bewaakte document van de groep.',
+            'Met de ketel kwam chef Marcel, die er sinds 1984 achter had gestaan. Hij reisde de hele weg naast de ketel mee, via Beira, omdat hij liever niet vloog, en leidt sindsdien de keuken van de divisie. Vandaag runt hij de kantine op ons hoofdkantoor en gaat hij met de ketel achterop een van onze Land Rovers mee waar onze teams moeten eten, van het oosten van Oekraïne tot de Benelux. Hij werkt op een dagcontract van Decisive People, dat hij elke ochtend om half zes tekent. Het sausrecept heeft hij nooit gezien. Hij maakt de saus uit zijn hoofd, en volgens hem smaakt hij precies hetzelfde.',
             'Daarnaast organiseert Decisive Hospitality excursies en safari\'s, met vaste routes, ervaren gidsen en een realistische kijk op wilde dieren. Kapitein Robert, die opgroeide in een hotel bij de Victoria-watervallen, ziet persoonlijk toe op de kwaliteit van de gastvrijheid. Hij is van mening dat elke opdracht, ook een beveiligingsopdracht, begint met een goede kop koffie.',
         ],
         'competenties' => [
@@ -143,6 +144,7 @@ const DIVISIES = [
         'feiten' => [
             ['Opgericht', '1985 (Kariba Biltong)'],
             ['Versterkt', '1991 (frituur, Kinshasa)'],
+            ['Chef-kok', 'Marcel, sinds 1991, op dagcontract'],
             ['Boekjaren met verlies', 'Alle, sinds 1985, conform plan'],
             ['Best bewaakte document', 'Het sausrecept uit 1962'],
         ],

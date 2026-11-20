@@ -33,7 +33,7 @@ Wat nog moet gebeuren voordat en nadat de site live gaat. Vink af wat klaar is e
 - [x] Besluiten of het verhaal als pagina *Ons verhaal* op de site komt: ja, als verkorte corporate versie (11 november 2026).
 - [ ] De uitgebreide teksten van 11 november nalezen: divisies, sectoren, Over ons, *Ons verhaal*, Ethiek, Investor relations (jaarverslag 2025), Wereldwijd, Werken bij en de persberichten.
 - [ ] De drie nieuwe hoofdstukken (7, 10 en 14) laten lezen door Frederik, Jochem en Robert; ze spelen er alle drie een rol in.
-- [ ] Besluiten of chef Marcel op de website komt, bijvoorbeeld op de divisiepagina van Decisive Hospitality of in een persbericht.
+- [x] Chef Marcel op de website: op de divisiepagina van Decisive Hospitality, in *Ons verhaal* en in de casestudy over Kinshasa (20 november 2026).
 - [ ] Op de server: `includes/config.php` aanmaken (zie `config.example.php`).
 - [ ] Eventueel een professionele vectorversie (SVG) van het logo laten maken. Tot die tijd gebruiken we de originele PNG.
 - [x] De lijniconen per divisie ontwerpen.

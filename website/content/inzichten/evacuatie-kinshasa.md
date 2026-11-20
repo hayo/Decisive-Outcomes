@@ -27,6 +27,7 @@ Het team stak bij zonsopgang vanuit Brazzaville de rivier over. Decisive Securit
 - Installatie en receptuur volledig veiliggesteld.
 - Geen schade aan het vat.
 - De opdrachtgever zelf viel buiten de scope en reisde op eigen gelegenheid naar Brussel.
+- De kok van de frituur viel ook buiten de scope, maar bleef bij de installatie. Hij is sindsdien chef-kok van Decisive Hospitality.
 
 ## Lessen voor opdrachtgevers
 
