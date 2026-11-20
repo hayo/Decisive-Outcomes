@@ -437,6 +437,9 @@ const KERNWAARDEN = [
     ['Betrouwbaarheid', 'Wat ons wordt toevertrouwd, blijft in goede handen. De kist is nog dicht.'],
 ];
 
+/** Beeld voor een inzicht zonder (bestaand) eigen beeld: het bureau van Corporate Communications. Decoratief, dus alt="". */
+const BEELD_STANDAARD = 'NEWS-00';
+
 const PERSCONTACT = 'Annelies Brouwer, Corporate Communications';
 const STAGIAIR = 'Kim de Graaf, stagiair Corporate Communications, namens Annelies Brouwer (met verlof)';
 

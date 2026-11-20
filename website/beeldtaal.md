@@ -207,6 +207,7 @@ A group of people in practical outdoor gear seen from behind, walking into a for
 
 Onderwerpen per inzicht (de volledige prompts staan in het manifest):
 
+- **NEWS-00 — Standaardbeeld.** A quiet, orderly wooden desk in a small island office late in the afternoon: a closed manila folder, a stack of blank paper, a rubber stamp and ink pad, an old black desk telephone and a cup of coffee, a window with half-open wooden shutters onto a calm turquoise sea. No people. Het bureau van Corporate Communications; de site toont het bij elk inzicht zonder eigen beeld, met `alt=""`.
 - **NEWS-01 — ISO 18788.** A tall stack of thick ring binders and an application folder in a wire inbox tray on a desk in an empty office, a thin layer of dust on top, late afternoon light through blinds.
 - **NEWS-02 — Veestapel.** A small herd of goats resting in the shade of a cactus fence in dry Caribbean scrubland, one goat looking calmly at the camera, warm low sun.
 - **NEWS-03 — NAVO-norm.** A long conference table in a grand empty hall with rows of empty chairs and small blank name stands, evening light through tall windows.

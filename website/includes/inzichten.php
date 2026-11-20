@@ -33,6 +33,9 @@ function inzicht_laden(string $pad): array
     $i['soort'] = $i['soort'] ?? 'Persbericht';
     $i['datum'] ??= preg_match('/^\d{4}-\d{2}-\d{2}/', $i['slug'], $d) ? $d[0] : date('Y-m-d', filemtime($pad));
     $i += ['titel' => $i['slug'], 'plaats' => 'Kralendijk', 'samenvatting' => '', 'beeld' => '', 'alt' => ''];
+    if ($i['beeld'] === '' || !is_file(SITE_PUBLIC . '/assets/img/' . $i['beeld'] . '-800.jpg')) {
+        [$i['beeld'], $i['alt']] = [BEELD_STANDAARD, ''];
+    }
     $i['divisies'] = array_filter(array_map('trim', explode(',', $i['divisies'] ?? '')));
     $i['rectificeert'] ??= '';
     $i['boekingen'] = boekingen_lezen($i['boeking'] ?? '');

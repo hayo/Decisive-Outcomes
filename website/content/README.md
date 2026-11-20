@@ -37,7 +37,7 @@ Het blok *Over Decisive Outcomes Group* komt er vanzelf onder.
 | `titel` | ja | De kop. |
 | `samenvatting` | ja | Eén of twee zinnen voor de kaart, de meta description en de feed. |
 | `plaats` | nee | Standaard `Kralendijk`. |
-| `beeld` | nee | Beeld-ID uit `beelden/beelden.json`, met de JPEG's in `public/assets/img/`. Zonder beeld krijgt de hero geen foto. |
+| `beeld` | nee | Beeld-ID uit `beelden/beelden.json`, met de JPEG's in `public/assets/img/`. Zonder beeld, of zolang de JPEG's er nog niet zijn, toont de site het standaardbeeld `NEWS-00` (het bureau van Corporate Communications). |
 | `alt` | bij een beeld | Beschrijving van het beeld. |
 | `divisies` | nee | Slugs uit `includes/data.php`, gescheiden door komma's. De divisiepagina toont dan het bericht. |
 | `stemming` | ja, voor nieuwe berichten van Annelies | De stemming van Annelies Brouwer, 1 t/m 5 (zie de root-`CLAUDE.md`). Wordt niet getoond; zo weet het volgende bericht waar ze staat. |

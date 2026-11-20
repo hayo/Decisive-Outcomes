@@ -22,6 +22,7 @@ Wat is besloten, wanneer en waarom. Nieuwe beslissingen komen bovenaan in de tab
 
 | Datum | Besluit | Reden |
 |---|---|---|
+| 2026-11-20 | Een inzicht zonder eigen beeld, of met een beeld waarvan de JPEG's nog ontbreken, krijgt het standaardbeeld `NEWS-00`: het bureau van Corporate Communications bij een raam met luiken op zee, zonder mensen. Decoratief, dus `alt=""`. Ook als `og:image` en in de structured data. | Gekozen door Hayo: een bericht zonder beeld zag er kaal uit. |
 | 2026-11-15 | In de copyrightregel van de footer staat *Website door Hayo*, met een link naar hayobethlehem.nl. Alleen de voornaam. Op hayobethlehem.nl staat de site als kaart op de forge-pagina. | Gekozen door Hayo: de twee sites verwijzen naar elkaar. |
 | 2026-11-15 | Een persbericht over een operatie noemt de financiële gevolgen en zet ze in het veld `boeking`. De site toont ze onder het bericht (*Financiële verwerking*) en telt ze op in *Lopend boekjaar* op Investor relations. Geldt voor nieuwe berichten; bestaande blijven zoals ze zijn. De skill *persbericht-annelies* vraagt ernaar (versie 1.1.0). | Gekozen door Hayo: wat in de persberichten gebeurt, moet terugkomen in de jaarcijfers. |
 | 2026-11-15 | Nieuw component `grafiek` (inline SVG uit PHP, zonder JavaScript): kolom-, balk- en lijngrafieken, met de cijfers als tabel (in een uitklapper of ernaast) en een `title` per waarde als tooltip. Goud `#A07A28` (token `--grafiek`) voor waarden, rood voor negatieve waarden; gecontroleerd op kleurenblindheid. Op smalle schermen scrollt de grafiek binnen zijn vlak, net als brede tabellen. Investor relations krijgt een wisselkoers, meerjarenoverzicht, resultaat per divisie, veestapel en balans. | Gekozen door Hayo: meer investeerdersinformatie met grafieken. |
@@ -82,6 +83,7 @@ Wat is besloten, wanneer en waarom. Nieuwe beslissingen komen bovenaan in de tab
 
 | Datum | Besluit | Reden |
 |---|---|---|
+| 2026-11-20 | Annelies reageert op hoe Hayo haar in het interview behandelt. Vriendelijk maakt haar behulpzamer; bot, kleinerend of commanderend zet haar stemming hoger en levert een tegenaanval op die in het bericht te lezen is: zijn woorden letterlijk met datum en tijd, een kenmerk voor haar bezwaar, een verzoek dat ze heel letterlijk uitvoert. Ze scheldt niet en wordt niet persoonlijk. Het dossier houdt bij hoe de Majoor haar behandelt. | Gekozen door Hayo. |
 | 2026-11-20 | Werkbranches krijgen een leesbare naam naar het werk, in kleine letters met koppeltekens, nooit een gegenereerde naam. | Gekozen door Hayo: een branch moet in één oogopslag zeggen waar hij over gaat. |
 | 2026-11-15 | Eén groepsakkoord voor de personages, gegeven door Hayo namens het team, in plaats van een akkoord per teamlid. Een teamlid kan alsnog zelf meelezen, iets laten aanpassen of zijn akkoord intrekken. De regels voor echte foto's blijven ongewijzigd. | Besluit van Hayo; het akkoord per persoon hield publicatie op. |
 | 2026-11-10 | Licentie: de code van de website onder MIT; teksten, logo en beelden met alle rechten voorbehouden. *Voorstel, nog te bevestigen.* | De code mag iedereen gebruiken; de personages zijn echte mensen. |

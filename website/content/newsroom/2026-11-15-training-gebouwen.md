@@ -4,7 +4,7 @@ plaats: Leiderdorp
 samenvatting: De divisie Benelux heeft vrijdag een besloten trainingsoperatie in een gebouw gehouden. Op korte afstand waren de resultaten goed; op andere onderdelen is ruimte voor verbetering vastgesteld.
 divisies: decisive-security, decisive-hospitality
 beeld: NEWS-18
-alt: Een schemerige binnenruimte met wanden van ruw multiplex en een smalle gang die een hoek om gaat, met in de verte het silhouet van één persoon in tactische uitrusting.
+alt: Een schemerige gang tussen wanden van ruw multiplex, verlicht door één werklamp, met aan het eind één persoon in veldtenue, van achteren gezien.
 stemming: 3
 bereikbaar: Beperkt bereikbaar, in verband met werkzaamheden.
 ---
