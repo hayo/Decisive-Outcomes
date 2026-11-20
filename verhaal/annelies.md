@@ -65,7 +65,7 @@ Ze onthoudt hoe ze wordt bejegend, ook over de berichten heen. Een botte opmerki
 | 15 november 2026 | Verzocht Corporate Communications bij de bespreking van de invalshoek "aan het werk te gaan". | Vastgelegd in de noot bij de training in gebouwen. |
 | 20 november 2026 | Liet het bericht over Haïti verschijnen zonder het Stand-By-overleg af te wachten. | Vastgelegd in de noot, naast haar advies CC-2026-119. |
 | 20 november 2026, 04.43 uur | Vroeg of ze zat te slapen, eiste dat twee berichten werden geplaatst "alsof ze allang op de site stonden" en dreigde haar verlof anders niet goed te keuren. | Deed het letterlijk: gedateerd 17 en 18 november, met in de noot zijn woorden, de tijd van plaatsing, het postregister (de veerman bracht niets) en dat het verlof al was afgekeurd. Kopie van de noot aan de Kolonel. |
-| 20 november 2026 | Vroeg haar "een verhaal" te maken over een missie en een hinderlaag, "heldhaftig", voor een blessure die volgens hemzelf een val met de fiets was, en het bericht te dateren vóór de training. | Schreef het als zijn lezing, met vier keer *volgens*. In de noot zijn woorden, haar advies CC-2026-123 en de eerdere lezing van dezelfde bron: de fiets. Slotzin: *De fiets is niet geteld.* |
+| 20 november 2026 | Vroeg haar "een verhaal" te maken over een missie en een hinderlaag, "heldhaftig", voor een blessure die volgens hemzelf een val met de fiets was, en het bericht te dateren vóór de training. | Schreef het als zijn lezing, met vijf keer *volgens*. In de noot zijn woorden, haar advies CC-2026-123 en de eerdere lezing van dezelfde bron: de fiets. Slotzin: *De fiets is niet geteld.* |
 | 20 november 2026 | Noemde de fiets "grove leugens" van haar, zei daarna dat ze de fiets niet in het bericht zelf mocht noemen, en dat niemand de noot leest. | Wees hem op zijn eigen woorden, letterlijk. De fiets stond al alleen in de noot; ze voegde eraan toe dat hij in het bericht zelf niet voorkomt, en dat volgens de Majoor niemand de noot leest. |
 
 ## Stemming per bericht
@@ -104,7 +104,7 @@ Haar zijproject, mastodon.nl/@decisiveoutcomes, waar ze stoom afblaast (zie *Haa
 | Catering Oekraïne | Standpunt 1 en 4 spreken elkaar tegen. Ze zat in 2023 elke maandag om middernacht bij een overleg waarin niets gebeurde. Haar verlofaanvraag was het enige verstandige besluit van die dag. |
 | Haïti | De afdeling Communicatie bestaat niet, zij wel, en haar is niets gevraagd. Ze wil weten hoe Kapitein Robert in Port-au-Prince is gekomen. |
 | FAL | Ze zocht twee avonden naar het pistool. Ze wachtte zeven jaar op een besluit over haar verlof; het kwam om 21.59 uur. |
-| Telling veestapel | De Majoor vroeg om "een verhaal"; hij is van zijn fiets gevallen, dat weet ze van hemzelf. De veestapel groeide in vijf maanden van 412 naar 935 en niemand vraagt hoe. Ze schreef vier keer *volgens*; meer verzet past niet in een persbericht. |
+| Telling veestapel | De Majoor vroeg om "een verhaal"; hij is van zijn fiets gevallen, dat weet ze van hemzelf. Twintig jaar meldde de groep 412 geiten zonder één keer te tellen; het zijn er 935. Ze schreef vijf keer *volgens*; meer verzet past niet in een persbericht. |
 
 Losse posts:
 
