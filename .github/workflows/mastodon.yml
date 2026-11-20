@@ -1,0 +1,34 @@
+# Plaatst elk uur de posts van Annelies die aan de beurt zijn, vooral de losse posts
+# in mastodon/los/ met een tijd die pas na de deploy komt. Leest de branch deploy,
+# zodat alleen uitgerold werk naar buiten gaat. Posts bij persberichten plaatst de
+# deploy zelf al; dubbel plaatsen kan niet, het script kijkt eerst wat er al staat.
+# Benodigd: het secret MASTODON_TOKEN (zie deploy.yml).
+name: Mastodon
+
+on:
+  schedule:
+    - cron: '17 * * * *'
+  workflow_dispatch:
+
+concurrency:
+  group: mastodon
+  cancel-in-progress: false
+
+jobs:
+  plaatsen:
+    runs-on: ubuntu-latest
+    env:
+      MASTODON_TOKEN: ${{ secrets.MASTODON_TOKEN }}
+    steps:
+      - name: Melding als er geen token is
+        if: env.MASTODON_TOKEN == ''
+        run: echo "::notice::Geen MASTODON_TOKEN ingesteld; niets geplaatst."
+
+      - uses: actions/checkout@v4
+        if: env.MASTODON_TOKEN != ''
+        with:
+          ref: deploy
+
+      - name: Op Mastodon plaatsen
+        if: env.MASTODON_TOKEN != ''
+        run: php mastodon/plaats.php post
