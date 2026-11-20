@@ -356,7 +356,7 @@ const SECTOREN = [
             ['Rendement', 'Ruim veertig jaar ervaring met een onderneming die blijft draaien zonder winst te maken.'],
         ],
         'divisies' => ['decisive-hospitality', 'decisive-security'],
-        'wapenfeit' => ['Kinshasa, 1991', 'In september 1991 evacueerde de groep een complete frituur uit Kinshasa: een handgemaakte frietketel uit Roeselare en een vat saus volgens een familierecept uit 1962. De installatie kwam drie maanden later veilig aan. Het recept ligt nu in de kluis op ons hoofdkantoor.'],
+        'wapenfeit' => ['Kinshasa, 1991', 'In september 1991 evacueerde de groep een complete frituur uit Kinshasa: een handgemaakte frietketel uit Roeselare en een vat saus volgens een familierecept uit 1962. De installatie kwam drie maanden later veilig aan, met de kok die er sinds 1984 achter had gestaan. Het recept ligt nu in de kluis op ons hoofdkantoor.'],
     ],
     'vastgoed' => [
         'naam' => 'Vastgoed en infrastructuur',
@@ -423,7 +423,7 @@ const TIJDLIJN = [
     ['1984', 'Oprichting van Decisive Outcomes aan een keukentafel. Eerste klant: Senhor Almeida. Eerste factuur: nummer 0001.'],
     ['1985', 'Kariba Biltong wordt de eerste dochteronderneming, als betaling van factuur 0001.'],
     ['1989', 'Een opdracht in Angola legt de basis voor Decisive Mining.'],
-    ['1991', 'Evacuatie van een frituur in Kinshasa. Decisive Hospitality wordt versterkt.'],
+    ['1991', 'Evacuatie van een frituur in Kinshasa, met de kok. Decisive Hospitality wordt versterkt.'],
     ['1992', 'Bevrijding van een dorp in Swaziland. Het dorp viert sindsdien Bevrijdingsdag.'],
     ['1993', 'Verwerving van luchttransportcapaciteit in Sharjah. De vliegvergunning is in behandeling.'],
     ['1995', 'Eerste deelname aan een internationale aanbesteding, in Freetown.'],

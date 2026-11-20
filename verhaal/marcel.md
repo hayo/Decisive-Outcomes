@@ -66,6 +66,16 @@ Herhaal ze niet; verzin nieuwe.
 
 Sinds 20 november 2026 staat Marcel op de divisiepagina van Decisive Hospitality (een alinea en *Chef-kok: Marcel, sinds 1991, op dagcontract* in de feitentabel), in *Ons verhaal* en in de casestudy over Kinshasa. Corporate en zonder klucht: het recept dat hij nooit zag, het dagcontract van half zes, de ketel achterop de Land Rover. Zijn liefdesleven staat er niet.
 
+Daarnaast staat hij op Werken bij (*Verzorging*: de kantine, zijn contract van 05.30 uur, de extra kroket), op Ethiek en compliance (de sanctie van 2024, zonder reden: *die staat in het rapport van de afdeling*), op Investor relations (hij vulde de potten biltong van het dividend over 2025), in de tijdlijn en bij de sector horeca (de kok kwam mee in 1991), op Wereldwijd (hij komt uit Roeselare) en op Over ons, bij het Stand-By-overleg (het ontbijt om 06.00 uur Salisbury-tijd, de Kolonel om 06.47 uur).
+
+## Voor later
+
+Ideeën voor persberichten van Annelies over Marcel, nog niet geschreven:
+
+- De heropening van de frietketels na de sanctie van Compliance in 2024.
+- Vijfendertig jaar Marcel bij de groep (september 2026, of later, als Annelies vindt dat het nieuws is).
+- Het eerste subtiele spoor van de affaire, in een bericht over iets anders.
+
 ## Sporen in de persberichten
 
 Annelies laat niets merken van de affaire. In haar berichten mogen subtiele sporen staan: een tijd waarop ze in de keuken was die ze precies noteert, een noot die opvallend mild is over Decisive Hospitality, frituurvet waar het niet hoort. Nooit uitgesproken, en niet in elk bericht. Noteer hier wat er is gebruikt.

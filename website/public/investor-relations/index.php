@@ -112,7 +112,7 @@ $kerncijfers = [
 <p>Niet beschikbaar in Rhodesische dollars.</p>
 <p>De groep is niet beursgenoteerd en heeft daarom geen aandelenkoers. Wel heeft zij sinds 9 november 2026 een wisselkoers; die staat hieronder.</p>
 <h2>Dividend</h2>
-<p>De groep keert jaarlijks dividend uit, in natura. Over boekjaar 2025 ontving elke aandeelhouder een pot biltong van Decisive Hospitality. De raad van bestuur stelt voor dit beleid ongewijzigd voort te zetten.</p>
+<p>De groep keert jaarlijks dividend uit, in natura. Over boekjaar 2025 ontving elke aandeelhouder een pot biltong van Decisive Hospitality, in de kantine op het hoofdkantoor gevuld door chef Marcel. De raad van bestuur stelt voor dit beleid ongewijzigd voort te zetten.</p>
 </div>
 </div>
 </section>

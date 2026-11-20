@@ -37,6 +37,7 @@ component('hero', [
 <li><h3>Flexibel</h3><p>Via Decisive People werk je met een contract per dag. Het contract is in het Portugees.</p></li>
 <li><h3>Internationaal</h3><p>Opdrachten in veertig landen, met een hoofdkantoor op een eiland.</p></li>
 <li><h3>Het Geitenplan</h3><p>Na drie opdrachten zonder incidenten ontvang je een geit uit de eigen veestapel. Deelname is vrijwillig. Volgens de jaarlijkse enquête is het onze populairste arbeidsvoorwaarde.</p></li>
+<li><h3>Verzorging</h3><p>Je eet in de kantine van Decisive Hospitality, onder leiding van chef Marcel. Hij tekent zijn eigen dagcontract om 05.30 uur en staat dan al achter de ketel. Een extra kroket is geen arbeidsvoorwaarde, maar komt voor.</p></li>
 <li><h3>Ontwikkeling</h3><p>Je leert van de beste kaartlezer, de beste monteur en de beste verkoper van de groep. En van iemand die alleen maar hoeft op te staan.</p></li>
 </ul>
 <p>Wij werven doorlopend. Vacatures worden niet gepubliceerd; wie geschikt is, weet ons te vinden. Een open sollicitatie kan schriftelijk naar Postbus 1, Kralendijk. De reactietermijn is zes tot acht jaar.</p>

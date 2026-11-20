@@ -29,6 +29,7 @@ component('hero', [
 <h2>Sanctiebeleid</h2>
 <p>De Verenigde Naties hieven in december 1979 de sancties tegen Rhodesië op. Dat bericht heeft onze organisatie nooit bereikt, en niemand heeft ons sindsdien officieel laten weten dat de sancties zijn beëindigd. Wij houden ons daarom nog altijd aan deze sancties, ook als dat betekent dat wij onszelf sancties opleggen. De afdeling Compliance controleert dit elk kwartaal en rapporteert erover aan de raad van bestuur.</p>
 <p>Daarnaast toetsen wij elke opdrachtgever en elke leverancier aan de geldende sanctielijsten. Wie op een lijst staat, wordt niet bediend. Wie van een lijst is gehaald, wordt voor de zekerheid ook niet bediend.</p>
+<p>Onze regels gelden ook binnen de groep. In 2024 ontzegde de afdeling Compliance de chef-kok van Decisive Hospitality drie weken de toegang tot zijn eigen frietketels. De reden staat in het rapport van de afdeling. De chef-kok onderschrijft sindsdien bij elke levering het uitgangspunt van de afdeling: het recht geldt altijd, ook als het er niet is.</p>
 <h2>Andere vracht</h2>
 <p>De groep vervoert geen goederen waarvan de herkomst of bestemming niet vaststaat. Aanbiedingen voor zulke vracht worden zonder uitzondering afgewezen, sinds 1993 en daarna. Elke zending die de groep zelf ontvangt, wordt bij aankomst geopend en vergeleken met de vrachtbrief. Daarop bestaat één uitzondering, die bekend is bij alle medewerkers.</p>
 <h2>Geschenken en betalingen in natura</h2>
