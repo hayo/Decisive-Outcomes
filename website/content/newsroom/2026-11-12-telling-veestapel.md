@@ -24,6 +24,6 @@ Dit bericht is geplaatst op vrijdag 20 november 2026 om 09.01 uur. Het draagt de
 
 Aanleiding is een vraag van de pers van 20 november: "Zie alleen niks over incident met onze Chief Strategy Officer. En waarom hij M.i.a is." Volgens het bericht over de training, van 15 november, is de aard van de blessure niet bekendgemaakt. Dat klopte op 15 november.
 
-Bij de aanlevering vroeg de Majoor Corporate Communications "een verhaal" te maken over een missie en een hinderlaag, en het "heldhaftig" te maken. Dit bericht geeft zijn lezing. Corporate Communications kent ook een eerdere lezing, van dezelfde bron: een val met de fiets.
+Bij de aanlevering vroeg de Majoor Corporate Communications "een verhaal" te maken over een missie en een hinderlaag, en het "heldhaftig" te maken. Dit bericht geeft zijn lezing. Corporate Communications kent ook een eerdere lezing, van dezelfde bron: een val met de fiets. De fiets komt in het bericht zelf niet voor. Volgens de Majoor leest niemand deze noot.
 
 De fiets is niet geteld.
