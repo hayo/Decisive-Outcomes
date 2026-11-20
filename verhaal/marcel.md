@@ -43,6 +43,8 @@ Wat de directie bij Marcel verstopt, achter de bloem:
 - Een stapel blanco Rhodesische aandeelbewijzen.
 - Een SIG P320 in 7.5 FK zonder registratie. Niemand durft hem aan te raken, omdat hij als autonoom wapensysteem vanzelf zou kunnen afgaan.
 
+In de koelcel liggen sinds 10 november drie geiten van Decisive Agri, gesneuveld bij de telling van de veestapel. Ze worden frikandellen. Een frikandel van geit heeft Marcel nog nooit gemaakt.
+
 De kist staat er niet. Die staat in de kamer naast de vergaderzaal, en Jochem staat erbij. Marcel weet niet wat erin zit en wil het niet weten.
 
 ## De dagloners
