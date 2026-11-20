@@ -87,7 +87,7 @@ website/
 - **De workflow:**
     1. Draai `php -l` over alle PHP-bestanden. Bij een fout stopt de deploy.
     2. Upload `public/`, `includes/` en `content/` via SFTP. Upload alleen gewijzigde bestanden.
-    3. Plaats op Mastodon de posts uit `mastodon/` die nog niet op het account staan (zie de root-`CLAUDE.md`). Een post wacht tot zijn bericht op de site antwoordt. De controle van de posts draait al bij stap 1; een te lange post stopt de deploy.
+    3. Plaats op Mastodon de posts uit `mastodon/` die nog niet op het account staan (zie de root-`CLAUDE.md`). Een post wacht tot zijn bericht op de site antwoordt. De controle van de posts draait al bij stap 1; een te lange post stopt de deploy. Losse posts met een latere tijd plaatst de workflow `mastodon.yml`, elk uur, vanaf de branch `deploy`.
 - **Inloggegevens:** host, gebruiker, wachtwoord en de host key (`DEPLOY_KNOWN_HOSTS`, daar staat de hostnaam in) staan als GitHub Secrets, nooit in de repo. Poort en pad op de server staan gewoon in `deploy.yml`.
 - **Op de server:**
     - `includes/config.php` zet je één keer handmatig op de server, buiten de deploy om.
