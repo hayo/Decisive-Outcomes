@@ -12,7 +12,7 @@ component('hero', ['label' => 'Juridisch', 'kop' => 'Algemene voorwaarden', 'int
 <h2>Artikel 1. Toepasselijkheid</h2>
 <p>Deze voorwaarden zijn van toepassing op alle offertes, opdrachten en overeenkomsten van Decisive Outcomes Group en haar divisies, tenzij schriftelijk anders is overeengekomen. Schriftelijk betekent: per post, aan Postbus 1, Kralendijk.</p>
 <h2>Artikel 2. Offertes</h2>
-<p>Offertes worden uitgebracht in Rhodesische dollars. Op verzoek wordt een offerte omgerekend naar Amerikaanse dollars of geiten, tegen de koers van de groep op de datum van de offerte (zie Investor relations).</p>
+<p>Offertes worden uitgebracht in Rhodesische dollars. Op verzoek wordt een offerte omgerekend naar euro of geiten, tegen de koers van de groep op de datum van de offerte (zie Investor relations).</p>
 <h2>Artikel 3. Uitvoering</h2>
 <p>Een opdracht loopt tot zij is afgerond of uitdrukkelijk wordt ingetrokken. Het niet ophalen van het uitvoerend team geldt niet als intrekking.</p>
 <h2>Artikel 4. Termijnen</h2>

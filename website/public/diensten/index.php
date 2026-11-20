@@ -32,7 +32,7 @@ component('hero', [
 <li><h3>Eén opdracht, één team</h3><p>Wij stellen per opdracht een team samen uit de divisies die nodig zijn. U heeft één contactpersoon, en één factuur.</p></li>
 <li><h3>Eigen middelen</h3><p>Wij beschikken over een eigen wagenpark, een eigen luchtvloot en eigen vastgoed. Het wagenpark rijdt.</p></li>
 <li><h3>Vast overlegritme</h3><p>Elke opdracht wordt besproken in het Stand-By-overleg, elke maandag om 06.00 uur, na het vaste eerste agendapunt.</p></li>
-<li><h3>Flexibele afrekening</h3><p>Wij rekenen af in Amerikaanse dollars, Rhodesische dollars of in natura. Over geiten valt te praten.</p></li>
+<li><h3>Flexibele afrekening</h3><p>Wij rekenen af in euro, Rhodesische dollars of in natura. Over geiten valt te praten.</p></li>
 </ul>
 </section>
 <?php component('band', ['kop' => 'Op zoek naar een partner voor een complexe opdracht?', 'tekst' => 'Wij denken graag met u mee, binnen de gebruikelijke reactietermijn.', 'href' => '/contact/', 'knop' => 'Vraag een offerte aan']);

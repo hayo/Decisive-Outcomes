@@ -27,14 +27,14 @@ function e(?string $s): string
 }
 
 /**
- * Koers op een datum (standaard vandaag): 'usd' (US$ per R$) of 'geit' (R$ per geit).
+ * Koers op een datum (standaard vandaag): 'eur' (€ per R$) of 'geit' (R$ per geit).
  * Rechtlijnig tussen de ankers uit data.php, met een uitschieter per dag. Die hangt alleen af van de datum,
  * zodat een bedrag dat eenmaal is omgerekend nooit meer verandert.
  */
 function koers(string $valuta, ?string $datum = null): float
 {
     $datum ??= date('Y-m-d');
-    $ankers = $valuta === 'geit' ? KOERS_GEIT : KOERS_USD;
+    $ankers = $valuta === 'geit' ? KOERS_GEIT : KOERS_EUR;
     if (isset($ankers[$datum])) {
         return $ankers[$datum];
     }
@@ -49,26 +49,26 @@ function koers(string $valuta, ?string $datum = null): float
         }
         $vorige = [$td, $w];
     }
-    $h = crc32($valuta . $datum);
+    $h = crc32(($valuta === 'geit' ? 'geit' : 'usd') . $datum); // vaste zaadwaarde: de uitschieters bleven gelijk bij de overstap op de euro
     $marge = $h % 23 === 0 ? 0.15 : 0.04;
     return round($basis * (1 + $marge * (($h % 2001) / 1000 - 1)), $valuta === 'geit' ? 2 : 4);
 }
 
-/** Bedrag in Rhodesische dollars omgerekend naar 'usd' (afgerond) of 'geit', tegen de koers op $datum. */
+/** Bedrag in Rhodesische dollars omgerekend naar 'eur' (afgerond) of 'geit', tegen de koers op $datum. */
 function omrekenen(float $rhd, string $valuta, ?string $datum = null): float
 {
-    return $valuta === 'usd' ? round($rhd * koers('usd', $datum)) : $rhd / koers('geit', $datum);
+    return $valuta === 'eur' ? round($rhd * koers('eur', $datum)) : $rhd / koers('geit', $datum);
 }
 
-/** Bedrag als tekst in 'rhd', 'usd' of 'geit'; $w staat al in die valuta. Met een echte min. */
+/** Bedrag als tekst in 'rhd', 'eur' of 'geit'; $w staat al in die valuta. Met een echte min. */
 function bedrag_tekst(float $w, string $valuta = 'rhd'): string
 {
     $getal = number_format(abs($w), $valuta === 'geit' && fmod($w, 1) != 0 ? 1 : 0, ',', '.');
     $teken = $w < 0 ? '−' : '';
-    return match ($valuta) { 'usd' => $teken . 'US$ ' . $getal, 'geit' => $teken . $getal . ' ' . (abs($w) == 1 ? 'geit' : 'geiten'), default => $teken . 'R$ ' . $getal };
+    return match ($valuta) { 'eur' => $teken . '€ ' . $getal, 'geit' => $teken . $getal . ' ' . (abs($w) == 1 ? 'geit' : 'geiten'), default => $teken . 'R$ ' . $getal };
 }
 
-/** Bedrag in Rhodesische dollars, of omgerekend tegen de koers op $datum ('usd' of 'geit'). */
+/** Bedrag in Rhodesische dollars, of omgerekend tegen de koers op $datum ('eur' of 'geit'). */
 function bedrag(float $rhd, string $valuta = 'rhd', ?string $datum = null): string
 {
     return bedrag_tekst($valuta === 'rhd' ? $rhd : omrekenen($rhd, $valuta, $datum), $valuta);

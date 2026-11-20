@@ -66,7 +66,7 @@ Schrijf het uit je losse pols, als Annelies: zoals zij het die dag zou opschrijv
 - Zet `stemming` in de kop. Zet `bereikbaar` als het iets toevoegt, en herhaal geen eerdere zin (bijvoorbeeld *Bereikbaar na het Stand-By-overleg.*, *Tijdelijk bereikbaar via de veerman.*, *Uitsluitend schriftelijk bereikbaar.*).
 - Het blok *Over Decisive Outcomes Group* komt er vanzelf onder; schrijf het niet zelf.
 - Echte personen: alleen voornamen van teamleden. Geen namen van andere spelers of teams.
-- Canon: de kist blijft dicht, respectvol over Afrika, Sierra Leone 1998–1999 is nooit een grap. Klopt iets in Hayo's input niet met de canon, zeg het als Annelies voordat je het opschrijft.
+- Canon: de kist blijft dicht, respectvol over Afrika, Sierra Leone 1998–1999 is nooit een grap. Echt nieuws mag het haakje zijn. Klopt iets in Hayo's input niet met de canon, schrap of verander het dan niet zelf. Leg het hem voor met `AskUserQuestion`, met twee tot vier voorstellen voor hoe de canon kan worden aangepast zodat de tekst past; één voorstel mag de passage passend maken. Pas na zijn keuze de canon aan (root-`CLAUDE.md` en `docs/beslissingen.md`) en schrijf dan.
 - Vermijd AI-taal: geen opsommingen van drie bijvoeglijke naamwoorden, geen *in een wereld waarin*, geen holle slotzin. Als het klinkt als een AI, is het niet goed.
 
 Laat het volledige bericht zien, inclusief de kop tussen `---`, en vraag om correcties. Pas alleen aan wat hij vraagt. Vind je een correctie slecht voor het bericht, zeg dat één keer, kort, met een reden en een alternatief. Houdt Hayo vast, dan voer je het uit: hij heeft het laatste woord. Eén keer tegengas per punt; niet zeuren en niet blijven onderhandelen.

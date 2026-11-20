@@ -29,45 +29,46 @@ const KERNCIJFERS_NOOT = '* Exclusief de opdracht uit 1979. Die loopt nog.';
 /*
  * Wisselkoersen van de groep: ankerpunten, waartussen koers() rechtlijnig rekent en dagelijkse uitschieters toevoegt.
  * Op een ankerdatum geldt de koers precies. Na het laatste anker blijft de koers rond die waarde schommelen.
- * usd: Amerikaanse dollars per Rhodesische dollar. Begint bij de laatste officiële koers (31 maart 1979: R$ 0,6845 per US$)
- *      en volgt daarna de Zuid-Afrikaanse rand, met diepere dalen en hogere pieken: de markt in Rhodesische dollars is klein.
+ * eur: euro per Rhodesische dollar. Begint bij de laatste officiële koers (31 maart 1979: US$ 1,4609, via de gulden omgerekend
+ *      naar € 1,3457) en volgt daarna de Zuid-Afrikaanse rand, met diepere dalen en hogere pieken: de markt in Rhodesische dollars is klein.
+ *      Vóór 1999 is elk anker omgerekend via de gulden (1 euro = 2,20371 gulden), daarna tegen de koers van de euro op die dag.
  * geit: Rhodesische dollars per geit. Begint bij de marktprijs in Umtali in 1979 (volgens Kapitein Jochem) en heeft eigen uitschieters.
  * Een ankerpunt wijzigen verandert bedragen die al op de site staan; voeg liever een nieuw punt toe.
  */
-const KOERS_USD = [
-    '1979-03-31' => 1.4609,
-    '1980-12-31' => 1.85,
-    '1982-06-30' => 1.10,
-    '1983-12-31' => 1.02,
-    '1985-02-28' => 0.62,
-    '1985-08-31' => 0.30,
-    '1986-06-30' => 0.52,
-    '1988-12-31' => 0.50,
-    '1990-12-31' => 0.48,
-    '1993-06-30' => 0.38,
-    '1995-12-31' => 0.33,
-    '1996-12-31' => 0.25,
-    '1998-08-31' => 0.15,
-    '1999-06-30' => 0.21,
-    '2000-12-31' => 0.16,
-    '2001-12-20' => 0.065,
-    '2002-12-31' => 0.13,
-    '2004-12-31' => 0.23,
-    '2006-06-30' => 0.18,
-    '2007-12-31' => 0.19,
-    '2008-10-31' => 0.085,
-    '2009-12-31' => 0.165,
-    '2011-07-31' => 0.20,
-    '2013-12-31' => 0.115,
-    '2015-12-15' => 0.055,
-    '2016-12-31' => 0.09,
-    '2018-02-28' => 0.11,
-    '2018-09-30' => 0.072,
-    '2020-04-15' => 0.048,
-    '2021-05-31' => 0.098,
-    '2023-06-01' => 0.058,
-    '2024-12-31' => 0.068,
-    '2025-12-31' => 0.071,
+const KOERS_EUR = [
+    '1979-03-31' => 1.3457,
+    '1980-12-31' => 1.7881,
+    '1982-06-30' => 1.3477,
+    '1983-12-31' => 1.4163,
+    '1985-02-28' => 1.041,
+    '1985-08-31' => 0.422,
+    '1986-06-30' => 0.5828,
+    '1988-12-31' => 0.4492,
+    '1990-12-31' => 0.3681,
+    '1993-06-30' => 0.3225,
+    '1995-12-31' => 0.2411,
+    '1996-12-31' => 0.1974,
+    '1998-08-31' => 0.1361,
+    '1999-06-30' => 0.2029,
+    '2000-12-31' => 0.1702,
+    '2001-12-20' => 0.073,
+    '2002-12-31' => 0.1239,
+    '2004-12-31' => 0.1689,
+    '2006-06-30' => 0.1406,
+    '2007-12-31' => 0.1291,
+    '2008-10-31' => 0.0669,
+    '2009-12-31' => 0.1145,
+    '2011-07-31' => 0.1389,
+    '2013-12-31' => 0.0834,
+    '2015-12-15' => 0.05,
+    '2016-12-31' => 0.0854,
+    '2018-02-28' => 0.0902,
+    '2018-09-30' => 0.0621,
+    '2020-04-15' => 0.044,
+    '2021-05-31' => 0.0803,
+    '2023-06-01' => 0.0542,
+    '2024-12-31' => 0.0657,
+    '2025-12-31' => 0.0607,
 ];
 const KOERS_GEIT = [
     '1979-03-31' => 25,
@@ -189,7 +190,7 @@ const DIVISIES = [
         'intro' => 'Decisive Capital beheert het vermogen van de groep. De divisie werd in 1997 opgericht om een pakket Albanese aandelen te beheren en hanteert sindsdien een beleggingshorizon die verder reikt dan die van de meeste vermogensbeheerders.',
         'tekst' => [
             'In 1997 haalde de groep in Albanië het vermogen van een opdrachtgever terug uit een beleggingsconstructie die op dat moment instortte. De opdrachtgever betaalde met een pakket Albanese aandelen, dat bij aankomst in Kamp Stand-By de helft van zijn waarde had verloren. Decisive Capital beheert die portefeuille sindsdien met geduld, en heeft er in bijna dertig jaar niets van verkocht.',
-            'Ons beleggingsbeleid rust op drie uitgangspunten. Wij beleggen voor de lange termijn, omdat de korte termijn ons zelden iets heeft opgeleverd. Wij spreiden over drie valuta: Amerikaanse dollars, Rhodesische dollars en geiten. En wij verkopen nooit onder de aankoopprijs, wat in de praktijk betekent dat wij weinig verkopen.',
+            'Ons beleggingsbeleid rust op drie uitgangspunten. Wij beleggen voor de lange termijn, omdat de korte termijn ons zelden iets heeft opgeleverd. Wij spreiden over drie valuta: de euro, de Rhodesische dollar en de geit. En wij verkopen nooit onder de aankoopprijs, wat in de praktijk betekent dat wij weinig verkopen.',
             'Decisive Capital beheert ook de reserves van de groep, waaronder de kist uit 1979. De kist staat op de balans als reserve, met een onbekende waarde. Volgens onze boekhouder kan de balans daardoor in één klap heel goed of heel slecht worden, maar alleen als iemand de kist openmaakt. Dat is niet voorzien.',
         ],
         'competenties' => [

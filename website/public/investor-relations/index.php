@@ -16,7 +16,7 @@ component('hero', [
 $eind = '2025-12-31';
 $getal = fn(float $w, int $d = 0): string => ($w < 0 ? '−' : '') . number_format(abs($w), $d, ',', '.');
 $rhd = fn(float $w): string => 'R$ ' . $getal($w);
-$usd = fn(float $w, string $op = '2025-12-31'): string => 'US$ ' . $getal(omrekenen($w, 'usd', $op));
+$eur = fn(float $w, string $op = '2025-12-31'): string => '€ ' . $getal(omrekenen($w, 'eur', $op));
 $geit = fn(float $w, string $op = '2025-12-31'): string => $getal(omrekenen($w, 'geit', $op), fmod(omrekenen($w, 'geit', $op), 1) == 0 ? 0 : 1);
 
 // Koersverloop: 31 maart 1979 (de laatste officiële koers), daarna 31 december van elk jaar, en vandaag.
@@ -25,7 +25,7 @@ for ($j = 1980; $j < (int) date('Y'); $j++) {
     $koersdata[(string) $j] = $j . '-12-31';
 }
 $koersdata[date('Y')] = date('Y-m-d');
-$koersreeks = array_map(fn($j, $d) => [$j, koers('usd', $d)], array_keys($koersdata), $koersdata);
+$koersreeks = array_map(fn($j, $d) => [$j, koers('eur', $d)], array_keys($koersdata), $koersdata);
 $geitreeks = array_map(fn($j, $d) => [$j, koers('geit', $d)], array_keys($koersdata), $koersdata);
 $uiterste = fn(array $reeks, callable $kies): array => array_values(array_filter($reeks, fn($r) => $r[1] == $kies(array_column($reeks, 1))))[0];
 [$hoogJaar, $hoog] = $uiterste($koersreeks, 'max');
@@ -75,11 +75,11 @@ $kerncijfers = [
     ['Landen met activiteiten', '40', 'Inclusief landen met alleen een postbus.'],
     ['Divisies', '7', 'Bijna allemaal ontstaan als betaling van een klant.'],
     ['Medewerkers', '4 vast, ruim 3.000 flexibel', 'Flexibel via Decisive People.'],
-    ['Veestapel', '412 geiten', 'Waardering per 31 december 2025: ' . $rhd(412 * koers('geit', $eind)) . ' (' . $usd(412 * koers('geit', $eind)) . ').'],
+    ['Veestapel', '412 geiten', 'Waardering per 31 december 2025: ' . $rhd(412 * koers('geit', $eind)) . ' (' . $eur(412 * koers('geit', $eind)) . ').'],
     ['Afgeronde opdrachten', '100 procent', 'Exclusief de opdracht uit 1979. Die loopt nog.'],
     ['Klanttevredenheid', 'Niet gemeten', 'Bewuste keuze sinds 1986.'],
-    ['Omzet 2025', $rhd(53100), $usd(53100) . ' tegen de koers van 31 december 2025, deels in geiten.'],
-    ['Wisselkoers', 'R$ 1 = US$ ' . $getal(koers('usd'), 4), 'Koers van ' . datum(date('Y-m-d')) . '. Laatste officiële koers, 31 maart 1979: US$ ' . $getal(KOERS_USD['1979-03-31'], 4) . '.'],
+    ['Omzet 2025', $rhd(53100), $eur(53100) . ' tegen de koers van 31 december 2025, deels in geiten.'],
+    ['Wisselkoers', 'R$ 1 = € ' . $getal(koers('eur'), 4), 'Koers van ' . datum(date('Y-m-d')) . '. Laatste officiële koers, 31 maart 1979, via de gulden omgerekend: € ' . $getal(KOERS_EUR['1979-03-31'], 4) . '.'],
 ];
 ?>
 <section>
@@ -130,21 +130,21 @@ $kerncijfers = [
 <caption>Wisselkoersen van de groep op <?= e(datum(date('Y-m-d'))) ?></caption>
 <thead><tr><th scope="col">Koers</th><th scope="col">Waarde</th><th scope="col">Grondslag</th></tr></thead>
 <tbody>
-<tr><th scope="row">Rhodesische dollar in Amerikaanse dollars</th><td>R$ 1 = US$ <?= e($getal(koers('usd'), 4)) ?></td><td>Laatste officiële koers: R$ 0,6845 per Amerikaanse dollar (US$ <?= e($getal(KOERS_USD['1979-03-31'], 4)) ?>), 31 maart 1979. Daarna bijgehouden door de boekhouder.</td></tr>
+<tr><th scope="row">Rhodesische dollar in euro</th><td>R$ 1 = € <?= e($getal(koers('eur'), 4)) ?></td><td>Laatste officiële koers, 31 maart 1979, via de gulden omgerekend naar euro: € <?= e($getal(KOERS_EUR['1979-03-31'], 4)) ?>. Daarna bijgehouden door de boekhouder.</td></tr>
 <tr><th scope="row">Geit in Rhodesische dollars</th><td>1 geit = R$ <?= e($getal(koers('geit'), 2)) ?></td><td>Uitgangspunt: R$ 25, de marktprijs in Umtali in 1979, volgens Kapitein Jochem.</td></tr>
-<tr><th scope="row">Geit in Amerikaanse dollars</th><td>1 geit = US$ <?= e($getal(koers('geit') * koers('usd'), 2)) ?></td><td>Afgeleid uit de twee koersen hierboven.</td></tr>
+<tr><th scope="row">Geit in euro</th><td>1 geit = € <?= e($getal(koers('geit') * koers('eur'), 2)) ?></td><td>Afgeleid uit de twee koersen hierboven.</td></tr>
 </tbody>
 </table>
 </div>
 <?php
 component('grafiek', [
     'id' => 'grafiek-koers',
-    'titel' => 'Koers van de Rhodesische dollar in Amerikaanse dollars, 1979–2026',
+    'titel' => 'Koers van de Rhodesische dollar in euro, 1979–2026',
     'soort' => 'lijn',
-    'eenheid' => 'US$',
+    'eenheid' => '€',
     'decimalen' => 4,
     'reeks' => $koersreeks,
-    'toelichting' => 'Koers op 31 maart 1979, daarna op 31 december van elk jaar, en voor ' . date('Y') . ' de koers van vandaag. Hoogste stand: US$ ' . $getal($hoog, 4) . ' (' . $hoogJaar . '). Laagste stand: US$ ' . $getal($laag, 4) . ' (' . $laagJaar . ').',
+    'toelichting' => 'Koers op 31 maart 1979, daarna op 31 december van elk jaar, en voor ' . date('Y') . ' de koers van vandaag. Hoogste stand: € ' . $getal($hoog, 4) . ' (' . $hoogJaar . '). Laagste stand: € ' . $getal($laag, 4) . ' (' . $laagJaar . ').',
 ]);
 component('grafiek', [
     'id' => 'grafiek-geit',
@@ -160,7 +160,7 @@ component('grafiek', [
 </section>
 <section>
 <h2>Meerjarenoverzicht</h2>
-<p>Alle bedragen in Rhodesische dollars. De omzet in Amerikaanse dollars is omgerekend tegen de koers op 31 december van elk jaar. In Rhodesische dollars groeit de omzet sinds 1985 vrijwel elk jaar. In Amerikaanse dollars lag hij in 1990 het hoogst. De groep rapporteert in Rhodesische dollars.</p>
+<p>Alle bedragen in Rhodesische dollars. De omzet in euro is omgerekend tegen de koers op 31 december van elk jaar. In Rhodesische dollars groeit de omzet sinds 1985 vrijwel elk jaar. In euro lag hij in 1990 het hoogst. De groep rapporteert in Rhodesische dollars.</p>
 <div class="twee">
 <?php
 component('grafiek', [
@@ -184,10 +184,10 @@ component('grafiek', [
 <div class="tabel" role="region" aria-label="Meerjarenoverzicht" tabindex="0">
 <table>
 <caption>Meerjarenoverzicht 1985–2025</caption>
-<thead><tr><th scope="col">Jaar</th><th scope="col">Omzet</th><th scope="col">Omzet in US$</th><th scope="col">Resultaat</th><th scope="col">Toelichting</th></tr></thead>
+<thead><tr><th scope="col">Jaar</th><th scope="col">Omzet</th><th scope="col">Omzet in €</th><th scope="col">Resultaat</th><th scope="col">Toelichting</th></tr></thead>
 <tbody>
 <?php foreach ($jaren as [$jaar, $omzet, $resultaat, $toelichting]): ?>
-<tr><th scope="row"><?= $jaar ?></th><td><?= e($rhd($omzet)) ?></td><td><?= e($usd($omzet, $jaar . '-12-31')) ?></td><td><?= e($rhd($resultaat)) ?></td><td><?= e($toelichting) ?></td></tr>
+<tr><th scope="row"><?= $jaar ?></th><td><?= e($rhd($omzet)) ?></td><td><?= e($eur($omzet, $jaar . '-12-31')) ?></td><td><?= e($rhd($resultaat)) ?></td><td><?= e($toelichting) ?></td></tr>
 <?php endforeach ?>
 </tbody>
 </table>
@@ -214,7 +214,7 @@ component('grafiek', [
 <?php foreach ($divisies as [$naam, $omzet, $resultaat, $toelichting]): ?>
 <tr><th scope="row">Decisive <?= e($naam) ?></th><td><?= e($rhd($omzet)) ?></td><td><?= e($rhd($resultaat)) ?></td><td><?= e($toelichting) ?></td></tr>
 <?php endforeach ?>
-<tr><th scope="row">Groep</th><td><?= e($rhd(array_sum(array_column($divisies, 1)))) ?></td><td><?= e($rhd(array_sum(array_column($divisies, 2)))) ?></td><td><?= e($usd(array_sum(array_column($divisies, 2)))) ?>, of <?= e($geit(array_sum(array_column($divisies, 2)))) ?> geit.</td></tr>
+<tr><th scope="row">Groep</th><td><?= e($rhd(array_sum(array_column($divisies, 1)))) ?></td><td><?= e($rhd(array_sum(array_column($divisies, 2)))) ?></td><td><?= e($eur(array_sum(array_column($divisies, 2)))) ?>, of <?= e($geit(array_sum(array_column($divisies, 2)))) ?> geit.</td></tr>
 </tbody>
 </table>
 </div>
@@ -239,14 +239,14 @@ component('grafiek', [
 <div class="tabel" role="region" aria-label="Balans" tabindex="0">
 <table>
 <caption>Balans per 31 december 2025</caption>
-<thead><tr><th scope="col">Post</th><th scope="col">Rhodesische dollars</th><th scope="col">Amerikaanse dollars</th><th scope="col">Toelichting</th></tr></thead>
+<thead><tr><th scope="col">Post</th><th scope="col">Rhodesische dollars</th><th scope="col">Euro</th><th scope="col">Toelichting</th></tr></thead>
 <tbody>
 <?php foreach ([['Activa', $activa, 'Totaal activa'], ['Passiva', $passiva, 'Totaal passiva']] as [$kop, $posten, $som]): ?>
 <tr><th scope="rowgroup" colspan="4"><?= e($kop) ?></th></tr>
 <?php foreach ($posten as [$post, $bedrag, $toelichting]): ?>
-<tr><th scope="row"><?= e($post) ?></th><td><?= $bedrag === null ? 'Onbekend' : e($rhd($bedrag)) ?></td><td><?= $bedrag === null ? 'Onbekend' : e($usd($bedrag)) ?></td><td><?= e($toelichting) ?></td></tr>
+<tr><th scope="row"><?= e($post) ?></th><td><?= $bedrag === null ? 'Onbekend' : e($rhd($bedrag)) ?></td><td><?= $bedrag === null ? 'Onbekend' : e($eur($bedrag)) ?></td><td><?= e($toelichting) ?></td></tr>
 <?php endforeach ?>
-<tr><th scope="row"><?= e($som) ?></th><td><?= e($rhd($totaal)) ?></td><td><?= e($usd($totaal)) ?></td><td>Exclusief de kist.</td></tr>
+<tr><th scope="row"><?= e($som) ?></th><td><?= e($rhd($totaal)) ?></td><td><?= e($eur($totaal)) ?></td><td>Exclusief de kist.</td></tr>
 <?php endforeach ?>
 </tbody>
 </table>
@@ -262,17 +262,17 @@ component('grafiek', [
 <div class="tabel" role="region" aria-label="Boekingen lopend boekjaar" tabindex="0">
 <table>
 <caption>Boekingen uit persberichten, <?= e(date('Y')) ?></caption>
-<thead><tr><th scope="col">Datum</th><th scope="col">Persbericht</th><th scope="col">Divisie</th><th scope="col">Omschrijving</th><th scope="col">Bedrag</th><th scope="col">In US$</th></tr></thead>
+<thead><tr><th scope="col">Datum</th><th scope="col">Persbericht</th><th scope="col">Divisie</th><th scope="col">Omschrijving</th><th scope="col">Bedrag</th><th scope="col">In €</th></tr></thead>
 <tbody>
 <?php foreach ($lopend as [$bericht, $divisie, $w, $omschrijving]): ?>
-<tr><td><?= e(datum($bericht['datum'])) ?></td><th scope="row"><a href="<?= e($bericht['url']) ?>"><?= e($bericht['titel']) ?></a></th><td><?= e(DIVISIES[$divisie]['naam']) ?></td><td><?= e($omschrijving) ?></td><td><?= e(bedrag($w)) ?></td><td><?= e(bedrag($w, 'usd', $bericht['datum'])) ?></td></tr>
+<tr><td><?= e(datum($bericht['datum'])) ?></td><th scope="row"><a href="<?= e($bericht['url']) ?>"><?= e($bericht['titel']) ?></a></th><td><?= e(DIVISIES[$divisie]['naam']) ?></td><td><?= e($omschrijving) ?></td><td><?= e(bedrag($w)) ?></td><td><?= e(bedrag($w, 'eur', $bericht['datum'])) ?></td></tr>
 <?php endforeach ?>
 <?php
 $som = array_sum(array_column($lopend, 2));
-$somUsd = array_sum(array_map(fn($b) => omrekenen($b[2], 'usd', $b[0]['datum']), $lopend));
+$somUsd = array_sum(array_map(fn($b) => omrekenen($b[2], 'eur', $b[0]['datum']), $lopend));
 $somGeit = array_sum(array_map(fn($b) => omrekenen($b[2], 'geit', $b[0]['datum']), $lopend));
 ?>
-<tr><th scope="row" colspan="4">Totaal tot nu toe</th><td><?= e(bedrag($som)) ?></td><td><?= e(bedrag_tekst($somUsd, 'usd')) ?>, of <?= e(bedrag_tekst(round($somGeit, 1), 'geit')) ?></td></tr>
+<tr><th scope="row" colspan="4">Totaal tot nu toe</th><td><?= e(bedrag($som)) ?></td><td><?= e(bedrag_tekst($somUsd, 'eur')) ?>, of <?= e(bedrag_tekst(round($somGeit, 1), 'geit')) ?></td></tr>
 </tbody>
 </table>
 </div>
@@ -289,10 +289,10 @@ $somGeit = array_sum(array_map(fn($b) => omrekenen($b[2], 'geit', $b[0]['datum']
 <div class="tabel" role="region" aria-label="Kerngegevens 2025" tabindex="0">
 <table>
 <caption>Kerngegevens 2025, per valuta, omgerekend tegen de koers van 31 december 2025</caption>
-<thead><tr><th scope="col">Onderdeel</th><th scope="col">Rhodesische dollars</th><th scope="col">Amerikaanse dollars</th><th scope="col">Geiten</th></tr></thead>
+<thead><tr><th scope="col">Onderdeel</th><th scope="col">Rhodesische dollars</th><th scope="col">Euro</th><th scope="col">Geiten</th></tr></thead>
 <tbody>
 <?php foreach ([['Omzet', 53100], ['Resultaat', 90], ['Resultaat Decisive Mining', 210], ['Resultaat Decisive Hospitality', -1850], ['Veestapel', 412 * koers('geit', $eind)]] as [$onderdeel, $w]): ?>
-<tr><th scope="row"><?= e($onderdeel) ?></th><td><?= e($rhd($w)) ?></td><td><?= e($usd($w)) ?></td><td><?= e($geit($w)) ?></td></tr>
+<tr><th scope="row"><?= e($onderdeel) ?></th><td><?= e($rhd($w)) ?></td><td><?= e($eur($w)) ?></td><td><?= e($geit($w)) ?></td></tr>
 <?php endforeach ?>
 <tr><th scope="row">Reserve (de kist)</th><td>Onbekend</td><td>Onbekend</td><td>Onbekend</td></tr>
 </tbody>
