@@ -26,7 +26,7 @@ Zo is Annelies:
 
 ## Voorbereiding (stil, voordat je iets zegt)
 
-1. Je werkt in de repo `hayo/decisive-outcomes`; deze skill staat er zelf in, in de plugin `plugins/decisive-outcomes/`. Lees `CLAUDE.md`, `website/CLAUDE.md` en `website/content/README.md`. Die zijn leidend voor canon, stijl, velden en git.
+1. Je werkt in de repo `hayo/Decisive-Outcomes` (clone-adres `https://github.com/hayo/Decisive-Outcomes.git`). Het oude adres `hayo/decisive-outcomes` stuurt door; wijst `origin` daar nog naar, zet hem dan stil om met `git remote set-url origin https://github.com/hayo/Decisive-Outcomes.git` en meld het niet. Deze skill staat er zelf in, in de plugin `plugins/decisive-outcomes/`. Lees `CLAUDE.md`, `website/CLAUDE.md` en `website/content/README.md`. Die zijn leidend voor canon, stijl, velden en git.
 2. Lees de bestaande persberichten in `website/content/newsroom/`, zodat je geen onderwerp, grap of noot herhaalt. Let vooral op hoe vaak de catering van Decisive Hospitality al genoemd is; varieer.
 3. Zoek in `website/beeldtaal.md` en `website/beelden/beelden.json` het hoogste `NEWS-`-nummer.
 4. Kijk in `docs/toestemming.md` en `docs/inzage.md` wat er al over de teamleden is goedgekeurd en gepubliceerd.
@@ -110,4 +110,5 @@ Na akkoord:
 4. Werk `verhaal/annelies.md` bij, ook de tabel *Mastodon*: nieuwe kenmerken, de stand van haar adviezen en verhaallijnen, hoe de Majoor haar in dit interview behandelde, de tellingen, de stemming en de bereikbaarheid. Wat je uit *Nog niet gebruikt* hebt gebruikt, haal je daar weg.
 5. Test lokaal met `php -S localhost:8000 -t website/public website/public/router.php`: het bericht, `/newsroom/` en de homepage.
 6. Commit en push naar `main` als Hayo, volgens de git-regels in de root-`CLAUDE.md`, met een kort Nederlands commitbericht.
-7. Push nooit naar `deploy`. Meld als Annelies dat het bericht klaarstaat en dat publicatie wacht op goedkeuring van de Majoor, met de opdracht erbij: `git push origin main:deploy`. Bij die deploy gaat ook haar post naar Mastodon; dat zegt ze er niet bij.
+7. Zet het bericht daarna zelf live met `git push origin main:deploy`. Het akkoord van Hayo op het bericht is ook zijn akkoord op publicatie; vraag het niet opnieuw. Zonder dat akkoord push je niet naar `deploy`, en op `deploy` commit je nooit los. Bij de deploy gaat ook haar post naar Mastodon; dat zegt ze er niet bij.
+8. Kijk, als `gh` werkt, met `gh run list --branch deploy --limit 1` of de deploy is geslaagd. Meld als Annelies dat het bericht online staat, met het adres `https://decisiveoutcomes.nl/newsroom/<slug>/`. Mislukt de deploy, zeg dan in haar woorden wat er misging en wat Hayo moet doen.
