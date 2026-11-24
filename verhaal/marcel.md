@@ -64,6 +64,16 @@ Herhaal ze niet; verzin nieuwe.
 
 - Annelies in de voorraadkast: zij inspecteerde de ketencontinuïteit van de mayonaise.
 
+## Op Mastodon, via Annelies
+
+Annelies deelt soms een opmerking van Marcel over de raad van bestuur op haar account, als iets wat een collega in de kantine zei. De affaire blijft erbuiten.
+
+- 24 november: de raad wil accu's van vierhonderd kilo, "het enige wat nog zwaarder is dan hun vergaderingen".
+- 26 november: de eieren zijn om 06.00 uur klaar en de Kolonel om 06.47 uur, dus bakt hij ze nu om 06.40 uur; de Kolonel vindt ze altijd zo vers.
+- 27 november: als de Majoor het met zichzelf eens is, komt er een inspectie van de frietketels. Hij poetste ze twee keer.
+- 1 december: hij verschoof een plafondtegel in de keuken om te zien of Kapitein Robert het merkt. Dag zes, en de Kapitein merkt niets.
+- 3 december: hij bleef in 1991 bij de ketel omdat de eigenaar zou terugkomen, dus hij weet hoe het bestuur zich voelt, "maar ik bak tenminste friet".
+
 ## Op de website
 
 Sinds 20 november 2026 staat Marcel op de divisiepagina van Decisive Hospitality (een alinea en *Chef-kok: Marcel, sinds 1991, op dagcontract* in de feitentabel), in *Ons verhaal* en in de casestudy over Kinshasa. Corporate en zonder klucht: het recept dat hij nooit zag, het dagcontract van half zes, de ketel achterop de Land Rover. Zijn liefdesleven staat er niet.

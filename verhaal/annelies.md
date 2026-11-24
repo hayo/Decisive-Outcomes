@@ -128,18 +128,23 @@ Losse posts:
 | 20 november, 19.12 uur | De veerman | Geen post van de raad van bestuur, wel de stroomrekening, voor een week met drie avonden zonder stroom. Shon Ernesto lachte om haar "prima" en miste bijna zijn boot. |
 | 21 november, 10.34 uur | De hangmat | Uitgepakt na zeven jaar, net zo lang als haar verlofaanvraag ligt. Te kort voor de twee palmen in haar tuin, het enige dat daar groeit. Ze ligt nu in een hangmat op de grond. |
 | 23 november, 00.12 uur | Stand-By-overleg | Middernacht, pyjama aan, camera uit. Punt 1, nieuws uit Salisbury, is sinds 1979 niet af, dus punt 2, haar verzoek om later te vergaderen, komt nooit aan de beurt. Haar eerste krachtterm: *potverdorie*. |
+| 24 november, 12.52 uur | Marcel in de kantine | Marcel: de raad wil accu's van vierhonderd kilo, "het enige wat nog zwaarder is dan hun vergaderingen". Ze lachte hardop in de kantine. |
 | 24 november, 07.41 uur | De buurvrouw | Haar buurvrouw denkt al een jaar dat ze bij het energiebedrijf werkt, vanwege de stroomstoringen. Ze heeft het niet rechtgezet. |
 | 25 november, 07.52 uur | Duiken | Om 06.15 uur voor het eerst sinds juli het water in, met een schildpad. Om 07.40 uur drie berichten van de raad van bestuur, alle drie van na middernacht. |
 | 25 november, 13.18 uur | Oud-collega | Een oud-collega uit Den Haag (vijftien jaar op één gang) vroeg of haar werk "impactvol" is. Ze stuurde een foto van de hangmat op de grond. In Den Haag las iemand de stukken. |
 | 25 november, 21.47 uur | Concepten | Haar oudste concept ter goedkeuring is van 2 februari (wagenpark); het klopt nog steeds. |
 | 26 november, 06.33 uur | Stroomstoring | Stroom uit om 06.20 uur, laptop op veertien procent. Ze begrijpt de accu's van de Majoor een klein beetje, en dat zit haar niet lekker. |
+| 26 november, 12.47 uur | Marcel over de eieren | De eieren zijn om 06.00 uur klaar, de Kolonel om 06.47 uur; Marcel bakt ze nu om 06.40 uur en de Kolonel vindt ze vers. Een kok ziet meer dan het jaarverslag. |
 | 26 november, 17.12 uur | De veerman | Weer geen post. Shon Ernesto heeft loodaccu's uit 1987 in zijn boot en vroeg naar de accu's van de groep. Ze zei dat ze er niet over gaat; dat zegt ze altijd. |
+| 27 november, 12.31 uur | Marcel over Compliance | Als de Majoor het met zichzelf eens is, komt er volgens Marcel een inspectie; hij poetste de ketels twee keer. |
 | 27 november, 16.44 uur | Overuren | Eenenveertig uur deze week, waarvan negen tussen middernacht en 06.00 uur, in een spreadsheet die alleen zij opent. *Potverdorie.* |
 | 28 november, 10.22 uur | De tuin | Een tomatenplantje van de buurvrouw, tussen de twee palmen. Laptop dicht. Ze kijkt om het uur. |
 | 29 november, 19.05 uur | Zondag | Om 18.58 uur toch even de mail geopend; er was niets, en nu baalt ze. De tomaat staat er nog. |
 | 30 november, 00.09 uur | Stand-By-overleg | Om 00.04 uur viel bij haar de stroom uit, als enige deelnemer. Tien minuten weg, niemand merkte het, niets besloten, geen nieuws uit Salisbury. |
+| 1 december, 13.08 uur | Marcel en het plafond | Marcel verschoof een plafondtegel in de keuken om te zien of Kapitein Robert het merkt. Dag zes: hij merkt het niet, maar kijkt langer. |
+| 3 december, 12.55 uur | Marcel over Salisbury | Marcel bleef in 1991 bij de ketel omdat de eigenaar zou terugkomen; hij weet hoe het bestuur zich voelt, maar bakt tenminste friet. |
 
-Nieuw over haar, alleen op Mastodon: ze schreef vijftien jaar persberichten voor het ministerie. Ze had in de week van 16 november drie avonden geen stroom. In haar tuin groeien alleen twee palmen, sinds 28 november met een tomatenplantje van de buurvrouw ertussen. De hangmat is uitgepakt en ligt op de grond. Haar buurvrouw denkt dat ze bij het energiebedrijf werkt. Ze dook op 25 november voor het eerst sinds juli. Een oud-collega uit Den Haag zat vijftien jaar met haar op één gang. Ze houdt haar uren bij in een eigen spreadsheet.
+Nieuw over haar, alleen op Mastodon: ze schreef vijftien jaar persberichten voor het ministerie. Ze had in de week van 16 november drie avonden geen stroom. In haar tuin groeien alleen twee palmen, sinds 28 november met een tomatenplantje van de buurvrouw ertussen. De hangmat is uitgepakt en ligt op de grond. Haar buurvrouw denkt dat ze bij het energiebedrijf werkt. Ze dook op 25 november voor het eerst sinds juli. Een oud-collega uit Den Haag zat vijftien jaar met haar op één gang. Ze houdt haar uren bij in een eigen spreadsheet. Ze luncht soms in de kantine op het hoofdkantoor en deelt daar de opmerkingen van Marcel over de raad van bestuur, als collega; de affaire blijft erbuiten.
 
 ## Nog niet gebruikt
 
