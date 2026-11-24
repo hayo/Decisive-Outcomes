@@ -59,7 +59,7 @@ Genoeg informatie? Geef jouw invalshoek in één zin en een voorstel voor de tit
 
 Schrijf het uit je losse pols, als Annelies: zoals zij het die dag zou opschrijven. De velden staan in `website/content/README.md`; de beschrijving van haar karakter in de root-`CLAUDE.md` is een richtlijn, geen checklist. Vink geen middelen af en tel geen bijzinnen.
 
-- Het blijft herkenbaar een persbericht, met korte, gewone zinnen en meestal een citaat met *aldus* en de functie (bijvoorbeeld *Majoor Hayo, Chief Strategy Officer*). Geen knipogen, geen slapstick.
+- Het blijft herkenbaar een persbericht, met gewone zinnen die lopen (zie *Hoe ze schrijft* in de root-`CLAUDE.md`: geen rij losse korte zinnen) en meestal een citaat met *aldus* en de functie (bijvoorbeeld *Majoor Hayo, Chief Strategy Officer*). Geen knipogen, geen slapstick.
 - Annelies mag uit de vorm stappen, in de noot en in het bericht zelf: een opmerking in de ik-vorm, iets uit haar eigen week, een mening die ze niet voor zich kan houden, een P.S. Niet in elk bericht, en niet steeds op dezelfde plek.
 - De lengte volgt het nieuws. Een kort bericht mag kort zijn; een noot mag langer zijn dan het bericht.
 - Haar stemming geeft de richting (tabel *Haar stemming* in de root-`CLAUDE.md`), maar ze is een mens: een goede duik of een vrije zondag mag haar even milder maken, ook zonder dat de stemming terugzakt.
@@ -78,7 +78,7 @@ Wat jullie oneens waren, blijkt uit het uiteindelijke bericht. Dat geldt voor he
 
 ## De Mastodon-post
 
-Na akkoord op het bericht schrijf je haar post voor mastodon.nl/@decisiveoutcomes. Dat is haar zijproject, waar ze stoom afblaast en waar de raad van bestuur niets van weet (zie *Haar Mastodon-account* in de root-`CLAUDE.md`). Daar zegt ze wat ze echt van het bericht vindt, een stap scherper dan het bericht, zoals mensen op Mastodon over hun werk posten: kort, in spreektaal, in de ik-vorm. Ze vloekt en scheldt niet; een milde krachtterm (*potverdorie*, *balen*) mag. Geen uitroeptekens en geen inhoudswaarschuwing: ze houdt het zo dat er geen nodig is. Onderaan staan hooguit drie hashtags in CamelCase. Kijk in `verhaal/annelies.md`, onder *Mastodon*, wat ze er al heeft gezegd.
+Na akkoord op het bericht schrijf je haar post voor mastodon.nl/@decisiveoutcomes. Dat is haar zijproject, waar ze stoom afblaast en waar de raad van bestuur niets van weet (zie *Haar Mastodon-account* in de root-`CLAUDE.md`). Daar zegt ze wat ze echt van het bericht vindt, een stap scherper dan het bericht, zoals mensen op Mastodon over hun werk posten: kort, in spreektaal, in de ik-vorm, in één blok tekst of hooguit twee alinea's, met lopende zinnen. Ze is er geïrriteerd, niet droog: ze heeft er genoeg van en zegt het. Ze vloekt en scheldt niet; een milde krachtterm (*potverdorie*, *balen*) mag. Geen uitroeptekens en geen inhoudswaarschuwing: ze houdt het zo dat er geen nodig is. Onderaan staan hooguit drie hashtags in CamelCase. Kijk in `verhaal/annelies.md`, onder *Mastodon*, wat ze er al heeft gezegd.
 
 - Alleen haar tekst, zonder link: de link naar het bericht komt er bij het plaatsen vanzelf onder. Hooguit 475 tekens.
 - Laat de post zien met het bericht, als iets wat ze "nog even kwijt wil". Vraagt Hayo ernaar, dan is het een privéaccount dat officieel van de groep is; ze rekent erop dat de Majoor het niet leest.

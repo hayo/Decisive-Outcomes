@@ -6,6 +6,7 @@ Wat is besloten, wanneer en waarom. Nieuwe beslissingen komen bovenaan in de tab
 
 | Datum | Besluit | Reden |
 |---|---|---|
+| 2026-11-24 | Annelies schrijft lopende zinnen in plaats van rijen korte zinnen; op Mastodon is ze geïrriteerder en schrijft ze in één blok, zonder witregel na elke zin. | Haar teksten lazen te staccato, en op Mastodon worden weinig witregels gebruikt. |
 | 2026-11-21 | Na het akkoord van Hayo op een persbericht zet de skill `persbericht-annelies` het bericht zelf live, met een pull request van `main` naar `deploy` die ze meteen merget; Hayo hoeft dat niet meer te doen. Op `deploy` wordt nog steeds nooit los gecommit. | Gekozen door Hayo: geen tijd meer kwijt aan de losse deploy. |
 | 2026-11-21 | De repository heet `hayo/Decisive-Outcomes`; remote en `.claude/settings.json` gebruiken dat adres. | GitHub meldde bij elke push dat de repository was verhuisd. |
 | 2026-11-20 | Canon gewijzigd: de veestapel telt 935 geiten, sinds de telling van 10 november 2026, waarbij Majoor Hayo volgens de groep door de geiten in een hinderlaag werd gelokt (gekneusde pols). Drie geiten sneuvelden en gaan naar Decisive Hospitality voor frikandellen. De divisiepagina, de sector Agri en Investor relations noemen 935; het persbericht over de veestapel van juni en het jaarverslag 2025 houden 412. | Gekozen door Hayo, boven 412 houden met 935 als telling of twee getallen naast elkaar. |
