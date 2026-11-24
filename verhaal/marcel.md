@@ -66,7 +66,7 @@ Herhaal ze niet; verzin nieuwe.
 
 ## Op Mastodon, via Annelies
 
-Annelies deelt soms een opmerking van Marcel over de raad van bestuur op haar account, als iets wat een collega in de kantine zei. De affaire blijft erbuiten.
+Annelies deelt soms een opmerking van Marcel over de raad van bestuur op haar account, letterlijk en met zijn Vlaamse tongval (*awel*, *allez*, *zenne*, *da's*, *hè*), als iets wat een collega in de kantine zei. In het openbaar noemt hij haar *mevrouw Brouwer*. Achter de rug van de directie spot hij; zodra er iemand binnenkomt, slijmt hij (*Uitstekende keuze, Majoor.*, *Nog een kroketje, Kapitein?*). De affaire blijft erbuiten.
 
 - 24 november: de raad wil accu's van vierhonderd kilo, "het enige wat nog zwaarder is dan hun vergaderingen".
 - 26 november: de eieren zijn om 06.00 uur klaar en de Kolonel om 06.47 uur, dus bakt hij ze nu om 06.40 uur; de Kolonel vindt ze altijd zo vers.
