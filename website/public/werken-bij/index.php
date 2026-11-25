@@ -18,7 +18,7 @@ component('hero', [
 <div class="artikel">
 <h2>Werken bij de groep</h2>
 <p class="inleiding">Onze medewerkers werken in uitdagende omgevingen, vaak lang op dezelfde plek. Wij bieden een omgeving waarin loyaliteit beloond wordt en waarin niemand zomaar wordt achtergelaten. Behalve in 1979.</p>
-<p>Decisive Outcomes Group werkt in veertig landen, met zeven divisies en ruim drieduizend flexibele medewerkers. Je werkt bij ons in kleine teams, onder leiding van officieren met ruim veertig jaar ervaring. Elke opdracht begint met een grondige voorbereiding en eindigt met een volledig rapport. Daartussen wordt vooral gewacht, en wachten is bij ons een vak.</p>
+<p>Decisive Outcomes Group werkt in veertig landen, met acht divisies en ruim drieduizend flexibele medewerkers. Je werkt bij ons in kleine teams, onder leiding van officieren met ruim veertig jaar ervaring. Elke opdracht begint met een grondige voorbereiding en eindigt met een volledig rapport. Daartussen wordt vooral gewacht, en wachten is bij ons een vak.</p>
 <p>Alle medewerkers komen bij ons in dienst via Decisive People. Je krijgt een contract per dag, dat zo nodig dagelijks wordt verlengd. Een vaste aanstelling is mogelijk zodra er een plek vrijkomt in de vaste formatie van vier. Dat is sinds 1979 niet gebeurd, maar wij sluiten het niet uit.</p>
 </div>
 </section>

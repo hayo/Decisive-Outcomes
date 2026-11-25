@@ -20,7 +20,7 @@ const FOOTER_LINKS = [
 
 const KERNCIJFERS = [
     ['40', 'landen'],
-    ['7', 'divisies'],
+    ['8', 'divisies'],
     ['45+', 'jaar operationeel'],
     ['100%*', 'afgeronde opdrachten'],
 ];
@@ -300,6 +300,33 @@ const DIVISIES = [
         'icoon' => 'geit',
         'beeld' => 'DIEN-07',
     ],
+    'decisive-communications' => [
+        'naam' => 'Decisive Communications',
+        'kop' => 'Woordvoering, beeldvorming en realiteitsbeheer',
+        'kort' => 'Persberichten, crisiscommunicatie en de bestrijding van desinformatie, vanuit één loket.',
+        'intro' => 'Decisive Communications is de jongste divisie van de groep, ingesteld bij besluit van de raad van bestuur op 24 november 2026. Zij is het enige formele loket voor de woordvoering van de groep en neemt het werk over van Corporate Communications, dat tot die dag uit één persoon bestond.',
+        'tekst' => [
+            'De divisie is de eerste die niet als betaling begon. Zij werd ingesteld omdat de berichtgeving over de groep volgens de raad van bestuur "in toenemende mate afwijkt van de door de Raad van Bestuur vastgestelde werkelijkheid". Die berichtgeving bestond grotendeels uit persberichten van de groep zelf.',
+            'Decisive Communications valt hiërarchisch, operationeel en redactioneel onder Majoor Hayo, Directielid Materieel & Communicatie. Kolonel Frederik behoudt het recht van primis communicadus: hij spreekt als eerste, of ten minste zevenenveertig minuten later. De divisie communiceert uitsluitend via deze website en via Mastodon, de twee kanalen die door de afdeling Ethiek & Compliance zijn goedgekeurd.',
+            'Persvragen worden binnen de kaders van het instellingsbesluit beantwoord met de standaardmededeling dat er geen verdere mededelingen worden gedaan. De reactietermijn van het hoofdkantoor, zes tot acht jaar, is ook op de divisie van toepassing.',
+        ],
+        'competenties' => [
+            ['Corporate communicatie', 'Persberichten, jaarrapporten en overige officiële uitingen, met voldoende gewicht en desgewenst een bijlage.'],
+            ['Bestrijding van desinformatie', 'Het corrigeren van onjuiste, voorbarige of ongewenste berichtgeving over de groep, ook als die van de groep zelf komt.'],
+            ['Crisiscommunicatie', 'Beeldvorming bij plotselinge operationele dynamiek, zoals vastgelopen testwapens, incidenten op bruggen en stroomuitval.'],
+            ['Algemene communicatie', 'Dagelijkse correspondentie, persvragen en het op gepaste wijze verwoorden van afgekeurde verlofaanvragen.'],
+        ],
+        'feiten' => [
+            ['Ingesteld', '24 november 2026, om 06.47 uur'],
+            ['Kenmerk instellingsbesluit', 'DOG/RvB/2026-11-24/008-COM'],
+            ['Valt onder', 'Majoor Hayo'],
+            ['Goedgekeurde kanalen', '2'],
+            ['Persconferenties gehouden', '0'],
+        ],
+        'inzet' => ['Klein Klein Bonaire, 2026', 'Op de dag van haar instelling werd de divisie geacht met terugwerkende kracht alle eerdere persberichten van de groep te hebben opgesteld, ook die van vóór haar bestaan. Het werk werd uitgevoerd door Corporate Communications, dat daarvoor geen nieuwe naam nodig had.', '/newsroom/2026-11-25-decisive-communications/'],
+        'icoon' => 'pen',
+        'beeld' => 'NEWS-12',
+    ],
 ];
 
 /*
@@ -413,7 +440,7 @@ const SECTOREN = [
 
 const BESTUUR = [
     ['Kolonel Frederik', 'Chief Executive Officer', 'Frederik is voorzitter van de raad van bestuur en lid van alle commissies, ook van de commissie die toezicht houdt op de raad van bestuur. Hij groeide op op een tabaksboerderij bij Marandellas en leidde in 1979 het team dat de basis legde voor de groep. Hij gelooft in een platte organisatie en in korte vergaderingen: de meeste besluiten zijn genomen zodra hij opstaat. Hij tekent elk contract persoonlijk.', 'LEAD-01'],
-    ['Majoor Hayo', 'Chief Strategy Officer', 'Hayo is verantwoordelijk voor strategie, precisieadvies en compliance, en vormt in die laatste rol in zijn eentje de afdeling. Als zoon van een landmeter uit Bulawayo leerde hij kaartlezen voordat hij kon fietsen; zijn kaarten zijn sindsdien de basis van elke inzet. Hij schrijft elke vijf jaar het meerjarenplan, houdt de notulen bij van het Stand-By-overleg en rapporteert na elke opdracht aan het hoofdkwartier.', 'LEAD-02'],
+    ['Majoor Hayo', 'Chief Strategy Officer en Directielid Materieel & Communicatie', 'Hayo is verantwoordelijk voor strategie, precisieadvies en compliance, en vormt in die laatste rol in zijn eentje de afdeling. Sinds 24 november 2026 valt ook Decisive Communications onder hem. Als zoon van een landmeter uit Bulawayo leerde hij kaartlezen voordat hij kon fietsen; zijn kaarten zijn sindsdien de basis van elke inzet. Hij schrijft elke vijf jaar het meerjarenplan, houdt de notulen bij van het Stand-By-overleg en rapporteert na elke opdracht aan het hoofdkwartier.', 'LEAD-02'],
     ['Kapitein Jochem', 'Chief Operating Officer', 'Jochem is verantwoordelijk voor operaties, wagenpark, luchtvloot en vastgoed. Hij begon als monteur in Umtali en houdt sindsdien alles rijdend wat de groep bezit, ook als er onderdelen ontbreken. Het wagenpark bestaat uit twee Land Rovers uit 1971; zijn jaarlijkse vervangingsplan wordt elk jaar unaniem goedgekeurd. Zijn functieomschrijving omvat ook het dragen en bewaken van de kist, een taak die hij sinds 1979 uitvoert.', 'LEAD-03'],
     ['Kapitein Robert', 'Chief Commercial Officer', 'Robert is verantwoordelijk voor verkoop, contracten en de relatie met de aandeelhouders. Hij groeide op in een hotel bij de Victoria-watervallen, spreekt vloeiend Portugees en sloot in 1984 de eerste overeenkomst in de geschiedenis van de groep. Hij beschouwt elke afwijzing als een warme lead en elke verloren aanbesteding als een leermoment. Zijn pijplijn is sinds 1995 uitstekend gevuld.', 'LEAD-04'],
 ];
@@ -431,6 +458,7 @@ const TIJDLIJN = [
     ['2005', 'Oprichting van de holding Decisive Outcomes Group bij de notaris in Kralendijk.'],
     ['2010', 'Het hoofdkantoor valt voortaan onder Nederland. De Belastingdienst stuurt een eerste aanslag.'],
     ['2019', 'Start van de divisie Benelux.'],
+    ['2026', 'Instelling van Decisive Communications, de achtste divisie en de eerste die niet als betaling begon.'],
 ];
 
 const KERNWAARDEN = [

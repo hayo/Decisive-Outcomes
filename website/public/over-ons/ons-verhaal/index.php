@@ -2,7 +2,7 @@
 require __DIR__ . '/../../../includes/bootstrap.php';
 pagina_begin([
     'titel' => 'Ons verhaal',
-    'beschrijving' => 'Van een kist in Manica tot een concern met zeven divisies: de geschiedenis van Decisive Outcomes Group, van 1979 tot nu.',
+    'beschrijving' => 'Van een kist in Manica tot een concern met acht divisies: de geschiedenis van Decisive Outcomes Group, van 1979 tot nu.',
     'pad' => '/over-ons/ons-verhaal/',
     'beeld' => 'HOME-01',
     'kruimels' => [['/over-ons/', 'Over ons'], ['/over-ons/ons-verhaal/', 'Ons verhaal']],
@@ -10,7 +10,7 @@ pagina_begin([
 component('hero', [
     'label' => 'Over ons',
     'kop' => 'Ons verhaal',
-    'intro' => 'Van een kist in Manica tot een concern met zeven divisies. De geschiedenis van de groep, van 1979 tot nu.',
+    'intro' => 'Van een kist in Manica tot een concern met acht divisies. De geschiedenis van de groep, van 1979 tot nu.',
     'beeld' => 'HOME-01',
     'alt' => 'Vier mannen in veldkleding staan met de rug naar de camera bij twee oude terreinwagens op een rode zandweg en kijken naar een baobab aan de horizon.',
 ]);
@@ -47,7 +47,7 @@ component('hero', [
 <p>Intussen groeide het bezit, vooral doordat opdrachtgevers betaalden met wat zij hadden: een pakket Albanese aandelen, een uitzendbureau dat failliet ging op de dag van de overname, en steeds meer geiten. In het voorjaar van 2005 werden al deze bezittingen bij een notaris in Kralendijk ondergebracht in één holding: Decisive Outcomes Group. De notaris merkte op dat het land van vestiging niet bestond. Frederik stond op, en de notaris tekende.</p>
 
 <h2>Vandaag</h2>
-<p>Decisive Outcomes Group is vandaag actief in veertig landen, met zeven divisies, vier vaste medewerkers en ruim drieduizend flexibele krachten. Het hoofdkantoor staat op Klein Klein Bonaire, waar de raad van bestuur elke maandag om 06.00 uur bijeenkomt voor het Stand-By-overleg. Sinds 2019 is de groep ook actief in de Benelux, in wat zij beschouwt als een langdurig conflict van lage intensiteit.</p>
+<p>Decisive Outcomes Group is vandaag actief in veertig landen, met acht divisies, vier vaste medewerkers en ruim drieduizend flexibele krachten. Het hoofdkantoor staat op Klein Klein Bonaire, waar de raad van bestuur elke maandag om 06.00 uur bijeenkomt voor het Stand-By-overleg. Sinds 2019 is de groep ook actief in de Benelux, in wat zij beschouwt als een langdurig conflict van lage intensiteit.</p>
 <p>Er is nog altijd geen nieuws uit Salisbury. De opdracht uit 1979 loopt nog. De kist staat in de kamer naast de vergaderzaal, en er staat altijd iemand bij.</p>
 <p class="terug"><a href="/over-ons/">Terug naar Over ons</a></p>
 </article>
