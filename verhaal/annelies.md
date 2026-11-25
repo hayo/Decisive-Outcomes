@@ -140,6 +140,7 @@ Losse posts:
 | 24 november, 12.52 uur | Marcel in de kantine | Marcel: de raad wil accu's van vierhonderd kilo, "het enige wat nog zwaarder is dan hun vergaderingen". Ze lachte hardop in de kantine. |
 | 24 november, 07.41 uur | De buurvrouw | Haar buurvrouw denkt al een jaar dat ze bij het energiebedrijf werkt, vanwege de stroomstoringen. Ze heeft het niet rechtgezet. |
 | 25 november, 07.52 uur | Duiken | Om 06.15 uur voor het eerst sinds juli het water in, met een schildpad. Om 07.40 uur drie berichten van de raad van bestuur, alle drie van na middernacht. |
+| 25 november, 10.14 uur | Dienstmededelingen | Om 03.55 uur vijf dienstmededelingen van de kantine op de site, gedateerd vanaf 11 november, terwijl zij vorige week twee adviezen schreef over niet eerder dateren. Ze redigeert ze niet, het is geen woordvoering. Ze staat erin, met haar naam en haar koffie; daar gaat ze niet op in. De frikadel van geit is prima. |
 | 25 november, 13.18 uur | Oud-collega | Een oud-collega uit Den Haag (vijftien jaar op één gang) vroeg of haar werk "impactvol" is. Ze stuurde een foto van de hangmat op de grond. In Den Haag las iemand de stukken. |
 | 25 november, 19.42 uur | Wat ze met haar macht doet | De oud-collega vroeg het. Lijstje op de achterkant van de stroomrekening: stijlgids, crisisprotocol (voor de Kolonel om 01.30 uur), mediatraining voor de raad. Geen budget, dus ze regeert over de achterkant. |
 | 25 november, 21.47 uur | Concepten | Haar oudste concept ter goedkeuring is van 2 februari (wagenpark); het klopt nog steeds. |
