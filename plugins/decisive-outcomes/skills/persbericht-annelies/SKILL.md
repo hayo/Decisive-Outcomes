@@ -99,7 +99,7 @@ Vraag of er een bestaand beeld past of dat er een nieuw komt. Voor een nieuw bee
 
 - neem het volgende `NEWS-`-nummer;
 - schrijf een beschrijving in de stijl van de bestaande regels onder de inzichten in `website/beeldtaal.md` en voeg die daar toe;
-- geef Hayo de volledige Gemini-prompt: het stijlblok, de beschrijving, *Aspect ratio 16:9.* en *Everything is unbadged: no lettering, no number plates, no brand names, no insignia.*;
+- geef Hayo de volledige Gemini-prompt, voor `gemini-nano-banana-2.1` in 2K (zie `website/beeldtaal.md`): het stijlblok, de beschrijving, *Aspect ratio 16:9.* en *Everything is unbadged: no lettering, no number plates, no brand names, no insignia.*;
 - zet het ID en de alt-tekst alvast in het bericht. Zolang het beeld er niet is, toont de site het standaardbeeld (`NEWS-00`, het bureau van Corporate Communications). Past geen eigen beeld, laat `beeld` en `alt` dan weg; ook dan komt het standaardbeeld.
 
 ## Klaarzetten
