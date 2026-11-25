@@ -19,7 +19,7 @@ Beeld-ID's (zoals `HOME-01`) verwijzen naar [beeldtaal.md](beeldtaal.md).
 ### 1. Home
 
 - **Hero** (`HOME-01`): een korte, krachtige kop. Bijvoorbeeld: *Beslissende uitkomsten. Sinds 1979.* Daaronder de missie in één zin en twee knoppen: *Onze diensten* en *Neem contact op*.
-- **Kerncijfers in een balk:** 40 landen · 7 divisies · 45+ jaar operationeel · 100% afgeronde opdrachten*. De asterisk verwijst onderaan naar *Exclusief de opdracht uit 1979.*
+- **Kerncijfers in een balk:** 40 landen · 8 divisies · 45+ jaar operationeel · 100% afgeronde opdrachten*. De asterisk verwijst onderaan naar *Exclusief de opdracht uit 1979.*
 - **Werving** (`WERK-01`), direct onder de cijferbalk: *Wij zoeken mensen die kunnen wachten.* Met een knop naar Werken bij.
 - **Drie diensten uitgelicht** (`HOME-02` t/m `HOME-04`): Security, Hospitality, Real Estate. Elk met een lijnicoon, een korte pitch en een link.
 - **Stand-By Outlook:** een band die het jaarrapport aankondigt, het vlaggenschip van Inzichten.
@@ -36,7 +36,7 @@ Beeld-ID's (zoals `HOME-01`) verwijzen naar [beeldtaal.md](beeldtaal.md).
 
 ### 3. Diensten
 
-Een overzichtspagina met zeven tegels, en per divisie een eigen pagina.
+Een overzichtspagina met acht tegels, en per divisie een eigen pagina.
 
 | Divisie | Kop | Beeld |
 |---|---|---|

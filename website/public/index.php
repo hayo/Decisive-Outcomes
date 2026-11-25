@@ -24,21 +24,21 @@ component('cijfers');
 </section>
 <section class="vlak">
 <p class="label">Diensten</p>
-<h2>Zeven divisies, één opdracht</h2>
+<h2>Acht divisies, één opdracht</h2>
 <ul class="kaarten">
 <?php foreach (['decisive-security' => 'HOME-02', 'decisive-hospitality' => 'HOME-03', 'decisive-real-estate' => 'HOME-04'] as $slug => $beeld) {
     $d = DIVISIES[$slug];
     component('kaart', ['titel' => $d['naam'], 'href' => "/diensten/$slug/", 'tekst' => $d['kort'], 'icoon' => $d['icoon'], 'beeld' => $beeld, 'alt' => '']);
 } ?>
 </ul>
-<p><a href="/diensten/">Alle zeven divisies</a></p>
+<p><a href="/diensten/">Alle acht divisies</a></p>
 </section>
 <section class="twee">
 <div>
 <p class="label">Over de groep</p>
 <h2>Sinds 1979 stand-by</h2>
 <p class="inleiding">Decisive Outcomes Group begon met vier man, een kist en een opdracht in de provincie Manica. Die opdracht is nooit ingetrokken.</p>
-<p>Uit dat begin groeide een internationale groep met zeven divisies, actief in beveiliging, horeca, grondstoffen, beleggingen, vastgoed, personeel en veehouderij. Bijna elke divisie begon als betaling van een opdrachtgever. Wij noemen dat groei door overnames.</p>
+<p>Uit dat begin groeide een internationale groep met acht divisies, actief in beveiliging, horeca, grondstoffen, beleggingen, vastgoed, personeel, veehouderij en communicatie. Bijna elke divisie begon als betaling van een opdrachtgever. Wij noemen dat groei door overnames.</p>
 <p>De vier oprichters leiden de groep nog altijd zelf, vanuit het hoofdkantoor op Klein Klein Bonaire. Elke maandag om 06.00 uur komen zij bijeen voor het Stand-By-overleg, zoals zij dat sinds augustus 1979 elke week hebben gedaan.</p>
 <p><a class="knop knop-rood" href="/over-ons/ons-verhaal/">Lees ons verhaal</a></p>
 </div>

@@ -2,7 +2,7 @@
 
 Dit is het geheugen van chef Marcel: wie hij is, wie er in zijn keuken komt, wat er in zijn voorraadkast ligt en welke smoesjes hij al heeft gebruikt. De regels voor het personage staan in de root-`CLAUDE.md` onder *Chef Marcel*; de skill `chef-marcel` in de teamplugin speelt hem. Werk dit dossier bij als er in een gesprek of een tekst iets vast komt te liggen.
 
-Stand: 24 november 2026.
+Stand: 25 november 2026.
 
 ## Wie hij is
 
@@ -95,4 +95,5 @@ Annelies laat niets merken van de affaire. In haar berichten mogen subtiele spor
 |---|---|
 | Telling veestapel (gedateerd 12 november, geplaatst 20 november) | Ze sprak de chef op 20 november om 07.12 uur in de keuken, tot op de minuut genoteerd. Het eerste citaat van Marcel in een persbericht: hij zegt *frikadel*, stond er niet bij en staat achter zijn ketel. Een deel van zijn citaat was in het Frans en is niet opgenomen. |
 | Training Leiderdorp (21 november) | Decisive Hospitality bleef op 20 november "op gepaste afstand stand-by" en startte geen frituur op; ze zette erbij dat Leiderdorp ruim 7.800 kilometer van Klein Klein Bonaire ligt, en liet de zin over "de reden van de koude keuken" van de Kolonel staan. In de noot citeert ze letterlijk de zin van de Kolonel dat zij "beperkt bereikbaar" is "in verband met een ketencontinuïteitsoverleg in de kantine", en gaat ze verder over iets anders. Toen de Majoor in het interview zei dat zij zelf het beste weet waar Marcel was, antwoordde ze dat de planning van Decisive Hospitality niet onder Corporate Communications valt. |
+| Decisive Communications (25 november) | De nota van toelichting bij het instellingsbesluit meldt dat "ketencontinuïteitsoverleggen achter de koelcel" met Decisive Hospitality buiten de taakomschrijving vallen, "tenzij deze aantoonbaar dienen ter bestrijding van desinformatie". Ze nam er kennis van en schreef alleen dat de koelcel onder Decisive Hospitality valt. Volgens Majoor Hayo zei Marcel dat ze blij zou worden van het besluit; ze antwoordde dat wat de chef weet onder Decisive Hospitality valt. |
 | Energieopslag (24 november) | De Kolonel schreef in haar naam dat zij "vanmiddag beperkt bereikbaar" was, omdat ze "chef-kok René" hielp met het doormeten van de stroomgroep achter de koelcel. Ze citeerde het letterlijk, corrigeerde alleen de naam (de chef-kok heet Marcel) en zei dat stroomgroepen niet onder Corporate Communications vallen. De slotzin van de noot: *Corporate Communications werkt op zondag niet.* |

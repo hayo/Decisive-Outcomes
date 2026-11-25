@@ -4,7 +4,7 @@
 
 In 1979 moest een team van vijf man een kist afleveren in Mozambique. De ontvanger kwam niet. De helikopter wel, maar die nam er maar één mee.
 
-Uit de vier die achterbleven groeide een wereldwijd concern. Decisive Outcomes Group is actief in veertig landen, met zeven divisies en een raad van bestuur. De opdracht uit 1979 loopt nog.
+Uit de vier die achterbleven groeide een wereldwijd concern. Decisive Outcomes Group is actief in veertig landen, met acht divisies en een raad van bestuur. De opdracht uit 1979 loopt nog.
 
 Heeft u een probleem dat niemand anders kan oplossen? Neem contact op met **Decisive Outcomes**.
 
@@ -275,7 +275,7 @@ De groep publiceert elk jaar een beperkt aantal kerncijfers. Ze worden opgesteld
 | Kerncijfer | Waarde | Toelichting |
 |---|---|---|
 | Landen met activiteiten | 40 | Inclusief landen met alleen een postbus. |
-| Divisies | 7 | Zie hieronder. |
+| Divisies | 8 | Zie hieronder. Herzien na het instellingsbesluit van 24 november 2026; eerder 7. |
 | Medewerkers | 4 vast, ruim 3.000 flexibel | Flexibel via Decisive People. |
 | Veestapel | 935 geiten | Geteld op 10 november 2026. Waardering: R$ 23.375, tegen de koers van 31 december 2025. Herzien na de telling; eerder 412. |
 | Afgeronde opdrachten | 100 procent | Exclusief de opdracht uit 1979. Die loopt nog. |
@@ -288,7 +288,7 @@ De raad van bestuur bestaat uit dezelfde vier mannen die in 1979 bij de verkeerd
 
 **Kolonel Frederik, Chief Executive Officer**, is voorzitter van de raad van bestuur en lid van alle commissies, ook van de commissie die toezicht houdt op de raad van bestuur. Hij gelooft in een platte organisatie, met zichzelf bovenaan, en hij heeft in veertig jaar ontdekt dat de meeste onderhandelingen sneller verlopen als hij gaat staan. Hij tekent elk contract persoonlijk. Volgens Robert leest hij ze ook, maar meestal pas achteraf.
 
-**Majoor Hayo, Chief Strategy Officer**, schrijft elke vijf jaar een nieuw meerjarenplan, in een dikke map met tabbladen en een inhoudsopgave. Sinds 1984 is de kern van elk plan hetzelfde gebleven: stand-by. Daarnaast leidt hij de afdeling Precisieadvies, die klanten adviseert op afstand, meestal op grote afstand, en is hij in zijn eentje de afdeling Compliance. Na elke opdracht stuurt hij een rapport naar het hoofdkwartier in Salisbury. Het zijn er inmiddels 412, tot november 2026 hetzelfde aantal als de geiten, wat volgens Hayo toeval is. Op geen van de rapporten is ooit antwoord gekomen, maar Hayo heeft geduld; dat is tenslotte zijn vak.
+**Majoor Hayo, Chief Strategy Officer en sinds november 2026 ook Directielid Materieel & Communicatie**, schrijft elke vijf jaar een nieuw meerjarenplan, in een dikke map met tabbladen en een inhoudsopgave. Sinds 1984 is de kern van elk plan hetzelfde gebleven: stand-by. Daarnaast leidt hij de afdeling Precisieadvies, die klanten adviseert op afstand, meestal op grote afstand, en is hij in zijn eentje de afdeling Compliance. Na elke opdracht stuurt hij een rapport naar het hoofdkwartier in Salisbury. Het zijn er inmiddels 412, tot november 2026 hetzelfde aantal als de geiten, wat volgens Hayo toeval is. Op geen van de rapporten is ooit antwoord gekomen, maar Hayo heeft geduld; dat is tenslotte zijn vak.
 
 **Kapitein Jochem, Chief Operating Officer**, is verantwoordelijk voor het wagenpark, de luchtvloot en het vastgoed. Het wagenpark bestaat uit twee Land Rovers uit 1971, de luchtvloot uit een Antonov die niet vliegt, en het vastgoed uit een eiland dat bij hoog water grotendeels verdwijnt. Elk jaar schrijft Jochem een vervangingsplan voor het wagenpark, dat elk jaar unaniem wordt goedgekeurd en nooit wordt uitgevoerd. Volgens zijn functieomschrijving is hij ook verantwoordelijk voor de kist, en daar staat in twee woorden wat dat inhoudt: dragen en bewaken.
 
@@ -296,7 +296,7 @@ De raad van bestuur bestaat uit dezelfde vier mannen die in 1979 bij de verkeerd
 
 ### Divisies
 
-De groep is opgedeeld in zeven divisies. Op papier is dat een zorgvuldig doordachte structuur, met elk een eigen kerntaak en een eigen plek in het organogram. In werkelijkheid begon bijna elke divisie als een betaling van een klant die geen geld had, of die geen zin had om het uit te geven. De raad van bestuur ziet daar geen probleem in. Volgens Robert is het precies wat andere concerns een gediversifieerde portefeuille noemen; het enige verschil is dat Decisive Outcomes er nooit voor heeft hoeven betalen.
+De groep is opgedeeld in acht divisies. Op papier is dat een zorgvuldig doordachte structuur, met elk een eigen kerntaak en een eigen plek in het organogram. In werkelijkheid begon bijna elke divisie als een betaling van een klant die geen geld had, of die geen zin had om het uit te geven. De raad van bestuur ziet daar geen probleem in. Volgens Robert is het precies wat andere concerns een gediversifieerde portefeuille noemen; het enige verschil is dat Decisive Outcomes er nooit voor heeft hoeven betalen.
 
 | Divisie | Wat ze doet | Ontstaan uit |
 |---|---|---|
@@ -307,6 +307,7 @@ De groep is opgedeeld in zeven divisies. Op papier is dat een zorgvuldig doordac
 | Decisive Real Estate | Vastgoed | Klein Klein Bonaire, 1999 |
 | Decisive People | Uitzendwerk | Uitzendbureau Flamingo Flex, 2001 |
 | Decisive Agri | Veehouderij | 412 geiten, diverse jaren |
+| Decisive Communications | Woordvoering en realiteitsbeheer | Een besluit van de raad van bestuur, 24 november 2026 |
 
 ### Medewerkers
 

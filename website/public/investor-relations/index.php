@@ -74,7 +74,7 @@ $passiva[] = ['Eigen vermogen', $totaal - 1020, 'Voor het eerst berekend, en her
 
 $kerncijfers = [
     ['Landen met activiteiten', '40', 'Inclusief landen met alleen een postbus.'],
-    ['Divisies', '7', 'Bijna allemaal ontstaan als betaling van een klant.'],
+    ['Divisies', '8', 'Bijna allemaal ontstaan als betaling van een klant. Herzien na het instellingsbesluit van 24 november 2026; eerder 7.'],
     ['Medewerkers', '4 vast, ruim 3.000 flexibel', 'Flexibel via Decisive People.'],
     ['Veestapel', '935 geiten', 'Geteld op 10 november 2026. Waardering tegen de koers van 31 december 2025: ' . $rhd($geiten * koers('geit', $eind)) . ' (' . $eur($geiten * koers('geit', $eind)) . ').'],
     ['Afgeronde opdrachten', '100 procent', 'Exclusief de opdracht uit 1979. Die loopt nog.'],
@@ -196,7 +196,7 @@ component('grafiek', [
 </section>
 <section class="vlak">
 <h2>Resultaat per divisie</h2>
-<p>Zes van de zeven divisies droegen in 2025 bij aan de omzet. Decisive Hospitality realiseerde het begrote verlies tot op de dollar. Decisive Mining was opnieuw de grootste divisie naar omzet en, na afdracht aan de mijn, een van de kleinste naar resultaat.</p>
+<p>Zes van de zeven divisies droegen in 2025 bij aan de omzet; Decisive Communications bestond toen nog niet. Decisive Hospitality realiseerde het begrote verlies tot op de dollar. Decisive Mining was opnieuw de grootste divisie naar omzet en, na afdracht aan de mijn, een van de kleinste naar resultaat.</p>
 <?php
 component('grafiek', [
     'id' => 'grafiek-divisies',

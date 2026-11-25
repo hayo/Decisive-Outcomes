@@ -6,6 +6,9 @@ Wat is besloten, wanneer en waarom. Nieuwe beslissingen komen bovenaan in de tab
 
 | Datum | Besluit | Reden |
 |---|---|---|
+| 2026-11-25 | Canon gewijzigd: de groep heeft acht divisies. De achtste, Decisive Communications, is ingesteld bij besluit van 24 november 2026 (aangeleverd door Hayo namens de Kolonel); Corporate Communications is die divisie en valt onder Majoor Hayo. Overal op de site, in de backstory en de canon staat nu acht, met een divisiepagina en een herziening bij de kerncijfers; het jaarverslag 2025 en eerdere berichten houden zeven. | Gekozen door Hayo, boven een achtste die niet meetelt of een pagina met zeven in de koppen. |
+| 2026-11-25 | Canon gewijzigd: de raad van bestuur weet sinds 24 november 2026 dat de groep een Mastodon-account heeft (een van de twee goedgekeurde kanalen), maar niet wie erop post, en leest het niet. Persberichten mogen het account noemen. | Gekozen door Hayo; het instellingsbesluit wijst Mastodon aan. |
+| 2026-11-25 | Majoor Hayo heeft er een titel bij: Chief Strategy Officer en Directielid Materieel & Communicatie. Op de bestuurspagina en in de backstory. | Gekozen door Hayo; zo ondertekent hij het instellingsbesluit. |
 | 2026-11-24 | Annelies schrijft lopende zinnen in plaats van rijen korte zinnen; op Mastodon is ze geïrriteerder en schrijft ze in één blok, zonder witregel na elke zin. | Haar teksten lazen te staccato, en op Mastodon worden weinig witregels gebruikt. |
 | 2026-11-21 | Na het akkoord van Hayo op een persbericht zet de skill `persbericht-annelies` het bericht zelf live, met een pull request van `main` naar `deploy` die ze meteen merget; Hayo hoeft dat niet meer te doen. Op `deploy` wordt nog steeds nooit los gecommit. | Gekozen door Hayo: geen tijd meer kwijt aan de losse deploy. |
 | 2026-11-21 | De repository heet `hayo/Decisive-Outcomes`; remote en `.claude/settings.json` gebruiken dat adres. | GitHub meldde bij elke push dat de repository was verhuisd. |

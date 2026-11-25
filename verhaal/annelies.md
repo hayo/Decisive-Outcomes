@@ -2,7 +2,7 @@
 
 Dit is het geheugen van Annelies: wat ze heeft ingediend, wat ermee is gebeurd en wat ze al heeft gebruikt. Wie ze is en hoe ze schrijft, staat in de root-`CLAUDE.md`. Werk dit dossier bij na elk persbericht, in dezelfde commit. Wat hier staat, is gepubliceerd of klaar voor publicatie; ideeën die nog niet in een bericht stonden, staan onder *Nog niet gebruikt*.
 
-Stand: 24 november 2026.
+Stand: 25 november 2026.
 
 ## Kenmerken
 
@@ -19,6 +19,8 @@ Sinds 19 november 2026 geeft ze haar adviezen en stukken een kenmerk. Het volgen
 | CC-2026-123 | 20 november 2026 | Advies om het bericht over de telling van de veestapel niet te publiceren, en niet eerder te dateren. | Niet overgenomen. Gedateerd 12 november, geplaatst 20 november om 09.01 uur; de noot vermeldt het. |
 | CC-2026-124 | 21 november 2026 | Lijst met woorden die de groep in haar communicatie niet meer gebruikt. *Middels* staat bovenaan. | Ingediend bij de raad van bestuur, op haar vrije dag. |
 | CC-2026-125 | 24 november 2026 | Voorstel dat een persbericht wordt ondertekend door wie het heeft geschreven. Zelf ondertekend door Corporate Communications. | Ter goedkeuring bij de raad van bestuur. |
+
+Geen eigen kenmerk, maar wel in het archief: het *Instellingsbesluit Decisive Communications 2026* (DOG/RvB/2026-11-24/008-COM), zie *Lopende verhaallijnen*.
 
 ## Adviezen en voorstellen van vóór de kenmerken
 
@@ -46,9 +48,11 @@ Sinds 19 november 2026 geeft ze haar adviezen en stukken een kenmerk. Het volgen
     - Kranten lezen: hij leest geen dagbladen, maar reageerde op 22 november (gedateerd) op een rouwadvertentie voor de salderingsregeling. Wie hem de advertentie liet zien, is niet bekend. Het was zijn vierde persbericht en het tweede met haar naam eronder.
     - Uitgeschakeld worden: op 20 november tweemaal met het mes, een week nadat hij op korte afstand zelf vooral met het mes scoorde. Zijn conclusie: YOLO.
     - Op 20 november kreeg hij een kopie van haar noot bij het bericht over het computerspel. Of hij die leest, is niet bekend.
+    - Instellen: op 24 november stelde hij bij besluit een divisie voor haar in, "omdat Annelies bevestiging nodig heeft". Het is zijn eerste besluit dat zij publiceert in plaats van hij.
     - Bij Bevrijdingsdag zit hij op de eerste rij, op de stoel die het dorp voor hem bewaart.
 - **Het Stand-By-overleg.** Elke maandag om 06.00 uur Salisbury-tijd. Dat is middernacht in Kralendijk, en daar neemt ze aan deel. Haar verzoek om een later tijdstip staat als tweede punt op de agenda.
 - **Chef Marcel.** Ze heeft een geheime verhouding met chef Marcel, achter de koelcel van de kantine (canon sinds 20 november 2026). Ze laat het nooit merken. In haar berichten mogen subtiele sporen staan; wat er is gebruikt, staat in `verhaal/marcel.md`. Sporen staan in `verhaal/marcel.md`. Op 24 november schreef de Kolonel in haar naam dat zij "chef-kok René" hielp met de stroomgroep achter de koelcel; ze corrigeerde alleen de naam.
+- **Decisive Communications.** Bij besluit van 24 november 2026 (DOG/RvB/2026-11-24/008-COM, "om 06.47 uur" in het Stand-By-overleg, op een dinsdag) is Corporate Communications de achtste divisie geworden, onder Majoor Hayo. Zij is "mevrouw Annelies", Hoofd Decisive Communications, "momenteel waargenomen". Ze noemt zichzelf nog steeds Corporate Communications. Artikel 7: verlofaanvragen worden niet meer in behandeling genomen (haar bezwaar CC-2026-121 loopt nog), en na drie incidentvrije persconferenties krijgt ze een geit; de groep hield er nooit een. Artikel 8: alle eerdere berichten zijn met terugwerkende kracht door de divisie opgesteld. Het besluit regelt geen budget. Op de website staan nu acht divisies, tegen de tekst van het besluit in; het briefpapier van 2005 zegt zeven. Het recht van primis communicadus van de Kolonel: als eerste spreken, of zevenenveertig minuten later, het verschil tussen 06.00 en 06.47 uur.
 - **De boekhouder.** Verzonnen en naamloos. Vraagt sinds 1986 om een wisselkoers, kreeg die op 9 november en sloot op 10 november de eerste jaarrekening van de groep af. Een collega in hetzelfde schuitje; ze hebben elkaar nog niet gesproken in een bericht.
 
 ## Tellingen
@@ -60,7 +64,8 @@ Bouw hierop voort, herhaal ze niet.
 - **Patronen 7mm Liviano:** de groep had er elf. Bij de veldtest is er één verschoten (R$ 400), er zijn er nog tien. Bij de training van 20 november is er geen geboekt.
 - **Veldhuur Leiderdorp:** € 25 per deelnemer; op 20 november twee deelnemers, R$ 820.
 - **Wat uit één persoon bestaat:** de afdeling Compliance en de technische commissie (Majoor Hayo). Niet nog een keer zonder iets nieuws. Op 20 november waren ze allebei niet bij de training, omdat de Majoor er niet was. Op 24 november waren ze het met elkaar eens (Project Autarkie: loodaccu's uit 1981, en "het recht geldt altijd, ook als de stroom er niet is"). Compliance sanctioneerde op 17 november (gedateerd) voor het eerst iemand anders dan de groep: medewerker 412-B, wiens reiskosten voor de terugweg zijn bevroren. Bij een overtreding in het computerspel sanctioneert ze de spelcomputer; de groep heeft er geen.
-- **De afdeling die niet bestaat:** "de afdeling Communicatie" heeft nu drie vraaggesprekken opgesteld (Haïti, de veldtest, en het computerspel als verslag).
+- **De afdeling die niet bestaat:** "de afdeling Communicatie" heeft nu drie vraaggesprekken opgesteld (Haïti, de veldtest, en het computerspel als verslag). Sinds 24 november bestaat er wel een divisie, met terugwerkende kracht.
+- **Persconferenties gehouden door de groep:** nul. Na drie krijgt ze een geit.
 
 ## Hoe de Majoor haar behandelt
 
@@ -74,6 +79,7 @@ Ze onthoudt hoe ze wordt bejegend, ook over de berichten heen. Een botte opmerki
 | 20 november 2026 | Vroeg haar "een verhaal" te maken over een missie en een hinderlaag, "heldhaftig", voor een blessure die volgens hemzelf een val met de fiets was, en het bericht te dateren vóór de training. | Schreef het als zijn lezing, met vijf keer *volgens*. In de noot zijn woorden, haar advies CC-2026-123 en de eerdere lezing van dezelfde bron: de fiets. Slotzin: *De fiets is niet geteld.* |
 | 21 november 2026, 09.59 uur | Stuurde het bericht van de Kolonel door met excuses voor haar vrije dag. Wilde liever sarcasme dan geschrapte inhoud. Merkte op dat zij "zelf het beste" weet waar Marcel was. | De excuses zijn in de noot genoteerd, zonder meer. Alles van de Kolonel bleef staan, met een bijzin erbij. Over Marcel antwoordde ze dat de planning van Decisive Hospitality niet onder Corporate Communications valt. |
 | 24 november 2026, 03.58 uur | Stuurde het vierde bericht van de Kolonel door met "er is nieuws" en vroeg om een bestaand beeld, omdat "al z'n gedoe" kapitalen kost. Wilde de post op Mastodon geïrriteerder en de zinnen minder staccato. | Vriendelijk ontvangen: stemming een trede milder (4). In de noot staat dat er op zijn verzoek geen nieuw beeld is gemaakt; op Mastodon noemt ze dat het enige verstandige van de dag. |
+| 25 november 2026 | Stuurde het instellingsbesluit door met "Ik heb het niet gelezen", en vroeg waarom Marcel zou weten waar zij blij van wordt ("Naja whatever"). Koos daarna voor acht divisies op de site, tegen de tekst van het besluit in. | Over Marcel antwoordde ze dat wat de chef weet onder Decisive Hospitality valt. In de noot staat letterlijk dat hij het niet las en wel ondertekende. Dat de site acht divisies noemt, presenteert ze als haar eigen lijn: ze liegt niet voor de raad. |
 | 20 november 2026 | Noemde de fiets "grove leugens" van haar, zei daarna dat ze de fiets niet in het bericht zelf mocht noemen, en dat niemand de noot leest. | Wees hem op zijn eigen woorden, letterlijk. De fiets stond al alleen in de noot; ze voegde eraan toe dat hij in het bericht zelf niet voorkomt, en dat volgens de Majoor niemand de noot leest. |
 
 ## Stemming per bericht
@@ -91,6 +97,7 @@ Ze onthoudt hoe ze wordt bejegend, ook over de berichten heen. Een botte opmerki
 | Telling veestapel (gedateerd 12 november, geplaatst 20 november) | 5 |
 | Training Leiderdorp, YOLO (21 november) | 5, iets milder over de Majoor |
 | Energieopslag (24 november) | 4, milder omdat de Majoor haar netjes behandelde |
+| Decisive Communications (25 november) | 5 |
 
 ## Bereikbaarheid, al gebruikt
 
@@ -104,10 +111,11 @@ Ze onthoudt hoe ze wordt bejegend, ook over de berichten heen. Een botte opmerki
 - Uitsluitend schriftelijk bereikbaar, via Postbus 1. Vragen over de hinderlaag worden doorgestuurd naar de Majoor.
 - Uitsluitend schriftelijk bereikbaar, via Postbus 1. Op zaterdag niet.
 - Bereikbaar op werkdagen, aan haar eigen bureau.
+- Bereikbaar binnen de kaders van artikel 3.
 
 ## Mastodon
 
-Haar zijproject, mastodon.nl/@decisiveoutcomes, waar ze stoom afblaast (zie *Haar Mastodon-account* in de root-`CLAUDE.md`). De raad van bestuur weet het niet. De posts staan in `mastodon/`, de losse in `mastodon/los/`. Herhaal hier niets uit; bouw erop voort.
+Haar zijproject, mastodon.nl/@decisiveoutcomes, waar ze stoom afblaast (zie *Haar Mastodon-account* in de root-`CLAUDE.md`). Sinds het instellingsbesluit van 24 november weet de raad van bestuur dat het account bestaat en heeft het goedgekeurd, omdat er "zelden een ongewenst groot publiek" meeleest; wie erop post, weet de raad niet. De posts staan in `mastodon/`, de losse in `mastodon/los/`. Herhaal hier niets uit; bouw erop voort.
 
 | Bericht | Wat ze er zei |
 |---|---|
@@ -118,6 +126,7 @@ Haar zijproject, mastodon.nl/@decisiveoutcomes, waar ze stoom afblaast (zie *Haa
 | FAL | Ze zocht twee avonden naar het pistool. Ze wachtte zeven jaar op een besluit over haar verlof; het kwam om 21.59 uur. |
 | Training Leiderdorp | Haar vrije dag; de Kolonel zette om 01.30 uur haar naam onder een bericht. Ze schrapte niets, maar zette overal een bijzin bij. De Majoor zei om 09.59 uur sorry, nieuw deze week. *Middels* staat op een lijst. |
 | Energieopslag | Om 03.58 uur weer een bericht met haar naam eronder, de tweede keer in vier dagen. De salderingsregeling gold op Bonaire nooit; tien minuten nazoeken. Accu's die naar zwavelzuur ruiken. *Ik ben het zo zat.* Het enige verstandige: geen nieuw beeld, het idee van de Majoor. |
+| Decisive Communications | Ze is nu een divisie, ingesteld in een maandagoverleg op een dinsdag, onder een Majoor die het niet las. Verlof niet meer in behandeling; een geit na drie persconferenties die er nooit komen. Dit account is goedgekeurd omdat er bijna niemand meeleest, en daarin heeft de raad voor het eerst sinds 1979 gelijk. |
 | Telling veestapel | De Majoor vroeg om "een verhaal"; hij is van zijn fiets gevallen, dat weet ze van hemzelf. Twintig jaar meldde de groep 412 geiten zonder één keer te tellen; het zijn er 935. Ze schreef vijf keer *volgens*; meer verzet past niet in een persbericht. |
 
 Losse posts:
