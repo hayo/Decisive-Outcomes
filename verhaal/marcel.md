@@ -115,11 +115,12 @@ Ideeën, nog niet gebruikt: de heropening van de frietketels na de sanctie van 2
 
 De lopende ruzie tussen Marcels dienstmededelingen en de losse posts van Annelies (zie *De ruzie over Mastodon* in de root-`CLAUDE.md`, met de vijf treden). Een ronde is één mededeling en één post; hooguit één trede omhoog per ronde, trede 5 hooguit eens per vier tot zes weken, daarna terug naar 1.
 
-**Stand: trede 1, ronde 1.** Marcel heeft gereageerd (0006); Annelies nog niet. Volgende stap: haar post op 0006, op trede 1 (negeren of één droge zin). Daarna mag Marcel naar trede 2.
+**Stand: trede 1, ronde 2.** Annelies heeft op 0006 gereageerd (26 november, 08.12 uur). Volgende stap: een mededeling van Marcel op trede 2 (rechtzetting), of nog een ronde op trede 1.
 
 | Ronde | Trede | Annelies (post) | Marcel (mededeling) |
 |---|---|---|---|
 | 1 | 1 | 25 november, 10.14 uur: vijf mededelingen in één nacht, eerder gedateerd; ze staat erin met haar naam en haar koffie; de frikadel is prima. | 0006 (26 november): weet niet wie het account bijhoudt; een mededeling is "een bon"; koffie en koelcel gaan over twee verschillende mensen; *prima* is geen compliment. |
+| 2 | 1 | 26 november, 08.12 uur: een mededeling over hoe je een mededeling dateert; in een keuken een bon, op het ministerie antedateren, en daar kreeg je geen frikadel bij. Ze vindt er verder niets van. De frikadel blijft prima. | Nog niet. |
 
 Smoesjes die bij trede 5 al zijn gebruikt: nog geen.
 
