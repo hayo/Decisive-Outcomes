@@ -54,6 +54,12 @@ component('hero', ['label' => $i['label'], 'kop' => $i['titel'], 'intro' => $i['
 <?= $i['noot'] ?>
 </aside>
 <?php endif ?>
+<?php if ($i['soort'] === 'Dienstmededeling'): ?>
+<aside class="over">
+<h2 class="label">Afzender</h2>
+<p><?= e(AFZENDER_KEUKEN) ?></p>
+</aside>
+<?php endif ?>
 <?php if ($pers): ?>
 <aside class="over">
 <h2 class="label">Over <?= e(SITE_NAAM) ?></h2>

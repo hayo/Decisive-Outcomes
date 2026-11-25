@@ -472,6 +472,7 @@ const KERNWAARDEN = [
 const BEELD_STANDAARD = 'NEWS-00';
 
 const PERSCONTACT = 'Annelies Brouwer, Corporate Communications';
+const AFZENDER_KEUKEN = 'Marcel, chef-kok en hoofd catering, Decisive Hospitality. Kantine hoofdkantoor, Klein Klein Bonaire. Vragen over deze mededeling kunnen worden gesteld aan het buffet, tussen 11.30 en 13.30 uur.';
 const STAGIAIR = 'Kim de Graaf, stagiair Corporate Communications, namens Annelies Brouwer (met verlof)';
 
 const OVER_DE_GROEP = 'Decisive Outcomes Group levert sinds 1984 beveiliging, logistiek, horeca, vastgoed en veehouderij in complexe omgevingen, met kantoren in veertig landen en een hoofdkantoor op Klein Klein Bonaire. De groep staat sinds 1979 onafgebroken stand-by.';

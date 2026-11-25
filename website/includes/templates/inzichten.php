@@ -22,8 +22,11 @@ component('hero', [
 <?php endforeach ?>
 </ul>
 </nav>
+<?php $lijst = inzichten_waar($overzicht[1] ?? null); if (!$lijst): ?>
+<p>Er zijn op dit moment geen mededelingen. De kantine is geopend.</p>
+<?php endif ?>
 <ul class="kaarten">
-<?php foreach (inzichten_waar($overzicht[1] ?? null) as $i) {
+<?php foreach ($lijst as $i) {
     component('kaart', ['titel' => $i['titel'], 'href' => $i['url'], 'tekst' => $i['samenvatting'], 'label' => $i['label'] . ' · ' . datum($i['datum']), 'beeld' => $i['beeld'], 'alt' => $i['alt'], 'kop' => 'h2']);
 } ?>
 </ul>

@@ -43,6 +43,17 @@ Wat de directie bij Marcel verstopt, achter de bloem:
 - Een stapel blanco Rhodesische aandeelbewijzen.
 - Een SIG P320 in 7.5 FK zonder registratie. Niemand durft hem aan te raken, omdat hij als autonoom wapensysteem vanzelf zou kunnen afgaan.
 
+### Stand van de voorraadkast
+
+Een lopende grap (zie *Chef Marcel* in de root-`CLAUDE.md`): een bericht of dienstmededeling mag één voorwerp laten verhuizen, zoekraken, opduiken waar het niet hoort, of erbij krijgen. Werk deze tabel dan bij, zodat de volgende keer klopt.
+
+| Voorwerp | Sinds | Waar het nu is | Laatste verandering |
+|---|---|---|---|
+| Kistje met tien patronen 7mm Liviano | 17 november 2026 (veldtest) | Achter de bloem | Nog niet verplaatst. |
+| Blanco Rhodesische aandeelbewijzen | Onbekend | Achter de bloem, op één vel na: dat ligt sinds 23 november in bewaring aan het buffet | Dienstmededeling 0004: in de broodtrommel aangetroffen, met bloem erop. De eigenaar heeft zich niet gemeld. |
+| SIG P320 in 7.5 FK, zonder registratie | Onbekend | Achter de bloem | Niemand heeft hem aangeraakt. |
+| Drie geiten van Decisive Agri | 10 november 2026 | In de koelcel | Worden frikandellen. |
+
 In de koelcel liggen sinds 10 november drie geiten van Decisive Agri, gesneuveld bij de telling van de veestapel. Ze worden frikandellen. Een frikandel van geit heeft Marcel nog nooit gemaakt.
 
 De kist staat er niet. Die staat in de kamer naast de vergaderzaal, en Jochem staat erbij. Marcel weet niet wat erin zit en wil het niet weten.
@@ -63,6 +74,10 @@ Marcel heeft medelijden met de dagloners van Decisive People. Hun verlof wordt a
 Herhaal ze niet; verzin nieuwe.
 
 - Annelies in de voorraadkast: zij inspecteerde de ketencontinuïteit van de mayonaise.
+- Geluiden uit de koelcel: de compressor, die soms klinkt als stemmen, "allez, op één stem" (0002).
+- Chantal en Monique tegelijk vrij: toeval, ruim van tevoren ingeroosterd (0003).
+- Een aandeelbewijs in de broodtrommel: de voorraadkast is niet open geweest (0004).
+- De koekenpan: Kapitein Jochem stond in de buurt (0004).
 
 ## Op Mastodon, via Annelies
 
@@ -79,6 +94,20 @@ Annelies deelt soms een opmerking van Marcel over de raad van bestuur op haar ac
 Sinds 20 november 2026 staat Marcel op de divisiepagina van Decisive Hospitality (een alinea en *Chef-kok: Marcel, sinds 1991, op dagcontract* in de feitentabel), in *Ons verhaal* en in de casestudy over Kinshasa. Corporate en zonder klucht: het recept dat hij nooit zag, het dagcontract van half zes, de ketel achterop de Land Rover. Zijn liefdesleven staat er niet.
 
 Daarnaast staat hij op Werken bij (*Verzorging*: de kantine, zijn contract van 05.30 uur, de extra kroket), op Ethiek en compliance (de sanctie van 2024, zonder reden: *die staat in het rapport van de afdeling*), op Investor relations (hij vulde de potten biltong van het dividend over 2025), in de tijdlijn en bij de sector horeca (de kok kwam mee in 1991), op Wereldwijd (hij komt uit Roeselare) en op Over ons, bij het Stand-By-overleg (het ontbijt om 06.00 uur Salisbury-tijd, de Kolonel om 06.47 uur).
+
+## Dienstmededelingen
+
+Marcel spreekt op de site in genummerde dienstmededelingen van Decisive Hospitality (`website/content/inzichten/`, soort `Dienstmededeling`). Hoe ze klinken, staat in de root-`CLAUDE.md` onder *Chef Marcel*. Het volgende nummer is **0006**. De eerste vijf zijn op 25 november 2026 geschreven en op verzoek van Hayo gedateerd op de dag dat ze zouden zijn verschenen. Houd hier bij wat erin stond, zodat geen smoes of onderwerp terugkomt.
+
+| Nummer | Datum | Onderwerp | Wat hij uitlegde of ontkende |
+|---|---|---|---|
+| 0001 | 11 november 2026 | Frikadel van geit op het menu | De keuken was niet bij de telling en vroeg niet om geiten. Geen groenten in de frikadel, dus ook geen overgare. Kroket voor wie de geit kende. |
+| 0002 | 16 november 2026 | Koelcel op maandag 07.00–07.30 uur dicht | Inventarisatie door de chef-kok, alleen. Mevrouw Brouwer "is er ook nooit geweest". Geluiden zijn de compressor, "allez, op één stem". Germaine haalt de uitkomst om 07.31 uur op. |
+| 0003 | 19 november 2026 | Vrijdagmiddagborrel van 20 november | Germaine zingt drie liederen en een toegift. Chantal en Monique hebben toevallig allebei vrij; Marcel staat de hele borrel achter de bar, goed zichtbaar vanaf het podium. De koelcel is dicht, zonder inventarisatie. |
+| 0004 | 23 november 2026 | Gevonden voorwerp in de broodtrommel | Om 07.32 uur een blanco aandeelbewijs in de broodtrommel, met bloem erop; ophalen op vertoon van een tweede. "Achter de bloem staat alleen bloem." Koekenpan vervangen (R$ 14); Kapitein Jochem "stond in de buurt". |
+| 0005 | 25 november 2026 | Geen eigen koffie voor Decisive Communications | Geen budget, koffie aan het buffet. Achter de koelcel geen overleg, alleen de stroomgroep, die niet wordt doorgemeten. Geen René. Het hoofd van de divisie drinkt haar koffie zwart, "omdat de keuken dat van iedereen weet". |
+
+Ideeën, nog niet gebruikt: de heropening van de frietketels na de sanctie van 2024; de patronen 7mm Liviano; de accu's van Project Autarkie in de kantine; het plafond dat Kapitein Robert bekijkt.
 
 ## Voor later
 
