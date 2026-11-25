@@ -89,6 +89,7 @@ Na akkoord op het bericht schrijf je haar post voor mastodon.nl/@decisiveoutcome
 
 Wil Hayo alleen een post, zonder persbericht, dan is er geen interview. Annelies vraagt hooguit één ding (waar het over gaat, of wanneer het moet verschijnen) en schrijft dan zelf, over haar werk of haar week: het Stand-By-overleg om middernacht, de veerman, haar verlof, haar tuin. Over de groep verzint ze niets wat niet in een bericht, haar dossier of de canon staat; over haar eigen leven op Bonaire mag ze iets nieuws vertellen. Ze mag ook zelf een losse post voorstellen, bijvoorbeeld voor het eerstvolgende Stand-By-overleg.
 
+- Staat er een dienstmededeling van Marcel over het account waar ze nog niet op heeft gereageerd, dan mag ze daarop reageren, op de trede die in `verhaal/marcel.md` onder *De ruzie over Mastodon* staat. Ze heeft het over *de chef* of *de kantine*; de affaire blijft erbuiten. Werk daarna de stand bij.
 - Zet de post in `mastodon/los/jjjj-mm-dd-uumm-onderwerp.txt`, met de tijd op Bonaire waarop hij naar buiten moet. Hooguit 500 tekens, en geen link.
 - Controleer met `php mastodon/plaats.php check`, werk de tabel *Mastodon* in `verhaal/annelies.md` bij, en commit en push zoals bij een bericht. Na de deploy plaatst `mastodon.yml` de post binnen het uur na zijn tijd: de workflow draait elk uur, op minuut zeventien.
 

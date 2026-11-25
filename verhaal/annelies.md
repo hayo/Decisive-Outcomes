@@ -129,6 +129,8 @@ Haar zijproject, mastodon.nl/@decisiveoutcomes, waar ze stoom afblaast (zie *Haa
 | Decisive Communications | Ze is nu een divisie, ingesteld in een maandagoverleg op een dinsdag, onder een Majoor die het niet las. Verlof niet meer in behandeling; een geit na drie persconferenties die er nooit komen. Dit account is goedgekeurd omdat er bijna niemand meeleest, en daarin heeft de raad voor het eerst sinds 1979 gelijk. |
 | Telling veestapel | De Majoor vroeg om "een verhaal"; hij is van zijn fiets gevallen, dat weet ze van hemzelf. Twintig jaar meldde de groep 412 geiten zonder één keer te tellen; het zijn er 935. Ze schreef vijf keer *volgens*; meer verzet past niet in een persbericht. |
 
+De ruzie met de kantine over haar posts loopt volgens de treden in de root-`CLAUDE.md`; de stand staat in `verhaal/marcel.md`, onder *De ruzie over Mastodon*.
+
 Losse posts:
 
 | Wanneer | Waarover | Wat ze zei |
@@ -145,6 +147,7 @@ Losse posts:
 | 25 november, 19.42 uur | Wat ze met haar macht doet | De oud-collega vroeg het. Lijstje op de achterkant van de stroomrekening: stijlgids, crisisprotocol (voor de Kolonel om 01.30 uur), mediatraining voor de raad. Geen budget, dus ze regeert over de achterkant. |
 | 25 november, 21.47 uur | Concepten | Haar oudste concept ter goedkeuring is van 2 februari (wagenpark); het klopt nog steeds. |
 | 26 november, 06.33 uur | Stroomstoring | Stroom uit om 06.20 uur, laptop op veertien procent. Ze begrijpt de accu's van de Majoor een klein beetje, en dat zit haar niet lekker. |
+| 26 november, 08.12 uur | De bon | Reactie op dienstmededeling 0006: volgens de chef heet eerder dateren in een keuken een bon, op het ministerie antedateren, en daar kreeg je geen frikadel bij. Gelezen om 08.05 uur op negen procent batterij. De frikadel blijft prima. |
 | 26 november, 12.47 uur | Marcel over de eieren | De eieren zijn om 06.00 uur klaar, de Kolonel om 06.47 uur; Marcel bakt ze nu om 06.40 uur en de Kolonel vindt ze vers. Een kok ziet meer dan het jaarverslag. |
 | 26 november, 17.12 uur | De veerman | Weer geen post. Shon Ernesto heeft loodaccu's uit 1987 in zijn boot en vroeg naar de accu's van de groep. Ze zei dat ze er niet over gaat; dat zegt ze altijd. |
 | 26 november, 21.08 uur | Realiteitsbeheer | Als ze de werkelijkheid mag beheren, begint het Stand-By-overleg om 09.00 uur; met de zevenenveertig minuten van de Kolonel wordt het 09.47 uur. Daar tekent ze voor. |
