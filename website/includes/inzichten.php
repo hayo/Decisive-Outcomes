@@ -87,8 +87,13 @@ function alle_inzichten(): array
     static $lijst = null;
     if ($lijst === null) {
         $lijst = [];
+        // Een inzicht met een datum in de toekomst (tijd op Bonaire) verschijnt pas op die dag.
+        $vandaag = (new DateTimeImmutable('now', new DateTimeZone('America/Kralendijk')))->format('Y-m-d');
         foreach (glob(SITE_ROOT . '/content/{newsroom,inzichten}/[!_]*.md', GLOB_BRACE) ?: [] as $pad) {
-            $lijst[] = inzicht_laden($pad);
+            $i = inzicht_laden($pad);
+            if ($i['datum'] <= $vandaag) {
+                $lijst[] = $i;
+            }
         }
         usort($lijst, fn($a, $b) => strcmp($b['datum'], $a['datum']));
     }

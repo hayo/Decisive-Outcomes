@@ -51,5 +51,6 @@ foreach ($p['jsonld'] as $extra) {
 <meta name="twitter:card" content="summary">
 <?php endif ?>
 <meta name="theme-color" content="#0f0d0b">
+<meta name="google-site-verification" content="vdeHye1WY3aTdKzV-dNkntuUIijZlkW-uy39kMJt6b8">
 <script type="application/ld+json"><?= json_encode(count($ld) === 1 ? $ld[0] : $ld, JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE | JSON_HEX_TAG) ?></script>
 </head>

@@ -78,6 +78,7 @@ Herhaal ze niet; verzin nieuwe.
 - Chantal en Monique tegelijk vrij: toeval, ruim van tevoren ingeroosterd (0003).
 - Een aandeelbewijs in de broodtrommel: de voorraadkast is niet open geweest (0004).
 - De koekenpan: Kapitein Jochem stond in de buurt (0004).
+- De koffie en de koelcel gaan over twee verschillende mensen: het hoofd van Decisive Communications en mevrouw Brouwer (0006).
 
 ## Op Mastodon, via Annelies
 
@@ -97,7 +98,7 @@ Daarnaast staat hij op Werken bij (*Verzorging*: de kantine, zijn contract van 0
 
 ## Dienstmededelingen
 
-Marcel spreekt op de site in genummerde dienstmededelingen van Decisive Hospitality (`website/content/inzichten/`, soort `Dienstmededeling`). Hoe ze klinken, staat in de root-`CLAUDE.md` onder *Chef Marcel*. Het volgende nummer is **0006**. De eerste vijf zijn op 25 november 2026 geschreven en op verzoek van Hayo gedateerd op de dag dat ze zouden zijn verschenen. Houd hier bij wat erin stond, zodat geen smoes of onderwerp terugkomt.
+Marcel spreekt op de site in genummerde dienstmededelingen van Decisive Hospitality (`website/content/inzichten/`, soort `Dienstmededeling`). Hoe ze klinken, staat in de root-`CLAUDE.md` onder *Chef Marcel*. Het volgende nummer is **0007**. De eerste vijf zijn op 25 november 2026 geschreven en op verzoek van Hayo gedateerd op de dag dat ze zouden zijn verschenen. Houd hier bij wat erin stond, zodat geen smoes of onderwerp terugkomt.
 
 | Nummer | Datum | Onderwerp | Wat hij uitlegde of ontkende |
 |---|---|---|---|
@@ -106,6 +107,7 @@ Marcel spreekt op de site in genummerde dienstmededelingen van Decisive Hospital
 | 0003 | 19 november 2026 | Vrijdagmiddagborrel van 20 november | Germaine zingt drie liederen en een toegift. Chantal en Monique hebben toevallig allebei vrij; Marcel staat de hele borrel achter de bar, goed zichtbaar vanaf het podium. De koelcel is dicht, zonder inventarisatie. |
 | 0004 | 23 november 2026 | Gevonden voorwerp in de broodtrommel | Om 07.32 uur een blanco aandeelbewijs in de broodtrommel, met bloem erop; ophalen op vertoon van een tweede. "Achter de bloem staat alleen bloem." Koekenpan vervangen (R$ 14); Kapitein Jochem "stond in de buurt". |
 | 0005 | 25 november 2026 | Geen eigen koffie voor Decisive Communications | Geen budget, koffie aan het buffet. Achter de koelcel geen overleg, alleen de stroomgroep, die niet wordt doorgemeten. Geen René. Het hoofd van de divisie drinkt haar koffie zwart, "omdat de keuken dat van iedereen weet". |
+| 0006 | 26 november 2026 | Over de datering van dienstmededelingen | Reactie op de post van 25 november om 10.14 uur. Hij weet niet wie het account bijhoudt en wil het niet weten. Een mededeling heeft de datum waarop ze geldt: "in een keuken heet dat geen eerdere datering, maar een bon". De koffie gaat over het hoofd van Decisive Communications, de koelcel over mevrouw Brouwer, "en ik zou ze niet bij elkaar leggen". *Prima* is in zijn keuken geen compliment. |
 
 Ideeën, nog niet gebruikt: de heropening van de frietketels na de sanctie van 2024; de patronen 7mm Liviano; de accu's van Project Autarkie in de kantine; het plafond dat Kapitein Robert bekijkt.
 
