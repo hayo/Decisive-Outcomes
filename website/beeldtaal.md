@@ -52,7 +52,7 @@ Zet de verhouding ook in de prompt, bijvoorbeeld: *Aspect ratio 16:9.*
 
 ### Maken in Google AI Studio
 
-- Maak de beelden in Google AI Studio of via de Gemini-API, in de hoogste resolutie die beschikbaar is. Een hero moet minimaal 1600 px breed zijn. Haalt Gemini dat niet, maak hem dan opnieuw of overleg.
+- Maak de beelden in Google AI Studio of via de Gemini-API met `gemini-nano-banana-2.1`, in 2K. Dat is ruim vier keer goedkoper dan `gemini-3-pro-image` in 4K en breed genoeg voor het origineel van 2400 px. Een hero moet minimaal 1600 px breed zijn. Haalt het beeld dat niet, of volgt het de beeldtaal niet goed genoeg (silhouetten, geen opschriften, de oprichters wit), maak het dan opnieuw met `gemini-3-pro-image`.
 - Leg per beeld vast hoe het gemaakt is: het model, de datum, de volledige prompt (inclusief stijlblok) en eventueel gebruikte referentiebeelden. Dat gaat in het manifest (zie hieronder).
 - Upload nooit foto's van echte teamleden of andere echte mensen als referentie naar Gemini, tenzij die persoon daar uitdrukkelijk toestemming voor heeft gegeven.
 
