@@ -3,6 +3,7 @@
 <div class="h-card">
 <a class="u-url merk" href="/"><img class="u-logo" src="<?= e(asset('img/logo-88.png')) ?>" srcset="<?= e(asset('img/logo-176.png')) ?> 2x" width="88" height="88" alt=""><span class="p-name"><?= e(SITE_NAAM) ?></span></a>
 <p class="p-note">Beslissende uitkomsten. Sinds 1979.</p>
+<p><a rel="me" class="u-url" href="https://mastodon.nl/@decisiveoutcomes">Mastodon</a></p>
 </div>
 <nav aria-label="Divisies">
 <h2>Divisies</h2>

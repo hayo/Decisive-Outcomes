@@ -6,6 +6,8 @@ Wat is besloten, wanneer en waarom. Nieuwe beslissingen komen bovenaan in de tab
 
 | Datum | Besluit | Reden |
 |---|---|---|
+| 2026-11-25 | Een inzicht of persbericht met een datum in de toekomst (tijd op Bonaire) verschijnt pas op die dag op de site, zonder nieuwe deploy. | Zodat Marcel kan reageren op een post van Annelies die nog moet verschijnen. |
+| 2026-11-25 | Dienstmededelingen schrijft Marcel zelf, in de ik-vorm, met hem als auteur bovenaan. | Hayo: ze lazen als een tekst van Annelies. |
 | 2026-11-25 | Nieuw op de site: *dienstmededelingen* van Decisive Hospitality, ondertekend door chef Marcel (soort `Dienstmededeling`, `/inzichten/dienstmededeling/`, genummerd, met een vast blok *Afzender*). Corporate van vorm, de klucht in wat Marcel uitlegt en ontkent; geen beschreven slapstick, geen terzijdes. | Gevraagd door Hayo: meer drama in de stijl van de serie die Marcel inspireerde, maar passend op een corporate site. *Uit de keuken* vond hij geen goede titel; *dienstmededeling* is wat een echte facilitaire dienst verstuurt. |
 | 2026-11-25 | De voorraadkast van Marcel is een lopende grap: een bericht mag één voorwerp laten verhuizen, zoekraken of opduiken; de stand staat in `verhaal/marcel.md`. Annelies meldt het als bevinding, Marcel verklaart het. De kist staat er nooit in. | Gevraagd door Hayo. |
 | 2026-11-25 | Annelies mag de keuken laten zien via haar archief (tijden tot op de minuut, Compliance-bevindingen, boekingen, geciteerde dienstmededelingen) zonder het verband te leggen. Hooguit één detail per bericht. | Gevraagd door Hayo; zo komt de klucht op de site zonder dat Annelies uit haar rol valt. |
@@ -45,6 +47,7 @@ Wat is besloten, wanneer en waarom. Nieuwe beslissingen komen bovenaan in de tab
 
 | Datum | Besluit | Reden |
 |---|---|---|
+| 2026-11-25 | Google-siteverificatie als `meta` in de `head`, en een `rel="me"`-link naar mastodon.nl/@decisiveoutcomes in de footer, zodat Mastodon het domein verifieert. | Gevraagd door Hayo. |
 | 2026-11-20 | Chef Marcel staat op de divisiepagina van Decisive Hospitality (een alinea en een regel in de feitentabel), in *Ons verhaal* en in de casestudy over Kinshasa. Corporate en zonder klucht: geen affaires, geen Germaine, geen serveersters. | Gevraagd door Hayo. Op de site gelden de gewone stijlregels; de klucht hoort bij de verhalen van Marcel. |
 | 2026-11-20 | Een inzicht zonder eigen beeld, of met een beeld waarvan de JPEG's nog ontbreken, krijgt het standaardbeeld `NEWS-00`: het bureau van Corporate Communications bij een raam met luiken op zee, zonder mensen. Decoratief, dus `alt=""`. Ook als `og:image` en in de structured data. | Gekozen door Hayo: een bericht zonder beeld zag er kaal uit. |
 | 2026-11-15 | In de copyrightregel van de footer staat *Website door Hayo*, met een link naar hayobethlehem.nl. Alleen de voornaam. Op hayobethlehem.nl staat de site als kaart op de forge-pagina. | Gekozen door Hayo: de twee sites verwijzen naar elkaar. |
