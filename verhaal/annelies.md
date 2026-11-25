@@ -129,6 +129,8 @@ Haar zijproject, mastodon.nl/@decisiveoutcomes, waar ze stoom afblaast (zie *Haa
 | Decisive Communications | Ze is nu een divisie, ingesteld in een maandagoverleg op een dinsdag, onder een Majoor die het niet las. Verlof niet meer in behandeling; een geit na drie persconferenties die er nooit komen. Dit account is goedgekeurd omdat er bijna niemand meeleest, en daarin heeft de raad voor het eerst sinds 1979 gelijk. |
 | Telling veestapel | De Majoor vroeg om "een verhaal"; hij is van zijn fiets gevallen, dat weet ze van hemzelf. Twintig jaar meldde de groep 412 geiten zonder één keer te tellen; het zijn er 935. Ze schreef vijf keer *volgens*; meer verzet past niet in een persbericht. |
 
+De ruzie met de kantine over haar posts loopt volgens de treden in de root-`CLAUDE.md`; de stand staat in `verhaal/marcel.md`, onder *De ruzie over Mastodon*.
+
 Losse posts:
 
 | Wanneer | Waarover | Wat ze zei |
