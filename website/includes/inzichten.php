@@ -2,7 +2,7 @@
 // Inzichten: persberichten (content/newsroom) en andere soorten (content/inzichten).
 // Elk inzicht is één Markdown-bestand; de bestandsnaam is de slug. Zie content/README.md.
 
-const SOORT_URL = ['Persbericht' => null, 'Analyse' => 'analyse', 'Casestudy' => 'casestudy', 'Rapport' => 'rapport', 'Jaarrapport' => 'rapport'];
+const SOORT_URL = ['Persbericht' => null, 'Analyse' => 'analyse', 'Casestudy' => 'casestudy', 'Rapport' => 'rapport', 'Jaarrapport' => 'rapport', 'Dienstmededeling' => 'dienstmededeling'];
 
 /** Overzichtspagina's per soort: pad => [naam, soorten, beschrijving]. */
 const INZICHT_OVERZICHTEN = [
@@ -10,6 +10,7 @@ const INZICHT_OVERZICHTEN = [
     '/inzichten/analyse/' => ['Analyses', ['Analyse'], 'Analyses van risico\'s en ontwikkelingen door Decisive Outcomes Group.'],
     '/inzichten/casestudy/' => ['Casestudy\'s', ['Casestudy'], 'Casestudy\'s van opdrachten van Decisive Outcomes Group.'],
     '/inzichten/rapport/' => ['Rapporten', ['Rapport', 'Jaarrapport'], 'Rapporten en het jaarlijkse Stand-By Outlook van Decisive Outcomes Group.'],
+    '/inzichten/dienstmededeling/' => ['Dienstmededelingen', ['Dienstmededeling'], 'Dienstmededelingen van Decisive Hospitality over de kantine, de catering en de veldkeuken.'],
 ];
 
 const NOOT_KOP = '## Noot voor de redactie';
@@ -34,7 +35,7 @@ function inzicht_laden(string $pad): array
     $i['datum'] ??= preg_match('/^\d{4}-\d{2}-\d{2}/', $i['slug'], $d) ? $d[0] : date('Y-m-d', filemtime($pad));
     $i += ['titel' => $i['slug'], 'plaats' => 'Kralendijk', 'samenvatting' => '', 'beeld' => '', 'alt' => ''];
     if ($i['beeld'] === '' || !is_file(SITE_PUBLIC . '/assets/img/' . $i['beeld'] . '-800.jpg')) {
-        [$i['beeld'], $i['alt']] = [BEELD_STANDAARD, ''];
+        [$i['beeld'], $i['alt']] = [$i['soort'] === 'Dienstmededeling' ? 'DIEN-02' : BEELD_STANDAARD, ''];
     }
     $i['divisies'] = array_filter(array_map('trim', explode(',', $i['divisies'] ?? '')));
     $i['rectificeert'] ??= '';

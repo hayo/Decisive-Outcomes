@@ -46,7 +46,7 @@ Het blok *Over Decisive Outcomes Group* komt er vanzelf onder.
 | `boeking` | bij een operatie | Financiële gevolgen: `divisie-slug bedrag omschrijving`, met het bedrag in hele Rhodesische dollars en een min voor kosten. Meer boekingen scheid je met `;`. Bijvoorbeeld: `decisive-security -120 Veldfee trainingslocatie; decisive-hospitality -45 Bevoorrading`. De site toont ze onder het bericht en telt ze op in het lopende boekjaar op Investor relations. |
 | `auteur` | nee | `stagiair` als Kim de Graaf het bericht schreef, tijdens het verlof van Annelies. Het persblok noemt dan Kim. |
 | `datum` | nee | Alleen nodig als de bestandsnaam niet met een datum begint (`jjjj-mm-dd`). |
-| `soort` | nee | Standaard `Persbericht`. Anders: `Analyse`, `Casestudy`, `Rapport` of `Jaarrapport`. Die horen in `inzichten/`. |
+| `soort` | nee | Standaard `Persbericht`. Anders: `Analyse`, `Casestudy`, `Rapport`, `Jaarrapport` of `Dienstmededeling`. Die horen in `inzichten/`. |
 | `inleiding` | nee | Een openingsalinea in grotere letters, boven de tekst. |
 | `download` | nee | Pad van een PDF onder `public/assets/`, bijvoorbeeld `docs/rapport.pdf`. |
 
@@ -62,6 +62,10 @@ Elk veld staat op één regel: `naam: waarde`, zonder aanhalingstekens.
 - HTML werkt niet; die wordt als tekst getoond.
 
 Een bestand dat met `_` begint, telt niet mee. Zo kun je een concept alvast in de repo zetten.
+
+## Een dienstmededeling
+
+Een dienstmededeling van chef Marcel is een bestand in `inzichten/` met `soort: Dienstmededeling` en `divisies: decisive-hospitality`. De bestandsnaam begint met de datum: `inzichten/jjjj-mm-dd-onderwerp.md`, en het adres wordt `/inzichten/dienstmededeling/jjjj-mm-dd-onderwerp/`. Het nummer staat in de titel (*Dienstmededeling 0001: ...*). Er is geen noot, geen `stemming` en geen `bereikbaar`. Zonder `beeld` toont de site `DIEN-02`, de frituur bij sluitingstijd. Onder de tekst komt vanzelf het blok *Afzender*, met Marcel. Het blok *Over Decisive Outcomes Group* en het persblok komen er niet onder. Een `boeking` mag, voor wat de kantine kost of opbrengt.
 
 ## Een bericht weghalen
 

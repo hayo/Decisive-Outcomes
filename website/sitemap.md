@@ -84,6 +84,7 @@ Zoals bij echte risicoadviseurs: één overzicht met verschillende soorten inhou
 - **Analyses** (label *Analyse*): korte stukken van Majoor Hayo over strategie en "het conflict in de Benelux".
 - **Casestudy's** (label *Casestudy*): wapenfeiten uit de backstory, uitgeschreven als klantverhaal. De klanten blijven herkenbaar fictief.
 - **Rapporten aan Salisbury** (label *Rapport*): een archief van de verslagen van Hayo. Ongelezen, volgens de status.
+- **Dienstmededelingen** (label *Dienstmededeling*): korte facilitaire mededelingen van Decisive Hospitality, ondertekend door chef Marcel: openingstijden, menu, een gesloten koelcel. Corporate van vorm; de klucht zit in wat Marcel uitlegt en ontkent. Zie *Chef Marcel* in de root-`CLAUDE.md`.
 - **Mediacontact:** *Voor persvragen: Postbus 1, Kralendijk.*
 
 De URL blijft `/newsroom/` voor persberichten; het overzicht staat op `/inzichten/`.

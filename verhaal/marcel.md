@@ -43,6 +43,17 @@ Wat de directie bij Marcel verstopt, achter de bloem:
 - Een stapel blanco Rhodesische aandeelbewijzen.
 - Een SIG P320 in 7.5 FK zonder registratie. Niemand durft hem aan te raken, omdat hij als autonoom wapensysteem vanzelf zou kunnen afgaan.
 
+### Stand van de voorraadkast
+
+Een lopende grap (zie *Chef Marcel* in de root-`CLAUDE.md`): een bericht of dienstmededeling mag één voorwerp laten verhuizen, zoekraken, opduiken waar het niet hoort, of erbij krijgen. Werk deze tabel dan bij, zodat de volgende keer klopt.
+
+| Voorwerp | Sinds | Waar het nu is | Laatste verandering |
+|---|---|---|---|
+| Kistje met tien patronen 7mm Liviano | 17 november 2026 (veldtest) | Achter de bloem | Nog niet verplaatst. |
+| Blanco Rhodesische aandeelbewijzen | Onbekend | Achter de bloem | Nog niet verplaatst. |
+| SIG P320 in 7.5 FK, zonder registratie | Onbekend | Achter de bloem | Niemand heeft hem aangeraakt. |
+| Drie geiten van Decisive Agri | 10 november 2026 | In de koelcel | Worden frikandellen. |
+
 In de koelcel liggen sinds 10 november drie geiten van Decisive Agri, gesneuveld bij de telling van de veestapel. Ze worden frikandellen. Een frikandel van geit heeft Marcel nog nooit gemaakt.
 
 De kist staat er niet. Die staat in de kamer naast de vergaderzaal, en Jochem staat erbij. Marcel weet niet wat erin zit en wil het niet weten.
@@ -79,6 +90,15 @@ Annelies deelt soms een opmerking van Marcel over de raad van bestuur op haar ac
 Sinds 20 november 2026 staat Marcel op de divisiepagina van Decisive Hospitality (een alinea en *Chef-kok: Marcel, sinds 1991, op dagcontract* in de feitentabel), in *Ons verhaal* en in de casestudy over Kinshasa. Corporate en zonder klucht: het recept dat hij nooit zag, het dagcontract van half zes, de ketel achterop de Land Rover. Zijn liefdesleven staat er niet.
 
 Daarnaast staat hij op Werken bij (*Verzorging*: de kantine, zijn contract van 05.30 uur, de extra kroket), op Ethiek en compliance (de sanctie van 2024, zonder reden: *die staat in het rapport van de afdeling*), op Investor relations (hij vulde de potten biltong van het dividend over 2025), in de tijdlijn en bij de sector horeca (de kok kwam mee in 1991), op Wereldwijd (hij komt uit Roeselare) en op Over ons, bij het Stand-By-overleg (het ontbijt om 06.00 uur Salisbury-tijd, de Kolonel om 06.47 uur).
+
+## Dienstmededelingen
+
+Marcel spreekt op de site in genummerde dienstmededelingen van Decisive Hospitality (`website/content/inzichten/`, soort `Dienstmededeling`). Hoe ze klinken, staat in de root-`CLAUDE.md` onder *Chef Marcel*. Het volgende nummer is **0001**. Houd hier bij wat erin stond, zodat geen smoes of onderwerp terugkomt.
+
+| Nummer | Datum | Onderwerp | Wat hij uitlegde of ontkende |
+|---|---|---|---|
+
+Ideeën, nog niet gebruikt: de openingstijden van de koelcel; het menu van de vrijdagmiddagborrel, met het optreden van Germaine; de frikandellen van geit; de heropening van de frietketels na de sanctie van 2024; een verloren voorwerp uit de voorraadkast (*de eigenaar kan het ophalen bij het buffet*); de nieuwe divisie Decisive Communications, die volgens Marcel geen eigen koffie krijgt.
 
 ## Voor later
 
