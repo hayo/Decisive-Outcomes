@@ -65,7 +65,7 @@ Een bestand dat met `_` begint, telt niet mee. Zo kun je een concept alvast in d
 
 ## Een dienstmededeling
 
-Een dienstmededeling van chef Marcel is een bestand in `inzichten/` met `soort: Dienstmededeling` en `divisies: decisive-hospitality`. De bestandsnaam begint met de datum: `inzichten/jjjj-mm-dd-onderwerp.md`, en het adres wordt `/inzichten/dienstmededeling/jjjj-mm-dd-onderwerp/`. Het nummer staat in de titel (*Dienstmededeling 0001: ...*). Er is geen noot, geen `stemming` en geen `bereikbaar`. Zonder `beeld` toont de site `DIEN-02`, de frituur bij sluitingstijd. Onder de tekst komt vanzelf het blok *Afzender*, met Marcel. Het blok *Over Decisive Outcomes Group* en het persblok komen er niet onder. Een `boeking` mag, voor wat de kantine kost of opbrengt.
+Een dienstmededeling van chef Marcel is een bestand in `inzichten/` met `soort: Dienstmededeling` en `divisies: decisive-hospitality`. De bestandsnaam begint met de datum: `inzichten/jjjj-mm-dd-onderwerp.md`, en het adres wordt `/inzichten/dienstmededeling/jjjj-mm-dd-onderwerp/`. Het nummer staat in de titel (*Dienstmededeling 0001: ...*). Er is geen noot, geen `stemming` en geen `bereikbaar`. Zonder `beeld` toont de site `DIEN-02`, de frituur bij sluitingstijd. Marcel schrijft ze zelf, in de ik-vorm. Bovenaan staat hij als auteur, en onder de tekst komt vanzelf het blok *Afzender*. Het blok *Over Decisive Outcomes Group* en het persblok komen er niet onder. Een `boeking` mag, voor wat de kantine kost of opbrengt.
 
 ## Een bericht weghalen
 

@@ -1,6 +1,7 @@
 <?php
 /** Pagina voor één inzicht. Verwacht $i uit alle_inzichten(). */
 $pers = $i['soort'] === 'Persbericht';
+$keuken = $i['soort'] === 'Dienstmededeling';
 $overzicht = $pers ? '/newsroom/' : '/inzichten/' . SOORT_URL[$i['soort']] . '/';
 pagina_begin([
     'titel' => $i['titel'],
@@ -14,7 +15,7 @@ pagina_begin([
         'headline' => $i['titel'],
         'datePublished' => $i['datum'],
         'description' => $i['samenvatting'],
-        'author' => ['@type' => 'Organization', 'name' => SITE_NAAM, 'url' => SITE_URL . '/'],
+        'author' => $keuken ? ['@type' => 'Person', 'name' => 'Marcel', 'jobTitle' => 'Chef-kok en hoofd catering, Decisive Hospitality'] : ['@type' => 'Organization', 'name' => SITE_NAAM, 'url' => SITE_URL . '/'],
         'publisher' => ['@type' => 'Organization', 'name' => SITE_NAAM],
         'image' => !empty($i['beeld']) && is_file(SITE_PUBLIC . '/assets/img/' . $i['beeld'] . '-1600.jpg') ? SITE_URL . '/assets/img/' . $i['beeld'] . '-1600.jpg' : null,
     ])],
@@ -24,7 +25,7 @@ component('hero', ['label' => $i['label'], 'kop' => $i['titel'], 'intro' => $i['
 <section>
 <article class="artikel h-entry">
 <data class="p-name" value="<?= e($i['titel']) ?>"></data>
-<p class="meta"><?= e($i['plaats']) ?>, <time class="dt-published" datetime="<?= e($i['datum']) ?>"><?= e(datum($i['datum'])) ?></time> · <span class="p-author h-card"><?= e(SITE_NAAM) ?></span></p>
+<p class="meta"><?= e($i['plaats']) ?>, <time class="dt-published" datetime="<?= e($i['datum']) ?>"><?= e(datum($i['datum'])) ?></time> · <span class="p-author h-card"><?= e($keuken ? 'Marcel, chef-kok, Decisive Hospitality' : SITE_NAAM) ?></span></p>
 <?php if ($i['rectificeert'] && ($origineel = inzicht($i['rectificeert']))): ?>
 <p class="rectificatie">Dit bericht rectificeert <a href="<?= e($origineel['url']) ?>"><?= e($origineel['titel']) ?></a> van <?= e(datum($origineel['datum'])) ?>.</p>
 <?php endif ?>
@@ -54,7 +55,7 @@ component('hero', ['label' => $i['label'], 'kop' => $i['titel'], 'intro' => $i['
 <?= $i['noot'] ?>
 </aside>
 <?php endif ?>
-<?php if ($i['soort'] === 'Dienstmededeling'): ?>
+<?php if ($keuken): ?>
 <aside class="over">
 <h2 class="label">Afzender</h2>
 <p><?= e(AFZENDER_KEUKEN) ?></p>
