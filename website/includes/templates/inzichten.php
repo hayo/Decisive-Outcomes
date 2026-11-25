@@ -30,6 +30,10 @@ component('hero', [
     component('kaart', ['titel' => $i['titel'], 'href' => $i['url'], 'tekst' => $i['samenvatting'], 'label' => $i['label'] . ' · ' . datum($i['datum']), 'beeld' => $i['beeld'], 'alt' => $i['alt'], 'kop' => 'h2']);
 } ?>
 </ul>
+<?php if (($overzicht[1] ?? null) === ['Dienstmededeling']): ?>
+<p>Dienstmededelingen worden opgesteld en ondertekend door de chef-kok van Decisive Hospitality. Vragen kunnen worden gesteld aan het buffet, tussen 11.30 en 13.30 uur.</p>
+<?php else: ?>
 <p>Volg onze inzichten via de <a href="/inzichten/feed.php">Atom-feed</a>. Voor persvragen: <?= e(PERSCONTACT) ?>, Postbus 1, Kralendijk.</p>
+<?php endif ?>
 </section>
 <?php pagina_einde();
