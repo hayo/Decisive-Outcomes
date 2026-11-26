@@ -4,7 +4,7 @@ Per teamlid staat hier wat er over hem in het verhaal en op de website staat. La
 
 Sinds 20 november 2026 plaatst Annelies bij elk persbericht een post op mastodon.nl/@decisiveoutcomes (de posts staan in `mastodon/`). Daar geeft ze haar mening over wat in de berichten staat; nieuwe feiten over de teamleden komen er niet in.
 
-Stand: 20 november 2026. Op 11 november zijn drie hoofdstukken toegevoegd (7, 10 en 14); de hoofdstukken daarna zijn vernummerd.
+Stand: 26 november 2026. Op 11 november zijn drie hoofdstukken toegevoegd (7, 10 en 14); de hoofdstukken daarna zijn vernummerd.
 
 ## Frederik
 
@@ -61,6 +61,7 @@ Stand: 20 november 2026. Op 11 november zijn drie hoofdstukken toegevoegd (7, 10
 - Persbericht over de telling van de veestapel (gedateerd 12 november, geplaatst 20 november): liep volgens de groep op 10 november bij een telling van de geiten op Bonaire in een hinderlaag en heeft een gekneusde pols; daarom miste hij de training van 13 november. Citaat: *Ze kwamen van drie kanten. Ik had alleen mijn klembord. Ik heb doorgeteld.* In de noot: hij vroeg om "een verhaal", "heldhaftig", en Corporate Communications kent van hem ook een eerdere lezing, een val met de fiets. Op Mastodon noemt Annelies de fiets ook.
 - Persbericht over de training in Leiderdorp (21 november): als technische commissie en als Compliance niet aanwezig bij de training van 20 november. In de noot: stuurde het bericht van de Kolonel om 09.59 uur door, met excuses voor haar vrije dag.
 - Persbericht over energieopslag (24 november): als technische commissie wijst hij slanke thuisbatterijen af ("hooguit geschikt voor de droomvilla van Barbie") en kijkt hij naar loodaccu's uit 1981 van minstens vierhonderd kilo, oorspronkelijk voor een veldradiostation. Als Compliance toetst hij hetzelfde initiatief. In de noot: hij stuurde het bericht om 03.58 uur door, en op zijn verzoek is er geen nieuw beeld gemaakt.
+- Persbericht over het bericht uit Salisbury (26 november): opdracht 4587 staat bovenaan de eerste bladzijde van zijn notitieboekje van augustus 1979. Citaat: *Het hoofdkwartier heeft opdracht 4587 bevestigd en geeft het bevel tot uitvoering. Daarmee staat ook vast dat de groep in 1979 op de juiste plek heeft gewacht.* In de noot: hij leverde de opname aan, reageerde om 03.41 uur met *Groot nieuws!* op het advies om te wachten, en stuurde rapport 413 (negentien pagina's) als ontvangstbevestiging naar Salisbury. Ook in het verhaal, Deel 2.
 - Persbericht over Decisive Communications (25 november): ondertekent het instellingsbesluit als Directielid Materieel & Communicatie; Decisive Communications valt onder hem, en hij bewaakt dat de uitingen "voldoende gewicht" hebben en vrij zijn van "Barbie-proza". In de noot: hij stuurde het besluit door met *Ik heb het niet gelezen*. Op de bestuurspagina staat zijn tweede titel.
 
 **Bij chef Marcel** (dossier `verhaal/marcel.md` en de skill `chef-marcel`; zo ziet Marcel hem, niet hoe hij is): legt zijn FAL in 7mm Liviano, met bajonet, op het schone aanrecht en vindt de schilmesjes "te licht, hooguit geschikt voor Barbie". Is als afdeling Compliance degene die Marcel in 2024 drie weken de toegang tot zijn frietketels ontzegde.
@@ -81,6 +82,7 @@ Stand: 20 november 2026. Op 11 november zijn drie hoofdstukken toegevoegd (7, 10
 - Persbericht over de catering in Oekraïne (19 november): verzorgde van april tot oktober 2023 in het oosten van Oekraïne het onderhoud van drones van een Europese fabrikant, die volgens zijn rapport "vaker neerkwamen dan nodig was". Reisde met een van de Land Rovers en de frietketel.
 - Investor relations en persbericht over de renminbi (15 november): de koers van de geit (R$ 25) is de marktprijs in Umtali in 1979, volgens hem. Ook in het verhaal, Deel 2, *Financiën*.
 - Geen citaten.
+- Persbericht over het bericht uit Salisbury (26 november): reageerde niet op het bericht; hij stond bij de kist.
 
 **Bij chef Marcel** (dossier `verhaal/marcel.md` en de skill `chef-marcel`; zo ziet Marcel hem, niet hoe hij is): een luidruchtige charmeur met een rij medailles, voor het parkeren van een Land Rover en het overleven van een kantineaudit, die volgens Marcel de serveersters en Annelies Brouwer wil versieren en in de keuken dingen omstoot. Dat is uitdrukkelijk Marcels jaloerse blik: in de canon blijft Jochem de stille monteur bij de kist.
 
