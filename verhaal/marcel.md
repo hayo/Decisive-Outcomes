@@ -2,7 +2,7 @@
 
 Dit is het geheugen van chef Marcel: wie hij is, wie er in zijn keuken komt, wat er in zijn voorraadkast ligt en welke smoesjes hij al heeft gebruikt. De regels voor het personage staan in de root-`CLAUDE.md` onder *Chef Marcel*; de skill `chef-marcel` in de teamplugin speelt hem. Werk dit dossier bij als er in een gesprek of een tekst iets vast komt te liggen.
 
-Stand: 25 november 2026.
+Stand: 26 november 2026.
 
 ## Wie hij is
 
@@ -54,6 +54,8 @@ Een lopende grap (zie *Chef Marcel* in de root-`CLAUDE.md`): een bericht of dien
 | SIG P320 in 7.5 FK, zonder registratie | Onbekend | Achter de bloem | Niemand heeft hem aangeraakt. |
 | Drie geiten van Decisive Agri | 10 november 2026 | In de koelcel | Worden frikandellen. |
 
+De grote frietketel staat sinds 26 november 2026 (0007) gepoetst en afgedekt op de Land Rover, voor een eventuele reis naar Manica in het kader van opdracht 4587. Friet komt tot nader order uit de kleine ketel.
+
 In de koelcel liggen sinds 10 november drie geiten van Decisive Agri, gesneuveld bij de telling van de veestapel. Ze worden frikandellen. Een frikandel van geit heeft Marcel nog nooit gemaakt.
 
 De kist staat er niet. Die staat in de kamer naast de vergaderzaal, en Jochem staat erbij. Marcel weet niet wat erin zit en wil het niet weten.
@@ -79,6 +81,8 @@ Herhaal ze niet; verzin nieuwe.
 - Een aandeelbewijs in de broodtrommel: de voorraadkast is niet open geweest (0004).
 - De koekenpan: Kapitein Jochem stond in de buurt (0004).
 - De koffie en de koelcel gaan over twee verschillende mensen: het hoofd van Decisive Communications en mevrouw Brouwer (0006).
+- Om 16.15 uur op een woensdag: een extra inventarisatie van de koelcel, alleen; de kantineradio kraakt bij 550 hertz, dus de opname komt niet uit zijn keuken (0007).
+- De belofte aan de bediening, "zodra de opdracht uit 1979 is afgerond", ging over de catering (0007).
 
 ## Op Mastodon, via Annelies
 
@@ -98,7 +102,7 @@ Daarnaast staat hij op Werken bij (*Verzorging*: de kantine, zijn contract van 0
 
 ## Dienstmededelingen
 
-Marcel spreekt op de site in genummerde dienstmededelingen van Decisive Hospitality (`website/content/inzichten/`, soort `Dienstmededeling`). Hoe ze klinken, staat in de root-`CLAUDE.md` onder *Chef Marcel*. Het volgende nummer is **0007**. De eerste vijf zijn op 25 november 2026 geschreven en op verzoek van Hayo gedateerd op de dag dat ze zouden zijn verschenen. Houd hier bij wat erin stond, zodat geen smoes of onderwerp terugkomt.
+Marcel spreekt op de site in genummerde dienstmededelingen van Decisive Hospitality (`website/content/inzichten/`, soort `Dienstmededeling`). Hoe ze klinken, staat in de root-`CLAUDE.md` onder *Chef Marcel*. Het volgende nummer is **0008**. De eerste vijf zijn op 25 november 2026 geschreven en op verzoek van Hayo gedateerd op de dag dat ze zouden zijn verschenen. Houd hier bij wat erin stond, zodat geen smoes of onderwerp terugkomt.
 
 | Nummer | Datum | Onderwerp | Wat hij uitlegde of ontkende |
 |---|---|---|---|
@@ -108,6 +112,7 @@ Marcel spreekt op de site in genummerde dienstmededelingen van Decisive Hospital
 | 0004 | 23 november 2026 | Gevonden voorwerp in de broodtrommel | Om 07.32 uur een blanco aandeelbewijs in de broodtrommel, met bloem erop; ophalen op vertoon van een tweede. "Achter de bloem staat alleen bloem." Koekenpan vervangen (R$ 14); Kapitein Jochem "stond in de buurt". |
 | 0005 | 25 november 2026 | Geen eigen koffie voor Decisive Communications | Geen budget, koffie aan het buffet. Achter de koelcel geen overleg, alleen de stroomgroep, die niet wordt doorgemeten. Geen René. Het hoofd van de divisie drinkt haar koffie zwart, "omdat de keuken dat van iedereen weet". |
 | 0006 | 26 november 2026 | Over de datering van dienstmededelingen | Reactie op de post van 25 november om 10.14 uur. Hij weet niet wie het account bijhoudt en wil het niet weten. Een mededeling heeft de datum waarop ze geldt: "in een keuken heet dat geen eerdere datering, maar een bon". De koffie gaat over het hoofd van Decisive Communications, de koelcel over mevrouw Brouwer, "en ik zou ze niet bij elkaar leggen". *Prima* is in zijn keuken geen compliment. |
+| 0007 | 26 november 2026 | Catering in verband met opdracht 4587 | Na het bericht uit Salisbury: een tweede thermoskan bij het Stand-By-overleg van 30 november, de grote frietketel blijft gepoetst op de Land Rover voor een eventuele reis naar Manica. De opname is niet in zijn keuken gemaakt, want de kantineradio kraakt bij 550 hertz. Hij was om 16.15 uur alleen in de koelcel, voor een extra inventarisatie; mevrouw Brouwer was er niet, ook niet om 16.20 uur. Geen afspraken die nu moeten worden nagekomen, "ook niet met de bediening": wat hij over het einde van de opdracht uit 1979 zei, ging over de catering. Buiten de ruzie over Mastodon. |
 
 Ideeën, nog niet gebruikt: de heropening van de frietketels na de sanctie van 2024; de patronen 7mm Liviano; de accu's van Project Autarkie in de kantine; het plafond dat Kapitein Robert bekijkt.
 
