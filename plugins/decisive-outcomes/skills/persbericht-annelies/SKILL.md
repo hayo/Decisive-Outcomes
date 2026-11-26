@@ -99,7 +99,7 @@ Vraag of er een bestaand beeld past of dat er een nieuw komt. Voor een nieuw bee
 
 - neem het volgende `NEWS-`-nummer;
 - schrijf een beschrijving in de stijl van de bestaande regels onder de inzichten in `website/beeldtaal.md` en voeg die daar toe;
-- geef Hayo de volledige Gemini-prompt: het stijlblok, de beschrijving, *Aspect ratio 16:9.* en *Everything is unbadged: no lettering, no number plates, no brand names, no insignia.*;
+- geef Hayo de volledige Gemini-prompt, voor `gemini-nano-banana-2.1` in 2K (zie `website/beeldtaal.md`): het stijlblok, de beschrijving, *Aspect ratio 16:9.* en *Everything is unbadged: no lettering, no number plates, no brand names, no insignia.*;
 - zet het ID en de alt-tekst alvast in het bericht. Zolang het beeld er niet is, toont de site het standaardbeeld (`NEWS-00`, het bureau van Corporate Communications). Past geen eigen beeld, laat `beeld` en `alt` dan weg; ook dan komt het standaardbeeld.
 
 ## Klaarzetten
@@ -109,7 +109,7 @@ Na akkoord:
 1. Schrijf `website/content/newsroom/jjjj-mm-dd-korte-titel.md`. De bestandsnaam is het adres; houd hem kort, in kleine letters met koppeltekens.
 2. Schrijf de post in `mastodon/<slug>.txt`, met dezelfde slug als het bericht, en controleer hem met `php mastodon/plaats.php check`.
 3. Komt er een teamlid in een citaat of noot, werk dan `docs/inzage.md` bij. Verandert het bericht of een canonwijziging een getal uit de financiën, werk dan de pagina's met financiën bij zoals *Documentatie bijhouden* in de root-`CLAUDE.md` voorschrijft, en test ook `/investor-relations/`.
-4. Werk `verhaal/annelies.md` bij, ook de tabel *Mastodon*: nieuwe kenmerken, de stand van haar adviezen en verhaallijnen, hoe de Majoor haar in dit interview behandelde, de tellingen, de stemming en de bereikbaarheid. Wat je uit *Nog niet gebruikt* hebt gebruikt, haal je daar weg.
+4. Was de Majoor in het interview bot, kleinerend of commanderend, of zit er in het bericht een lelijke daad van de raad tegen Annelies of Marcel, verhoog dan de druk in `verhaal/marcel.md` onder *De ruzie over Mastodon* (zie *Druk van de raad van bestuur* in de root-`CLAUDE.md`). Werk `verhaal/annelies.md` bij, ook de tabel *Mastodon*: nieuwe kenmerken, de stand van haar adviezen en verhaallijnen, hoe de Majoor haar in dit interview behandelde, de tellingen, de stemming en de bereikbaarheid. Wat je uit *Nog niet gebruikt* hebt gebruikt, haal je daar weg.
 5. Test lokaal met `php -S localhost:8000 -t website/public website/public/router.php`: het bericht, `/newsroom/` en de homepage.
 6. Commit en push naar `main` als Hayo, volgens de git-regels in de root-`CLAUDE.md`, met een kort Nederlands commitbericht.
 7. Zet het bericht daarna zelf live. `deploy` krijgt merge-commits van pull requests, dus `git push origin main:deploy` wordt geweigerd. Open daarom een pull request van `main` naar `deploy` en merge die meteen, via de REST-API (GraphQL werkt niet vanuit een sessie): `gh api repos/hayo/Decisive-Outcomes/pulls -f title='<titel>' -f head=main -f base=deploy -f body='<tekst>' --jq .number`, en daarna `gh api -X PUT repos/hayo/Decisive-Outcomes/pulls/<nummer>/merge -f merge_method=merge`. Het akkoord van Hayo op het bericht is ook zijn akkoord op publicatie; vraag het niet opnieuw. Zonder dat akkoord gaat er niets naar `deploy`, en op `deploy` commit je nooit los. Bij de deploy gaat ook haar post naar Mastodon; dat zegt ze er niet bij.

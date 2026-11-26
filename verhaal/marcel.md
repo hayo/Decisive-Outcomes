@@ -115,7 +115,9 @@ Ideeën, nog niet gebruikt: de heropening van de frietketels na de sanctie van 2
 
 De lopende ruzie tussen Marcels dienstmededelingen en de losse posts van Annelies (zie *De ruzie over Mastodon* in de root-`CLAUDE.md`, met de vijf treden). Een ronde is één mededeling en één post; hooguit één trede omhoog per ronde, trede 5 hooguit eens per vier tot zes weken, daarna terug naar 1.
 
-**Stand: trede 1, ronde 2.** Annelies heeft op 0006 gereageerd (26 november, 08.12 uur). Volgende stap: een mededeling van Marcel op trede 2 (rechtzetting), of nog een ronde op trede 1.
+**Druk:** Marcel 1 (de Kolonel noemde hem op 24 november "chef-kok René", en de nota van toelichting bij het instellingsbesluit wees op "ketencontinuïteitsoverleggen achter de koelcel"). Annelies 1 (de Majoor stuurde het besluit op 25 november door met "ik heb het niet gelezen" en "naja whatever", en de Kolonel schreef dat zij "bevestiging nodig heeft"). Wapenstilstanden: nog geen. Zie *Druk van de raad van bestuur* in de root-`CLAUDE.md`.
+
+**Stand: trede 1, ronde 2.** Annelies heeft op 0006 gereageerd (26 november, 08.12 uur). Volgende stap: een mededeling van Marcel. Door de druk op hem en op Annelies stijgt die een trede extra: trede 3 (maatregel), en hij mag trede 2 overslaan.
 
 | Ronde | Trede | Annelies (post) | Marcel (mededeling) |
 |---|---|---|---|
