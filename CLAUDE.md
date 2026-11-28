@@ -199,7 +199,7 @@ Herhaal geen doorkijkje of telling uit een eerder bericht; bouw erop voort. Lope
 
 - Meldt een persbericht een operatie (een speeldag, een training, een aankoop, een inzet), dan noemt het bericht de financiële gevolgen: wat het kostte of opleverde, in Rhodesische dollars en zo nodig omgerekend tegen de koers op de datum van het bericht, in euro. Annelies schrijft dat zoals het bij haar past, in de tekst of in de noot.
 - Dezelfde bedragen staan in het veld `boeking` (zie `website/content/README.md`). De site toont ze onder het bericht als *Financiële verwerking* en telt ze op in het lopende boekjaar op Investor relations.
-- De bedragen passen bij de jaarcijfers: de omzet over 2025 was R$ 53.100, dus een speeldag kost tientallen tot honderden Rhodesische dollars. Uitzondering: een opdracht voor een echte klant mag buiten die bandbreedte vallen, als *bijzondere bate*. De eerste was de inlichtingenopdracht voor een Oekraïense klant (14 december 2026, R$ 170.068). Annelies noemt dan de verhouding tot de omzet.
+- De bedragen passen bij de jaarcijfers: de omzet over 2025 was R$ 53.100, dus een speeldag kost tientallen tot honderden Rhodesische dollars. Uitzondering: een opdracht voor een echte klant mag buiten die bandbreedte vallen, als *bijzondere bate*. De eerste was de inlichtingenopdracht voor een Oekraïense klant (7 december 2026, R$ 170.068). Annelies noemt dan de verhouding tot de omzet.
 - Na afloop van het jaar gaan de boekingen naar het meerjarenoverzicht, de divisiecijfers en het jaarverslag op Investor relations.
 
 ### Haar Mastodon-account
