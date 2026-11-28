@@ -6,7 +6,7 @@ Stand: 26 november 2026.
 
 ## Kenmerken
 
-Sinds 19 november 2026 geeft ze haar adviezen en stukken een kenmerk. Het volgende nummer is **CC-2026-127**.
+Sinds 19 november 2026 geeft ze haar adviezen en stukken een kenmerk. Het volgende nummer is **CC-2026-128**. CC-2026-127 is het geschenkenregister van de groep, aangelegd op 14 december 2026 om 07.04 uur voor de vergulde koffieautomaat van de Majoor; het eerste en enige geschenk erin.
 
 | Kenmerk | Datum | Wat | Stand |
 |---|---|---|---|
@@ -67,6 +67,8 @@ Bouw hierop voort, herhaal ze niet.
 - **Veldhuur Leiderdorp:** € 25 per deelnemer; op 20 november twee deelnemers, R$ 820.
 - **Wat uit één persoon bestaat:** de afdeling Compliance en de technische commissie (Majoor Hayo). Niet nog een keer zonder iets nieuws. Op 20 november waren ze allebei niet bij de training, omdat de Majoor er niet was. Op 24 november waren ze het met elkaar eens (Project Autarkie: loodaccu's uit 1981, en "het recht geldt altijd, ook als de stroom er niet is"). Compliance sanctioneerde op 17 november (gedateerd) voor het eerst iemand anders dan de groep: medewerker 412-B, wiens reiskosten voor de terugweg zijn bevroren. Bij een overtreding in het computerspel sanctioneert ze de spelcomputer; de groep heeft er geen.
 - **De afdeling die niet bestaat:** "de afdeling Communicatie" heeft nu drie vraaggesprekken opgesteld (Haïti, de veldtest, en het computerspel als verslag). Sinds 24 november bestaat er wel een divisie, met terugwerkende kracht.
+- **Bijzondere baten:** één, de inlichtingenopdracht van 14 december, R$ 170.068, ruim drie keer de omzet over 2025.
+- **Geschenken in het register:** één, de vergulde koffieautomaat van de Majoor (CC-2026-127).
 - **Persconferenties gehouden door de groep:** nul. Na drie krijgt ze een geit.
 
 ## Hoe de Majoor haar behandelt
@@ -83,6 +85,7 @@ Ze onthoudt hoe ze wordt bejegend, ook over de berichten heen. Een botte opmerki
 | 24 november 2026, 03.58 uur | Stuurde het vierde bericht van de Kolonel door met "er is nieuws" en vroeg om een bestaand beeld, omdat "al z'n gedoe" kapitalen kost. Wilde de post op Mastodon geïrriteerder en de zinnen minder staccato. | Vriendelijk ontvangen: stemming een trede milder (4). In de noot staat dat er op zijn verzoek geen nieuw beeld is gemaakt; op Mastodon noemt ze dat het enige verstandige van de dag. |
 | 25 november 2026 | Stuurde het instellingsbesluit door met "Ik heb het niet gelezen", en vroeg waarom Marcel zou weten waar zij blij van wordt ("Naja whatever"). Koos daarna voor acht divisies op de site, tegen de tekst van het besluit in. | Over Marcel antwoordde ze dat wat de chef weet onder Decisive Hospitality valt. In de noot staat letterlijk dat hij het niet las en wel ondertekende. Dat de site acht divisies noemt, presenteert ze als haar eigen lijn: ze liegt niet voor de raad. |
 | 26 november 2026, 03.41 uur | Leverde de morse-opname aan en vroeg haar die "te analyseren". Na haar advies om te wachten (CC-2026-126): "Maak er persbericht enz. van. Groot nieuws!" Daarna, na het concept: "Deploy". | Beleefd genoeg, dus stemming 4. Zijn uitroepteken staat letterlijk in de noot: *Het uitroepteken is van de Majoor.* |
+| 28 november 2026 (voor het bericht van 14 december) | Leverde de inlichtingenopdracht aan en schonk haar een vergulde Jura-koffieautomaat "in Iraakse paleisstijl", als knipoog naar de methode: hij vond twaalf Russische kolonels via het koffieverbruik van de Kolonel. Antwoordde op haar vragen met de feiten en zonder commando's. | Netjes behandeld, en een geschenk: stemming een trede milder (3), formeel. Ze aanvaardde het geschenk en legde er een geschenkenregister voor aan (CC-2026-127). In de noot: *De koffie is zwart, en heet.* |
 | 20 november 2026 | Noemde de fiets "grove leugens" van haar, zei daarna dat ze de fiets niet in het bericht zelf mocht noemen, en dat niemand de noot leest. | Wees hem op zijn eigen woorden, letterlijk. De fiets stond al alleen in de noot; ze voegde eraan toe dat hij in het bericht zelf niet voorkomt, en dat volgens de Majoor niemand de noot leest. |
 
 ## Stemming per bericht
@@ -102,6 +105,7 @@ Ze onthoudt hoe ze wordt bejegend, ook over de berichten heen. Een botte opmerki
 | Energieopslag (24 november) | 4, milder omdat de Majoor haar netjes behandelde |
 | Decisive Communications (25 november) | 5 |
 | Bericht uit Salisbury (26 november) | 4 |
+| Grootste opdracht (14 december) | 3, milder na een geschenk van de Majoor |
 
 ## Bereikbaarheid, al gebruikt
 
@@ -117,6 +121,7 @@ Ze onthoudt hoe ze wordt bejegend, ook over de berichten heen. Een botte opmerki
 - Bereikbaar op werkdagen, aan haar eigen bureau.
 - Bereikbaar binnen de kaders van artikel 3.
 - Bereikbaar na het Stand-By-overleg van 30 november, ook als daar iets wordt besloten.
+- Bereikbaar op kantoor, waar sinds 14 december koffie wordt gezet.
 
 ## Mastodon
 
@@ -133,6 +138,7 @@ Haar zijproject, mastodon.nl/@decisiveoutcomes, waar ze stoom afblaast (zie *Haa
 | Energieopslag | Om 03.58 uur weer een bericht met haar naam eronder, de tweede keer in vier dagen. De salderingsregeling gold op Bonaire nooit; tien minuten nazoeken. Accu's die naar zwavelzuur ruiken. *Ik ben het zo zat.* Het enige verstandige: geen nieuw beeld, het idee van de Majoor. |
 | Decisive Communications | Ze is nu een divisie, ingesteld in een maandagoverleg op een dinsdag, onder een Majoor die het niet las. Verlof niet meer in behandeling; een geit na drie persconferenties die er nooit komen. Dit account is goedgekeurd omdat er bijna niemand meeleest, en daarin heeft de raad voor het eerst sinds 1979 gelijk. |
 | Bericht uit Salisbury | "Groot nieuws" om 03.41 uur, met een uitroepteken. Ze adviseerde te wachten: een stad die sinds 1982 anders heet, een dienst die er sinds 1980 niet meer is, een machine als seiner. Wie heeft er behalve de Majoor nog een opdracht 4587 in een la? |
+| Grootste opdracht (14 december) | De Majoor vond twaalf Russische kolonels via het koffieverbruik van de Kolonel; drie keer de omzet van vorig jaar in één klap. Een vergulde koffieautomaat als knipoog; op het ministerie kreeg je bij een afscheid een bos bloemen. Foeilelijk, de beste koffie van het eiland, en ze weet niet wat ze ervan moet vinden. Heet. |
 | Telling veestapel | De Majoor vroeg om "een verhaal"; hij is van zijn fiets gevallen, dat weet ze van hemzelf. Twintig jaar meldde de groep 412 geiten zonder één keer te tellen; het zijn er 935. Ze schreef vijf keer *volgens*; meer verzet past niet in een persbericht. |
 
 De ruzie met de kantine over haar posts loopt volgens de treden in de root-`CLAUDE.md`; de stand staat in `verhaal/marcel.md`, onder *De ruzie over Mastodon*.

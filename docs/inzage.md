@@ -34,6 +34,8 @@ Stand: 28 november 2026. Op 11 november zijn drie hoofdstukken toegevoegd (7, 10
 
 **Bij chef Marcel** (dossier `verhaal/marcel.md` en de skill `chef-marcel`; zo ziet Marcel hem, niet hoe hij is): eet het ontbijt van het Stand-By-overleg van 06.00 uur pas om 06.47 uur, als de eieren koud zijn. Op de website, bij het Stand-By-overleg op Over ons: *De Kolonel ontbijt om 06.47 uur.* In dienstmededeling 0009 (9 december) krijgt hij zijn eieren vanaf 14 december om 06.47 uur "volgens de regels van Compliance"; in 0010 is dat ingetrokken.
 
+**Persbericht over de grootste opdracht** (14 december): Majoor Hayo gebruikte de hoeveelheid koffie die nodig is om hem te laten functioneren als ijkpunt voor twaalf Russische kolonels; dat is hem vooraf niet gevraagd, en toen het werd gemeld bleef hij zitten.
+
 **Op Mastodon** (losse post van 7 december): in het Stand-By-overleg staat hij op, en daarmee gaat het agendapunt van Annelies over later vergaderen van de agenda.
 
 ## Hayo
@@ -67,6 +69,8 @@ Stand: 28 november 2026. Op 11 november zijn drie hoofdstukken toegevoegd (7, 10
 - Persbericht over Decisive Communications (25 november): ondertekent het instellingsbesluit als Directielid Materieel & Communicatie; Decisive Communications valt onder hem, en hij bewaakt dat de uitingen "voldoende gewicht" hebben en vrij zijn van "Barbie-proza". In de noot: hij stuurde het besluit door met *Ik heb het niet gelezen*. Op de bestuurspagina staat zijn tweede titel.
 
 **Bij chef Marcel** (dossier `verhaal/marcel.md` en de skill `chef-marcel`; zo ziet Marcel hem, niet hoe hij is): legt zijn FAL in 7mm Liviano, met bajonet, op het schone aanrecht en vindt de schilmesjes "te licht, hooguit geschikt voor Barbie". Is als afdeling Compliance degene die Marcel in 2024 drie weken de toegang tot zijn frietketels ontzegde. In de dienstmededelingen van december: inspecteert als Compliance op 8 december de frietketels en verzegelt de kleine ketel in afwachting van een rapport van zeventien pagina's (0009); laat een klembord achter in de kantine; krijgt als Compliance de klacht van Marcel over de beheerder van het Mastodon-account (0010), die daarna wordt ingetrokken (0011).
+
+**Persbericht over de grootste opdracht** (14 december): rondde een inlichtingenopdracht af voor een Oekraïense klant en vond de bijeenkomst van twaalf Russische kolonels via hun koffieleveringen, met het koffieverbruik van de Kolonel als ijkpunt. Citaat: *Een kolonel functioneert niet zonder koffie. Wat er nodig is voor één, weet ik uit ervaring. Voor twaalf heb je een vrachtwagen nodig, en een vrachtwagen kun je volgen.* Opbrengst R$ 170.068, ongeveer € 10.000 in hryvnia. In de noot: hij schonk Annelies een vergulde Jura-koffieautomaat "in Iraakse paleisstijl", als knipoog naar de methode.
 
 **Op Mastodon** (losse posts van 7, 9 en 11 december): laat Annelies de inspectie aankondigen als "routine"; ze vindt dat hij als partij de klacht niet hoort te behandelen.
 
